@@ -306,73 +306,72 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
 
     // Event
-    "Airplane Mode" : {
+    "meetup" : {
         let sponsor = Sponsor()
-        sponsor.name = "Airplane Mode"
-        sponsor.url = "http://airplanemo.de"
-        sponsor.displayURL = "airplanemo.de"
-        sponsor.twitter = "airplanemode"
-        sponsor.logo = "airplane_mode"
+        sponsor.name = "Meetup"
+        sponsor.url = "https://www.meetup.com"
+        sponsor.displayURL = "meetup.com"
+        sponsor.twitter = "meetup"
+        sponsor.logo = "meetup"
         sponsor.level = .event
         return sponsor
     }(),
-    "ga" : {
+    "oisix" : {
         let sponsor = Sponsor()
-        sponsor.name = "General Assembly"
-        sponsor.url = "https://generalassemb.ly/"
-        sponsor.displayURL = "generalassemb.ly"
-        sponsor.twitter = "GA"
-        sponsor.logo = "ga"
+        sponsor.name = "Oisix"
+        sponsor.url = "http://www.oisix.co.jp"
+        sponsor.displayURL = "oisix.co.jp"
+        sponsor.twitter = "oisix_com"
+        sponsor.logo = "oisix"
         sponsor.level = .event
         return sponsor
     }(),
-    "LiuLiShuo" : {
+    "polidea" : {
         let sponsor = Sponsor()
-        sponsor.name = "LiuLiShuo"
-        sponsor.url = "https://www.liulishuo.com"
-        sponsor.displayURL = "liulishuo.com"
-        sponsor.twitter = nil
-        sponsor.logo = "liulishuo"
+        sponsor.name = "Polidea"
+        sponsor.url = "https://www.polidea.com"
+        sponsor.displayURL = "polidea.com"
+        sponsor.twitter = "polidea"
+        sponsor.logo = "polidea"
         sponsor.level = .event
         return sponsor
     }(),
-    "realm" : {
+    "2-3works" : {
         let sponsor = Sponsor()
-        sponsor.name = "Realm"
-        sponsor.url = "https://www.realm.io"
-        sponsor.displayURL = "realm.io"
-        sponsor.twitter = "realm"
-        sponsor.logo = "realm"
+        sponsor.name = "2-3 Works"
+        sponsor.url = "http://2-3works.tokyo"
+        sponsor.displayURL = "2-3works.tokyo"
+        sponsor.twitter = "yucovin"
+        sponsor.logo = "2-3works"
         sponsor.level = .event
         return sponsor
     }(),
-    "soundcloud" : {
+    "pivotal" : {
         let sponsor = Sponsor()
-        sponsor.name = "SoundCloud"
-        sponsor.url = "https://soundcloud.com/"
-        sponsor.displayURL = "soundcloud.com"
-        sponsor.twitter = "soundcloud"
-        sponsor.logo = "soundcloud"
+        sponsor.name = "Pivotal"
+        sponsor.url = "https://pivotal.io"
+        sponsor.displayURL = "pivotal.io"
+        sponsor.twitter = "pivotal"
+        sponsor.logo = "pivotal"
         sponsor.level = .event
         return sponsor
     }(),
-    "spothero" : {
+    "ninedrafts" : {
         let sponsor = Sponsor()
-        sponsor.name = "SpotHero"
-        sponsor.url = "https://spothero.com/"
-        sponsor.displayURL = "spothero.com"
-        sponsor.twitter = "SpotHero"
-        sponsor.logo = "spothero"
+        sponsor.name = "Nine Drafts"
+        sponsor.url = "https://www.facebook.com/9drafts/"
+        sponsor.displayURL = "facebook.com/9drafts/"
+        sponsor.logo = "ninedrafts"
         sponsor.level = .event
         return sponsor
     }(),
-    "stanfy" : {
+    "appdojo" : {
         let sponsor = Sponsor()
-        sponsor.name = "Stanfy"
-        sponsor.url = "https://stanfy.com/"
-        sponsor.displayURL = "stanfy.com"
-        sponsor.twitter = "stanfy"
-        sponsor.logo = "stanfy"
+        sponsor.name = "アプリクリエイター道場"
+        sponsor.url = "http://app-dojo.jp"
+        sponsor.displayURL = "app-dojo.jp"
+        sponsor.twitter = "appcreatordojo"
+        sponsor.logo = "appcreatordojo"
         sponsor.level = .event
         return sponsor
     }()
