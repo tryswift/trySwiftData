@@ -7,7 +7,6 @@
 //
 
 import RealmSwift
-import Foundation
 
 public class Presentation: Object {
     public dynamic var id: Int = 0

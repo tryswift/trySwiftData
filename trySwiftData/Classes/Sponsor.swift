@@ -7,7 +7,6 @@
 //
 
 import RealmSwift
-import Foundation
 
 @objc public enum SponsorLevel: Int {
     case platinum

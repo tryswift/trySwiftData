@@ -6,8 +6,8 @@
 //  Copyright © 2016 NatashaTheRobot. All rights reserved.
 //
 
-import Foundation
 import RealmSwift
+import Contacts
 
 public class Venue: Object {
     open dynamic var title: String = ""
