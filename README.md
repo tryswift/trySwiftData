@@ -17,7 +17,7 @@ trySwiftData is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'trySwiftData', :git => 'https://github.com/tryswift/trySwiftDataFrameworkWithRealm.git'
+pod 'trySwiftData', :git => 'https://github.com/tryswift/trySwiftData.git'
 ```
 
 ## Author

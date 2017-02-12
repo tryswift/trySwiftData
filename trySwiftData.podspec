@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 trySwiftData
                        DESC
 
-  s.homepage         = 'https://github.com/tryswift/trySwiftDataFrameworkWithRealm.git'
+  s.homepage         = 'https://github.com/tryswift/trySwiftData.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alvin Varghese' => 'alvinvarghese@live.com', 'Natasha Murashev' => 'natasha@tryswift.co' }
-  s.source           = { :git => 'https://github.com/tryswift/trySwiftDataFrameworkWithRealm.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tryswift/trySwiftData.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.2'
