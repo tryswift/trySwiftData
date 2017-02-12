@@ -1,6 +1,6 @@
 use_frameworks!
-target 'trySwiftData_Tests' do
-  pod 'trySwiftData', :path => '../'
+target ‘TrySwiftData_Tests' do
+  pod ‘TrySwiftData', :path => '../'
   pod 'RealmSwift'
   
   post_install do |installer|

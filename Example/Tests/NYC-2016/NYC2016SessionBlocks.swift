@@ -8,7 +8,7 @@
 
 import Foundation
 import RealmSwift
-import TrySwiftData
+import trySwiftData
 
 public let nyc2016SessionBlocks: [SessionBlock] = [
 

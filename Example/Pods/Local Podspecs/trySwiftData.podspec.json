@@ -1,9 +1,9 @@
 {
-  "name": "trySwiftData",
+  "name": "TrySwiftData",
   "version": "0.1.0",
-  "summary": "trySwiftData",
+  "summary": "TrySwiftData",
   "description": "trySwiftData",
-  "homepage": "https://github.com/tryswift/trySwiftData",
+  "homepage": "https://github.com/tryswift/trySwiftData.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -21,10 +21,10 @@
     "watchos": "3.1",
     "tvos": "10.1"
   },
-  "source_files": "trySwiftData/Classes/*.{swift}",
+  "source_files": "TrySwiftData/Classes/*.{swift}",
   "resource_bundles": {
     "trySwiftData": [
-      "trySwiftData/Assets/*.jpg"
+      "TrySwiftData/Assets/*.jpg"
     ]
   },
   "frameworks": [

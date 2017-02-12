@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double trySwiftDataVersionNumber;
-FOUNDATION_EXPORT const unsigned char trySwiftDataVersionString[];
+FOUNDATION_EXPORT double TrySwiftDataVersionNumber;
+FOUNDATION_EXPORT const unsigned char TrySwiftDataVersionString[];
 

@@ -497,7 +497,7 @@ Prohibited Jurisdiction, or otherwise in violation of any such restrictions or
 regulations.
 
 
-## trySwiftData
+## TrySwiftData
 
 Copyright (c) 2017 Alvin Varghese <alvinvarghese@live.com>
 
