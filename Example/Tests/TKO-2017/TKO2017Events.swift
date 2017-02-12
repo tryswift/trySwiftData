@@ -10,4 +10,4 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
-public let tko2017Events: [String : Event] = []
+public let tko2017Events: [String : Event] = [:]
