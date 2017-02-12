@@ -69,15 +69,6 @@ public let tko2017Sponsors: [String : Sponsor] = [
         sponsor.level = .platinum
         return sponsor
     }(),
-    "line" : {
-        let sponsor = Sponsor()
-        sponsor.name = "LINE"
-        sponsor.url = "https://linecorp.com/ja/"
-        sponsor.displayURL = "linecorp.com"
-        sponsor.logo = "line"
-        sponsor.level = .platinum
-        return sponsor
-    }(),
 
     //Gold
     "speee" : {
@@ -294,7 +285,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
         sponsor.level = .student
         return sponsor
     }(),
-    "mercari" : {
+    "mercari-student" : {
         let sponsor = Sponsor()
         sponsor.name = "Mercari"
         sponsor.url = "https://www.mercari.com"
