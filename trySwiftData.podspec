@@ -27,7 +27,7 @@ trySwiftData
   s.source           = { :git => 'https://github.com/tryswift/trySwiftData.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.2'
+  s.ios.deployment_target = '9.0'
   s.watchos.deployment_target = '3.1'
   s.tvos.deployment_target = '10.1'
 
