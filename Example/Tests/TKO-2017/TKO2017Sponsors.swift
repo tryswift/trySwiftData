@@ -139,169 +139,168 @@ public let tko2017Sponsors: [String : Sponsor] = [
         sponsor.level = .gold
         return sponsor
     }(),
-    "perfect" : {
+    "sansan" : {
         let sponsor = Sponsor()
-        sponsor.name = "Perfect.org"
-        sponsor.url = "http://www.perfect.org/"
-        sponsor.displayURL = "perfect.org"
-        sponsor.twitter = "perfectlysoft"
-        sponsor.logo = "perfectorg"
+        sponsor.name = "Sansan"
+        sponsor.url = "https://jp.corp-sansan.com"
+        sponsor.displayURL = "corp-sansan.com"
+        sponsor.twitter = "sansan_pr"
+        sponsor.logo = "sansan"
         sponsor.level = .gold
         return sponsor
     }(),
-    "thoughtworks" : {
+    "mercari" : {
         let sponsor = Sponsor()
-        sponsor.name = "Thoughtworks"
-        sponsor.url = "http://www.thoughtworks.com/"
-        sponsor.displayURL = "thoughtworks.com"
-        sponsor.twitter = "thoughtworks"
-        sponsor.logo = "thoughtworks"
+        sponsor.name = "Mercari"
+        sponsor.url = "https://www.mercari.com"
+        sponsor.displayURL = "mercari.com"
+        sponsor.twitter = "mercari_app"
+        sponsor.logo = "mercari"
         sponsor.level = .gold
         return sponsor
     }(),
-    "twilio" : {
+    "balto" : {
         let sponsor = Sponsor()
-        sponsor.name = "Twilio"
-        sponsor.url = "http://www.twilio.com/"
-        sponsor.displayURL = "twilio.com"
-        sponsor.twitter = "twilio"
-        sponsor.logo = "twilio"
+        sponsor.name = "balto"
+        sponsor.url = "http://www.balto.io/"
+        sponsor.displayURL = "balto.io"
+        sponsor.twitter = "balto_appjp"
+        sponsor.logo = "balto"
         sponsor.level = .gold
         return sponsor
     }(),
 
     //Silver
-    "aol" : {
+    "furyu" : {
         let sponsor = Sponsor()
-        sponsor.name = "Aol"
-        sponsor.url = "http://www.aol.com/"
-        sponsor.displayURL = "aol.com"
-        sponsor.twitter = "AOL"
-        sponsor.logo = "aol"
+        sponsor.name = "FuRyu"
+        sponsor.url = "http://www.saiyo.furyu.jp"
+        sponsor.displayURL = "saiyo.furyu.jp"
+        sponsor.logo = "furyu"
         sponsor.level = .silver
         return sponsor
     }(),
-    "smallplanet" : {
+    "player" : {
         let sponsor = Sponsor()
-        sponsor.name = "Small Planet"
-        sponsor.url = "http://www.smallplanet.com/"
-        sponsor.displayURL = "smallplanet.com"
-        sponsor.twitter = "smallplanetapps"
-        sponsor.logo = "smallplanet"
+        sponsor.name = "Player!"
+        sponsor.url = "http://www.playerapp.tokyo"
+        sponsor.displayURL = "playerapp.tokyo"
+        sponsor.logo = "player"
         sponsor.level = .silver
         return sponsor
     }(),
-
-    //Diversity
-    "dominos" : {
+    "ubiregi" : {
         let sponsor = Sponsor()
-        sponsor.name = "Dominos"
-        sponsor.url = "http://www.dominos.com/"
-        sponsor.displayURL = "dominos.com"
-        sponsor.twitter = "dominos"
-        sponsor.logo = "dominos"
-        sponsor.level = .diversity
+        sponsor.name = "Ubiregi"
+        sponsor.url = "https://ubiregi.com"
+        sponsor.displayURL = "ubiregi.com"
+        sponsor.twitter = "ubiregi"
+        sponsor.logo = "ubiregi"
+        sponsor.level = .silver
         return sponsor
     }(),
-    "etsy" : {
+    "freee" : {
         let sponsor = Sponsor()
-        sponsor.name = "Etsy"
-        sponsor.url = "http://www.etsy.com/"
-        sponsor.displayURL = "etsy.com"
-        sponsor.twitter = "Etsy"
-        sponsor.logo = "etsy"
-        sponsor.level = .diversity
+        sponsor.name = "freee"
+        sponsor.url = "https://corp.freee.co.jp"
+        sponsor.displayURL = "corp.freee.co.jp"
+        sponsor.twitter = "freee_jp"
+        sponsor.logo = "freee"
+        sponsor.level = .silver
         return sponsor
     }(),
-    "instagram" : {
+    "ohako" : {
         let sponsor = Sponsor()
-        sponsor.name = "Instagram"
-        sponsor.url = "http://www.instagram.com/"
-        sponsor.displayURL = "instagram.com"
-        sponsor.twitter = "instagram"
-        sponsor.logo = "instagram"
-        sponsor.level = .diversity
+        sponsor.name = "OHAKO"
+        sponsor.url = "http://ohako-inc.jp"
+        sponsor.displayURL = "ohako-inc.jp"
+        sponsor.logo = "ohako"
+        sponsor.level = .silver
         return sponsor
     }(),
-    "meetup" : {
+    "hatena" : {
         let sponsor = Sponsor()
-        sponsor.name = "Meetup"
-        sponsor.url = "http://www.meetup.com/"
-        sponsor.displayURL = "meetup.com"
-        sponsor.twitter = "Meetup"
-        sponsor.logo = "meetup"
-        sponsor.level = .diversity
+        sponsor.name = "Hatena"
+        sponsor.url = "http://hatenacorp.jp"
+        sponsor.displayURL = "hatenacorp.jp"
+        sponsor.logo = "hatena"
+        sponsor.level = .silver
         return sponsor
     }(),
-    "nyt" : {
+    "prtimes" : {
         let sponsor = Sponsor()
-        sponsor.name = "The New York Times Developers"
-        sponsor.url = "https://developer.nytimes.com/"
-        sponsor.displayURL = "developer.nytimes.com"
-        sponsor.twitter = "nytdevs"
-        sponsor.logo = "nyt"
-        sponsor.level = .diversity
+        sponsor.name = "PR TIMES"
+        sponsor.url = "http://prtimes.co.jp"
+        sponsor.displayURL = "prtimes.co.jp"
+        sponsor.logo = "prtimes"
+        sponsor.level = .silver
         return sponsor
     }(),
-    "swiftstudies" : {
+    "kytrade" : {
         let sponsor = Sponsor()
-        sponsor.name = "Swift Studies"
-        sponsor.url = "http://www.swift-studies.com"
-        sponsor.displayURL = "swift-studies.com"
-        sponsor.twitter = "Swift_Studies"
-        sponsor.logo = "swift_studies"
-        sponsor.level = .diversity
+        sponsor.name = "KY TRADE"
+        sponsor.url = "http://www.kytrade.co.jp"
+        sponsor.displayURL = "kytrade.co.jp"
+        sponsor.logo = "kytrade"
+        sponsor.level = .silver
         return sponsor
     }(),
-    "techspeak" : {
+    "gmo" : {
         let sponsor = Sponsor()
-        sponsor.name = "Technically Speaking"
-        sponsor.url = "https://tinyletter.com/techspeak"
-        sponsor.displayURL = "tinyletter.com/techspeak"
-        sponsor.twitter = "techspeakdigest"
-        sponsor.logo = "technically_speaking"
-        sponsor.level = .diversity
+        sponsor.name = "GMO Pepabo"
+        sponsor.url = "https://pepabo.com"
+        sponsor.displayURL = "pepabo.com"
+        sponsor.logo = "gmo"
+        sponsor.level = .silver
         return sponsor
     }(),
-    "thoughtbot" : {
+    "fyusion" : {
         let sponsor = Sponsor()
-        sponsor.name = "thoughtbot"
-        sponsor.url = "https://thoughtbot.com/services/ios-development"
-        sponsor.displayURL = "thoughtbot.com"
-        sponsor.twitter = "thoughtbot"
-        sponsor.logo = "thoughtbot"
-        sponsor.level = .diversity
-        return sponsor
-    }(),
-    "twitter" : {
-        let sponsor = Sponsor()
-        sponsor.name = "Twitter"
-        sponsor.url = "https://twitter.com"
-        sponsor.displayURL = "twitter.com"
-        sponsor.twitter = "twitter"
-        sponsor.logo = "twitter"
-        sponsor.level = .diversity
-        return sponsor
-    }(),
-    "xo" : {
-        let sponsor = Sponsor()
-        sponsor.name = "XO Group"
-        sponsor.url = "https://xogroupinc.com/"
-        sponsor.displayURL = "xogroupinc.com"
-        sponsor.twitter = "XOGroupInc"
-        sponsor.logo = "xogroup"
-        sponsor.level = .diversity
+        sponsor.name = "Fyusion"
+        sponsor.url = "http://www.fyusion.com"
+        sponsor.displayURL = "fyusion.com"
+        sponsor.logo = "fyusio"
+        sponsor.level = .silver
         return sponsor
     }(),
 
     // Student
-    "JetBrains" : {
+    "cyberagent-student" : {
         let sponsor = Sponsor()
-        sponsor.name = "JetBrains"
-        sponsor.url = "https://www.jetbrains.com"
-        sponsor.displayURL = "jetbrains.com"
-        sponsor.twitter = "jetbrains"
-        sponsor.logo = "jetbrains"
+        sponsor.name = "CyberAgent"
+        sponsor.url = "http://www.cyberagent.co.jp/"
+        sponsor.displayURL = "cyberagent.co.jp"
+        sponsor.twitter = "CyberAgentInc"
+        sponsor.logo = "cyberagent"
+        sponsor.level = .student
+        return sponsor
+    }(),
+    "prtimes-student" : {
+        let sponsor = Sponsor()
+        sponsor.name = "PR TIMES"
+        sponsor.url = "http://prtimes.co.jp"
+        sponsor.displayURL = "prtimes.co.jp"
+        sponsor.logo = "prtimes"
+        sponsor.level = .student
+        return sponsor
+    }(),
+    "sansan-student" : {
+        let sponsor = Sponsor()
+        sponsor.name = "Sansan"
+        sponsor.url = "https://jp.corp-sansan.com"
+        sponsor.displayURL = "corp-sansan.com"
+        sponsor.twitter = "sansan_pr"
+        sponsor.logo = "sansan"
+        sponsor.level = .student
+        return sponsor
+    }(),
+    "mercari" : {
+        let sponsor = Sponsor()
+        sponsor.name = "Mercari"
+        sponsor.url = "https://www.mercari.com"
+        sponsor.displayURL = "mercari.com"
+        sponsor.twitter = "mercari_app"
+        sponsor.logo = "mercari"
         sponsor.level = .student
         return sponsor
     }(),
