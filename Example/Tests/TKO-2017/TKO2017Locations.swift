@@ -11,19 +11,19 @@ import RealmSwift
 import TrySwiftData
 
 public let tko2017Locations: [String : Location] = [
-    "northlobby" : {
+    "qaroom" : {
         let location = Location()
-        location.name = "Reception"
+        location.name = "Q&A Room"
         return location
     }(),
-    "atrium" : {
+    "mainroom" : {
         let location = Location()
-        location.name = "Atrium"
+        location.name = "Seminar Room"
         return location
     }(),
-    "auditorium" : {
+    "workshoproom" : {
         let location = Location()
-        location.name = "Auditorium"
+        location.name = "Workshop Room"
         return location
     }()
 ]
