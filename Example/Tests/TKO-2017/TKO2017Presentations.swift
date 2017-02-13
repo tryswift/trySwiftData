@@ -199,5 +199,15 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.summaryJP = "オープンソースプロジェクトのさまざまな段階についてお話しします。どのようにプルリクエストを処理するか、規模に応じてどのようにサポートを変えていくか、ユーザー数が拡大していく中でどのように革新を起こしつづけるかをお話しします。 それらを念頭に置き、開発者がどのように問題を解決するのか、具体的にはワークフローの自動化、コントリビュータとの密接な関わり合い、プロダクトやドキュメントの改善について詳しく説明します。 おととしfastlaneで多くのことを学びました。オープンソースコミュニティのスケーリングについていくつかブログを準備しはじめました。"
         presentation.speaker = tko2017Speakers["felix"]
         return presentation
+    }(),
+    "alexis" : {
+        let presentation = Presentation()
+        presentation.id = 20
+        presentation.title = "TBD"
+        presentation.titleJP = "近日追加予定"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["alexis"]
+        return presentation
     }()
 ]
