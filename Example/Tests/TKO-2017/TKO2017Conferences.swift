@@ -19,7 +19,14 @@ public let tko2017Conferences: [Conference] = [
         trySwift.imageURL = nil
         trySwift.conferenceDescription = "try! Conference is an immersive community gathering about Swift Language Best Practices, Application Development in Swift, Server-Side Swift, Open Source Swift, and the Swift Community, taking place in Tokyo on March 2nd through 4th, 2017."
         trySwift.venue = tko2017Venues["bellesalle-shinjuku"]
-        trySwift.organizer = nyc2016Speakers["natashatherobot"]
+        trySwift.organizers.append(tko2017Speakers["natashatherobot"]!)
+        trySwift.organizers.append(tko2017Speakers["katsumi"]!)
+        trySwift.organizers.append(tko2017Speakers["kazunobu"]!)
+        trySwift.organizers.append(tko2017Speakers["satoshi"]!)
+        trySwift.organizers.append(tko2017Speakers["himi"]!)
+        trySwift.organizers.append(tko2017Speakers["shingo"]!)
+        trySwift.organizers.append(tko2017Speakers["matt"]!)
+        trySwift.organizers.append(tko2017Speakers["nino"]!)
         return trySwift
     }()
 ]
