@@ -200,9 +200,19 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.speaker = tko2017Speakers["felix"]
         return presentation
     }(),
-    "alexis" : {
+    "nikita" : {
         let presentation = Presentation()
         presentation.id = 20
+        presentation.title = "TBD"
+        presentation.titleJP = "近日追加予定"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["nikita"]
+        return presentation
+    }(),
+    "alexis" : {
+        let presentation = Presentation()
+        presentation.id = 21
         presentation.title = "TBD"
         presentation.titleJP = "近日追加予定"
         presentation.summary = "TBD"
