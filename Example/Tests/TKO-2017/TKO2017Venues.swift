@@ -26,5 +26,14 @@ public let tko2017Venues: [String : Venue] = [
         venue.website = "bellesalle.co.jp"
         venue.logo = "bellesalle-kanda"
         return venue
+    }(),
+    "gracebali" : {
+        let venue = Venue()
+        venue.title = "Grace Bali Shinjuku"
+        venue.titleJP = "グレースバリ 新宿本店"
+        venue.address = "1 Chome-3-16 Kabukicho, Shinjuku, Tokyo 160-0021, Japan"
+        venue.website = "https://www.grace-bali.com/shop/shinjyuku/enkai/index.html"
+        venue.logo = "gracebali"
+        return venue
     }()
 ]
