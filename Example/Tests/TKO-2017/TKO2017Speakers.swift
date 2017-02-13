@@ -20,7 +20,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "agnes" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 2
         speaker.name = "Agnes Vasarhelyi"
         speaker.twitter = "vasarhelyia"
         speaker.imageName = "agnes_vasarhelyi"
@@ -28,7 +28,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "soroush" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 3
         speaker.name = "Soroush Khanlou"
         speaker.twitter = "khanlou"
         speaker.imageName = "soroush_khanlou"
@@ -36,7 +36,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "nate" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 4
         speaker.name = "Nate Cook"
         speaker.twitter = "nnnnnnnn"
         speaker.imageName = "nate_cook"
@@ -44,7 +44,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "kyle" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 5
         speaker.name = "Kyle Fuller"
         speaker.twitter = "kylefuller"
         speaker.imageName = "kyle_fuller"
@@ -52,7 +52,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "meghan" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 6
         speaker.name = "Meghan Kane"
         speaker.twitter = "megahafon"
         speaker.imageName = "meghan_kane"
@@ -60,7 +60,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "sommer" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 7
         speaker.name = "Sommer Panage"
         speaker.twitter = "sommer"
         speaker.imageName = "sommer_panage"
@@ -68,7 +68,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "jon" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 8
         speaker.name = "Jon Reid"
         speaker.twitter = "qcoding"
         speaker.imageName = "jon_reid"
@@ -76,7 +76,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "alexis" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 9
         speaker.name = "Alexis Gallagher"
         speaker.twitter = "alexisgallagher"
         speaker.imageName = "alexis_gallagher"
@@ -84,7 +84,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "brandon" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 10
         speaker.name = "Brandon Williams"
         speaker.twitter = "mbrandonw"
         speaker.imageName = "brandon_williams"
@@ -92,7 +92,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "mo" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 11
         speaker.name = "Mo Kudeki"
         speaker.twitter = "mbrandonw"
         speaker.imageName = "mo_kudeki"
@@ -100,7 +100,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "eric" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 12
         speaker.name = "Eric Wing"
         speaker.twitter = "ewingfighter"
         speaker.imageName = "eric_wing"
@@ -108,7 +108,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "rikke" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 13
         speaker.name = "Rikke Møller Koblauch"
         speaker.twitter = "rikkekoblauch"
         speaker.imageName = "rikke_moller_koblauch"
@@ -116,7 +116,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "laura" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 14
         speaker.name = "Laura Ragone"
         speaker.twitter = "lauraggle"
         speaker.imageName = "laura_ragone"
@@ -124,7 +124,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "krzysztof" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 15
         speaker.name = "Krzysztof Siejkowski"
         speaker.twitter = "_siejkowski"
         speaker.imageName = "krzysztof_siejkowski"
@@ -132,7 +132,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "yusuke" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 16
         speaker.name = "Yusuke Ito"
         speaker.twitter = "novi_"
         speaker.imageName = "yusuke_ito"
@@ -140,7 +140,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "kazuaki" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 17
         speaker.name = "Kazuaki Matsuo"
         speaker.twitter = "Kazu_cocoa"
         speaker.imageName = "kazuaki_matsuo"
@@ -148,7 +148,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "orta" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 18
         speaker.name = "Orta Therox"
         speaker.twitter = "orta"
         speaker.imageName = "orta_therox"
@@ -156,7 +156,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "christopher" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 19
         speaker.name = "Christopher Rogers"
         speaker.twitter = "christorogers"
         speaker.imageName = "christopher_rogers"
@@ -164,7 +164,7 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "marius" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 20
         speaker.name = "Marius Rackwitz"
         speaker.twitter = "mrackwitz"
         speaker.imageName = "marius_rackwitz"
@@ -172,19 +172,11 @@ public let tko2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     "nikita" : { let speaker = Speaker()
-        speaker.id = 1
+        speaker.id = 21
         speaker.name = "Nikita Lutsenko"
         speaker.twitter = "nlutsenko"
         speaker.imageName = "nikita_lutsenko"
         speaker.bio = "Nikita has been building, writing, developing and shipping software for over 8 years now. Before starting to work on Instant Articles at Facebook, he shipped Facebook SDK in Swift, worked on Parse.com, built Slingshot for iOS, and before Facebook led his own software product company, that was focused on productivity software. He values challenging tasks, pixel perfect design, making developers more productive, robust user experience and text readability. Nikita grew up in Ukraine and graduated with a B.S. in Economic Cybernetics."
-        return speaker
-    }(),
-    "nikita" : { let speaker = Speaker()
-        speaker.id = 1
-        speaker.name = "Kateryna Gridina"
-        speaker.twitter = "gridNAka"
-        speaker.imageName = "kateryna_gridina"
-        speaker.bio = "Software engineer at Zalando. Mobile development enthusiast, Swift nerd."
         return speaker
     }(),
     "natashatherobot" : {
