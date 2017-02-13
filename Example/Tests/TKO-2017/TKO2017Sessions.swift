@@ -38,6 +38,13 @@ public let tko2017Sessions: [String : Session] = [
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
+    "day1FelixOfficeHours" : {
+        let session = Session()
+        session.type = .officeHours
+        session.presentation = tko2017Presentations["felix"]
+        session.location = tko2017Locations["qaroom"]
+        return session
+    }(),
 //---------------------------------------------------------
     "day1Eric" : {
         let session = Session()
@@ -72,7 +79,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .officeHours
         session.presentation = tko2017Presentations["eric"]
-        session.location = tko2017Locations["mainroom"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -87,7 +94,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .officeHours
         session.presentation = tko2017Presentations["nate"]
-        session.location = tko2017Locations["mainroom"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -102,7 +109,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .officeHours
         session.presentation = tko2017Presentations["meghan"]
-        session.location = tko2017Locations["mainroom"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -124,7 +131,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .officeHours
         session.presentation = tko2017Presentations["rikke"]
-        session.location = tko2017Locations["mainroom"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -146,7 +153,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .officeHours
         session.presentation = tko2017Presentations["agnes"]
-        session.location = tko2017Locations["mainroom"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -168,7 +175,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .officeHours
         session.presentation = tko2017Presentations["kazuaki"]
-        session.location = tko2017Locations["mainroom"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -190,7 +197,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .officeHours
         session.presentation = tko2017Presentations["sommer"]
-        session.location = tko2017Locations["mainroom"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -212,7 +219,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .officeHours
         session.presentation = tko2017Presentations["kyle"]
-        session.location = tko2017Locations["mainroom"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -227,7 +234,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .officeHours
         session.presentation = tko2017Presentations["marius"]
-        session.location = tko2017Locations["mainroom"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -248,232 +255,359 @@ public let tko2017Sessions: [String : Session] = [
     "day1Closing" : {
         let session = Session()
         session.type = .announcement
-        session.title = "Closing Announcments"
+        session.title = "Closing / Announcments"
         session.titleJP = "クロージング"
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 
-    
+
 //---------------------------------------------------------
-    // Day 3 Sessions
-    "day3Breakfast" : {
+// Day 2 Sessions
+    "day2Breakfast" : {
         let session = Session()
         session.type = .breakfast
-        session.title = "☕️ & Breakfast"
+        session.title = "🥞 Breakfast"
+        session.titleJP = "受付・朝食"
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
-
-//---------------------------------------------------------
-    "day3Opening" : {
+    //---------------------------------------------------------
+    "day2Opening" : {
         let session = Session()
         session.type = .announcement
         session.title = "Opening Remarks"
+        session.titleJP = "開会"
+        session.location = tko2017Locations["mainroom"]
+        return session
+    }(),
+    //---------------------------------------------------------
+    "day2Brandon" : {
+        let session = Session()
+        session.type = .talk
+        session.presentation = tko2017Presentations["brandon"]
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3EndToEnd" : {
+    "day2Soroush" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[20]
+        session.presentation = tko2017Presentations["soroush"]
         return session
     }(),
-    "day3JorgeOfficeHours" : {
+    "day2BrandonOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations[7]
-        session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["brandon"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3WatchOS" : {
-        let session = Session()
-        session.type = .talk
-        session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[6]
-        return session
-    }(),
-    "day3ChrisRobOfficeHours" : {
-        let session = Session()
-        session.type = .officeHours
-        session.presentation = tko2017Presentations[20]
-        session.location = tko2017Locations["mainroom"]
-        return session
-    }(),
-//---------------------------------------------------------
-    "day3FirstCoffee" : {
+    "day2FirstCoffee" : {
         let session = Session()
         session.type = .coffeeBreak
-        session.sponsor = nyc2016Sponsors["domo"]
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3SwiftCheck" : {
+    "day2Yusuke" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[12]
+        session.presentation = tko2017Presentations["yusuke"]
         return session
     }(),
-    "day3KristinaOfficeHours" : {
+    "day2SoroushOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations[6]
+        session.presentation = tko2017Presentations["soroush"]
+        session.location = tko2017Locations["qaroom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day2LightningTalk1" : {
+        let session = Session()
+        session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3ResultOriented" : {
+    "day2Kateryna" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[15]
+        session.presentation = tko2017Presentations["kateryna"]
         return session
     }(),
-    "day3TJOfficeHours" : {
+    "day2YusukeOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations[12]
-        session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["yusuke"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3HumanMind" : {
+    "day2Mo" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[14]
+        session.presentation = tko2017Presentations["mo"]
         return session
     }(),
-    "day3SaulOfficeHours" : {
+    "day2KaterynaOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations[15]
-        session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["kateryna"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3SponsoredDemo" : {
-        let session = Session()
-        session.type = .sponsoredDemo
-        session.sponsor = nyc2016Sponsors["twilio"]
-        session.location = tko2017Locations["mainroom"]
-        return session
-    }(),
-//---------------------------------------------------------
-    "day3Lunch" : {
+    "day2Lunch" : {
         let session = Session()
         session.type = .lunch
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3Security" : {
+    "day2krzysztof" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[8]
+        session.presentation = tko2017Presentations["krzysztof"]
         return session
     }(),
-    "day3BojanaOfficeHours" : {
+    "day2MoOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations[14]
+        session.presentation = tko2017Presentations["mo"]
+        session.location = tko2017Locations["qaroom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day2LightningTalk2" : {
+        let session = Session()
+        session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3TextEditor" : {
+    "day2laura" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[21]
+        session.presentation = tko2017Presentations["laura"]
         return session
     }(),
-    "day3VixentaelOfficeHours" : {
+    "day2KrzysztofOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations[8]
+        session.presentation = tko2017Presentations["krzysztof"]
+        session.location = tko2017Locations["qaroom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day2LightningTalk3" : {
+        let session = Session()
+        session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3LanguageApp" : {
+    "day2jon" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[17]
+        session.presentation = tko2017Presentations["jon"]
         return session
     }(),
-    "day3KatsumiOfficeHours" : {
+    "day2LauraOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations[21]
-        session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["laura"]
+        session.location = tko2017Locations["qaroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3SecondCoffee" : {
+    "day2SecondCoffee" : {
         let session = Session()
         session.type = .coffeeBreak
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3RxSwift" : {
+    "day2nikita" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[16]
+        session.presentation = tko2017Presentations["nikita"]
         return session
     }(),
-    "day3NatashaOfficeHours" : {
+    "day2JonOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations[17]
+        session.presentation = tko2017Presentations["jon"]
+        session.location = tko2017Locations["qaroom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day2LightningTalk4" : {
+        let session = Session()
+        session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3Stringly" : {
+    "day2christopher" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[5]
+        session.presentation = tko2017Presentations["christopher"]
         return session
     }(),
-    "day3MarinOfficeHours" : {
+    "day2NikitaOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations[16]
+        session.presentation = tko2017Presentations["nikita"]
+        session.location = tko2017Locations["qaroom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day2felix" : {
+        let session = Session()
+        session.type = .talk
+        session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["felix"]
+        return session
+    }(),
+    "day2ChristopherOfficeHours" : {
+        let session = Session()
+        session.type = .officeHours
+        session.presentation = tko2017Presentations["christopher"]
+        session.location = tko2017Locations["qaroom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day2LightningTalk5" : {
+        let session = Session()
+        session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3Instagram" : {
+    "day2LightningTalk6" : {
         let session = Session()
-        session.type = .talk
-        session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations[19]
-        return session
-    }(),
-    "day3AndyyOfficeHours" : {
-        let session = Session()
-        session.type = .officeHours
-        session.presentation = tko2017Presentations[5]
+        session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
 //---------------------------------------------------------
-    "day3Closing" : {
+    "day2Closing" : {
         let session = Session()
         session.type = .announcement
-        session.title = "Closing Announcments"
+        session.title = "Closing / Announcments"
+        session.titleJP = "クロージング"
         session.location = tko2017Locations["mainroom"]
         return session
-    }()
+    }(),
+//---------------------------------------------------------
+    "day2Party" : {
+        let session = Session()
+        session.type = .party
+        session.venue = tko2017Venues["gracebali"]
+        session.location = tko2017Locations["mainroom"]
+        return session
+    }(),
+
+//---------------------------------------------------------
+// Day 3 Sessions
+
+    "day3Breakfast" : {
+        let session = Session()
+        session.type = .breakfast
+        session.title = "🍩 Breakfast"
+        session.titleJP = "受付・朝食"
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day3Opening" : {
+        let session = Session()
+        session.type = .announcement
+        session.title = "Opening Remarks"
+        session.titleJP = "開会"
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day3Opening" : {
+        let session = Session()
+        session.type = .announcement
+        session.title = "Ideathon / Group Formation"
+        session.titleJP = "アイデアソン / チーム編成"
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day3APIWorkshop" : {
+        let session = Session()
+        session.type = .workshop
+        session.title = "API Workshops"
+        session.titleJP = "APIワークショップ"
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day3CodingBegins" : {
+        let session = Session()
+        session.type = .workshop
+        session.title = "Hackathon coding begins"
+        session.titleJP = "ハッカソン"
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day3Lunch" : {
+        let session = Session()
+        session.type = .lunch
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day3CodingContinues" : {
+        let session = Session()
+        session.type = .workshop
+        session.title = "Hackathon coding continues"
+        session.titleJP = "ハッカソン"
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day3CodingEnds" : {
+        let session = Session()
+        session.type = .workshop
+        session.title = "Hackathon coding ends"
+        session.titleJP = "ハッカソン終了"
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day3Presentations" : {
+        let session = Session()
+        session.type = .announcement
+        session.title = "Presentations"
+        session.titleJP = "プレゼンテーション"
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
+//---------------------------------------------------------
+    "day3Winners" : {
+        let session = Session()
+        session.type = .announcement
+        session.title = "Winner Announcements"
+        session.titleJP = "結果発表"
+        session.location = tko2017Locations["workshoproom"]
+        return session
+    }(),
 ]
