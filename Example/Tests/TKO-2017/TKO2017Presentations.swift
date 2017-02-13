@@ -14,177 +14,190 @@ public let tko2017Presentations: [Presentation] = [
     {
         let presentation = Presentation()
         presentation.id = 1
-        presentation.title = "Pushing the Envelope with iOS 10 Notifications"
-        presentation.summary = "Apple made major changes to the Notification APIs in iOS 10, affecting both Push and Local notifications. In this session, you'll get a high-level overview on what's changed, what you need to do to make sure your existing apps keep working, a few pitfalls to avoid during the transition, and some examples of the cool stuff you can do with the new toys."
-        presentation.speaker = nyc2016Speakers["ellen"]
+        presentation.title = "Swift on Android"
+        presentation.summary = "This talk will give you a conceptual understanding of how Swift works on Android and how you can use it. The first part of the talk focuses on how to make Swift (just the core language) work on Android, including an introduction to the Android NDK. The second part will focus on libraries and how to write (shippable) apps with Swift on Android. We will discuss both native Android APIs as well as the more tantalizing idea of how to do cross-platform development with Swift (e.g. iOS, Mac, Linux, Windows?)."
+        presentation.summaryJP = "この講演ではSwiftがAndroidでどのように動作するかという概念とどのようにすればSwiftをAndroidで動かせるかということをご説明します。前半はどのようにコア言語としてのSwiftをAndroidで動作させるのかということをAndroid NDKへの入門も含めてお話します。後半はAndroidでSwiftを使う際のライブラリや（リリース可能な）アプリの書き方をお話します。ネイティブのAndroid APIのことだけでなくSwiftでクロスプラットフォーム開発（iOS, Mac, Linux, Windows?）をするための興味深いアイデアについても議論したいと思います。"
+        presentation.speaker = tko2017Speakers["eric"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 2
-        presentation.title = "Say It Ain't So: Implementing Speech Recognition in your app"
-        presentation.summary = "SiriKit was one of the more talked about features announced at WWDC this year; unfortunately its initial implementation is limited to a small number of use cases. But all is not lost! Apple introduced a collection of general purpose Speech API's in iOS 10 that provide simple speech-to-text conversion from streaming voice or audio files in over 50 languages. \n\nIn this talk I will walk through the new API's, discuss its limitations and end with providing a practical use case by adding speech recognition to a text-based search app."
-        presentation.speaker = nyc2016Speakers["marc"]
+        presentation.title = "Swift's Pointy Bits"
+        presentation.titleJP = "SwiftのPointy Bits"
+        presentation.summary = "Swift offers remarkable performance while still providing safety through strong types, value semantics, and automatic memory management. For those times when you need to step outside those boundaries, however, Swift also offers tools to directly allocate and manipulate memory. This talk will explore the ins and outs of Swift’s take on pointers: typed and raw pointers and buffers, implicit bridging and casting, and some tips on how to stay safe while using unsafe APIs."
+        presentation.summaryJP = "Swiftは、強い型付け、値セマンティクス、および自動メモリ管理により、安全性を提供しながらも優れたパフォーマンスを提供しています。これらの境界の外に出なければいけない場合でも、Swiftはメモリを直接割り当てて操作するツールも提供しています。 このトークでは、Swiftのポインタについてのすべて（型付けされたポインタと生のポインタとバッファ、暗黙的なブリッジングとキャスト、および安全でないAPIを使用しても安全を保つための秘訣）を説明します。"
+        presentation.speaker = tko2017Speakers["nate"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 3
-        presentation.title = "Lambda: There and Back Again"
-        presentation.summary = "I have been to Monad, to the Functor of Doom. I have seen the map, flattened and lensed. I have folded the infinite, lifted a Maybe, and I’d do it all over again. But from what I’ve seen, from Haskell to Church, we can rely on one truth, which is this: Swift is not a functional programming language. Pushing too hard to make it one fights Swift and breaks Cocoa. But Swift has absorbed some fantastic lessons from the functional world, and while value types may not quite be the present, they are clearly the future. \n\nWe’ll explore how decades of work in functional languages have influenced Swift, and how you can use those features best while staying true to Swift, playing nice with Cocoa, and embracing Protocol Oriented Programming."
-        presentation.speaker = nyc2016Speakers["rob"]
+        presentation.title = "3D Touch: Bring your apps to a new dimension"
+        presentation.titleJP = "アプリを新次元に導く3D Touch"
+        presentation.summary = "In this talk, we’ll learn about what the 3D Touch APIs have to offer and best practices for using them. We’ll see what is provided out of the box and what customizations were added in iOS10. Throughout the talk, we'll explore some cool examples of how to add 3D Touch support to your apps today."
+        presentation.summaryJP = "この講演では3DタッチAPIで何ができるか？そして3DタッチAPIを使うベストプラクティスを学びます。元々どのような機能があり、iOS10でどのようなカスタマイズが加えられたかを見ていきます。クールな事例を通してあなたのアプリを3Dタッチに対応させる方法を探っていきましょう。"
+        presentation.speaker = tko2017Speakers["meghan"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 4
-        presentation.title = "Real World Swift Performance"
-        presentation.summary = "Lots of things can make your application slow, in this talk we're going to explore application performance from the bottom. Looking at the real world performance impact of Swift features (Protocols, Generics, Structs, and Classes) in the context of data parsing, mapping, and persistence, we will identify the key bottlenecks as well as the performance gains that Swift gives us."
-        presentation.speaker = nyc2016Speakers["dani"]
+        presentation.title = "Pixels, process and passion"
+        presentation.titleJP = "Pixels、プロセスと情熱"
+        presentation.summary = "This talk will be about all the in-between stuff when it comes to building products. Focusing on the process rather than the outcome and letting passion and people be the driver. I will tell about my latest personal project and how i've learned to fall in love with problems rather than a solutions."
+        presentation.summaryJP = "この講演では、プロダクトを作るようになる際に中間の要素について説明します。 結果ではなくプロセス、そして情熱と人を駆動力にすることに焦点を当てます。私は最新の個人的なプロジェクトと、どのように解決策ではなく問題に恋するようになったかをお話しします。"
+        presentation.speaker = tko2017Speakers["rikke"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 5
-        presentation.title = "Random Talk: The Consistent World of Noise"
-        presentation.summary = "Chance permeates our human existence - but it’s our instinct to seek order in chaos. In this talk, we’ll explore the fishy realm of randomness, and when it’s just too unnatural for our apps - let’s bend it to our will by making it evolve into coherent patterns with the GameplayKit framework. We’ll use the latest iOS 10 APIs and procedural noise to generate harmonious digital worlds, landscapes and textures - a comforting way to mine some creativity from silicon chips."
-        presentation.speaker = nyc2016Speakers["natalia"]
+        presentation.title = "Everyday Reactive"
+        presentation.titleJP = "毎日リアクティブ"
+        presentation.summary = "In this talk, we'll walk through some practical uses of reactive programming in app development, using examples from my daily experiences. We'll explore tips and tricks for determining when reactive programming can be a potent tool, as well as scenarios to avoid that might threaten code quality and performance. The talk will focus on concepts in reactive programming, the code will show off different Swift reactive implementations."
+        presentation.summaryJP = "この講演では、私の日々の経験からの例を使って、アプリ開発におけるリアクションプログラミングの実践的な使い方を紹介します。リアクティブプログラミングがどんなときに強力なツールになりえるのかを判断するヒントとともにコードの品質とパフォーマンスを脅かす可能性があるために避けるべきシナリオも紹介します。 このトークでは、様々なSwiftのリアクティブな実装を例示しながらリアクティブプログラミングの概念に焦点を当てていきます。"
+        presentation.speaker = tko2017Speakers["agnes"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 6
-        presentation.title = "Swift eye for the Stringly typed API"
-        presentation.summary = "With the upcoming release of the third major version of Swift, massive improvements are coming to the language and we are beginning to see the chains being broken on some of shackles of Objective-C’s legacy. However a lot of these improvements still rely on “Stringly typed” APIs which have the potential to trip us up when developing apps. In this talk we are going to look into how we can avoid using these APIs by replacing them with alternatives that make our code more readable, safer, intentional and Swifty."
-        presentation.speaker = nyc2016Speakers["andyy"]
+        presentation.title = "Tasting tests at Cookpad"
+        presentation.titleJP = "クックパッドアプリのテストを味わう"
+        presentation.summary = "Quality and Tests often depend on the contexts for services and apps. Lets’s taste how we have tested our iOS app at Cookpad to guarantee the quality to the app. Especially, I’ll focus on automated tests. Not only challenge our several activities to growth our service but also convert Objective-C to Swift, ...etc. Development environment for iOS app also changes so swiftly. Meanwhile, we should growth our app and continue to release our app frequently."
+        presentation.summaryJP = "品質やテストの話は往々にして提供するサービスやアプリのコンテキストに依存します。クックパッドのiOSアプリを題材にして、私たちが機能的な品質を保つためにどのようなテストを行ってきたかをお話します。特に、自動化されたテストに関してお話します。UIのリニューアルや様々な取り組みと変化だけではなく、Objective-CからSwiftへの書き換えなど、iOSを取り巻く環境は短い間に大きく変化しています。その中で、どのような取り組みにより最低限の不具合を防ぎ、iOSアプリをリリースし続けてきたのか。また、これにより得られた学びや、これからの取り組みに関してもお話しいたします。"
+        presentation.speaker = tko2017Speakers["kazuaki"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 7
-        presentation.title = "Driving User Engagement with watchOS 3"
-        presentation.summary = "One of the most interesting aspects of the Apple Watch is the fact that it is a new opportunity to engage with and delight your users. What’s different about these interactions, compared to the phone, is that they should be as short as possible - 2 seconds! What can you do in 2 seconds?! Using complications, notifications, and quick access to apps in memory, we’ll take a look at not only how to create and use each of these features on the watch, but also the best way to delight your users with each! \n\nAfter attending this talk, you’ll walk away with some new strategies on how to increase your app’s indispensability through these awesome watch features."
-        presentation.speaker = nyc2016Speakers["kristina"]
+        presentation.title = "Writing your UI Swiftly"
+        presentation.titleJP = "UIをSwiftyに書く"
+        presentation.summary = "In this talk, we will explore how the structure and properties of the Swift Language make writing your application and UI code simpler. We will take a look at common pitfalls and challenges in building our UI layer and, for each one, we will examine a Swifty way to improve upon it. The talk will examine modeling view state with enums, useful 3rd party Swift libraries, unifying views via protocols, and more."
+        presentation.summaryJP = "この講演では、Swiftの構造と特性がアプリとUIのコードをより完結に書けるようにしているかということを探っていきます。 私たちは、UIレイヤーを構築する際の一般的な落とし穴と課題を見ていき、それを改善するためのSwiftyな方法を検討します。 Enumを用いたビューの状態のモデリング、有用なサードパーティ製のSwiftライブラリ、プロトコルによるビューの統一などを見ていきます。"
+        presentation.speaker = tko2017Speakers["sommer"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 8
-        presentation.title = "Architectural Superpowers"
-        presentation.summary = "We usually hear about intangible or difficult to measure benefits of implementing a good architecture. I would like to prove to you that the benefits are far more mundane. In this talk I will showcase practical, real world examples of how a good architecture for your application makes your life easier. Using my interpretation of the Clean Architecture for iOS in Swift, I will show how it helps to do things such as reusing an existing use case in another view controller, or using a different backend, in case we are forced to do so. I will also cover briefly how this architecture helps with testability."
-        presentation.speaker = nyc2016Speakers["jorge"]
+        presentation.title = "Building a Swift Web API and Application Together"
+        presentation.titleJP = "SwiftのWeb APIとアプリをともに構築する"
+        presentation.summary = "In this talk, I'm going to share my experiences building a Web API in Swift to power a one of our iOS applications. I'll cover how we replaced some of our existing infrastructure and web services with Swift. We will explore what it takes to build a web service in Swift and how to design and consume an API that can evolve over years, leveraging hypermedia and declarative programming."
+        presentation.summaryJP = "この講演では、私たちのiOSアプリの1つを動かすためにSwiftでWeb APIを構築した経験を共有します。既存のインフラとWebサービスをSwiftでどのように書きかえたのかを説明します。SwiftでのWebサービス構築に必要なことと、ハイパーメディアと宣言型プログラミングを活用して長年進化していけるAPIを設計し利用する方法を探ります。"
+        presentation.speaker = tko2017Speakers["kyle"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 9
-        presentation.title = "Building user-centric security model in iOS applications"
-        presentation.summary = "In this presentation we will talk about building security, that does not fail when application keys are exposed; when servers are hacked; security that lasts as long as unique user's crypto keys (or passwords) are safe. Putting secrets known by user to be a source of trust is the ultimate way for app to become \"thin\" in relation to security model, thus lowering the risks and developer pain. We will learn about thin transparent security layers system and its applicability in client-server systems. And, of course, we'll cover some latest changes in ATS."
-        presentation.speaker = nyc2016Speakers["vixentael"]
+        presentation.title = "Craft Collaborative Apps with Realm"
+        presentation.titleJP = "Realmを使ってコラボレーションアプリを作る"
+        presentation.summary = "This talk will introduce into the open-source Realm Mobile Database and show how Realm Mobile Platforms completes it with server-side components. Using this allows you to treat synchronization and network as an implementation detail of your technology stack. Features like live collaboration, which would have been a major undertaking, become all of the sudden easily available to every developer. This talk shows you how you can build apps in a reactive manner on base of a database which takes care of the rest."
+        presentation.summaryJP = "このトークでは、オープンソースのRealm Mobile Databaseを紹介し、サーバーサイドコンポーネントと合わせてRealm Mobile Platformsがどのように完成したかを示します。これを利用すると、テクノロジスタックの実装詳細として同期とネットワークを扱うことができます。 これまで大仕事だったライブコラボレーションのような機能を、不意にすべての開発者が簡単に利用できるようになったのです。このトークでは、残りのデータベースの部分をベースとしてリアクティブにアプリを構築する方法を示します。"
+        presentation.speaker = tko2017Speakers["marius"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 10
-        presentation.title = "Decoding JSON with Swift"
-        presentation.summary = "As Swift's statically-typed characteristics prove to complicate the decoding of serialized objects, there are other characteristics that serve as interesting alternatives, like currying. In this talk, we will go through some of the functional aspects of Swift that make parsing JSON fun and exciting!"
-        presentation.speaker = nyc2016Speakers["anat"]
+        presentation.title = "Building your own tools"
+        presentation.titleJP = "独自のツールを構築する"
+        presentation.summary = "You want to build your apps using the least amount of code, quickly, with the largest impact. You do this by finding the right abstractions, which takes years of practice. The Artsy mobile team have multiple apps with Swift, but that is not the future of our applications. This talk covers the build up to using Swift, and how that triggered the discussion that lead to our usage of React Native."
+        presentation.summaryJP = "あなたは、最小のコード量で、すばやく、最大限のインパクトがあるアプリケーション開発をしたいでしょう。これを適切な抽象化を習得することで実現できますが、これには長年の訓練が必要です。Artsyのモバイルチームには、複数のSwift製アプリがありますが、それは我々のアプリの未来ではありません。 このトークでは、Swiftの利用方法の構築とそれがReact Native導入につながる議論をどのように引き起こしたかについて説明します。"
+        presentation.speaker = tko2017Speakers["orta"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 11
-        presentation.title = "Incremental Swift"
-        presentation.summary = "What do you do when you’re ready to upgrade to Swift, but rewriting your existing Objective-C apps isn’t an option? Using Etsy as a case study, I'll discuss a blueprint for integrating Swift incrementally into your apps. Swift provides rich features for Objective-C interoperability, but applying them to your current codebase isn’t always straightforward. We’ll cover technical details, such as linting and managing dependencies, as well as organizational strategies for gathering support, and other things we’ve learned at Etsy along the way. You’ll be prepared for a smooth transition to Swift: both in your code and in your company."
-        presentation.speaker = nyc2016Speakers["amy"]
+        presentation.title = "The Two Sides of Writing Testable Code"
+        presentation.titleJP = "テスト可能なコードを書くということの２つの側面"
+        presentation.summary = "There are precisely two things that make functions fully testable: the isolation of effects and the surfacing of 'co-effects'. We will explore a bit of the formal theory behind these two sides, and show how they lead to code that can be easily tested. We will also show how we do this at Kickstarter by diving into our recently open sourced codebase."
+        presentation.summaryJP = "関数を完全にテスト可能にするためのものが２つあります。作用の分離と共作用を表面化です。この２つの側面の背景にある理論を探り、どのようにすればテスト容易なコードに導けるかを示します。また、最近オープンソース化されたコードベースを基にKickstarterで我々がどのように実践しているかも紹介します。"
+        presentation.speaker = tko2017Speakers["brandon"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 12
-        presentation.title = "Building a Tiny Compiler"
-        presentation.summary = "We all use compilers every day, but they still can seem like a mysterious black box at times. We're going to build a tiny compiler for a made-up language 100% from scratch to get a feel for the basics of how compilers work. We'll also look at some of the ways Swift can yield elegant solutions for complex problems such as parsing, lexing, and code generation. At the end, we'll have a working implementation of a brand-new programming language."
-        presentation.speaker = nyc2016Speakers["sam"]
+        presentation.title = "Everything You Ever Wanted To Know About Sequence and Collection"
+        presentation.titleJP = "誰もが知りたいSequenceとCollectionのすべて"
+        presentation.summary = "Let's take a deep dive into Sequence and Collection. We'll build a `LinkedList` implementation to explore Sequences and how Iterators interact with them. We'll talk about Collection, and its related protocols and types, like Index, Sliceable, and MutableCollection, and how they each interplay. By the end, you'll know more than you ever wanted to know about Sequence and Collection."
+        presentation.summaryJP = "SequenceとCollectionについて深く掘り下げてみましょう。LinkedListを実装することでSequenceとIteratorがどのように相互作用するかを見ていきます。この講演ではCollectionと関連するプロトコルと型（Index、Sliceable、MutableCollectionなど）がそれぞれどのように相互作用するかについて説明します。最終的にSequenceとCollectionについて知りたかったこと以上のことがわかるようになるでしょう。"
+        presentation.speaker = tko2017Speakers["soroush"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 13
-        presentation.title = "Property-Based Testing with SwiftCheck"
-        presentation.summary = "Unit tests are a challenge to write. \"Did I think of every relevant case?\" is an almost impossible question to answer. Fortunately, we have the tools to help find more relevant cases with less searching. Property based testing helps us find edge cases and become more confident about the assumptions that our code is built upon."
-        presentation.speaker = nyc2016Speakers["tj"]
+        presentation.title = "Swift Outside the Box"
+        presentation.titleJP = "様々な場面でSwiftを使う"
+        presentation.summary = "There are times when we want to use Swift on different platforms or in unconventional circumstance. However, for now it is hard because there are only a few libraries outside of Apple's platform. This talk will introduce practices using libraries written in C or Swift with server-side examples."
+        presentation.summaryJP = "色々なプラットフォーム、様々な場面でSwiftを使いたいことがあります。しかし、現時点で、Apple以外のプラットフォームでは、ライブラリーが少ないなど、すぐ実用的に実装することが難しいことがあります。CのライブラリーやSwiftのライブラリーを使いながら、様々な場面でSwiftを実用的に使うための試みと、サーバーサイドにおける事例を紹介します。"
+        presentation.speaker = tko2017Speakers["yusuke"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 14
-        presentation.title = "Extending Xcode 8"
-        presentation.summary = "Xcode 8 introduces a new mechanism for extending the source editor with app extensions. In this talk, you will learn more about the practical implications of developing Xcode extensions: how they are distributed, positive and negative tradeoffs of their design, and how to keep an extension's host app efficiently in sync with the extension itself."
-        presentation.speaker = nyc2016Speakers["daniel"]
+        presentation.title = "Document Indexing and App Search in iOS"
+        presentation.titleJP = "iOSにおけるDocument IndexingとApp Search"
+        presentation.summary = "We, as programmers, are interested in promoting our product and want users to have only easy and pleasant experience. Nevertheless, there are thousands of new applications appearing on the App Store every day and even if the user has downloaded our app, it can be lost among dozens of others on the device. It is clear, though, that we do not want our users to forget about our product but use it regularly and actively. We can use a lot of tricks and stunts, one of them is the App Indexing feature, that we are using actively in Zalando. It shows great results and works brilliant for us, and made the app even more accessible and recognizable in Spotlight and Web. In my talk I am going to explain how we are using the App Search features for iOS in the Zalando application, present some other App Search features for different types of content, share experience and examples. This talk is intended to show different approaches, prevent developers from mistakes we made, and inspire with results we have."
+        presentation.summaryJP = "私たちはプログラマとして、自分たちの製品のプロモーションに興味を持ち、ユーザには簡単で楽しい経験をしてほしいと考えています。それでもApp Storeには毎日無数の新しいアプリが登場し、ユーザが私たちのアプリをダウンロードしても、デバイス上の数十ものアプリの中で見失われる可能性があります。しかし当然ながら、ユーザが私たちのプロダクトを忘れずに定期的かつ積極的に使うことを望んでいます。私たちは多くのトリックや技を使えます。そのうちの1つはApp Indexing機能で、Zalandoで積極的に使っています。それは素晴らしい結果を示して見事に機能し、SpotlightやWebでアプリをより使いやすく、認識しやすくしました。この講演では、ZalandoのiOSアプリでApp Search機能をどのように使っているのかを説明し、さまざまなタイプのコンテンツ向けのApp Search機能を紹介し、経験と実例を共有します。私たちのさまざまなアプローチを示すことで、開発者が私たちのミスを防ぎ、成果をもたらしてほしいと考えています。"
+        presentation.speaker = tko2017Speakers["kateryna"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 15
-        presentation.title = "Designs for the Human Mind"
-        presentation.summary = "Have you ever wondered why some interfaces are more “intuitive” than others? What makes one UI resonate with people while another doesn’t? This talk is meant to shed a bit more light on this mystery. In some ways the human mind is incredibly adaptable while in other ways it seems to be stuck in the stone ages. This dichotomy presents interesting obstacles and opportunities for those of us designing and building digital experiences for humans."
-        presentation.speaker = nyc2016Speakers["bojana"]
+        presentation.title = "Startup Swift"
+        presentation.titleJP = "スタートアップのSwift"
+        presentation.summary = "Startup teams are tiny yet they must deliver significant product changes on a regular basis. This can lead to some pretty hastily written and rewritten code – luckily Swift’s got your back. In this talk I’ll share lessons learned over the past year picking up Swift while taking the Hey! VINA app from MVP to thousands of daily users, and what language features give you the flexibility to make bold moves, stay scrappy and deliver a stable app."
+        presentation.summaryJP = "スタートアップのチームはまだ小さいですが定期的に重要なプロダクトの変更をする必要があります。そのため慌ててコードを書いては書き直してということになる可能性があります。幸いなことにあなたたちにはSwiftがついています。このトークではHey! VINAというアプリをMVP（Minimun Viable Product）から１日に数千ユーザーが使うアプリにするまでのここ１年でSwiftを習得した教訓と、どの言語の特徴が大胆に動きつつも不安定さを避け、安定してアプリを提供するための柔軟さをもたらしたかを紹介します。"
+        presentation.speaker = tko2017Speakers["mo"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 16
-        presentation.title = "Result Oriented Development"
-        presentation.summary = "When I last talked about functional programming, we saw by using small, micro functions, a nasty, complex and hard to track function could eventually be written as a pipeline of smaller functions. But using only optionals to pipe functions together isn’t enough to take full advantage of this technique. With the help of a small, but useful Monad called Result (or Either) you can take your functional programming powers to the next level."
-        presentation.speaker = nyc2016Speakers["saul"]
+        presentation.title = "A Neatly Typed Message"
+        presentation.titleJP = "きちんと型付けされたメッセージ"
+        presentation.summary = "The talk is about the readability of Swift code. I'll treat it not as a well-defined goal to achieve, but as a spectrum that you need to decide where to land on. Looking at the variations of popular Cocoa patterns and Swift language constructs we'll identify their readability tradeoffs and chances for improvement. We'll also learn some fine techniques to widen readability spectrum using the power of a type system, universality of monadic api and possibilities given by Swift tooling ecosystem."
+        presentation.summaryJP = "この講演はSwiftのコードの可読性に関するものです。達成するために明確に定義された目標ではなく、あなたが向かうべき方向性を決めるためのものです。普及しているCocoaパターンとSwift言語の構成概念の違いを見てみると、可読性のトレードオフと改善の可能性があることを確認していきます。 また、型システムのパワー、モナドAPIの普遍性、Swiftのツールのエコシステムの可能性などをを使って、可読性を向上するためのテクニックを学んでいきます。"
+        presentation.speaker = tko2017Speakers["krzysztof"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 17
-        presentation.title = "I make iOS apps - is RxSwift for me?"
-        presentation.summary = "It's difficult to make the jump from map and filter to say ... presenting view controllers or search bars that need to call an API on the web and populate a table view. To be honest, at first it seems almost like functional or reactive programming has nothing to do with UIKit or NSURLSession... In this talk Marin (me) will show you how RxSwift (an async, event based framework) applies in few every day situations of the life of an iOS developer. If you like major pains being solved for you transparently at the price of a single dependance this talk is for you."
-        presentation.speaker = nyc2016Speakers["marin"]
+        presentation.title = "Color Me Surprised!: Architecting a Robust Color System with Swift"
+        presentation.titleJP = "Swiftで堅牢なカラーシステムを構築する"
+        presentation.summary = "More companies than ever are redesigning their apps to appeal to vibrant, growing audiences. In this talk, we'll discuss strategies for architecting a robust color system capable of scaling to projects of all sizes. We'll walk through how these approaches can be utilized to rapidly iterate on design decisions and may be adapted to modify color palette themes at runtime. We'll conclude with a demonstration of how these skills can be extended to aid those with color vision concerns using the exciting new color filter accessibility features introduced in iOS 10."
+        presentation.summaryJP = "これまで以上に多くの企業が、新しく増え続けるユーザーに今までよりも魅力的なアプリだとアピールするために、アプリを再設計しています。この講演ではあらゆる規模のプロジェクトにスケールできる堅牢なカラーシステムを構築するための戦略について議論します。これらのアプローチはデザイン上の決定を迅速に繰り返すのに役立ち、実行時にカラーパレットのテーマを変更するようなこともできるかもしれません。さらに、iOS 10で導入された新しいカラーフィルターのアクセシビリティ機能を使用して、色覚の問題を抱える人を支援することにも応用できることを示すデモンストレーションも行います。"
+        presentation.speaker = tko2017Speakers["laura"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 18
-        presentation.title = "Building a Better Language App with Swift"
-        presentation.summary = "As an elegant and powerful language, Swift offers developers the opportunity to create more engaging and enriching language learning experiences. Unfortunately, most language apps settle on a limited range of teaching techniques and approaches to UI design, with the result being shallow learning, less cultural understanding, and low user retention. We can do better. \n\nIn this talk, you’ll learn how to create more effective—and more human—language learning experiences for iOS. We’ll start by examining the essential teaching techniques that are missing from language apps; discuss how to pair these techniques with UI elements, choose features based on learning goals, and create more culturally-relevant UI designs; and then move on to some actual examples in Swift."
-        presentation.speaker = nyc2016Speakers["natasha"]
+        presentation.title = "Making Mock Objects More Useful"
+        presentation.titleJP = "モックオブジェクトをより便利にする"
+        presentation.summary = "In Swift, we make mock objects by hand. Their design shapes the way we write unit tests. Can we make mock objects more powerful, so that our tests are more expressive? What can we learn from mocking libraries? Jon Reid will bring his background of writing the Objective-C library OCMockito and apply it to hand-made mocks in Swift."
+        presentation.summaryJP = "Swiftでは、手作業でモックオブジェクトを作成します。その設計がどのようにユニットテストを書けば良いかという方針を決めています。テストをより表現力豊かにするようモックオブジェクトをより強力にすることはできるでしょうか？モックライブラリから何を学ぶことができるでしょうか？OCMockitoというObjective-C製のモックライブラリを書いてきた私の経験をSwiftの手作りモックに応用してみます。"
+        presentation.speaker = tko2017Speakers["jon"]
         return presentation
     }(),
     {
         let presentation = Presentation()
         presentation.id = 19
-        presentation.title = "Healthy Minds in a Healthy Community"
-        presentation.summary = "Open source communities attract and boast passionate, idealistic people, and many of us invest copious amounts of time and effort to contribute to our projects and support our communities. This underlying emotional attachment can make us more vulnerable to elevated stress, burnout and conflicts. And then there are those of us who also manage mental illness. \n\nMore often than not, we suffer these struggles in silence, feeling (and fearing) that we’re alone in our trouble. Here, our communities can make a huge difference, by building a positive and safe environment where we can blossom and support ourselves and our peers, and feel included. \n\nThe community around Django, a common open-source web framework for Python, is already very mindful towards inclusivity, and keeping an eye on the well-being of community members. We have recently launched several new projects to further promote the well-being of our community members. \n\nThis talk will take a look at open-source communities through the eyes of various mental well-being issues and struggles, show various things that some communities already do and the new initiatives from the Django community. This will hopefully inspire more communities to help foster healthy minds in a healthy environment."
-        presentation.speaker = nyc2016Speakers["erik"]
+        presentation.title = "Scaling open source communities"
+        presentation.titleJP = "オープンソースコミュニティをスケールさせる"
+        presentation.summary = "I'll be talking about the different stages of open source projects, how handling PRs and support change with scale and how to keep innovating with a bigger user base. With that in mind, I'll go into detail on how developers can solve those problems, in particular automating workflows, staying in closer contact with contributors and improving your product and documentation. I've learned so much about this topic over the last year with fastlane, and started preparing multiple blog posts about scaling open source communities. I feel like this would be a great topic for try! Swift, however I can also talk about automating the app deployment process using fastlane if you prefer that."
+        presentation.summaryJP = "オープンソースプロジェクトのさまざまな段階についてお話しします。どのようにプルリクエストを処理するか、規模に応じてどのようにサポートを変えていくか、ユーザー数が拡大していく中でどのように革新を起こしつづけるかをお話しします。 それらを念頭に置き、開発者がどのように問題を解決するのか、具体的にはワークフローの自動化、コントリビュータとの密接な関わり合い、プロダクトやドキュメントの改善について詳しく説明します。 おととしfastlaneで多くのことを学びました。オープンソースコミュニティのスケーリングについていくつかブログを準備しはじめました。"
+        presentation.speaker = tko2017Speakers["felix"]
         return presentation
-    }(),
-    {
-        let presentation = Presentation()
-        presentation.id = 20
-        presentation.title = "Refactoring at scale – Lessons learned rewriting Instagram’s feed"
-        presentation.summary = "When apps grow, there eventually comes a time where you hear the dreaded word “refactor”. For established apps, refactors present interesting problems from the amount of code and teams involved. Not to mention performance and testing implications on a large application. But no matter the size, there are common problems that any app runs into when taking on a big refactor. Things like massive view controllers, dependencies, and managing goals and priorities. \n\nCome learn about how and why the Instagram team took on rewriting their iOS feed from the bottom up, and see what it takes to ship a successful refactor."
-        presentation.speaker = nyc2016Speakers["ryan"]
-        return presentation
-    }(),
-    {
-        let presentation = Presentation()
-        presentation.id = 21
-        presentation.title = "End-to-end application development in Swift"
-        presentation.summary = "The addition of support for Swift as a server-side programming language makes it possible to use not just the same language on client and server, but also to reuse APIs and code. This session will introduce you to new models of client and server interaction for application development, and show you how to rapidly build an app with both client and server components written in Swift."
-        presentation.speaker = nyc2016Speakers["chrisRobert"]
-        return presentation
-    }(),
-    {
-        let presentation = Presentation()
-        presentation.id = 22
-        presentation.title = "Making a Rich Text Editor in Swift"
-        presentation.summary = "The handling of rich text is not easy. We may consider a lot of things like fonts, characters, glyphs, emojis, images, ligatures, etc. In this talk, I will show you the basics of laying out text and how to handle complex text layouts in Apple's OS."
-        presentation.speaker = nyc2016Speakers["katsumi"]
-        return presentation
-    }(),
+    }()
 ]
