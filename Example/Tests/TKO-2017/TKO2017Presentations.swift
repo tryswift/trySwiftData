@@ -10,8 +10,8 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
-public let tko2017Presentations: [Presentation] = [
-    {
+public let tko2017Presentations: [String : Presentation] = [
+    "eric" : {
         let presentation = Presentation()
         presentation.id = 1
         presentation.title = "Swift on Android"
@@ -20,7 +20,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["eric"]
         return presentation
     }(),
-    {
+    "nate" : {
         let presentation = Presentation()
         presentation.id = 2
         presentation.title = "Swift's Pointy Bits"
@@ -30,7 +30,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["nate"]
         return presentation
     }(),
-    {
+    "meghan" : {
         let presentation = Presentation()
         presentation.id = 3
         presentation.title = "3D Touch: Bring your apps to a new dimension"
@@ -40,7 +40,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["meghan"]
         return presentation
     }(),
-    {
+    "rikke" : {
         let presentation = Presentation()
         presentation.id = 4
         presentation.title = "Pixels, process and passion"
@@ -50,7 +50,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["rikke"]
         return presentation
     }(),
-    {
+    "agnes" : {
         let presentation = Presentation()
         presentation.id = 5
         presentation.title = "Everyday Reactive"
@@ -60,7 +60,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["agnes"]
         return presentation
     }(),
-    {
+    "kazuaki" : {
         let presentation = Presentation()
         presentation.id = 6
         presentation.title = "Tasting tests at Cookpad"
@@ -70,7 +70,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["kazuaki"]
         return presentation
     }(),
-    {
+    "sommer" : {
         let presentation = Presentation()
         presentation.id = 7
         presentation.title = "Writing your UI Swiftly"
@@ -80,7 +80,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["sommer"]
         return presentation
     }(),
-    {
+    "kyle" : {
         let presentation = Presentation()
         presentation.id = 8
         presentation.title = "Building a Swift Web API and Application Together"
@@ -90,7 +90,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["kyle"]
         return presentation
     }(),
-    {
+    "marius" : {
         let presentation = Presentation()
         presentation.id = 9
         presentation.title = "Craft Collaborative Apps with Realm"
@@ -100,7 +100,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["marius"]
         return presentation
     }(),
-    {
+    "orta" : {
         let presentation = Presentation()
         presentation.id = 10
         presentation.title = "Building your own tools"
@@ -110,7 +110,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["orta"]
         return presentation
     }(),
-    {
+    "brandon" : {
         let presentation = Presentation()
         presentation.id = 11
         presentation.title = "The Two Sides of Writing Testable Code"
@@ -120,7 +120,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["brandon"]
         return presentation
     }(),
-    {
+    "soroush" : {
         let presentation = Presentation()
         presentation.id = 12
         presentation.title = "Everything You Ever Wanted To Know About Sequence and Collection"
@@ -130,7 +130,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["soroush"]
         return presentation
     }(),
-    {
+    "yusuke" : {
         let presentation = Presentation()
         presentation.id = 13
         presentation.title = "Swift Outside the Box"
@@ -140,7 +140,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["yusuke"]
         return presentation
     }(),
-    {
+    "kateryna" : {
         let presentation = Presentation()
         presentation.id = 14
         presentation.title = "Document Indexing and App Search in iOS"
@@ -150,7 +150,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["kateryna"]
         return presentation
     }(),
-    {
+    "mo" : {
         let presentation = Presentation()
         presentation.id = 15
         presentation.title = "Startup Swift"
@@ -160,7 +160,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["mo"]
         return presentation
     }(),
-    {
+    "krzysztof" : {
         let presentation = Presentation()
         presentation.id = 16
         presentation.title = "A Neatly Typed Message"
@@ -170,7 +170,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["krzysztof"]
         return presentation
     }(),
-    {
+    "laura" : {
         let presentation = Presentation()
         presentation.id = 17
         presentation.title = "Color Me Surprised!: Architecting a Robust Color System with Swift"
@@ -180,7 +180,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["laura"]
         return presentation
     }(),
-    {
+    "jon" : {
         let presentation = Presentation()
         presentation.id = 18
         presentation.title = "Making Mock Objects More Useful"
@@ -190,7 +190,7 @@ public let tko2017Presentations: [Presentation] = [
         presentation.speaker = tko2017Speakers["jon"]
         return presentation
     }(),
-    {
+    "felix" : {
         let presentation = Presentation()
         presentation.id = 19
         presentation.title = "Scaling open source communities"
