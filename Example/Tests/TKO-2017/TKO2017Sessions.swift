@@ -289,6 +289,13 @@ public let tko2017Sessions: [String : Session] = [
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
+    "day2OrtaOfficeHours" : {
+        let session = Session()
+        session.type = .officeHours
+        session.presentation = tko2017Presentations["orta"]
+        session.location = tko2017Locations["qaroom"]
+        return session
+    }(),
 //---------------------------------------------------------
     "day2Soroush" : {
         let session = Session()
@@ -541,7 +548,7 @@ public let tko2017Sessions: [String : Session] = [
         return session
     }(),
 //---------------------------------------------------------
-    "day3Opening" : {
+    "day3Groups" : {
         let session = Session()
         session.type = .announcement
         session.title = "Ideathon / Group Formation"
