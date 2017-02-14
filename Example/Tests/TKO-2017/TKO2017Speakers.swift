@@ -228,7 +228,7 @@ public let tko2017Speakers: [String : Speaker] = [
         organizer.twitter = "k_katsumi"
         organizer.imageName = "katsumi_kishikawa"
         organizer.bio = "Katsumi Kishikawa is an iOS/macX developer working at Realm. He has serial open source library developer, and has published some popular libraries on GitHub. He has large contributed to iOS developer community in Japan with his experience and knowledge."
-        organizer.bio = "iOS/macOSアプリケーションの開発者で、モバイルデータベースを開発するRealmに勤務しながら、さまざまな企業にテクニカルアドバイザーとして関わっています。また、個人の活動として、多数のオープンソースライブラリをGitHubにて公開しています。"
+        organizer.bioJP = "iOS/macOSアプリケーションの開発者で、モバイルデータベースを開発するRealmに勤務しながら、さまざまな企業にテクニカルアドバイザーとして関わっています。また、個人の活動として、多数のオープンソースライブラリをGitHubにて公開しています。"
         return organizer
     }(),
     "kazunobu" : {
