@@ -7,7 +7,6 @@
 //
 
 import RealmSwift
-import Foundation
 
 public class ConferenceDay: Object {
     /* The date of this particular day of the conference. */

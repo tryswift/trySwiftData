@@ -6,7 +6,6 @@
 //  Copyright © 2016 NatashaTheRobot. All rights reserved.
 //
 
-import Foundation
 import RealmSwift
 
 public class Conference: Object {
@@ -14,12 +13,12 @@ public class Conference: Object {
     open dynamic var twitter: String?
     open dynamic var imageName: String?
     open dynamic var imageURL: String?
-    open dynamic var conferenceDescription: String?
+    open dynamic var conferenceDescription: String = ""
     open dynamic var conferenceDescriptionJP: String?
     open dynamic var venue: Venue?
-    open dynamic var organizer: Speaker?
+    open let organizers = List<Speaker>()
 
     public var localizedDescription: String {
-        return self.localizedString(for: conferenceDescription!, japaneseString: conferenceDescriptionJP)
+        return self.localizedString(for: conferenceDescription, japaneseString: conferenceDescriptionJP)
     }
 }

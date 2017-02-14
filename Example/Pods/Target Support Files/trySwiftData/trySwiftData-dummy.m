@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_trySwiftData : NSObject
+@interface PodsDummy_TrySwiftData : NSObject
 @end
-@implementation PodsDummy_trySwiftData
+@implementation PodsDummy_TrySwiftData
 @end

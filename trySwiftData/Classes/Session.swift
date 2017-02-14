@@ -7,8 +7,6 @@
 //
 
 import RealmSwift
-import UIKit
-import Foundation
 
 @objc public enum SessionType: Int {
     case workshop

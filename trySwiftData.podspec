@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'trySwiftData'
+  s.name             = 'TrySwiftData'
   s.version          = '0.1.0'
-  s.summary          = 'trySwiftData'
+  s.summary          = 'TrySwiftData'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,15 +27,15 @@ trySwiftData
   s.source           = { :git => 'https://github.com/tryswift/trySwiftData.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.2'
+  s.ios.deployment_target = '9.0'
   s.watchos.deployment_target = '3.1'
   s.tvos.deployment_target = '10.1'
 
 
-  s.source_files = 'trySwiftData/Classes/*.{swift}'
+  s.source_files = 'TrySwiftData/Classes/*.{swift}'
   
   s.resource_bundles = {
-    'trySwiftData' => ['trySwiftData/Assets/*.jpg']
+    'trySwiftData' => ['TrySwiftData/Assets/*.jpg']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:trySwiftData.xcodeproj">
+      location = "group:/Users/TiM/Projects/trySwiftData/Example/TrySwiftData.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TrySwiftData.xcodeproj">
    </FileRef>
 </Workspace>

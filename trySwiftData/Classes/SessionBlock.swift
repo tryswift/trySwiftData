@@ -7,7 +7,6 @@
 //
 
 import RealmSwift
-import Foundation
 
 public class SessionBlock: Object {
     /* The time in which these sessions start */
