@@ -35,7 +35,7 @@ trySwiftData
   s.source_files = 'TrySwiftData/Classes/*.{swift}'
   
   s.resource_bundles = {
-    'trySwiftData' => ['TrySwiftData/Assets/*.jpg']
+    'TrySwiftData' => ['TrySwiftData/Assets/*.{jpg,realm}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
