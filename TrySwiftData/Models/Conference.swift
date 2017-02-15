@@ -21,4 +21,9 @@ public class Conference: Object {
     public var localizedDescription: String {
         return self.localizedString(for: conferenceDescription, japaneseString: conferenceDescriptionJP)
     }
+
+    public static var current: Conference {
+        let realm = try! Realm.trySwiftRealm()
+        return realm.objects(Conference.self).first!
+    }
 }

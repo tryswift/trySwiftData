@@ -9,12 +9,12 @@
 import RealmSwift
 
 @objc public enum SponsorLevel: Int {
-    case platinum
-    case gold
-    case silver
-    case diversity
-    case student
-    case event
+    case platinum = 0
+    case gold = 1
+    case silver = 2
+    case diversity = 3
+    case student = 4
+    case event = 5
 }
 
 public class Sponsor: Object {
@@ -29,4 +29,32 @@ public class Sponsor: Object {
     public var localizedName: String {
         return self.localizedString(for: name, japaneseString: nameJP)
     }
+
+    /* Return an array of `Results` objects */
+    public class var all: [Results<Sponsor>] {
+        let realm = try! Realm.trySwiftRealm()
+
+        var resultsSet = [Results<Sponsor>]()
+        for i in 0...SponsorLevel.event.rawValue {
+            let sponsors = realm.objects(Sponsor.self).filter("level == %d", i)
+            if sponsors.count > 0 {
+                resultsSet.append(sponsors)
+            }
+        }
+
+        return resultsSet
+    }
+}
+
+public func localizedSponsorName(for sponsorLevel: SponsorLevel) -> String {
+    switch sponsorLevel {
+    case .platinum: return NSLocalizedString("Platinum", comment: "")
+    case .gold: return NSLocalizedString("Gold", comment: "")
+    case .silver: return NSLocalizedString("Silver", comment: "")
+    case .diversity: NSLocalizedString("Diversity", comment: "")
+    case .student: NSLocalizedString("Student", comment: "")
+    case .event: NSLocalizedString("Event", comment: "")
+    }
+
+    return ""
 }

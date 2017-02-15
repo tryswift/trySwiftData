@@ -29,8 +29,8 @@ public class Speaker: Object {
         return ["name", "hidden"]
     }
 
-    public class var speakers: Results<Speaker> {
-        let realm = try! Realm()
+    public class var all: Results<Speaker> {
+        let realm = try! Realm.trySwiftRealm()
         return realm.objects(Speaker.self).filter("hidden == false").sorted(byKeyPath: "name")
     }
 

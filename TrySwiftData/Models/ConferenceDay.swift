@@ -14,4 +14,9 @@ public class ConferenceDay: Object {
 
     /* The list of sessions, sorted into time blocks for that day. */
     open let sessionBlocks = List<SessionBlock>()
+
+    public static var all: Results<ConferenceDay> {
+        let realm = try! Realm.trySwiftRealm()
+        return realm.objects(ConferenceDay.self).sorted(byKeyPath: "date")
+    }
 }
