@@ -50,7 +50,7 @@ extension Date {
         return (calendar as NSCalendar).components([.year, .month, .weekday, .day, .hour, .minute, .second], from: self)
     }
 
-    static func date(year: Int, month: Int, day: Int, hour: Int, minute: Int, second: Int) -> Date {
+    public static func date(year: Int, month: Int, day: Int, hour: Int, minute: Int, second: Int) -> Date {
         let now = Date()
         return now.change(year: year, month: month, day: day, hour: hour, minute: minute, second: second)
     }

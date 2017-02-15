@@ -4,6 +4,11 @@ import TrySwiftData
 import RealmSwift
 
 class Tests: XCTestCase {
+    func testLocalRealm() {
+        let realm = try! Realm.trySwiftRealm()
+        XCTAssertNotNil(realm)
+    }
+
     /** try! Swift Tokyo 2017 */
     func testGenerateNewTKO2017DefaultRealm() {
         let sources = [tko2017Conferences, tko2017Sponsors, tko2017ConferenceDays] as [Any]

@@ -32,7 +32,7 @@ trySwiftData
   s.tvos.deployment_target = '10.1'
 
 
-  s.source_files = 'TrySwiftData/Classes/*.{swift}'
+  s.source_files = 'TrySwiftData/**/*.{swift}'
   
   s.resource_bundles = {
     'TrySwiftData' => ['TrySwiftData/Assets/*.{jpg,realm}']
