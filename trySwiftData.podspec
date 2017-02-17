@@ -7,38 +7,36 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'TrySwiftData'
-  s.version          = '0.1.0'
-  s.summary          = 'TrySwiftData'
+	s.name             = 'TrySwiftData'
+	s.version          = '0.1.0'
+	s.summary          = 'TrySwiftData'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+	s.description      = "trySwiftData"
+	s.homepage         = 'https://github.com/tryswift/trySwiftData.git'
+	s.license          = { :type => 'MIT', :file => 'LICENSE' }
+	s.author           = { 'Alvin Varghese' => 'alvinvarghese@live.com', 'Natasha Murashev' => 'natasha@tryswift.co' }
+	s.source           = { :git => 'https://github.com/tryswift/trySwiftData.git', :tag => s.version.to_s }
 
-  s.description      = <<-DESC
-trySwiftData
-                       DESC
+	s.ios.deployment_target = '9.0'
+	s.watchos.deployment_target = '3.1'
+	s.tvos.deployment_target = '10.1'
 
-  s.homepage         = 'https://github.com/tryswift/trySwiftData.git'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Alvin Varghese' => 'alvinvarghese@live.com', 'Natasha Murashev' => 'natasha@tryswift.co' }
-  s.source           = { :git => 'https://github.com/tryswift/trySwiftData.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+	s.frameworks = 'UIKit', 'Foundation'
+	s.dependency 'RealmSwift'
+	s.default_subspec = 'Core'
+	s.source_files = 'TrySwiftData/**/*.{swift}'
 
-  s.ios.deployment_target = '9.0'
-  s.watchos.deployment_target = '3.1'
-  s.tvos.deployment_target = '10.1'
+    # For full-scale integration, such as the iOS app
+	s.subspec 'Core' do |core|
+		core.resource_bundles = {
+			'TrySwiftData' => ['TrySwiftData/Assets/*.{jpg,realm}']
+		}
+	end
 
-
-  s.source_files = 'TrySwiftData/**/*.{swift}'
-  
-  s.resource_bundles = {
-    'TrySwiftData' => ['TrySwiftData/Assets/*.{jpg,realm}']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'Foundation'
-   s.dependency 'RealmSwift'
+	# For minimal integrations, like the watchOS widget
+	s.subspec 'Lite' do |lite|
+		core.resource_bundles = {
+			'TrySwiftData' => ['TrySwiftData/Assets/*.{]realm}']
+		}
+	end
 end
