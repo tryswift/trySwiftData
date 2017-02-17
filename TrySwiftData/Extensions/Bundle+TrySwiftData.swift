@@ -11,7 +11,7 @@ import Foundation
 extension Bundle {
     public class func trySwiftAsset(named name: String) -> URL? {
         let podBundle = Bundle(for: Conference.self)
-        if let bundleURL = podBundle.url(forResource: "trySwiftData", withExtension: "bundle") {
+        if let bundleURL = podBundle.url(forResource: "TrySwiftData", withExtension: "bundle") {
             if let bundle = Bundle(url: bundleURL) {
                 return bundle.url(forResource: name, withExtension: nil)
             }
