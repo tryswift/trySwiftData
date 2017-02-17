@@ -75,7 +75,7 @@ extension Tests {
 
         // Create new Realm file at path
         let objectTypes: [Object.Type] = [Conference.self, ConferenceDay.self, SessionBlock.self, Event.self, Presentation.self,
-                                          Session.self, Location.self, Speaker.self, Sponsor.self, Venue.self]
+                                          Session.self, Location.self, Speaker.self, Organizer.self, Sponsor.self, Venue.self]
         let configuration = Realm.Configuration(fileURL: URL(string: realmPath), objectTypes: objectTypes)
         let realm = try! Realm(configuration: configuration)
         return realm

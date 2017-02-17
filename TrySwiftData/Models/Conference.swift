@@ -16,7 +16,7 @@ public class Conference: Object {
     open dynamic var conferenceDescription: String = ""
     open dynamic var conferenceDescriptionJP: String?
     open dynamic var venue: Venue?
-    open let organizers = List<Speaker>()
+    open let organizers = List<Organizer>()
 
     public var localizedDescription: String {
         return self.localizedString(for: conferenceDescription, japaneseString: conferenceDescriptionJP)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		226E7B321E56D9BF0018E2F9 /* NYC2016Organizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226E7B311E56D9BF0018E2F9 /* NYC2016Organizers.swift */; };
 		22F0E3581E50F1B50060EA9F /* NYC2016ConferenceDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3401E50F1B50060EA9F /* NYC2016ConferenceDays.swift */; };
 		22F0E3591E50F1B50060EA9F /* NYC2016Conferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3411E50F1B50060EA9F /* NYC2016Conferences.swift */; };
 		22F0E35A1E50F1B50060EA9F /* NYC2016Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3421E50F1B50060EA9F /* NYC2016Events.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		226E7B311E56D9BF0018E2F9 /* NYC2016Organizers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Organizers.swift; sourceTree = "<group>"; };
 		22F0E3401E50F1B50060EA9F /* NYC2016ConferenceDays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016ConferenceDays.swift; sourceTree = "<group>"; };
 		22F0E3411E50F1B50060EA9F /* NYC2016Conferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Conferences.swift; sourceTree = "<group>"; };
 		22F0E3421E50F1B50060EA9F /* NYC2016Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYC2016Events.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				22F0E3451E50F1B50060EA9F /* NYC2016Presentations.swift */,
 				22F0E3461E50F1B50060EA9F /* NYC2016SessionBlocks.swift */,
 				22F0E3471E50F1B50060EA9F /* NYC2016Sessions.swift */,
+				226E7B311E56D9BF0018E2F9 /* NYC2016Organizers.swift */,
 				22F0E3481E50F1B50060EA9F /* NYC2016Speakers.swift */,
 				22F0E3491E50F1B50060EA9F /* NYC2016Sponsors.swift */,
 				22F0E34A1E50F1B50060EA9F /* NYC2016Venues.swift */,
@@ -296,6 +299,7 @@
 				22F0E36B1E50F1B50060EA9F /* TKO2017Speakers.swift in Sources */,
 				22F0E3681E50F1B50060EA9F /* TKO2017Presentations.swift in Sources */,
 				22F0E35C1E50F1B50060EA9F /* NYC2016Locations.swift in Sources */,
+				226E7B321E56D9BF0018E2F9 /* NYC2016Organizers.swift in Sources */,
 				22F0E35A1E50F1B50060EA9F /* NYC2016Events.swift in Sources */,
 				22F0E3651E50F1B50060EA9F /* TKO2017Events.swift in Sources */,
 				22F0E3581E50F1B50060EA9F /* NYC2016ConferenceDays.swift in Sources */,

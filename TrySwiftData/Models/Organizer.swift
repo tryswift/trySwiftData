@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-class Organizer: Object {
+public class Organizer: Object {
     open dynamic var id: Int = 0
     open dynamic var name: String = "TBD"
     open dynamic var nameJP: String?

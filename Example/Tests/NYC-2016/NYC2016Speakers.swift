@@ -232,14 +232,4 @@ public let nyc2016Speakers: [String : Speaker] = [
         chrisRobert.bio = "Chris Bailey is a developer and technical leader in the Runtime Technologies team at IBM. Chris has spent over 15 years working on runtimes, working with the open source communities for Java, Node.js and most recently, Swift. He has contributed to the Swift Language, Foundation and Dispatch projects, and is currently working on making more server-focused APIs available to the community. \n\nRobert F. Dickerson is a lead software engineer in Swift@IBM at Austin, TX. He is focused on enriching the `Swift on the server` community by being a developer for the web framework `Kitura`, Swift server libraries and SDKs, and also sample applications. He has taught computer science courses at the University of Texas (Austin) and the College of William and Mary and has written numerous research papers about mobile computing, Internet of Things, and virtual reality. When not busy writing code, he is busy swing dancing at nights."
         return chrisRobert
     }(),
-    "natashatherobot" : {
-        let natashatherobot = Speaker()
-        natashatherobot.id = 28
-        natashatherobot.hidden = true
-        natashatherobot.name = "Natasha Murashev"
-        natashatherobot.twitter = "NatashaTheRobot"
-        natashatherobot.imageName = "natasha_murashev"
-        natashatherobot.bio = "Natasha is an iOS developer by day and a robot by night. She blogs about Swift, WatchOS, and iOS development on her blog, natashatherobot.com, curates a fast-growing weekly Swift newsletter, This Week in Swift, and organizes the try! Swift Conference around the world (including this one!). She's currently living the digital nomad life as her alter identity: @NatashaTheNomad."
-        return natashatherobot
-    }()
 ]
