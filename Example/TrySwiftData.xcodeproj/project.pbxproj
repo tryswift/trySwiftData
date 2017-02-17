@@ -27,6 +27,7 @@
 		22F0E36B1E50F1B50060EA9F /* TKO2017Speakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3541E50F1B50060EA9F /* TKO2017Speakers.swift */; };
 		22F0E36C1E50F1B50060EA9F /* TKO2017Sponsors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3551E50F1B50060EA9F /* TKO2017Sponsors.swift */; };
 		22F0E36D1E50F1B50060EA9F /* TKO2017Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0E3561E50F1B50060EA9F /* TKO2017Venues.swift */; };
+		22FE792F1E56AF3700DCFCAF /* TKO2017Organizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE792E1E56AF3700DCFCAF /* TKO2017Organizers.swift */; };
 		607FACEC1AFB9204008FA782 /* CreateRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* CreateRealmTests.swift */; };
 		D1C2A1C1C1ED581F9395D1C3 /* Pods_TrySwiftData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3D343B3BCFD0FE16F48FBA /* Pods_TrySwiftData_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		22F0E3541E50F1B50060EA9F /* TKO2017Speakers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Speakers.swift; sourceTree = "<group>"; };
 		22F0E3551E50F1B50060EA9F /* TKO2017Sponsors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Sponsors.swift; sourceTree = "<group>"; };
 		22F0E3561E50F1B50060EA9F /* TKO2017Venues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Venues.swift; sourceTree = "<group>"; };
+		22FE792E1E56AF3700DCFCAF /* TKO2017Organizers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2017Organizers.swift; sourceTree = "<group>"; };
 		2E3D343B3BCFD0FE16F48FBA /* Pods_TrySwiftData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrySwiftData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* TrySwiftData_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftData_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				22F0E3511E50F1B50060EA9F /* TKO2017Presentations.swift */,
 				22F0E3521E50F1B50060EA9F /* TKO2017SessionBlocks.swift */,
 				22F0E3531E50F1B50060EA9F /* TKO2017Sessions.swift */,
+				22FE792E1E56AF3700DCFCAF /* TKO2017Organizers.swift */,
 				22F0E3541E50F1B50060EA9F /* TKO2017Speakers.swift */,
 				22F0E3551E50F1B50060EA9F /* TKO2017Sponsors.swift */,
 				22F0E3561E50F1B50060EA9F /* TKO2017Venues.swift */,
@@ -296,6 +299,7 @@
 				22F0E35A1E50F1B50060EA9F /* NYC2016Events.swift in Sources */,
 				22F0E3651E50F1B50060EA9F /* TKO2017Events.swift in Sources */,
 				22F0E3581E50F1B50060EA9F /* NYC2016ConferenceDays.swift in Sources */,
+				22FE792F1E56AF3700DCFCAF /* TKO2017Organizers.swift in Sources */,
 				22F0E35F1E50F1B50060EA9F /* NYC2016Sessions.swift in Sources */,
 				22F0E3611E50F1B50060EA9F /* NYC2016Sponsors.swift in Sources */,
 				22F0E36A1E50F1B50060EA9F /* TKO2017Sessions.swift in Sources */,
