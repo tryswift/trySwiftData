@@ -23,20 +23,20 @@ Pod::Spec.new do |s|
 
 	s.frameworks = 'UIKit', 'Foundation'
 	s.dependency 'RealmSwift'
-	s.default_subspec = 'Core'
+	s.default_subspec = 'Tokyo2017'
 	s.source_files = 'TrySwiftData/**/*.{swift}'
 
     # For full-scale integration, such as the iOS app
-	s.subspec 'Core' do |core|
+	s.subspec 'Tokyo2017' do |core|
 		core.resource_bundles = {
-			'TrySwiftData' => ['TrySwiftData/Assets/*.{jpg,realm}']
+			'TrySwiftData' => ['TrySwiftData/Assets/Tokyo2017/*.{jpg,png,realm}']
 		}
 	end
 
 	# For minimal integrations, like the watchOS widget
-	s.subspec 'Lite' do |lite|
+	s.subspec 'Tokyo2017Lite' do |lite|
 		core.resource_bundles = {
-			'TrySwiftData' => ['TrySwiftData/Assets/*.{]realm}']
+			'TrySwiftData' => ['TrySwiftData/Assets/Tokyo2017/*.{realm}']
 		}
 	end
 end
