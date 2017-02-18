@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
 	# For minimal integrations, like the watchOS widget
 	s.subspec 'Tokyo2017Lite' do |lite|
-		core.resource_bundles = {
+		lite.resource_bundles = {
 			'TrySwiftData' => ['TrySwiftData/Assets/Tokyo2017/*.{realm}']
 		}
 	end
