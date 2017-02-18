@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 	s.homepage         = 'https://github.com/tryswift/trySwiftData.git'
 	s.license          = { :type => 'MIT', :file => 'LICENSE' }
 	s.author           = { 'Alvin Varghese' => 'alvinvarghese@live.com', 'Natasha Murashev' => 'natasha@tryswift.co' }
-	s.source           = { :git => 'https://github.com/tryswift/TrySwiftData.git', :tag => s.version.to_s }
+	s.source           = { :git => 'https://github.com/tryswift/trySwiftData.git', :tag => s.version.to_s }
 
 	s.ios.deployment_target = '9.0'
 	s.watchos.deployment_target = '3.1'
