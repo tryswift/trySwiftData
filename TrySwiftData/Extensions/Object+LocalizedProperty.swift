@@ -19,7 +19,7 @@ extension Object {
             return englishString
         }
 
-        if code == "jp" || code == "ja" {
+        if code.contains("ja") {
             guard let japaneseString = japaneseString else {
                 return englishString
             }
