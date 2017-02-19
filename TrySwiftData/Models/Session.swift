@@ -33,7 +33,10 @@ public class Session: Object {
     open dynamic var titleJP: String?
 
     /** For special cases, the name of the image to show for this session. */
-    open dynamic var imageName: String?
+    open dynamic var imageAssetName: String?
+
+    /** For special cases, the name of the image to show for this session. */
+    open dynamic var imageWebURL: String?
 
     /** A sponsor, if any, responsible for this session. */
     open dynamic var sponsor: Sponsor?
@@ -115,36 +118,41 @@ public class Session: Object {
     }
 
     /** What image, if any is available for this session */
-//    public var logo: UIImage {
-//        if let imageName = imageName {
-//            return UIImage(named: imageName)!
-//        }
-//
-//        let defaultImage = UIImage(named: "tryLogo")!
-//        switch self.type {
-//        case .meetup:
-//            if let event = event, let logo = event.logo {
-//                return UIImage(named: event.logo!)!
-//            }
-//            return defaultImage
-//        case .coffeeBreak:
-//            if sponsor != nil {
-//                return UIImage(named: sponsor!.logo!)!
-//            }
-//            return defaultImage
-//        case .talk:
-//            return presentation!.speaker?.getImage() ?? defaultImage
-//        case .officeHours:
-//            return presentation!.speaker?.getImage() ?? defaultImage
-//        case .sponsoredDemo():
-//            if sponsor != nil {
-//                return UIImage(named: sponsor!.logo!)!
-//            }
-//            return defaultImage
-//        default:
-//            return defaultImage
-//        }
-//    }
+    public var logoURL: URL {
+        if let url = imageWebURL {
+            return URL(string: url)!
+        }
+
+        let defaultImageURL = Bundle.trySwiftAssetURL(for: "Logo.png")!
+
+        if let assetName = imageAssetName {
+            return Bundle.trySwiftAssetURL(for: assetName) ?? defaultImageURL
+        }
+
+        switch self.type {
+        case .meetup:
+            if let event = event {
+                return event.logoURL
+            }
+            return defaultImageURL
+        case .coffeeBreak:
+            if let sponsor = sponsor {
+                return sponsor.logoURL
+            }
+            return defaultImageURL
+        case .talk:
+            return presentation!.speaker?.imageURL ?? defaultImageURL
+        case .officeHours:
+            return presentation!.speaker?.imageURL ?? defaultImageURL
+        case .sponsoredDemo():
+            if let sponsor = sponsor {
+                return sponsor.logoURL
+            }
+            return defaultImageURL
+        default:
+            return defaultImageURL
+        }
+    }
 
     /** The location for where this session will occur */
     public var formattedLocation: String {

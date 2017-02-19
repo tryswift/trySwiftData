@@ -241,7 +241,7 @@ public let nyc2016Sessions: [String : Session] = [
         let session = Session()
         session.type = .party
         session.title = "🍕 & 🎸 Party with Airplane Mode"
-        session.imageName = "airplanemode-short"
+        session.imageAssetName = "airplanemode-short"
         session.venue = nyc2016Venues["americanbeauty"]
         return session
     }(),
