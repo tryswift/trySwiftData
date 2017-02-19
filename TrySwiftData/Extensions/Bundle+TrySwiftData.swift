@@ -9,14 +9,19 @@
 import Foundation
 
 extension Bundle {
-    public class func trySwiftAssetURL(for name: String) -> URL? {
-        let podBundle = Bundle(for: Conference.self)
-        if let bundleURL = podBundle.url(forResource: "TrySwiftData", withExtension: "bundle") {
-            if let bundle = Bundle(url: bundleURL) {
-                return bundle.url(forResource: name, withExtension: nil)
+    public class func trySwiftDataBundle() -> Bundle {
+        let classBundle = Bundle(for: Conference.self)
+        if let bundleURL = classBundle.url(forResource: "TrySwiftData", withExtension: "bundle") {
+            if let podBundle = Bundle(url: bundleURL) {
+                return podBundle
             }
         }
 
-        return nil
+        return classBundle
+    }
+
+    public class func trySwiftAssetURL(for name: String) -> URL? {
+        let bundle = Bundle.trySwiftDataBundle()
+        return bundle.url(forResource: name, withExtension: nil)
     }
 }

@@ -65,23 +65,23 @@ public class Session: Object {
             return nil
         case .talk:
             if let presentation = presentation {
-                return presentation.title
+                return presentation.localizedTitle
             }
             return nil
         case .sponsoredDemo:
-            return NSLocalizedString("Sponsored Demo", comment: "")
+            return "Sponsored Demo".localized()
         case .coffeeBreak:
             if let sponsor = sponsor {
-                return "☕️ Break, by \(sponsor.name)"
+                return String(format: "☕️ Break, by %@".localized(), sponsor.name)
             }
-            return "☕️ Break"
+            return "☕️ Break".localized()
         case .lunch:
             return "🍴 Lunch"
         case .officeHours:
-            if let speaker = presentation?.speaker?.name {
-                return "Office Hours with \(speaker)"
+            if let speaker = presentation?.speaker?.localizedName {
+                return String(format: "Office Hours with %@".localized(), speaker)
             }
-            return "Office Hours"
+            return "Office Hours".localized()
         default:
             return title ?? nil
         }
@@ -92,24 +92,24 @@ public class Session: Object {
         switch self.type {
         case .meetup, .workshop, .party:
             if let sponsor = sponsor {
-                return sponsor.name
+                return sponsor.localizedName
             }
             return nil
         case .talk:
             if let presentation = presentation {
-                return presentation.speaker?.name ?? ""
+                return presentation.speaker?.localizedName ?? ""
             }
             return nil
         case .sponsoredDemo:
-            return sponsor!.name
+            return sponsor!.localizedName
         case .coffeeBreak:
             if let sponsor = sponsor {
-                return sponsor.name
+                return sponsor.localizedName
             }
             return nil
         case .officeHours:
             if let presentation = presentation {
-                return presentation.speaker?.name
+                return presentation.speaker?.localizedName
             }
             return "⁉️"
         default:
@@ -159,14 +159,14 @@ public class Session: Object {
         switch self.type {
         case .workshop, .meetup:
             if let event = event {
-                return event.location
+                return event.localizedLocation
             }
 
-            return location!.name
+            return location!.localizedName
         case .party:
-            return venue!.address
+            return venue!.localizedAddress
         default:
-            return location!.name
+            return location!.localizedName
         }
     }
 
@@ -174,21 +174,21 @@ public class Session: Object {
     public var sessionDescription: String {
         switch self.type {
             case .workshop, .meetup:
-                return "Special Event"
+                return "Special Event".localized()
             case .breakfast, .coffeeBreak, .lunch:
-                return "❤️"
+                return "❤️".localized()
             case .announcement:
-                return "📣"
+                return "📣".localized()
             case .talk:
-                return "Presentation"
+                return "Presentation".localized()
         case .lightningTalk:
-                return "Lightning Talk"
+                return "⚡️🎤 Lightning Talk".localized()
             case .sponsoredDemo:
-                return "Demo"
+                return "Demo".localized()
             case .officeHours:
-                return "Q&A"
+                return "Q&A".localized()
             case .party:
-                return "🎉🎉🎉"
+                return "🎉🎉🎉".localized()
             }
     }
 
