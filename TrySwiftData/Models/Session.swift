@@ -56,18 +56,18 @@ public class Session: Object {
     /***************************************************/
 
     /** The main name of this session */
-    public var formattedTitle: String {
+    public var formattedTitle: String? {
         switch self.type {
         case .workshop, .meetup, .party:
             if let event = event {
                 return event.localizedTitle
             }
-            return ""
+            return nil
         case .talk:
             if let presentation = presentation {
                 return presentation.title
             }
-            return ""
+            return nil
         case .sponsoredDemo:
             return NSLocalizedString("Sponsored Demo", comment: "")
         case .coffeeBreak:
@@ -83,7 +83,7 @@ public class Session: Object {
             }
             return "Office Hours"
         default:
-            return title ?? ""
+            return title ?? nil
         }
     }
 
@@ -94,26 +94,26 @@ public class Session: Object {
             if let sponsor = sponsor {
                 return sponsor.name
             }
-            return ""
+            return nil
         case .talk:
             if let presentation = presentation {
                 return presentation.speaker?.name ?? ""
             }
-            return ""
+            return nil
         case .sponsoredDemo:
             return sponsor!.name
         case .coffeeBreak:
             if let sponsor = sponsor {
                 return sponsor.name
             }
-            return ""
+            return nil
         case .officeHours:
             if let presentation = presentation {
                 return presentation.speaker?.name
             }
             return "⁉️"
         default:
-            return ""
+            return nil
         }
     }
 
