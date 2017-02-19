@@ -241,7 +241,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
         sponsor.name = "GMO Pepabo"
         sponsor.url = "https://pepabo.com"
         sponsor.displayURL = "pepabo.com"
-        sponsor.logoAssetName = "gmo.png"
+        sponsor.logoAssetName = "gmopepabo.png"
         sponsor.level = .silver
         return sponsor
     }(),
@@ -250,7 +250,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
         sponsor.name = "Fyusion"
         sponsor.url = "http://www.fyusion.com"
         sponsor.displayURL = "fyusion.com"
-        sponsor.logoAssetName = "fyusio.png"
+        sponsor.logoAssetName = "fyusion.png"
         sponsor.level = .silver
         return sponsor
     }(),
