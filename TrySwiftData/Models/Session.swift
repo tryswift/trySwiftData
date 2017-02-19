@@ -76,14 +76,14 @@ public class Session: Object {
             }
             return "☕️ Break".localized()
         case .lunch:
-            return "🍴 Lunch"
+            return "🍴 Lunch".localized()
         case .officeHours:
             if let speaker = presentation?.speaker?.localizedName {
                 return String(format: "Office Hours with %@".localized(), speaker)
             }
             return "Office Hours".localized()
         default:
-            return title ?? nil
+            return localizedString(for: title ?? "", japaneseString: titleJP)
         }
     }
 
