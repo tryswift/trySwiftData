@@ -64,9 +64,9 @@ public func localizedSponsorName(for sponsorLevel: SponsorLevel) -> String {
     case .platinum: return NSLocalizedString("Platinum", comment: "")
     case .gold: return NSLocalizedString("Gold", comment: "")
     case .silver: return NSLocalizedString("Silver", comment: "")
-    case .diversity: NSLocalizedString("Diversity", comment: "")
-    case .student: NSLocalizedString("Student", comment: "")
-    case .event: NSLocalizedString("Event", comment: "")
+    case .diversity: return NSLocalizedString("Diversity", comment: "")
+    case .student: return NSLocalizedString("Student", comment: "")
+    case .event: return NSLocalizedString("Event", comment: "")
     }
 
     return ""
