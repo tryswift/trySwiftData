@@ -158,7 +158,11 @@ public class Session: Object {
     public var formattedLocation: String {
         switch self.type {
         case .workshop, .meetup:
-            return event!.location
+            if let event = event {
+                return event.location
+            }
+
+            return location!.name
         case .party:
             return venue!.address
         default:
