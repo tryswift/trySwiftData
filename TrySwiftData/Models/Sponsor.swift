@@ -23,11 +23,24 @@ public class Sponsor: Object {
     open dynamic var url: String?
     open dynamic var displayURL: String?
     open dynamic var twitter: String?
-    open dynamic var logo: String?
+    open dynamic var logoAssetName: String?
+    open dynamic var logoImageWebURL: String?
     open dynamic var level: SponsorLevel = .event
 
     public var localizedName: String {
         return self.localizedString(for: name, japaneseString: nameJP)
+    }
+
+    public var logoURL: URL {
+        if let url = logoImageWebURL {
+            return URL(string: url)!
+        }
+
+        if let assetName = logoAssetName {
+            return Bundle.trySwiftAssetURL(for: assetName)!
+        }
+
+        return Bundle.trySwiftAssetURL(for: "Logo.png")!
     }
 
     /* Return an array of `Results` objects */

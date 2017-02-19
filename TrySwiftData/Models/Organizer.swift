@@ -14,8 +14,8 @@ public class Organizer: Object {
     open dynamic var name: String = "TBD"
     open dynamic var nameJP: String?
     open dynamic var twitter: String = "TBD"
-    open dynamic var imageName: String? = nil
-    open dynamic var imagePath: String? = nil
+    open dynamic var imageAssetName: String? = nil
+    open dynamic var imageWebURL: String? = nil
     open dynamic var bio: String = "TBD"
     open dynamic var bioJP: String?
     open dynamic var hidden: Bool = false
@@ -37,16 +37,15 @@ public class Organizer: Object {
         return self.localizedString(for: bio, japaneseString: bioJP)
     }
 
-    public func getImage() -> UIImage {
-        let defaultImage = UIImage(named: "tryLogo")!
-
-        if let imageName = imageName {
-            return UIImage(named: imageName) ?? defaultImage
-        }
-        if let imagePath = imagePath {
-            return UIImage(contentsOfFile: imagePath) ?? defaultImage
+    public var imageURL: URL {
+        if let url = imageWebURL {
+            return URL(string: url)!
         }
 
-        return defaultImage
+        if let assetName = imageAssetName {
+            return Bundle.trySwiftAssetURL(for: assetName)!
+        }
+
+        return Bundle.trySwiftAssetURL(for: "Logo.png")!
     }
 }

@@ -18,7 +18,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.ibm.com/"
         sponsor.displayURL = "ibm.com"
         sponsor.twitter = "IBM"
-        sponsor.logo = "ibm"
+        sponsor.logoAssetName = "ibm"
         sponsor.level = .platinum
         return sponsor
     }(),
@@ -30,7 +30,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.buddybuild.com/"
         sponsor.displayURL = "buddybuild.com"
         sponsor.twitter = "buddybuild"
-        sponsor.logo = "buddybuild"
+        sponsor.logoAssetName = "buddybuild"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -40,7 +40,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.contentful.com/"
         sponsor.displayURL = "contentful.com"
         sponsor.twitter = "contentful"
-        sponsor.logo = "contentful"
+        sponsor.logoAssetName = "contentful"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -50,7 +50,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.domo.com/"
         sponsor.displayURL = "domo.com"
         sponsor.twitter = "domo"
-        sponsor.logo = "domo"
+        sponsor.logoAssetName = "domo"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -60,7 +60,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.firebase.com/"
         sponsor.displayURL = "firebase.com"
         sponsor.twitter = "Firebase"
-        sponsor.logo = "firebase"
+        sponsor.logoAssetName = "firebase"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -70,7 +70,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.hired.com/"
         sponsor.displayURL = "hired.com"
         sponsor.twitter = "Hired_HQ"
-        sponsor.logo = "hired"
+        sponsor.logoAssetName = "hired"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -80,7 +80,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.lyft.com/"
         sponsor.displayURL = "lyft.com"
         sponsor.twitter = "lyft"
-        sponsor.logo = "lyft"
+        sponsor.logoAssetName = "lyft"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -90,7 +90,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.perfect.org/"
         sponsor.displayURL = "perfect.org"
         sponsor.twitter = "perfectlysoft"
-        sponsor.logo = "perfectorg"
+        sponsor.logoAssetName = "perfectorg"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -100,7 +100,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.thoughtworks.com/"
         sponsor.displayURL = "thoughtworks.com"
         sponsor.twitter = "thoughtworks"
-        sponsor.logo = "thoughtworks"
+        sponsor.logoAssetName = "thoughtworks"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -110,7 +110,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.twilio.com/"
         sponsor.displayURL = "twilio.com"
         sponsor.twitter = "twilio"
-        sponsor.logo = "twilio"
+        sponsor.logoAssetName = "twilio"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -122,7 +122,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.aol.com/"
         sponsor.displayURL = "aol.com"
         sponsor.twitter = "AOL"
-        sponsor.logo = "aol"
+        sponsor.logoAssetName = "aol"
         sponsor.level = .silver
         return sponsor
     }(),
@@ -132,7 +132,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.smallplanet.com/"
         sponsor.displayURL = "smallplanet.com"
         sponsor.twitter = "smallplanetapps"
-        sponsor.logo = "smallplanet"
+        sponsor.logoAssetName = "smallplanet"
         sponsor.level = .silver
         return sponsor
     }(),
@@ -144,7 +144,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.dominos.com/"
         sponsor.displayURL = "dominos.com"
         sponsor.twitter = "dominos"
-        sponsor.logo = "dominos"
+        sponsor.logoAssetName = "dominos"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -154,7 +154,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.etsy.com/"
         sponsor.displayURL = "etsy.com"
         sponsor.twitter = "Etsy"
-        sponsor.logo = "etsy"
+        sponsor.logoAssetName = "etsy"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -164,7 +164,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.instagram.com/"
         sponsor.displayURL = "instagram.com"
         sponsor.twitter = "instagram"
-        sponsor.logo = "instagram"
+        sponsor.logoAssetName = "instagram"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -174,7 +174,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.meetup.com/"
         sponsor.displayURL = "meetup.com"
         sponsor.twitter = "Meetup"
-        sponsor.logo = "meetup"
+        sponsor.logoAssetName = "meetup"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -184,7 +184,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://developer.nytimes.com/"
         sponsor.displayURL = "developer.nytimes.com"
         sponsor.twitter = "nytdevs"
-        sponsor.logo = "nyt"
+        sponsor.logoAssetName = "nyt"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -194,7 +194,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.swift-studies.com"
         sponsor.displayURL = "swift-studies.com"
         sponsor.twitter = "Swift_Studies"
-        sponsor.logo = "swift_studies"
+        sponsor.logoAssetName = "swift_studies"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -204,7 +204,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://tinyletter.com/techspeak"
         sponsor.displayURL = "tinyletter.com/techspeak"
         sponsor.twitter = "techspeakdigest"
-        sponsor.logo = "technically_speaking"
+        sponsor.logoAssetName = "technically_speaking"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -214,7 +214,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://thoughtbot.com/services/ios-development"
         sponsor.displayURL = "thoughtbot.com"
         sponsor.twitter = "thoughtbot"
-        sponsor.logo = "thoughtbot"
+        sponsor.logoAssetName = "thoughtbot"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -224,7 +224,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://twitter.com"
         sponsor.displayURL = "twitter.com"
         sponsor.twitter = "twitter"
-        sponsor.logo = "twitter"
+        sponsor.logoAssetName = "twitter"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -234,7 +234,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://xogroupinc.com/"
         sponsor.displayURL = "xogroupinc.com"
         sponsor.twitter = "XOGroupInc"
-        sponsor.logo = "xogroup"
+        sponsor.logoAssetName = "xogroup"
         sponsor.level = .diversity
         return sponsor
     }(),
@@ -246,7 +246,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://www.jetbrains.com"
         sponsor.displayURL = "jetbrains.com"
         sponsor.twitter = "jetbrains"
-        sponsor.logo = "jetbrains"
+        sponsor.logoAssetName = "jetbrains"
         sponsor.level = .student
         return sponsor
     }(),
@@ -258,7 +258,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "http://airplanemo.de"
         sponsor.displayURL = "airplanemo.de"
         sponsor.twitter = "airplanemode"
-        sponsor.logo = "airplane_mode"
+        sponsor.logoAssetName = "airplane_mode"
         sponsor.level = .event
         return sponsor
     }(),
@@ -268,7 +268,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://generalassemb.ly/"
         sponsor.displayURL = "generalassemb.ly"
         sponsor.twitter = "GA"
-        sponsor.logo = "ga"
+        sponsor.logoAssetName = "ga"
         sponsor.level = .event
         return sponsor
     }(),
@@ -278,7 +278,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://www.liulishuo.com"
         sponsor.displayURL = "liulishuo.com"
         sponsor.twitter = nil
-        sponsor.logo = "liulishuo"
+        sponsor.logoAssetName = "liulishuo"
         sponsor.level = .event
         return sponsor
     }(),
@@ -288,7 +288,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://www.realm.io"
         sponsor.displayURL = "realm.io"
         sponsor.twitter = "realm"
-        sponsor.logo = "realm"
+        sponsor.logoAssetName = "realm"
         sponsor.level = .event
         return sponsor
     }(),
@@ -298,7 +298,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://soundcloud.com/"
         sponsor.displayURL = "soundcloud.com"
         sponsor.twitter = "soundcloud"
-        sponsor.logo = "soundcloud"
+        sponsor.logoAssetName = "soundcloud"
         sponsor.level = .event
         return sponsor
     }(),
@@ -308,7 +308,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://spothero.com/"
         sponsor.displayURL = "spothero.com"
         sponsor.twitter = "SpotHero"
-        sponsor.logo = "spothero"
+        sponsor.logoAssetName = "spothero"
         sponsor.level = .event
         return sponsor
     }(),
@@ -318,7 +318,7 @@ public let nyc2016Sponsors: [String : Sponsor] = [
         sponsor.url = "https://stanfy.com/"
         sponsor.displayURL = "stanfy.com"
         sponsor.twitter = "stanfy"
-        sponsor.logo = "stanfy"
+        sponsor.logoAssetName = "stanfy"
         sponsor.level = .event
         return sponsor
     }()

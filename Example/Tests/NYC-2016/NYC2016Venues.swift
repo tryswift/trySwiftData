@@ -17,7 +17,7 @@ public let nyc2016Venues: [String : Venue] = [
         venue.address = "787 Seventh Ave, New York, NY 10019"
         venue.website = "axaeventproductioncenter.com"
         venue.twitter = "AXACenter_NYC"
-        venue.logo = "axa"
+        venue.logoAssetName = "axa"
         venue.wifiNetworkName = "AXA Auditorium"
         return venue
     }(),
@@ -27,7 +27,7 @@ public let nyc2016Venues: [String : Venue] = [
         venue.address = "251 W 30th St, New York, NY 10001"
         venue.website = "americanbeautynyc.com"
         venue.twitter = "ambeauty_nyc"
-        venue.logo = "americanBar"
+        venue.logoAssetName = "americanBar"
         venue.wifiNetworkName = "American Beauty NYC"
         venue.wifiUsername = "251W30_Internal"
         venue.wifiPassword = "Slake251"

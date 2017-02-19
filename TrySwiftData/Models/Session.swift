@@ -115,36 +115,36 @@ public class Session: Object {
     }
 
     /** What image, if any is available for this session */
-    public var logo: UIImage {
-        if let imageName = imageName {
-            return UIImage(named: imageName)!
-        }
-
-        let defaultImage = UIImage(named: "tryLogo")!
-        switch self.type {
-        case .meetup:
-            if let event = event {
-                return UIImage(named: event.logo!)!
-            }
-            return defaultImage
-        case .coffeeBreak:
-            if sponsor != nil {
-                return UIImage(named: sponsor!.logo!)!
-            }
-            return defaultImage
-        case .talk:
-            return presentation!.speaker?.getImage() ?? defaultImage
-        case .officeHours:
-            return presentation!.speaker?.getImage() ?? defaultImage
-        case .sponsoredDemo():
-            if sponsor != nil {
-                return UIImage(named: sponsor!.logo!)!
-            }
-            return defaultImage
-        default:
-            return defaultImage
-        }
-    }
+//    public var logo: UIImage {
+//        if let imageName = imageName {
+//            return UIImage(named: imageName)!
+//        }
+//
+//        let defaultImage = UIImage(named: "tryLogo")!
+//        switch self.type {
+//        case .meetup:
+//            if let event = event, let logo = event.logo {
+//                return UIImage(named: event.logo!)!
+//            }
+//            return defaultImage
+//        case .coffeeBreak:
+//            if sponsor != nil {
+//                return UIImage(named: sponsor!.logo!)!
+//            }
+//            return defaultImage
+//        case .talk:
+//            return presentation!.speaker?.getImage() ?? defaultImage
+//        case .officeHours:
+//            return presentation!.speaker?.getImage() ?? defaultImage
+//        case .sponsoredDemo():
+//            if sponsor != nil {
+//                return UIImage(named: sponsor!.logo!)!
+//            }
+//            return defaultImage
+//        default:
+//            return defaultImage
+//        }
+//    }
 
     /** The location for where this session will occur */
     public var formattedLocation: String {

@@ -11,7 +11,7 @@ import RealmSwift
 
 extension Realm.Configuration {
     public static var trySwiftLocalConfiguration: Realm.Configuration {
-        let localRealmURL = Bundle.trySwiftAsset(named: "tryswift.realm")
+        let localRealmURL = Bundle.trySwiftAssetURL(for: "tryswift.realm")
 
         var configuration = Realm.Configuration.defaultConfiguration
         configuration.readOnly = true

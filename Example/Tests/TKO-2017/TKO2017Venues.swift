@@ -16,7 +16,7 @@ public let tko2017Venues: [String : Venue] = [
         venue.title = "BELLESALLE Shinjuku Central Park"
         venue.address = "Japan, 〒160-0023 Tōkyō-to,Shinjuku-ku,Nishishinjuku, 6 Chome−15, Nishishinjuku ６－１３－１"
         venue.website = "bellesalle.co.jp"
-        venue.logo = "bellesalle"
+        venue.logoAssetName = "bs_shinjuku.jpg"
         return venue
     }(),
     "bellesalle-kanda" : {
@@ -24,7 +24,7 @@ public let tko2017Venues: [String : Venue] = [
         venue.title = "BELLESALLE Kanda"
         venue.address = "Japan, 〒101-0053 Tōkyō-to, Chiyoda-ku, 千代田区Kanda Mitoshirochō, ７"
         venue.website = "bellesalle.co.jp"
-        venue.logo = "bellesalle-kanda"
+        venue.logoAssetName = "bs_kanda.jpg"
         return venue
     }(),
     "gracebali" : {
@@ -33,7 +33,6 @@ public let tko2017Venues: [String : Venue] = [
         venue.titleJP = "グレースバリ 新宿本店"
         venue.address = "1 Chome-3-16 Kabukicho, Shinjuku, Tokyo 160-0021, Japan"
         venue.website = "https://www.grace-bali.com/shop/shinjyuku/enkai/index.html"
-        venue.logo = "gracebali"
         return venue
     }()
 ]

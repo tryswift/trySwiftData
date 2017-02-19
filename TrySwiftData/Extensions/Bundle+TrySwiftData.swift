@@ -9,7 +9,7 @@
 import Foundation
 
 extension Bundle {
-    public class func trySwiftAsset(named name: String) -> URL? {
+    public class func trySwiftAssetURL(for name: String) -> URL? {
         let podBundle = Bundle(for: Conference.self)
         if let bundleURL = podBundle.url(forResource: "TrySwiftData", withExtension: "bundle") {
             if let bundle = Bundle(url: bundleURL) {
