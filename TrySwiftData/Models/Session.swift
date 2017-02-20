@@ -63,7 +63,7 @@ public class Session: Object {
                 return event.localizedTitle
             }
             return nil
-        case .talk:
+        case .talk, .lightningTalk:
             if let presentation = presentation {
                 return presentation.localizedTitle
             }
@@ -95,7 +95,7 @@ public class Session: Object {
                 return sponsor.localizedName
             }
             return nil
-        case .talk:
+        case .talk, .lightningTalk:
             if let presentation = presentation {
                 return presentation.speaker?.localizedName ?? ""
             }
@@ -140,7 +140,7 @@ public class Session: Object {
                 return sponsor.logoURL
             }
             return defaultImageURL
-        case .talk:
+        case .talk, .lightningTalk:
             return presentation!.speaker?.imageURL ?? defaultImageURL
         case .officeHours:
             return presentation!.speaker?.imageURL ?? defaultImageURL

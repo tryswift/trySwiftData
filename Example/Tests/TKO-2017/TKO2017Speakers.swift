@@ -208,5 +208,95 @@ public let tko2017Speakers: [String : Speaker] = [
         speaker.bio = "Software engineer at Zalando. Mobile development enthusiast, Swift nerd."
         speaker.bioJP = "Zalandoのソフトウェアエンジニアです。モバイル開発に熱心なSwiftマニアです。"
         return speaker
-    }()
+    }(),
+
+    // Lightning Talk Speakers
+    "ray" : { let speaker = Speaker()
+        speaker.id = 23
+        speaker.name = "Ray Fix"
+        speaker.twitter = "rayfix"
+        speaker.imageAssetName = "ray_fix.jpg"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "jon_bott" : { let speaker = Speaker()
+        speaker.id = 24
+        speaker.name = "Jon Bott"
+        speaker.twitter = "Herbal7ea"
+        speaker.imageAssetName = "jon_bott.jpg"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "ray_tsaihong" : { let speaker = Speaker()
+        speaker.id = 25
+        speaker.name = "Ray Tsaihong"
+        speaker.twitter = "rmundo"
+        speaker.imageAssetName = "ray_tsaihong.jpg"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "shinichi" : { let speaker = Speaker()
+        speaker.id = 26
+        speaker.name = "Shinichi Goto"
+        speaker.twitter = "shingt"
+        speaker.imageAssetName = "shinichi_goto.png"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "maki" : { let speaker = Speaker()
+        speaker.id = 27
+        speaker.name = "Maki Sudo"
+        speaker.twitter = "akatsuki174"
+        speaker.imageAssetName = "maki_sudo.jpg"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "artis" : { let speaker = Speaker()
+        speaker.id = 28
+        speaker.name = "Artis Birzins"
+        speaker.twitter = "artiebe"
+        speaker.imageAssetName = "artis_birzins.jpg"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "seiyo" : { let speaker = Speaker()
+        speaker.id = 29
+        speaker.name = "Seiyo Kurita"
+        speaker.twitter = "niwatako"
+        speaker.imageAssetName = "seiyo_kurita.jpg"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "tatsuya" : { let speaker = Speaker()
+        speaker.id = 30
+        speaker.name = "Tatsuya Tobioka"
+        speaker.twitter = "tnantoka"
+        speaker.imageAssetName = "tatsuya_tobioka.png"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "shuichi" : { let speaker = Speaker()
+        speaker.id = 31
+        speaker.name = "Shuichi Tsutsumi"
+        speaker.twitter = "shu223"
+        speaker.imageAssetName = "shuichi_tsutsumi.jpg"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "kohki" : { let speaker = Speaker()
+        speaker.id = 32
+        speaker.name = "Kohki Miki"
+        speaker.twitter = "giginet"
+        speaker.imageAssetName = "kohki_miki.png"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
+    "kaoru" : { let speaker = Speaker()
+        speaker.id = 33
+        speaker.name = "Kaoru Tachibana"
+        speaker.twitter = "tachibanakaoru"
+        speaker.imageAssetName = "kaoru_tachibana.jpg"
+        speaker.type = .lightningTalk
+        return speaker
+    }(),
 ]

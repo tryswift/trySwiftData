@@ -200,9 +200,19 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.speaker = tko2017Speakers["felix"]
         return presentation
     }(),
-    "nikita" : {
+    "christopher" : {
         let presentation = Presentation()
         presentation.id = 20
+        presentation.title = "Lessons in Swift Error Handling and Resilience"
+        presentation.titleJP = "Swiftでのエラーハンドリングとエラー耐性についての教訓"
+        presentation.summary = "When writing software, we like to think more about the happy path and less about potential failures. However, the more connected and the more persistent an app becomes, the more branched your code paths will become. In this talk, I will share some lessons learned dealing with various types of errors in Line to help your app become more resilient to them and to make 'unhappy paths' a little less gloomy for your users and for those who maintain it."
+        presentation.summaryJP = "ソフトウェアを書いているとき、私たちはハッピーパス（例外やエラーが発生しない正常系のこと）についてはちゃんと考慮する一方、潜在的な障害についての考慮はおろそかになりがちです。しかしアプリが考えていたよりも長く、いろいろな状況で使われるようになると、コードはより複雑に分岐します。この講演では、あなたのアプリのエラー耐性を高めて少しでも'アンハッピーパス'がユーザーやアプリを保守する人たちにもたらす憂鬱を軽減するために、Lineで遭遇した様々なタイプのエラーに対処するために学んだ教訓を紹介します。"
+        presentation.speaker = tko2017Speakers["felix"]
+        return presentation
+    }(),
+    "nikita" : {
+        let presentation = Presentation()
+        presentation.id = 21
         presentation.title = "TBD"
         presentation.titleJP = "近日追加予定"
         presentation.summary = "TBD"
@@ -212,12 +222,125 @@ public let tko2017Presentations: [String : Presentation] = [
     }(),
     "alexis" : {
         let presentation = Presentation()
-        presentation.id = 21
+        presentation.id = 22
         presentation.title = "TBD"
         presentation.titleJP = "近日追加予定"
         presentation.summary = "TBD"
         presentation.summaryJP = "近日追加予定"
         presentation.speaker = tko2017Speakers["alexis"]
         return presentation
-    }()
+    }(),
+
+    // Lightning
+
+    "ray" : {
+        let presentation = Presentation()
+        presentation.id = 23
+        presentation.title = "The Safety of Unsafe Swift"
+        presentation.titleJP = "Unsafe Swiftの安全性"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["ray"]
+        return presentation
+    }(),
+    "jon_bott" : {
+        let presentation = Presentation()
+        presentation.id = 24
+        presentation.title = "Isolating your Data Layer"
+        presentation.titleJP = "データレイヤを分離する"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["jon_bott"]
+        return presentation
+    }(),
+    "ray_tsaihong" : {
+        let presentation = Presentation()
+        presentation.id = 25
+        presentation.title = "Swift Chatbots for Fun and Profit"
+        presentation.titleJP = "楽しく便利なSwiftチャットボット"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["ray_tsaihong"]
+        return presentation
+    }(),
+    "shinichi" : {
+        let presentation = Presentation()
+        presentation.id = 26
+        presentation.title = "Providing Better Feedbacks in Real-time Object Detection Apps"
+        presentation.titleJP = "リアルタイム物体検出アプリでよりよいフィードバックを提供する"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["shinichi"]
+        return presentation
+    }(),
+    "maki" : {
+        let presentation = Presentation()
+        presentation.id = 27
+        presentation.title = "How to be a UX Engineer"
+        presentation.titleJP = "UXエンジニアという働き方"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["maki"]
+        return presentation
+    }(),
+    "artis" : {
+        let presentation = Presentation()
+        presentation.id = 28
+        presentation.title = "VR Innovation"
+        presentation.titleJP = "VRの革新と新たなユーザー体験"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["artis"]
+        return presentation
+    }(),
+    "seiyo" : {
+        let presentation = Presentation()
+        presentation.id = 29
+        presentation.title = "App Transport Security for Busy Devs"
+        presentation.titleJP = "忙しい人のためのApp Transport Security"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["seiyo"]
+        return presentation
+    }(),
+    "tatsuya" : {
+        let presentation = Presentation()
+        presentation.id = 30
+        presentation.title = "Server-Side Swift Live Coding"
+        presentation.titleJP = "サーバサイドSwiftの実例"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["tatsuya"]
+        return presentation
+    }(),
+    "shuichi" : {
+        let presentation = Presentation()
+        presentation.id = 31
+        presentation.title = "Client-Side Deep Learning"
+        presentation.titleJP = "クライアントサイドでのディープラーニング"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["tatsuya"]
+        return presentation
+    }(),
+    "kohki" : {
+        let presentation = Presentation()
+        presentation.id = 32
+        presentation.title = "👾&⌚(Game & Watch)"
+        presentation.titleJP = "👾&⌚️"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["kohki"]
+        return presentation
+    }(),
+    "kaoru" : {
+        let presentation = Presentation()
+        presentation.id = 33
+        presentation.title = "Why We Climb"
+        presentation.titleJP = "なぜ登るのか"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "近日追加予定"
+        presentation.speaker = tko2017Speakers["kaoru"]
+        return presentation
+    }(),
 ]

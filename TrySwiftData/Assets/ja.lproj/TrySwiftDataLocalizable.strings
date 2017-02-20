@@ -17,9 +17,9 @@
 "☕️ Break, by %@" = "☕️ Break, by %@";
 "☕️ Break" = "☕️ 休憩";
 "🍴 Lunch" = "🍴 ランチ";
-"Office Hours with %@" = "Office Hours with %@";
-"Office Hours" = "Office Hours";
+"Office Hours with %@" = "%@との面会時間";
+"Office Hours" = "面会時間";
 "Presentation" = "セッション";
-"⚡️🎤 Lightning Talk" = "⚡️🎤 ";
+"⚡️🎤 Lightning Talk" = "⚡️🎤 LT";
 "Demo" = "デモ";
 "Q&A" = "Q&A";

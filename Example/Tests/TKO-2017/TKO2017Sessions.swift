@@ -139,6 +139,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["ray"]
         return session
     }(),
 //---------------------------------------------------------
@@ -161,6 +162,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["jon_bott"]
         return session
     }(),
 //---------------------------------------------------------
@@ -205,6 +207,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["ray_tsaihong"]
         return session
     }(),
 //---------------------------------------------------------
@@ -242,6 +245,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["shinichi"]
         return session
     }(),
 //---------------------------------------------------------
@@ -249,6 +253,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["maki"]
         return session
     }(),
 //---------------------------------------------------------
@@ -338,6 +343,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["artis"]
         return session
     }(),
 //---------------------------------------------------------
@@ -397,6 +403,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["seiyo"]
         return session
     }(),
 //---------------------------------------------------------
@@ -419,6 +426,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["tatsuya"]
         return session
     }(),
 //---------------------------------------------------------
@@ -463,6 +471,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["shuichi"]
         return session
     }(),
 //---------------------------------------------------------
@@ -500,6 +509,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["kohki"]
         return session
     }(),
 //---------------------------------------------------------
@@ -507,6 +517,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lightningTalk
         session.location = tko2017Locations["mainroom"]
+        session.presentation = tko2017Presentations["kaoru"]
         return session
     }(),
 //---------------------------------------------------------
