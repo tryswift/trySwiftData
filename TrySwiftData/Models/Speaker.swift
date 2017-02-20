@@ -36,7 +36,9 @@ public class Speaker: Object {
 
     public class var all: Results<Speaker> {
         let realm = try! Realm.trySwiftRealm()
-        return realm.objects(Speaker.self).filter("hidden == false").sorted(byKeyPath: "name")
+        return realm.objects(Speaker.self)
+            .filter("hidden == false AND type == %d", SpeakerType.presentation)
+            .sorted(byKeyPath: "name")
     }
 
     public var localizedName: String {
