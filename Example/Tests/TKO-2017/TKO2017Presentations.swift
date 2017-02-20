@@ -207,7 +207,7 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.titleJP = "Swiftでのエラーハンドリングとエラー耐性についての教訓"
         presentation.summary = "When writing software, we like to think more about the happy path and less about potential failures. However, the more connected and the more persistent an app becomes, the more branched your code paths will become. In this talk, I will share some lessons learned dealing with various types of errors in Line to help your app become more resilient to them and to make 'unhappy paths' a little less gloomy for your users and for those who maintain it."
         presentation.summaryJP = "ソフトウェアを書いているとき、私たちはハッピーパス（例外やエラーが発生しない正常系のこと）についてはちゃんと考慮する一方、潜在的な障害についての考慮はおろそかになりがちです。しかしアプリが考えていたよりも長く、いろいろな状況で使われるようになると、コードはより複雑に分岐します。この講演では、あなたのアプリのエラー耐性を高めて少しでも'アンハッピーパス'がユーザーやアプリを保守する人たちにもたらす憂鬱を軽減するために、Lineで遭遇した様々なタイプのエラーに対処するために学んだ教訓を紹介します。"
-        presentation.speaker = tko2017Speakers["felix"]
+        presentation.speaker = tko2017Speakers["christopher"]
         return presentation
     }(),
     "nikita" : {
