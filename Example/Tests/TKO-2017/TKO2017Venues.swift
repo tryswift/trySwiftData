@@ -17,6 +17,8 @@ public let tko2017Venues: [String : Venue] = [
         venue.address = "Japan, 〒160-0023 Tōkyō-to,Shinjuku-ku,Nishishinjuku, 6 Chome−15, Nishishinjuku ６－１３－１"
         venue.website = "bellesalle.co.jp"
         venue.logoAssetName = "bs_shinjuku.jpg"
+        venue.wifiNetworkName = "try! Swift Tokyo"
+        venue.wifiPassword = "tryswifttokyo"
         return venue
     }(),
     "bellesalle-kanda" : {
