@@ -18,6 +18,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .breakfast
         session.title = "Registration & Breakfast"
         session.titleJP = "受付・朝食"
+        session.imageAssetName = "breakfast.png"
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
@@ -27,6 +28,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .announcement
         session.title = "Opening Remarks"
         session.titleJP = "開会"
+        session.imageAssetName = "announce2.png"
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
@@ -64,6 +66,7 @@ public let tko2017Sessions: [String : Session] = [
     "day1FirstCoffee" : {
         let session = Session()
         session.type = .coffeeBreak
+        session.imageAssetName = "breaktime1.png"
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
@@ -116,6 +119,7 @@ public let tko2017Sessions: [String : Session] = [
     "day1Lunch" : {
         let session = Session()
         session.type = .lunch
+        session.imageAssetName = "lunch.png"
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
@@ -185,6 +189,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .coffeeBreak
         session.location = tko2017Locations["mainroom"]
+        session.imageAssetName = "breaktime2.png"
         return session
     }(),
 //---------------------------------------------------------
@@ -263,6 +268,7 @@ public let tko2017Sessions: [String : Session] = [
         session.title = "Closing / Announcments"
         session.titleJP = "クロージング"
         session.location = tko2017Locations["mainroom"]
+        session.imageAssetName = "announce1.png"
         return session
     }(),
 
@@ -275,6 +281,7 @@ public let tko2017Sessions: [String : Session] = [
         session.title = "🥞 Breakfast"
         session.titleJP = "受付・朝食"
         session.location = tko2017Locations["mainroom"]
+        session.imageAssetName = "donuts1.png"
         return session
     }(),
     //---------------------------------------------------------
@@ -284,6 +291,7 @@ public let tko2017Sessions: [String : Session] = [
         session.title = "Opening Remarks"
         session.titleJP = "開会"
         session.location = tko2017Locations["mainroom"]
+        session.imageAssetName = "announce1.png"
         return session
     }(),
     //---------------------------------------------------------
@@ -321,6 +329,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .coffeeBreak
         session.location = tko2017Locations["mainroom"]
+        session.imageAssetName = "breaktime2.png"
         return session
     }(),
 //---------------------------------------------------------
@@ -381,6 +390,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lunch
         session.location = tko2017Locations["mainroom"]
+        session.imageAssetName = "lunch.png"
         return session
     }(),
 //---------------------------------------------------------
@@ -449,6 +459,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .coffeeBreak
         session.location = tko2017Locations["mainroom"]
+        session.imageAssetName = "breaktime1.png"
         return session
     }(),
 //---------------------------------------------------------
@@ -527,6 +538,7 @@ public let tko2017Sessions: [String : Session] = [
         session.title = "Closing / Announcments"
         session.titleJP = "クロージング"
         session.location = tko2017Locations["mainroom"]
+        session.imageAssetName = "announce2.png"
         return session
     }(),
 //---------------------------------------------------------
@@ -545,6 +557,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .breakfast
         session.title = "🍩 Breakfast"
+        session.imageAssetName = "donuts2.png"
         session.titleJP = "受付・朝食"
         session.location = tko2017Locations["workshoproom"]
         return session
@@ -555,6 +568,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .announcement
         session.title = "Opening Remarks"
         session.titleJP = "開会"
+        session.imageAssetName = "announce2.png"
         session.location = tko2017Locations["workshoproom"]
         return session
     }(),
@@ -573,6 +587,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .workshop
         session.title = "API Workshops"
         session.titleJP = "APIワークショップ"
+        session.imageAssetName = "announce1.png"
         session.location = tko2017Locations["workshoproom"]
         return session
     }(),
@@ -589,6 +604,7 @@ public let tko2017Sessions: [String : Session] = [
     "day3Lunch" : {
         let session = Session()
         session.type = .lunch
+        session.imageAssetName = "lunch.png"
         session.location = tko2017Locations["workshoproom"]
         return session
     }(),
@@ -607,6 +623,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .workshop
         session.title = "Hackathon coding ends"
         session.titleJP = "ハッカソン終了"
+        session.imageAssetName = "announce1.png"
         session.location = tko2017Locations["workshoproom"]
         return session
     }(),
@@ -616,6 +633,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .announcement
         session.title = "Presentations"
         session.titleJP = "プレゼンテーション"
+        session.imageAssetName = "announce2.png"
         session.location = tko2017Locations["workshoproom"]
         return session
     }(),
