@@ -16,12 +16,12 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   TrySwiftData:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   Realm: d27b758e12d62a3371879a065d4c40aa212c5a54
   RealmSwift: 9556c0fe0f0cfecacfb755ae9e68ff379fc6bead
-  TrySwiftData: b3babf2200282011904ded0cb2f6cb06167ccd20
+  TrySwiftData: 9c8acd05db49d952e0fbb69790b01f3b7441dbe8
 
 PODFILE CHECKSUM: 3fd397c0c60045784f35793f4c2eddc7394cb8b0
 

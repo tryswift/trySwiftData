@@ -19,6 +19,8 @@ public let tko2017Venues: [String : Venue] = [
         venue.addressJP = "Japan, 〒160-0023 東京都新宿区 西新宿６－１３－１ 新宿セントラルパークシティ内 住友不動産新宿セントラルパークビル1Ｆ"
         venue.website = "http://www.bellesalle.co.jp/room/bs_shinjuku/"
         venue.logoAssetName = "bs_shinjuku.jpg"
+        venue.wifiNetworkName = "try!_Swift_Tokyo"
+        venue.wifiPassword = "tryswifttokyo"
         return venue
     }(),
     "bellesalle-kanda" : {
@@ -29,6 +31,8 @@ public let tko2017Venues: [String : Venue] = [
         venue.addressJP = "〒101-0053 東京都千代田区神田美土代町7住友不動産神田ビル2・3F　ベルサール神田"
         venue.website = "http://www.bellesalle.co.jp/room/bs_kanda/"
         venue.logoAssetName = "bs_kanda.jpg"
+        venue.wifiNetworkName = "try!_Swift_Tokyo"
+        venue.wifiPassword = "tryswifttokyo"
         return venue
     }(),
     "christon" : {
