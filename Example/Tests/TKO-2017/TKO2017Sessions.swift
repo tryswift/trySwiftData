@@ -545,7 +545,7 @@ public let tko2017Sessions: [String : Session] = [
     "day2Party" : {
         let session = Session()
         session.type = .party
-        session.venue = tko2017Venues["gracebali"]
+        session.venue = tko2017Venues["christon"]
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
