@@ -195,7 +195,7 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 19
         presentation.title = "Scaling open source communities"
         presentation.titleJP = "オープンソースコミュニティをスケールさせる"
-        presentation.summary = "I'll be talking about the different stages of open source projects, how handling PRs and support change with scale and how to keep innovating with a bigger user base. With that in mind, I'll go into detail on how developers can solve those problems, in particular automating workflows, staying in closer contact with contributors and improving your product and documentation. I've learned so much about this topic over the last year with fastlane, and started preparing multiple blog posts about scaling open source communities. I feel like this would be a great topic for try! Swift, however I can also talk about automating the app deployment process using fastlane if you prefer that."
+        presentation.summary = "I'll be talking about the different stages of open source projects, how handling PRs and support change with scale and how to keep innovating with a bigger user base. With that in mind, I'll go into detail on how developers can solve those problems, in particular automating workflows, staying in closer contact with contributors and improving your product and documentation."
         presentation.summaryJP = "オープンソースプロジェクトのさまざまな段階についてお話しします。どのようにプルリクエストを処理するか、規模に応じてどのようにサポートを変えていくか、ユーザー数が拡大していく中でどのように革新を起こしつづけるかをお話しします。 それらを念頭に置き、開発者がどのように問題を解決するのか、具体的にはワークフローの自動化、コントリビュータとの密接な関わり合い、プロダクトやドキュメントの改善について詳しく説明します。 おととしfastlaneで多くのことを学びました。オープンソースコミュニティのスケーリングについていくつかブログを準備しはじめました。"
         presentation.speaker = tko2017Speakers["felix"]
         return presentation
@@ -210,22 +210,22 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.speaker = tko2017Speakers["christopher"]
         return presentation
     }(),
-    "nikita" : {
+    "derek" : {
         let presentation = Presentation()
         presentation.id = 21
-        presentation.title = "TBD"
+        presentation.title = "Minimizing Decision Fatigue to Improve Team Productivity"
         presentation.titleJP = "近日追加予定"
-        presentation.summary = "TBD"
+        presentation.summary = "As software engineers we continuously make decisions with each line of code that we write. The amount of time and energy required for this determines if this process will allow us and our teams to work productively or if it will bog us down. In this talk, Derek shares his personal experiences on how to improve team efficiency by minimizing decision fatigue in our Swift development while at the same time improving our team's communication and collaboration."
         presentation.summaryJP = "近日追加予定"
-        presentation.speaker = tko2017Speakers["nikita"]
+        presentation.speaker = tko2017Speakers["derek"]
         return presentation
     }(),
     "alexis" : {
         let presentation = Presentation()
         presentation.id = 22
-        presentation.title = "TBD"
+        presentation.title = "Everything a Swift Developer Wanted to Know about Machine Learning But Was Afraid To Ask"
         presentation.titleJP = "近日追加予定"
-        presentation.summary = "TBD"
+        presentation.summary = "The news says machine learning is the Next Big Thing. But machine learning is happening way _over there_, on servers, in universities and in big companies with big data. What is it really, and what does it mean for _over here_, on mobile, in Swift? Are we --gulp-- legacy tech? This talk will present a fast, concrete, down-to-earth survey of machine learning, from the perspective of iOS & Swift, summarizing the main techniques, tools, and learning resources. It'll outline how TensorFlow is like AVFoundation, how model training is like UI design, and how you can use iOS to gather big (enough) data and to exercise modern models using fast native code."
         presentation.summaryJP = "近日追加予定"
         presentation.speaker = tko2017Speakers["alexis"]
         return presentation

@@ -278,7 +278,7 @@ public let tko2017Sessions: [String : Session] = [
     "day2Breakfast" : {
         let session = Session()
         session.type = .breakfast
-        session.title = "🥞 Breakfast"
+        session.title = "Breakfast"
         session.titleJP = "受付・朝食"
         session.location = tko2017Locations["mainroom"]
         session.imageAssetName = "donuts1.png"
@@ -463,11 +463,11 @@ public let tko2017Sessions: [String : Session] = [
         return session
     }(),
 //---------------------------------------------------------
-    "day2nikita" : {
+    "day2derek" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations["nikita"]
+        session.presentation = tko2017Presentations["derek"]
         return session
     }(),
     "day2JonOfficeHours" : {
@@ -493,10 +493,10 @@ public let tko2017Sessions: [String : Session] = [
         session.presentation = tko2017Presentations["christopher"]
         return session
     }(),
-    "day2NikitaOfficeHours" : {
+    "day2DerekOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations["nikita"]
+        session.presentation = tko2017Presentations["derek"]
         session.location = tko2017Locations["qaroom"]
         return session
     }(),
@@ -535,7 +535,6 @@ public let tko2017Sessions: [String : Session] = [
     "day2Closing" : {
         let session = Session()
         session.type = .announcement
-        session.title = "Closing / Announcments"
         session.titleJP = "クロージング"
         session.location = tko2017Locations["mainroom"]
         session.imageAssetName = "announce2.png"
@@ -544,6 +543,7 @@ public let tko2017Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day2Party" : {
         let session = Session()
+        session.title = "Party"
         session.type = .party
         session.venue = tko2017Venues["christon"]
         session.location = tko2017Locations["mainroom"]

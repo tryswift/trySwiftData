@@ -254,6 +254,15 @@ public let tko2017Sponsors: [String : Sponsor] = [
         sponsor.level = .silver
         return sponsor
     }(),
+    "caraquri" : {
+        let sponsor = Sponsor()
+        sponsor.name = "Caraquri"
+        sponsor.url = "http://caraquri.com/"
+        sponsor.displayURL = "caraquri.com"
+        sponsor.logoAssetName = "caraquri.png"
+        sponsor.level = .silver
+        return sponsor
+    }(),
 
     // Student
     "cyberagent-student" : {
