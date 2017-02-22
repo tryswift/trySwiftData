@@ -197,7 +197,7 @@ public let tko2017Speakers: [String : Speaker] = [
         speaker.twitter = "derekleerock"
         speaker.imageAssetName = "derek_lee.jpg"
         speaker.bio = "Derek has been immersed in iOS development for the last 5 years and has most recently been practicing Lean Product Development as a full-stack software engineer at Pivotal Labs' Tokyo office. He’s most passionate about TDD, writing clean code, and object-oriented design. Outside of Pivotal he makes time for his pet project 'Groove Freedom': an iPad app he built to help drummers practice more effectively. For maintaining good work/life balance Derek can also be found drumming, lifting weights, practicing meditation and co-organizing the Tokyo iOS Meetup."
-        speaker.bioJP = "TBD"
+        speaker.bioJP = "Derekは過去5年間iOS開発に没頭しており、最近ではPivotal Labsの東京オフィスのフルスタックソフトウェアエンジニアとしてリーン製品開発を実践しています。 彼はTDDやきれいなコードを書くこと、オブジェクト指向の設計に誰よりも情熱的です。 Pivotalの外では、彼は彼のペットプロジェクト「Groove Freedom（ドラマーがより効果的に練習をするためのiPadアプリ）」のために時間を使っています。ワークライフバランスを維持するために、Derekはドラム演奏、ウェイトリフティング、瞑想、Tokyo iOS Meetupの共同オーガナイザーをしたりしています。"
         return speaker
     }(),
     "kateryna" : { let speaker = Speaker()

@@ -214,9 +214,9 @@ public let tko2017Presentations: [String : Presentation] = [
         let presentation = Presentation()
         presentation.id = 21
         presentation.title = "Minimizing Decision Fatigue to Improve Team Productivity"
-        presentation.titleJP = "近日追加予定"
+        presentation.titleJP = "チームの生産性を改善するために決断疲れを最小化する"
         presentation.summary = "As software engineers we continuously make decisions with each line of code that we write. The amount of time and energy required for this determines if this process will allow us and our teams to work productively or if it will bog us down. In this talk, Derek shares his personal experiences on how to improve team efficiency by minimizing decision fatigue in our Swift development while at the same time improving our team's communication and collaboration."
-        presentation.summaryJP = "近日追加予定"
+        presentation.summaryJP = "ソフトウェアエンジニアとして、私たちは書いているコードの１行１行ごとに決断し続けています。 これに必要な時間とエネルギーの量はチームが生産的に働けるか、あるいは停滞させてしまうのかどうかを決定します。このトークではSwift開発における決断疲れを最小化し、チームの効率と同時にコミュニケーションとコラボレーションを改善する方法についての個人的な経験を共有します。"
         presentation.speaker = tko2017Speakers["derek"]
         return presentation
     }(),
@@ -224,9 +224,9 @@ public let tko2017Presentations: [String : Presentation] = [
         let presentation = Presentation()
         presentation.id = 22
         presentation.title = "Everything a Swift Developer Wanted to Know about Machine Learning But Was Afraid To Ask"
-        presentation.titleJP = "近日追加予定"
+        presentation.titleJP = "Swift開発者が知りたかったけど聞きにくい機械学習のすべて"
         presentation.summary = "The news says machine learning is the Next Big Thing. But machine learning is happening way _over there_, on servers, in universities and in big companies with big data. What is it really, and what does it mean for _over here_, on mobile, in Swift? Are we --gulp-- legacy tech? This talk will present a fast, concrete, down-to-earth survey of machine learning, from the perspective of iOS & Swift, summarizing the main techniques, tools, and learning resources. It'll outline how TensorFlow is like AVFoundation, how model training is like UI design, and how you can use iOS to gather big (enough) data and to exercise modern models using fast native code."
-        presentation.summaryJP = "近日追加予定"
+        presentation.summaryJP = "ニュースでは、機械学習は次の大きなものだと言っています。</p><p>しかし機械学習は大学や大きな企業のサーバーの _あちら側_ でビッグデータとともに行われています。それはいったい何なのでしょうか？ _こちら側_ であるモバイル、Swiftにとって何を意味するのでしょうか？私たちはレガシーな技術を --がっついている-- のでしょうか？</p><p>このトークではiOSとSwiftの観点から迅速で具体的で現実的な機械学習の調査し、主なテクニック、ツール、学習素材をまとめます。TensorFlowがAVFoundationのようなものであること、モデルトレーニングがUIデザインのようなものであること、そして高速なネイティブコードを使ってどのようにiOSで十分に大きいデータを収集し、最新のモデルのエクササイズができるということをお伝えします。"
         presentation.speaker = tko2017Speakers["alexis"]
         return presentation
     }(),
