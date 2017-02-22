@@ -463,11 +463,11 @@ public let tko2017Sessions: [String : Session] = [
         return session
     }(),
 //---------------------------------------------------------
-    "day2nikita" : {
+    "day2derek" : {
         let session = Session()
         session.type = .talk
         session.location = tko2017Locations["mainroom"]
-        session.presentation = tko2017Presentations["nikita"]
+        session.presentation = tko2017Presentations["derek"]
         return session
     }(),
     "day2JonOfficeHours" : {
@@ -493,10 +493,10 @@ public let tko2017Sessions: [String : Session] = [
         session.presentation = tko2017Presentations["christopher"]
         return session
     }(),
-    "day2NikitaOfficeHours" : {
+    "day2DerekOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = tko2017Presentations["nikita"]
+        session.presentation = tko2017Presentations["derek"]
         session.location = tko2017Locations["qaroom"]
         return session
     }(),

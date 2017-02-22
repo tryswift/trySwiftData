@@ -191,13 +191,13 @@ public let tko2017Speakers: [String : Speaker] = [
         speaker.bioJP = "大学を卒業してからモバイル、ウェブアプリケーションを開発しています。最近はモバイル開発にフォーカスしており、特にiOSとObjective-C、そしてSwiftも増えてきました。CocoaPodsチームではRubyにも打ち込んでいます。Realmで働き始めてからは、多くのカンファレンスで講演を行うなど、モバイルコミュニティに積極的に関わっています。"
         return speaker
     }(),
-    "nikita" : { let speaker = Speaker()
+    "derek" : { let speaker = Speaker()
         speaker.id = 21
-        speaker.name = "Nikita Lutsenko"
-        speaker.twitter = "nlutsenko"
-        speaker.imageAssetName = "nikita_lutsenko.jpg"
-        speaker.bio = "Nikita has been building, writing, developing and shipping software for over 8 years now. Before starting to work on Instant Articles at Facebook, he shipped Facebook SDK in Swift, worked on Parse.com, built Slingshot for iOS, and before Facebook led his own software product company, that was focused on productivity software. He values challenging tasks, pixel perfect design, making developers more productive, robust user experience and text readability. Nikita grew up in Ukraine and graduated with a B.S. in Economic Cybernetics."
-        speaker.bioJP = "8年以上の間、ソフトウェアを開発しリリースし続けてきました。現在FacebookにてInstant Articlesを担当しており、それ以前は、Swift版Facebook SDK、Parse.com、iOS版Slingshotに従事していました。Facebook入社以前はプロダクティビティにフォーカスしたソフトウェア企業を率いていました。難易度の高いタスク、ピクセルパーフェクトなデザイン、開発者をより生産的にすること、確かなユーザエクスペリエンス、テキストの可読性に大きな価値を見出しています。ウクライナで育ち、経済サイバネティクスの学士号を持っています。"
+        speaker.name = "Derek Lee"
+        speaker.twitter = "derekleerock"
+        speaker.imageAssetName = "derek_lee.jpg"
+        speaker.bio = "Derek has been immersed in iOS development for the last 5 years and has most recently been practicing Lean Product Development as a full-stack software engineer at Pivotal Labs' Tokyo office. He’s most passionate about TDD, writing clean code, and object-oriented design. Outside of Pivotal he makes time for his pet project 'Groove Freedom': an iPad app he built to help drummers practice more effectively. For maintaining good work/life balance Derek can also be found drumming, lifting weights, practicing meditation and co-organizing the Tokyo iOS Meetup."
+        speaker.bioJP = "TBD"
         return speaker
     }(),
     "kateryna" : { let speaker = Speaker()

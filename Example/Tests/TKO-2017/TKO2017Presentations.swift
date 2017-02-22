@@ -210,14 +210,14 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.speaker = tko2017Speakers["christopher"]
         return presentation
     }(),
-    "nikita" : {
+    "derek" : {
         let presentation = Presentation()
         presentation.id = 21
-        presentation.title = "TBD"
+        presentation.title = "Minimizing Decision Fatigue to Improve Team Productivity"
         presentation.titleJP = "近日追加予定"
-        presentation.summary = "TBD"
+        presentation.summary = "As software engineers we continuously make decisions with each line of code that we write. The amount of time and energy required for this determines if this process will allow us and our teams to work productively or if it will bog us down. In this talk, Derek shares his personal experiences on how to improve team efficiency by minimizing decision fatigue in our Swift development while at the same time improving our team's communication and collaboration."
         presentation.summaryJP = "近日追加予定"
-        presentation.speaker = tko2017Speakers["nikita"]
+        presentation.speaker = tko2017Speakers["derek"]
         return presentation
     }(),
     "alexis" : {
