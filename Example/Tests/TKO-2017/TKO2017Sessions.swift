@@ -119,7 +119,7 @@ public let tko2017Sessions: [String : Session] = [
     "day1Lunch" : {
         let session = Session()
         session.type = .lunch
-        session.imageAssetName = "lunch.png"
+        session.imageAssetName = "bento1.png"
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
@@ -390,7 +390,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lunch
         session.location = tko2017Locations["mainroom"]
-        session.imageAssetName = "lunch.png"
+        session.imageAssetName = "bento2.png"
         return session
     }(),
 //---------------------------------------------------------
@@ -546,6 +546,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.title = "Party"
         session.type = .party
+        session.imageAssetName = "party1.png"
         session.venue = tko2017Venues["christon"]
         session.location = tko2017Locations["mainroom"]
         return session
@@ -605,7 +606,7 @@ public let tko2017Sessions: [String : Session] = [
     "day3Lunch" : {
         let session = Session()
         session.type = .lunch
-        session.imageAssetName = "lunch.png"
+        session.imageAssetName = "bento1.png"
         session.location = tko2017Locations["workshoproom"]
         return session
     }(),
