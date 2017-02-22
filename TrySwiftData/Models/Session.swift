@@ -72,11 +72,11 @@ public class Session: Object {
             return "Sponsored Demo".localized()
         case .coffeeBreak:
             if let sponsor = sponsor {
-                return String(format: "☕️ Break, by %@".localized(), sponsor.name)
+                return String(format: "Coffee Break, by %@".localized(), sponsor.name)
             }
-            return "☕️ Break".localized()
+            return "Coffee Break".localized()
         case .lunch:
-            return "🍴 Lunch".localized()
+            return "Lunch".localized()
         case .officeHours:
             if let speaker = presentation?.speaker?.localizedName {
                 return String(format: "Office Hours with %@".localized(), speaker)
