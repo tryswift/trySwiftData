@@ -198,7 +198,7 @@ public class Session: Object {
 
         case .talk, .lightningTalk:
             return presentation!.localizedSummary
-        default : Conference.curent.localizedDescription
+        default : Conference.current.localizedDescription
         }
     }
     
