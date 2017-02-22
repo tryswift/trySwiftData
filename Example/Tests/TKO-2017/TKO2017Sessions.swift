@@ -535,6 +535,7 @@ public let tko2017Sessions: [String : Session] = [
     "day2Closing" : {
         let session = Session()
         session.type = .announcement
+        session.title = " Closing / Announcements"
         session.titleJP = "クロージング"
         session.location = tko2017Locations["mainroom"]
         session.imageAssetName = "announce2.png"
@@ -556,7 +557,7 @@ public let tko2017Sessions: [String : Session] = [
     "day3Breakfast" : {
         let session = Session()
         session.type = .breakfast
-        session.title = "🍩 Breakfast"
+        session.title = "Breakfast"
         session.imageAssetName = "donuts2.png"
         session.titleJP = "受付・朝食"
         session.location = tko2017Locations["workshoproom"]

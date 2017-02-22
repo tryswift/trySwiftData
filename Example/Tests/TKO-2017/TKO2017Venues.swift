@@ -44,6 +44,7 @@ public let tko2017Venues: [String : Venue] = [
         venue.website = "http://chiristoncafe-shinjuku.com"
         venue.logoAssetName = "christon_cafe.jpg"
         venue.twitter = "christoncafe"
+        venue.wifiNetworkName = "CHRISTON"
         return venue
     }(),
 ]
