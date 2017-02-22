@@ -207,7 +207,7 @@ public class Session: Object {
         switch self.type {
         case .workshop, .meetup:
             return event != nil
-        case .talk, .officeHours, .party, .sponsoredDemo:
+        case .talk, .lightningTalk, .officeHours, .party, .sponsoredDemo:
             return true
         case .coffeeBreak:
             return sponsor != nil
