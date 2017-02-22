@@ -238,8 +238,8 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 23
         presentation.title = "The Safety of Unsafe Swift"
         presentation.titleJP = "Unsafe Swiftの安全性"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "Swift protects you from undefined behavior by not allowing direct memory access by default.  The Swift unsafe APIs help you construct code that is highly readable and only unsafe where it has to be."
+        presentation.summaryJP = "Swiftは、デフォルトで直接メモリアクセスを許可しないことで、未定義の挙動から保護します。 Swiftのunsafe系APIは、読みやすく、Unsafeでなくてはならない部分のみを書くのに役立ちます。"
         presentation.speaker = tko2017Speakers["ray"]
         return presentation
     }(),
@@ -248,8 +248,8 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 24
         presentation.title = "Isolating your Data Layer"
         presentation.titleJP = "データレイヤを分離する"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "In a truly layered architecture (MVVM, Viper, etc), the data layer should be relegated to it's own layer - every other piece just wants the data.  Unfortunately with Core Data, and other technologies, such as Realm, the actual implementation details (threads, contexts) of this layer tend to leak into other layers or view logic.  This makes for an architecture the is harder to scale.  This can be solved using plain old swift objects (POSOs), paired with an understanding of what you lose, and how to overcome it. We will discuss how to move to POSOs while maintaining performance."
+        presentation.summaryJP = "真の階層化アーキテクチャ(MVVM, Viper, etc)において、データ層は全てのデータを必要とする他の層よりも下層部に置くべきです。残念ながら、CoreData や Realmなどのような同類の技術において、このレイヤーの実際の実装の詳細（スレッドやコンテクスト）は他のレイヤーやViewのロジックに浸潤する傾向があります。これは、アーキテクチャのスケール化を難しくします。そんな場合は旧来のSwiftオブジェクト(POSOs)を利用すればよいかと。失うものと克服できるものをセットで理解すれば、これを解決する事が可能となります。パフォーマンスを維持しながらPOSOに移行する方法について説明します。"
         presentation.speaker = tko2017Speakers["jon_bott"]
         return presentation
     }(),
@@ -258,18 +258,18 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 25
         presentation.title = "Swift Chatbots for Fun and Profit"
         presentation.titleJP = "楽しく便利なSwiftチャットボット"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "How I built a chatbot in Swift to create a custom, personalized language learning tool to help me learn Japanese, and why chatbots are a great, practical solution for building useful tools."
+        presentation.summaryJP = "自分自身の日本語の学習を補助するために、パーソナライズされた言語学習ツールとしてチャットボットをSwiftで作りました。どうやったかをお話しします。"
         presentation.speaker = tko2017Speakers["ray_tsaihong"]
         return presentation
     }(),
     "shinichi" : {
         let presentation = Presentation()
         presentation.id = 26
-        presentation.title = "Providing Better Feedbacks in Real-time Object Detection Apps"
+        presentation.title = "Providing Better Feedback in Real-time Object Detection Apps"
         presentation.titleJP = "リアルタイム物体検出アプリでよりよいフィードバックを提供する"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "Recent advances in computer vision technology and computational resources have made it easier to build real-time object recognition apps on iOS devices than before. However, implementing recognition technology on devices itself is only a part of an app development. Combining it with user interaction and providing appropriate feedbacks are crucial for user-friendly apps. In this lightning talk, I would like to talk about real problems we have faced and solved to give better feedbacks to users while developing Wantedly People, an iOS app that recognizes business cards in camera instantly."
+        presentation.summaryJP = "近年のコンピュータの画像技術と計算資源の進歩により、iOSデバイス上でリアルタイムに物体を認識するアプリケーションの構築が、以前より容易になりました。しかし、デバイス自体に認識技術を実装することは、アプリ開発の一部にすぎません。ユーザーのやりとりと組み合わせて、適切なフィードバックを提供することは、ユーザーフレンドリーなアプリにとって非常に重要です。このＬＴでは、Wantedly People というカメラで名刺を認識するiOSのアプリの開発時に直面した際の、いかにより良いユーザーのフィードバックを得て解決するかのお話をいたします。"
         presentation.speaker = tko2017Speakers["shinichi"]
         return presentation
     }(),
@@ -278,8 +278,8 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 27
         presentation.title = "How to be a UX Engineer"
         presentation.titleJP = "UXエンジニアという働き方"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "Being a good coding skill engineer doesn't mean you can build up good services.  This talk will give you some idea about why engineers should think about UX and how to do that."
+        presentation.summaryJP = "エンジニアとはいえどコーディングができるだけでは良いサービスを創り上げることはできません。このトークではエンジニアがUXを考えることの大切さ、その手法をご紹介します。"
         presentation.speaker = tko2017Speakers["maki"]
         return presentation
     }(),
@@ -288,8 +288,8 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 28
         presentation.title = "VR Innovation"
         presentation.titleJP = "VRの革新と新たなユーザー体験"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "Virtual, augmented reality and 360-degree shooting technologies have reached beyond gamers or expensive pilot training rooms. Real-life applications have been realized in multiple industries and are already providing businesses with new channels to engage customers and provide them with new experiences. Let’s take a look at some exciting examples."
+        presentation.summaryJP = "拡張現実（ＡＲ）と３６０度シューティング技術はゲーマーや高価なパイロット訓練室を超越しています。現実のアプリケーションは、顧客と接する新しいチャネルを提供し、新しい体験を提供し、すでに複数の業界で実現されています。では、いくつかのエキサイティングな事例を見ていきましょう。"
         presentation.speaker = tko2017Speakers["artis"]
         return presentation
     }(),
@@ -298,8 +298,8 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 29
         presentation.title = "App Transport Security for Busy Devs"
         presentation.titleJP = "忙しい人のためのApp Transport Security"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "At WWDC 2016, Apple made an announcement that ATS(App Transport Security) will be required.  However, as you know, this is still not happening.  New keys related to ATS for Info.plist were introduced in iOS10, but the specification is different over every minor versions.  In this LT, I bet you will be able to master ATS, that specification is still vague and lack of information, in 5 min."
+        presentation.summaryJP = "WWDC2016にてATS(App Transport Security)の必須化がアナウンスされました。しかしご存知の通り、必須化は延期されました。また、iOS10で新たなATSの設定を行うInfo.plistのキーが導入されましたが、iOS10のマイナーバージョンごとに仕様が異なります。このLTでは、制度も情報も仕様も混乱しているATSを5分でマスターしていただくことに挑戦します。"
         presentation.speaker = tko2017Speakers["seiyo"]
         return presentation
     }(),
@@ -308,8 +308,8 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 30
         presentation.title = "Server-Side Swift Live Coding"
         presentation.titleJP = "サーバサイドSwiftの実例"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "Do you know this web site? http://nsdateformatter.com/  This is an interesting site, that you can play with NSDateFormatter online.  I got inspired from this site, and I made a similar one with NSURL. (http://nsurl.serversideswift.net/)  Also, you can also play your own library on web browsers. (https://stringfilter.herokuapp.com/)  Thanks to Vapor and Bluemix, this kind of site can be surprisingly easy to make.  Let's try it out!"
+        presentation.summaryJP = "http://nsdateformatter.com/ というサイトを知っていますか？オンライン上でNSDateFormatterを試せる面白いサイトです。私はこれの影響を受けてNSURL版( http://nsurl.serversideswift.net/ )を作成しました。また、自作のライブラリもブラウザ上で触れるようにしています。( https://stringfilter.herokuapp.com/ ) VaporやBluemixのおかげでこの種のサイトは驚くほど簡単に作れます。是非やってみましょう！"
         presentation.speaker = tko2017Speakers["tatsuya"]
         return presentation
     }(),
@@ -318,18 +318,18 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 31
         presentation.title = "Client-Side Deep Learning"
         presentation.titleJP = "クライアントサイドでのディープラーニング"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "In iOS 10, the convolution neural network (CNN) API has been added as a part of Metal Performance Shaders framework.  You can now take advantage of GPU on iOS devices to run brazing fast CNN computation.  In other word, you can use outcome of cutting edge deep learning technologies on your device even while offline.  This LT will present you the quick overview of the implementation and its demo."
+        presentation.summaryJP = "iOS 10よりMetal Performance Shadersフレームワークに畳み込みニューラルネットワーク（CNN）のAPIが追加され、iOSデバイスのGPUを利用して高速にCNNの計算を行えるようになりました。つまり「ユーザの手元で」「オフラインでも」昨今の進化がめざましいディープラーニングの成果を利用できるようになったのです！本LTでは実装のオーバービューと、デモをお見せしたいと思います。"
         presentation.speaker = tko2017Speakers["tatsuya"]
         return presentation
     }(),
     "kohki" : {
         let presentation = Presentation()
         presentation.id = 32
-        presentation.title = "👾&⌚(Game & Watch)"
+        presentation.title = "👾&⌚"
         presentation.titleJP = "👾&⌚️"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "This talk will tell you about the game development method that runs on watchOS 3.  Try remembering the nostalgic game that runs with the latest device."
+        presentation.summaryJP = "このトークでは、watchOS 3上で動作するゲーム開発の手法についてお伝えします。最新デバイスで動く、懐かしのゲームに思いを馳せてみてください。"
         presentation.speaker = tko2017Speakers["kohki"]
         return presentation
     }(),
@@ -338,8 +338,8 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 33
         presentation.title = "Why We Climb"
         presentation.titleJP = "なぜ登るのか"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "近日追加予定"
+        presentation.summary = "Bouldering is chosen as an official event at the 2010 Tokyo Olympic.  Today, I would like to introduce that Bouldering is the best sports for Swift engineers.  Anyone who has never tried it, try by all means."
+        presentation.summaryJP = "2010年の東京オリンピックでも正式種目に選ばれたボルダリング。今日は、ボルダリングは Swiftエンジニアにとって最適なスポーツであることを紹介したいと思います。今まで試したこともない人も、是非tryしてみてください。"
         presentation.speaker = tko2017Speakers["kaoru"]
         return presentation
     }(),
