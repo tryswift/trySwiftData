@@ -263,6 +263,15 @@ public let tko2017Sponsors: [String : Sponsor] = [
         sponsor.level = .silver
         return sponsor
     }(),
+    "payjp" : {
+        let sponsor = Sponsor()
+        sponsor.name = "PAY.JP"
+        sponsor.url = "https://pay.jp/"
+        sponsor.displayURL = "pay.jp/"
+        sponsor.logoAssetName = "payjp.png"
+        sponsor.level = .silver
+        return sponsor
+    }(),
 
     // Student
     "cyberagent-student" : {
