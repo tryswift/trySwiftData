@@ -21,6 +21,7 @@ public let tko2017Venues: [String : Venue] = [
         venue.logoAssetName = "bs_shinjuku.jpg"
         venue.wifiNetworkName = "try!_Swift_Tokyo"
         venue.wifiPassword = "tryswifttokyo"
+        venue.type = .conference
         return venue
     }(),
     "bellesalle-kanda" : {
@@ -33,6 +34,7 @@ public let tko2017Venues: [String : Venue] = [
         venue.logoAssetName = "bs_kanda.jpg"
         venue.wifiNetworkName = "try!_Swift_Tokyo"
         venue.wifiPassword = "tryswifttokyo"
+        venue.type = .hackathon
         return venue
     }(),
     "christon" : {
@@ -45,6 +47,7 @@ public let tko2017Venues: [String : Venue] = [
         venue.logoAssetName = "christon_cafe.jpg"
         venue.twitter = "christoncafe"
         venue.wifiNetworkName = "CHRISTON"
+        venue.type = .party
         return venue
     }(),
 ]
