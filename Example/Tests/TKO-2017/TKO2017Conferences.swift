@@ -26,6 +26,9 @@ public let tko2017Conferences: [Conference] = [
         trySwift.organizers.append(tko2017Organizers["shingo"]!)
         trySwift.organizers.append(tko2017Organizers["matt"]!)
         trySwift.organizers.append(tko2017Organizers["nino"]!)
+        trySwift.venues.append(tko2017Venues["bellesalle-shinjuku"]!)
+        trySwift.venues.append(tko2017Venues["bellesalle-kanda"])
+        trySwift.venues.append(tko2017Venues["christon"])
         return trySwift
     }()
 ]
