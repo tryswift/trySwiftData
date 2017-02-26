@@ -308,7 +308,7 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.id = 30
         presentation.title = "Server-Side Swift Live Coding"
         presentation.titleJP = "サーバサイドSwiftの実例"
-        presentation.summary = "Do you know this web site? http://nsdateformatter.com/  This is an interesting site, that you can play with NSDateFormatter online.  I got inspired from this site, and I made a similar one with NSURL. (http://nsurl.serversideswift.net/)  Also, you can also play your own library on web browsers. (https://stringfilter.herokuapp.com/)  Thanks to Vapor and Bluemix, this kind of site can be surprisingly easy to make.  Let's try it out!"
+        presentation.summary = "Do you know this web site? http://nsdateformatter.com/  This is an interesting site where you can play with NSDateFormatter online. I got inspired from this site and made a similar one with NSURL. (http://nsurl.serversideswift.net/) Thanks to Vapor and Bluemix, this kind of site can be surprisingly easy to make.  Let's try it out!"
         presentation.summaryJP = "http://nsdateformatter.com/ というサイトを知っていますか？オンライン上でNSDateFormatterを試せる面白いサイトです。私はこれの影響を受けてNSURL版( http://nsurl.serversideswift.net/ )を作成しました。また、自作のライブラリもブラウザ上で触れるようにしています。( https://stringfilter.herokuapp.com/ ) VaporやBluemixのおかげでこの種のサイトは驚くほど簡単に作れます。是非やってみましょう！"
         presentation.speaker = tko2017Speakers["tatsuya"]
         return presentation

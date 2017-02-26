@@ -152,7 +152,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "balto" : {
         let sponsor = Sponsor()
-        sponsor.name = "balto"
+        sponsor.name = "Balto (Goodpatch Inc.)"
         sponsor.url = "http://www.balto.io/"
         sponsor.displayURL = "balto.io"
         sponsor.twitter = "balto_appjp"
@@ -173,7 +173,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "player" : {
         let sponsor = Sponsor()
-        sponsor.name = "Player!"
+        sponsor.name = "Player! (ookami Inc.)"
         sponsor.url = "http://www.playerapp.tokyo"
         sponsor.displayURL = "playerapp.tokyo"
         sponsor.logoAssetName = "player.png"
@@ -265,7 +265,7 @@ public let tko2017Sponsors: [String : Sponsor] = [
     }(),
     "payjp" : {
         let sponsor = Sponsor()
-        sponsor.name = "PAY.JP"
+        sponsor.name = "PAY.JP (BASE,Inc.)"
         sponsor.url = "https://pay.jp/"
         sponsor.displayURL = "pay.jp/"
         sponsor.logoAssetName = "payjp.png"
