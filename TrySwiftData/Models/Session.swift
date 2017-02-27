@@ -54,6 +54,8 @@ public class Session: Object {
     /** Any particular events held at a different venue from the conference */
     open dynamic var venue: Venue?
 
+    open let sessionBlock = LinkingObjects(fromType: SessionBlock.self, property: "sessions")
+
     /***************************************************/
 
     public static var all: Results<Session>? {
