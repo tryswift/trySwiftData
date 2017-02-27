@@ -56,7 +56,7 @@ public class Session: Object {
 
     /***************************************************/
 
-    public var all: Results<Session>? {
+    public static var all: Results<Session>? {
         do {
             let realm = try Realm.trySwiftRealm()
             return realm.objects(Session.self)
