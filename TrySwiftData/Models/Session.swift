@@ -7,6 +7,7 @@
 //
 
 import RealmSwift
+import Foundation
 
 @objc public enum SessionType: Int {
     case workshop
@@ -54,6 +55,15 @@ public class Session: Object {
     open dynamic var venue: Venue?
 
     /***************************************************/
+
+    public var all: Results<Session>? {
+        do {
+            let realm = try Realm.trySwiftRealm()
+            return realm.objects(Session.self)
+        } catch {
+            return nil
+        }
+    }
 
     /** The main name of this session */
     public var formattedTitle: String? {
