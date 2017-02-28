@@ -19,14 +19,20 @@ public let tko2017Locations: [String : Location] = [
     }(),
     "mainroom" : {
         let location = Location()
-        location.name = "Seminar Room"
-        location.nameJP = "セミナールーム"
+        location.name = "Hall"
+        location.nameJP = "ホール"
+        return location
+    }(),
+    "hackathonroom" : {
+        let location = Location()
+        location.name = "2F Hall"
+        location.nameJP = "2F ホール"
         return location
     }(),
     "workshoproom" : {
         let location = Location()
-        location.name = "Workshop Room"
-        location.nameJP = "ワークショップルーム"
+        location.name = "3F Seminar Room 4, 5, 6"
+        location.nameJP = "3F セミナールーム 4, 5, 6"
         return location
     }()
 ]

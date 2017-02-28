@@ -561,7 +561,7 @@ public let tko2017Sessions: [String : Session] = [
         session.title = "Breakfast"
         session.imageAssetName = "donuts2.png"
         session.titleJP = "受付・朝食"
-        session.location = tko2017Locations["workshoproom"]
+        session.location = tko2017Locations["hackathonroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -571,7 +571,7 @@ public let tko2017Sessions: [String : Session] = [
         session.title = "Opening Remarks"
         session.titleJP = "開会"
         session.imageAssetName = "announce2.png"
-        session.location = tko2017Locations["workshoproom"]
+        session.location = tko2017Locations["hackathonroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -580,7 +580,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .announcement
         session.title = "Ideathon / Group Formation"
         session.titleJP = "アイデアソン / チーム編成"
-        session.location = tko2017Locations["workshoproom"]
+        session.location = tko2017Locations["hackathonroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -599,7 +599,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .workshop
         session.title = "Hackathon coding begins"
         session.titleJP = "ハッカソン"
-        session.location = tko2017Locations["workshoproom"]
+        session.location = tko2017Locations["hackathonroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -607,7 +607,7 @@ public let tko2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .lunch
         session.imageAssetName = "bento1.png"
-        session.location = tko2017Locations["workshoproom"]
+        session.location = tko2017Locations["hackathonroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -616,7 +616,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .workshop
         session.title = "Hackathon coding continues"
         session.titleJP = "ハッカソン"
-        session.location = tko2017Locations["workshoproom"]
+        session.location = tko2017Locations["hackathonroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -626,7 +626,7 @@ public let tko2017Sessions: [String : Session] = [
         session.title = "Hackathon coding ends"
         session.titleJP = "ハッカソン終了"
         session.imageAssetName = "announce1.png"
-        session.location = tko2017Locations["workshoproom"]
+        session.location = tko2017Locations["hackathonroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -636,7 +636,7 @@ public let tko2017Sessions: [String : Session] = [
         session.title = "Presentations"
         session.titleJP = "プレゼンテーション"
         session.imageAssetName = "announce2.png"
-        session.location = tko2017Locations["workshoproom"]
+        session.location = tko2017Locations["hackathonroom"]
         return session
     }(),
 //---------------------------------------------------------
@@ -645,7 +645,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .announcement
         session.title = "Winner Announcements"
         session.titleJP = "結果発表"
-        session.location = tko2017Locations["workshoproom"]
+        session.location = tko2017Locations["hackathonroom"]
         return session
     }(),
 ]

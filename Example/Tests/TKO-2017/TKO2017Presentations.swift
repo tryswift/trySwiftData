@@ -320,7 +320,7 @@ public let tko2017Presentations: [String : Presentation] = [
         presentation.titleJP = "クライアントサイドでのディープラーニング"
         presentation.summary = "In iOS 10, the convolution neural network (CNN) API has been added as a part of Metal Performance Shaders framework.  You can now take advantage of GPU on iOS devices to run brazing fast CNN computation.  In other word, you can use outcome of cutting edge deep learning technologies on your device even while offline.  This LT will present you the quick overview of the implementation and its demo."
         presentation.summaryJP = "iOS 10よりMetal Performance Shadersフレームワークに畳み込みニューラルネットワーク（CNN）のAPIが追加され、iOSデバイスのGPUを利用して高速にCNNの計算を行えるようになりました。つまり「ユーザの手元で」「オフラインでも」昨今の進化がめざましいディープラーニングの成果を利用できるようになったのです！本LTでは実装のオーバービューと、デモをお見せしたいと思います。"
-        presentation.speaker = tko2017Speakers["tatsuya"]
+        presentation.speaker = tko2017Speakers["shuichi"]
         return presentation
     }(),
     "kohki" : {
