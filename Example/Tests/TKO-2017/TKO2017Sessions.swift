@@ -18,7 +18,7 @@ public let tko2017Sessions: [String : Session] = [
         session.type = .breakfast
         session.title = "Registration & Breakfast"
         session.titleJP = "受付・朝食"
-        session.imageAssetName = "breakfast.png"
+        session.imageAssetName = "donuts2.png"
         session.location = tko2017Locations["mainroom"]
         return session
     }(),
