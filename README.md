@@ -10,7 +10,7 @@
 2. Run the tests
 3. Check for the printed out message with the newly generated `.realm` file such as `Successfully generated at /Users/natashatherobot/Library/Developer/CoreSimulator/Devices/D8989664-9BC5-4DA7-B5E4-E0A1F9B5AE3F/data/tmp/tryswift-tokyo2017.realm`
 4. Open the printed out folder to get the newly generated `.realm` file
-5. Replace the current `tokyo.realm` file with teh newly generated `tokyo.realm` file from the `tmp` folder
+5. Replace the current `tokyo.realm` file with the newly generated `tokyo.realm` file from the `tmp` folder
 6. Run `pod update` in the try! Swift Final app
 
 ## Example
