@@ -31,6 +31,7 @@
 		22FE792F1E56AF3700DCFCAF /* TKO2017Organizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE792E1E56AF3700DCFCAF /* TKO2017Organizers.swift */; };
 		607FACEC1AFB9204008FA782 /* CreateRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* CreateRealmTests.swift */; };
 		D1C2A1C1C1ED581F9395D1C3 /* Pods_TrySwiftData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3D343B3BCFD0FE16F48FBA /* Pods_TrySwiftData_Tests.framework */; };
+		FA0C4AA31E7D06CB00F72B7A /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C4AA21E7D06CB00F72B7A /* SessionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		607FACEB1AFB9204008FA782 /* CreateRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRealmTests.swift; sourceTree = "<group>"; };
 		CE171203CD5CC3EE87F100D4 /* Pods-TrySwiftData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData_Tests/Pods-TrySwiftData_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F34162B8E33CF2073A2BD225 /* Pods-TrySwiftData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData_Tests/Pods-TrySwiftData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0C4AA21E7D06CB00F72B7A /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* CreateRealmTests.swift */,
+				FA0C4AA21E7D06CB00F72B7A /* SessionTests.swift */,
 				22F0E33F1E50F1B50060EA9F /* NYC-2016 */,
 				22F0E34B1E50F1B50060EA9F /* TKO-2017 */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
@@ -298,6 +301,7 @@
 				22F0E3631E50F1B50060EA9F /* TKO2017ConferenceDays.swift in Sources */,
 				22F0E36B1E50F1B50060EA9F /* TKO2017Speakers.swift in Sources */,
 				22F0E3681E50F1B50060EA9F /* TKO2017Presentations.swift in Sources */,
+				FA0C4AA31E7D06CB00F72B7A /* SessionTests.swift in Sources */,
 				22F0E35C1E50F1B50060EA9F /* NYC2016Locations.swift in Sources */,
 				226E7B321E56D9BF0018E2F9 /* NYC2016Organizers.swift in Sources */,
 				22F0E35A1E50F1B50060EA9F /* NYC2016Events.swift in Sources */,
