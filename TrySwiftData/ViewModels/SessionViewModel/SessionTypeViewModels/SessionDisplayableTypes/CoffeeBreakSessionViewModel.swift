@@ -9,12 +9,12 @@
 struct CoffeeBreakSessionViewModel: SessionDisplayable {
     
     private let session: Session
-    private let defaults: SessionDefaults
+    private let dataDefaults: SessionDataDefaults
     
     init?(session: Session) {
         if session.type == .coffeeBreak {
             self.session = session
-            self.defaults = SessionDefaults(session: session)
+            self.dataDefaults = SessionDataDefaults(session: session)
         } else {
             return nil
         }
@@ -31,11 +31,11 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
         if let sponsor = session.sponsor {
             return sponsor.localizedName
         }
-        return defaults.subtitle
+        return dataDefaults.subtitle
     }
     
     var logoURL: URL {
-        if let imageURL = defaults.imageURL {
+        if let imageURL = dataDefaults.imageURL {
             return imageURL
         }
         
@@ -43,11 +43,11 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
             return sponsor.logoURL
         }
         
-        return defaults.logoImageURL
+        return dataDefaults.logoImageURL
     }
     
     var location: String {
-        return defaults.location
+        return dataDefaults.location
     }
     
     var sessionDescription: String {
@@ -55,7 +55,7 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return defaults.summary
+        return dataDefaults.summary
     }
     
     var selectable: Bool {
@@ -63,7 +63,7 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
     }
     
     var twitter: String {
-        let twitter = session.sponsor?.twitter ?? defaults.twitter
+        let twitter = session.sponsor?.twitter ?? dataDefaults.twitter
         return "@\(twitter)"
     }
 }

@@ -1,27 +1,27 @@
 //
-//  MeetupSession.swift
+//  WorkshopSession.swift
 //  Pods
 //
 //  Created by Natasha Murashev on 3/23/17.
 //
 //
 
-struct MeetupSessionViewModel: SessionDisplayable {
+struct WorkshopSessionViewModel: SessionDisplayable {
     
     private let session: Session
-    private let defaults: SessionDefaults
+    private let dataDefaults: SessionDataDefaults
     
     init?(session: Session) {
-        if session.type == .meetup {
+        if session.type == .workshop {
             self.session = session
-            self.defaults = SessionDefaults(session: session)
+            self.dataDefaults = SessionDataDefaults(session: session)
         } else {
             return nil
         }
     }
     
     var title: String {
-        guard let event = session.event else { return defaults.title }
+        guard let event = session.event else { return dataDefaults.title }
         return event.localizedTitle
     }
     
@@ -29,11 +29,11 @@ struct MeetupSessionViewModel: SessionDisplayable {
         if let sponsor = session.sponsor {
             return sponsor.localizedName
         }
-        return defaults.subtitle
+        return dataDefaults.subtitle
     }
     
     var logoURL: URL {
-        if let imageURL = defaults.imageURL {
+        if let imageURL = dataDefaults.imageURL {
             return imageURL
         }
         
@@ -41,7 +41,7 @@ struct MeetupSessionViewModel: SessionDisplayable {
             return event.logoURL
         }
         
-        return defaults.logoImageURL
+        return dataDefaults.logoImageURL
     }
     
     var location: String {
@@ -49,7 +49,7 @@ struct MeetupSessionViewModel: SessionDisplayable {
             return event.localizedLocation
         }
         
-        return defaults.location
+        return dataDefaults.location
     }
     
     var sessionDescription: String {
@@ -57,16 +57,15 @@ struct MeetupSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return defaults.summary
+        return dataDefaults.summary
     }
-    
     
     var selectable: Bool {
         return session.event != nil
     }
     
     var twitter: String {
-        let twitter = session.sponsor?.twitter ?? defaults.twitter
+        let twitter = session.sponsor?.twitter ?? dataDefaults.twitter
         return "@\(twitter)"
     }
 }

@@ -9,14 +9,14 @@
 struct TalkSessionViewModel: SessionDisplayable {
 
     private let session: Session
-    private let defaults: SessionDefaults
+    private let dataDefaults: SessionDataDefaults
     
     private let presentation: Presentation
     
     init?(session: Session) {
         if session.type == .talk {
             self.session = session
-            defaults = SessionDefaults(session: session)
+            dataDefaults = SessionDataDefaults(session: session)
             presentation = session.presentation!
         } else {
             return nil
@@ -32,7 +32,7 @@ struct TalkSessionViewModel: SessionDisplayable {
     }
     
     var logoURL: URL {
-        if let imageURL = defaults.imageURL {
+        if let imageURL = dataDefaults.imageURL {
             return imageURL
         }
         
@@ -40,11 +40,11 @@ struct TalkSessionViewModel: SessionDisplayable {
             return speakerImage
         }
         
-        return defaults.logoImageURL
+        return dataDefaults.logoImageURL
     }
     
     var location: String {
-        return defaults.location
+        return dataDefaults.location
     }
     
     var sessionDescription: String {
@@ -52,7 +52,7 @@ struct TalkSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return presentation.localizedSummary ?? defaults.summary
+        return presentation.localizedSummary ?? dataDefaults.summary
     }
     
     var selectable: Bool {
@@ -60,7 +60,7 @@ struct TalkSessionViewModel: SessionDisplayable {
     }
     
     var twitter: String {
-        let twitter = presentation.speaker?.twitter ?? defaults.twitter
+        let twitter = presentation.speaker?.twitter ?? dataDefaults.twitter
         return "@\(twitter)"
     }
 }

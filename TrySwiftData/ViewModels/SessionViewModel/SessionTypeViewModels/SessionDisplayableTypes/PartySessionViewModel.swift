@@ -9,27 +9,27 @@
 struct PartySessionViewModel: SessionDisplayable {
     
     private let session: Session
-    private let defaults: SessionDefaults
+    private let dataDefaults: SessionDataDefaults
     
     init?(session: Session) {
         if session.type == .party {
             self.session = session
-            self.defaults = SessionDefaults(session: session)
+            self.dataDefaults = SessionDataDefaults(session: session)
         } else {
             return nil
         }
     }
     
     var title: String {
-        return defaults.title
+        return dataDefaults.title
     }
     
     var subtitle: String {
-        return defaults.subtitle
+        return dataDefaults.subtitle
     }
     
     var logoURL: URL {
-        return defaults.imageURL ?? defaults.logoImageURL
+        return dataDefaults.imageURL ?? dataDefaults.logoImageURL
     }
     
     var location: String {
@@ -41,7 +41,7 @@ struct PartySessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return defaults.summary
+        return dataDefaults.summary
     }
     
     
@@ -50,6 +50,6 @@ struct PartySessionViewModel: SessionDisplayable {
     }
     
     var twitter: String {
-        return "@\(defaults.twitter)"
+        return "@\(dataDefaults.twitter)"
     }
 }

@@ -1,39 +1,39 @@
 //
-//  LunchSessionViewModel.swift
+//  BreakfastSession.swift
 //  Pods
 //
 //  Created by Natasha Murashev on 3/23/17.
 //
 //
 
-struct LunchSessionViewModel: SessionDisplayable {
+struct BreakfastSessionViewModel: SessionDisplayable {
     
     private let session: Session
-    private let defaults: SessionDefaults
+    private let dataDefaults: SessionDataDefaults
     
     init?(session: Session) {
-        if session.type == .lunch {
+        if session.type == .breakfast {
             self.session = session
-            self.defaults = SessionDefaults(session: session)
+            self.dataDefaults = SessionDataDefaults(session: session)
         } else {
             return nil
         }
     }
     
     var title: String {
-        return "Lunch".localized()
+        return dataDefaults.title
     }
     
     var subtitle: String {
-        return defaults.subtitle
+        return dataDefaults.subtitle
     }
     
     var logoURL: URL {
-        return defaults.imageURL ?? defaults.logoImageURL
+        return dataDefaults.imageURL ?? dataDefaults.logoImageURL
     }
     
     var location: String {
-        return defaults.location
+        return dataDefaults.location
     }
     
     var sessionDescription: String {
@@ -41,7 +41,7 @@ struct LunchSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return defaults.summary
+        return dataDefaults.summary
     }
     
     var selectable: Bool {
@@ -49,6 +49,8 @@ struct LunchSessionViewModel: SessionDisplayable {
     }
     
     var twitter: String {
-        return "@\(defaults.twitter)"
+        return "@\(dataDefaults.twitter)"
     }
 }
+
+

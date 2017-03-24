@@ -9,12 +9,12 @@
 struct OfficeHoursSessionViewModel: SessionDisplayable {
     
     private let session: Session
-    private let defaults: SessionDefaults
+    private let dataDefaults: SessionDataDefaults
     
     init?(session: Session) {
         if session.type == .officeHours {
             self.session = session
-            defaults = SessionDefaults(session: session)
+            dataDefaults = SessionDataDefaults(session: session)
         } else {
             return nil
         }
@@ -35,7 +35,7 @@ struct OfficeHoursSessionViewModel: SessionDisplayable {
     }
     
     var logoURL: URL {
-        if let imageURL = defaults.imageURL {
+        if let imageURL = dataDefaults.imageURL {
             return imageURL
         }
         
@@ -43,11 +43,11 @@ struct OfficeHoursSessionViewModel: SessionDisplayable {
             return speakerImage
         }
         
-        return defaults.logoImageURL
+        return dataDefaults.logoImageURL
     }
     
     var location: String {
-        return defaults.location
+        return dataDefaults.location
     }
     
     var sessionDescription: String {
@@ -55,7 +55,7 @@ struct OfficeHoursSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return session.presentation?.speaker?.localizedBio ?? defaults.summary
+        return session.presentation?.speaker?.localizedBio ?? dataDefaults.summary
     }
     
     var selectable: Bool {
@@ -63,7 +63,7 @@ struct OfficeHoursSessionViewModel: SessionDisplayable {
     }
     
     var twitter: String {
-        let twitter = session.presentation?.speaker?.twitter ?? defaults.twitter
+        let twitter = session.presentation?.speaker?.twitter ?? dataDefaults.twitter
         return "@\(twitter)"
     }
 

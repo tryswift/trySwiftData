@@ -9,14 +9,14 @@
 struct SponsoredDemoSessionViewModel: SessionDisplayable {
 
     private let session: Session
-    private let defaults: SessionDefaults
+    private let dataDefaults: SessionDataDefaults
     
     private let sponsor: Sponsor
     
     init?(session: Session) {
         if session.type == .lightningTalk {
             self.session = session
-            defaults = SessionDefaults(session: session)
+            dataDefaults = SessionDataDefaults(session: session)
             sponsor = session.sponsor!
         } else {
             return nil
@@ -32,15 +32,15 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
     }
     
     var logoURL: URL {
-        if let imageURL = defaults.imageURL {
+        if let imageURL = dataDefaults.imageURL {
             return imageURL
         }
         
-        return sponsor.logoURL ?? defaults.logoImageURL
+        return sponsor.logoURL ?? dataDefaults.logoImageURL
     }
     
     var location: String {
-        return defaults.location
+        return dataDefaults.location
     }
     
     var sessionDescription: String {
@@ -48,7 +48,7 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return defaults.summary
+        return dataDefaults.summary
     }
     
     var selectable: Bool {

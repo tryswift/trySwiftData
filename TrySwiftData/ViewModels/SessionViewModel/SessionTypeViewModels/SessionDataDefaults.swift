@@ -6,7 +6,7 @@
 //
 //
 
-struct SessionDefaults {
+struct SessionDataDefaults {
         
     let title: String
     let subtitle = "try! Conference"

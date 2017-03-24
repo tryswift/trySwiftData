@@ -9,19 +9,19 @@
 struct LightningTalkSessionViewModel: SessionDisplayable {
     
     private let session: Session
-    private let defaults: SessionDefaults
+    private let dataDefaults: SessionDataDefaults
     
     init?(session: Session) {
         if session.type == .lightningTalk {
             self.session = session
-            self.defaults = SessionDefaults(session: session)
+            self.dataDefaults = SessionDataDefaults(session: session)
         } else {
             return nil
         }
     }
     
     var title: String {
-        guard let presentation = session.presentation else { return defaults.title }
+        guard let presentation = session.presentation else { return dataDefaults.title }
         return presentation.localizedTitle
     }
     
@@ -33,7 +33,7 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
     }
     
     var logoURL: URL {
-        if let imageURL = defaults.imageURL {
+        if let imageURL = dataDefaults.imageURL {
             return imageURL
         }
         
@@ -41,11 +41,11 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
             return speakerImage
         }
         
-        return defaults.logoImageURL
+        return dataDefaults.logoImageURL
     }
     
     var location: String {
-        return defaults.location
+        return dataDefaults.location
     }
     
     var sessionDescription: String {
@@ -53,7 +53,7 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return session.presentation?.localizedSummary ?? defaults.summary
+        return session.presentation?.localizedSummary ?? dataDefaults.summary
     }
     
     var selectable: Bool {
@@ -61,7 +61,7 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
     }
     
     var twitter: String {
-        let twitter = session.presentation?.speaker?.twitter ?? defaults.twitter
+        let twitter = session.presentation?.speaker?.twitter ?? dataDefaults.twitter
         return "@\(twitter)"
     }
 }
