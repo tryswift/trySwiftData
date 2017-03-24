@@ -13,7 +13,7 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
     
     private let sponsor: Sponsor
     
-    init?(session: Session) {
+    init?(_ session: Session) {
         if session.type == .lightningTalk {
             self.session = session
             dataDefaults = SessionDataDefaults(session: session)

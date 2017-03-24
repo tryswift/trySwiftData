@@ -11,7 +11,7 @@ struct OfficeHoursSessionViewModel: SessionDisplayable {
     private let session: Session
     private let dataDefaults: SessionDataDefaults
     
-    init?(session: Session) {
+    init?(_ session: Session) {
         if session.type == .officeHours {
             self.session = session
             dataDefaults = SessionDataDefaults(session: session)

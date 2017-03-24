@@ -13,7 +13,7 @@ struct TalkSessionViewModel: SessionDisplayable {
     
     private let presentation: Presentation
     
-    init?(session: Session) {
+    init?(_ session: Session) {
         if session.type == .talk {
             self.session = session
             dataDefaults = SessionDataDefaults(session: session)

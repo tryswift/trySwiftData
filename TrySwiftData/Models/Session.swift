@@ -9,6 +9,20 @@
 import RealmSwift
 import Foundation
 
+@objc public enum SessionType: Int {
+    case workshop
+    case meetup
+    case breakfast
+    case announcement
+    case talk
+    case lightningTalk
+    case sponsoredDemo
+    case coffeeBreak
+    case lunch
+    case officeHours
+    case party
+}
+
 public class Session: Object {
     /** The type of content in this particular session */
     open dynamic var type: SessionType = .talk
@@ -50,50 +64,6 @@ public class Session: Object {
             return realm.objects(Session.self)
         } catch {
             return nil
-        }
-    }
-}
-
-extension Session {
-    
-    @objc public enum SessionType: Int {
-        case workshop
-        case meetup
-        case breakfast
-        case announcement
-        case talk
-        case lightningTalk
-        case sponsoredDemo
-        case coffeeBreak
-        case lunch
-        case officeHours
-        case party
-    }
-    
-    var viewModel: SessionDisplayable {
-        switch self.type {
-        case .workshop:
-            return WorkshopSessionViewModel(session: self)!
-        case .meetup:
-            return MeetupSessionViewModel(session: self)!
-        case .breakfast:
-            return BreakfastSessionViewModel(session: self)!
-        case .announcement:
-            return AnnouncementSessionViewModel(session: self)!
-        case .talk:
-            return TalkSessionViewModel(session: self)!
-        case .lightningTalk:
-            return LightningTalkSessionViewModel(session: self)!
-        case .sponsoredDemo:
-            return SponsoredDemoSessionViewModel(session: self)!
-        case .coffeeBreak:
-            return CoffeeBreakSessionViewModel(session: self)!
-        case .lunch:
-            return LunchSessionViewModel(session: self)!
-        case .officeHours:
-            return OfficeHoursSessionViewModel(session: self)!
-        case .party:
-            return PartySessionViewModel(session: self)!
         }
     }
 }

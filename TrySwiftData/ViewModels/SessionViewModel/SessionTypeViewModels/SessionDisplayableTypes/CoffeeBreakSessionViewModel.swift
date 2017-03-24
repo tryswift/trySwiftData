@@ -11,7 +11,7 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
     private let session: Session
     private let dataDefaults: SessionDataDefaults
     
-    init?(session: Session) {
+    init?(_ session: Session) {
         if session.type == .coffeeBreak {
             self.session = session
             self.dataDefaults = SessionDataDefaults(session: session)
