@@ -1,9 +1,9 @@
 # trySwiftData
 
-[![CI Status](http://img.shields.io/travis/Alvin Varghese/trySwiftData.svg?style=flat)](https://travis-ci.org/Alvin Varghese/trySwiftData)
-[![Version](https://img.shields.io/cocoapods/v/trySwiftData.svg?style=flat)](http://cocoapods.org/pods/trySwiftData)
-[![License](https://img.shields.io/cocoapods/l/trySwiftData.svg?style=flat)](http://cocoapods.org/pods/trySwiftData)
-[![Platform](https://img.shields.io/cocoapods/p/trySwiftData.svg?style=flat)](http://cocoapods.org/pods/trySwiftData)
+[![CI Status](https://img.shields.io/travis/Alvin%20Varghese/trySwiftData.svg?style=flat)](https://travis-ci.org/Alvin%20Varghese/trySwiftData)
+[![Version](https://img.shields.io/cocoapods/v/trySwiftData.svg?style=flat)](https://cocoapods.org/pods/trySwiftData)
+[![License](https://img.shields.io/cocoapods/l/trySwiftData.svg?style=flat)](https://cocoapods.org/pods/trySwiftData)
+[![Platform](https://img.shields.io/cocoapods/p/trySwiftData.svg?style=flat)](https://cocoapods.org/pods/trySwiftData)
 
 ## How to Make Changes
 1. Make the change in the appropriate file in `TrySwiftData` -> `Tests` -> `TKO2017` folder
@@ -21,7 +21,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-trySwiftData is available through [CocoaPods](http://cocoapods.org). To install
+trySwiftData is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
