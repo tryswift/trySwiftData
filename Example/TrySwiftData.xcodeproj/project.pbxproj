@@ -35,6 +35,7 @@
 		FA79A5FB1E863B4B005696DC /* BreakfastSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FA1E863B4B005696DC /* BreakfastSessionViewModelTests.swift */; };
 		FA79A5FD1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */; };
 		FA79A5FF1E864863005696DC /* LightningTalkSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */; };
+		FCBBDE781E864C7200ABF000 /* LunchSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		FA79A5FA1E863B4B005696DC /* BreakfastSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BreakfastSessionViewModelTests.swift; path = SessionTests/BreakfastSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoffeeBreakSessionViewModelTests.swift; path = SessionTests/CoffeeBreakSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightningTalkSessionViewModelTests.swift; path = SessionTests/LightningTalkSessionViewModelTests.swift; sourceTree = "<group>"; };
+		FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchSessionViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				FA79A5FA1E863B4B005696DC /* BreakfastSessionViewModelTests.swift */,
 				FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */,
 				FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */,
+				FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */,
 			);
 			name = SessionTests;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBBDE781E864C7200ABF000 /* LunchSessionViewModelTests.swift in Sources */,
 				FA79A5F91E860428005696DC /* AnnouncementSessionViewModelTests.swift in Sources */,
 				22F0E35E1E50F1B50060EA9F /* NYC2016SessionBlocks.swift in Sources */,
 				22F0E3621E50F1B50060EA9F /* NYC2016Venues.swift in Sources */,
