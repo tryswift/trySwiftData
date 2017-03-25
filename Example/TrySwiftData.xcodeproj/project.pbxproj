@@ -31,7 +31,10 @@
 		22FE792F1E56AF3700DCFCAF /* TKO2017Organizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FE792E1E56AF3700DCFCAF /* TKO2017Organizers.swift */; };
 		607FACEC1AFB9204008FA782 /* CreateRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* CreateRealmTests.swift */; };
 		D1C2A1C1C1ED581F9395D1C3 /* Pods_TrySwiftData_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3D343B3BCFD0FE16F48FBA /* Pods_TrySwiftData_Tests.framework */; };
-		FA0C4AA31E7D06CB00F72B7A /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C4AA21E7D06CB00F72B7A /* SessionTests.swift */; };
+		FA79A5F91E860428005696DC /* AnnouncementSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5F81E860428005696DC /* AnnouncementSessionViewModelTests.swift */; };
+		FA79A5FB1E863B4B005696DC /* BreakfastSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FA1E863B4B005696DC /* BreakfastSessionViewModelTests.swift */; };
+		FA79A5FD1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */; };
+		FA79A5FF1E864863005696DC /* LightningTalkSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +66,10 @@
 		607FACEB1AFB9204008FA782 /* CreateRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRealmTests.swift; sourceTree = "<group>"; };
 		CE171203CD5CC3EE87F100D4 /* Pods-TrySwiftData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData_Tests/Pods-TrySwiftData_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F34162B8E33CF2073A2BD225 /* Pods-TrySwiftData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrySwiftData_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrySwiftData_Tests/Pods-TrySwiftData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FA0C4AA21E7D06CB00F72B7A /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
+		FA79A5F81E860428005696DC /* AnnouncementSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnouncementSessionViewModelTests.swift; path = SessionTests/AnnouncementSessionViewModelTests.swift; sourceTree = "<group>"; };
+		FA79A5FA1E863B4B005696DC /* BreakfastSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BreakfastSessionViewModelTests.swift; path = SessionTests/BreakfastSessionViewModelTests.swift; sourceTree = "<group>"; };
+		FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoffeeBreakSessionViewModelTests.swift; path = SessionTests/CoffeeBreakSessionViewModelTests.swift; sourceTree = "<group>"; };
+		FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightningTalkSessionViewModelTests.swift; path = SessionTests/LightningTalkSessionViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* CreateRealmTests.swift */,
-				FA0C4AA21E7D06CB00F72B7A /* SessionTests.swift */,
+				FA79A5F71E8603ED005696DC /* SessionTests */,
 				22F0E33F1E50F1B50060EA9F /* NYC-2016 */,
 				22F0E34B1E50F1B50060EA9F /* TKO-2017 */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
@@ -167,6 +173,17 @@
 				CE171203CD5CC3EE87F100D4 /* Pods-TrySwiftData_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA79A5F71E8603ED005696DC /* SessionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA79A5F81E860428005696DC /* AnnouncementSessionViewModelTests.swift */,
+				FA79A5FA1E863B4B005696DC /* BreakfastSessionViewModelTests.swift */,
+				FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */,
+				FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */,
+			);
+			name = SessionTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TrySwiftData" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "trySwiftData" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -289,22 +306,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA79A5F91E860428005696DC /* AnnouncementSessionViewModelTests.swift in Sources */,
 				22F0E35E1E50F1B50060EA9F /* NYC2016SessionBlocks.swift in Sources */,
 				22F0E3621E50F1B50060EA9F /* NYC2016Venues.swift in Sources */,
 				22F0E3601E50F1B50060EA9F /* NYC2016Speakers.swift in Sources */,
+				FA79A5FF1E864863005696DC /* LightningTalkSessionViewModelTests.swift in Sources */,
 				22F0E36D1E50F1B50060EA9F /* TKO2017Venues.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* CreateRealmTests.swift in Sources */,
 				22F0E36C1E50F1B50060EA9F /* TKO2017Sponsors.swift in Sources */,
+				FA79A5FD1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift in Sources */,
 				22F0E3671E50F1B50060EA9F /* TKO2017Locations.swift in Sources */,
 				22F0E3591E50F1B50060EA9F /* NYC2016Conferences.swift in Sources */,
 				22F0E3641E50F1B50060EA9F /* TKO2017Conferences.swift in Sources */,
 				22F0E3631E50F1B50060EA9F /* TKO2017ConferenceDays.swift in Sources */,
 				22F0E36B1E50F1B50060EA9F /* TKO2017Speakers.swift in Sources */,
 				22F0E3681E50F1B50060EA9F /* TKO2017Presentations.swift in Sources */,
-				FA0C4AA31E7D06CB00F72B7A /* SessionTests.swift in Sources */,
 				22F0E35C1E50F1B50060EA9F /* NYC2016Locations.swift in Sources */,
 				226E7B321E56D9BF0018E2F9 /* NYC2016Organizers.swift in Sources */,
 				22F0E35A1E50F1B50060EA9F /* NYC2016Events.swift in Sources */,
+				FA79A5FB1E863B4B005696DC /* BreakfastSessionViewModelTests.swift in Sources */,
 				22F0E3651E50F1B50060EA9F /* TKO2017Events.swift in Sources */,
 				22F0E3581E50F1B50060EA9F /* NYC2016ConferenceDays.swift in Sources */,
 				22FE792F1E56AF3700DCFCAF /* TKO2017Organizers.swift in Sources */,
@@ -447,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TrySwiftData" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "trySwiftData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
