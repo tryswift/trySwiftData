@@ -57,7 +57,7 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
     }
     
     var selectable: Bool {
-        return true
+        return session.presentation != nil
     }
     
     var twitter: String {

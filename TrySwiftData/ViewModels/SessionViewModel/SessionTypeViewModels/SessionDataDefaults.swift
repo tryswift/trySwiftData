@@ -17,7 +17,7 @@ struct SessionDataDefaults {
     let twitter = Conference.current.twitter!
     
     init(session: Session) {
-        title = session.localizedString(for: session.title ?? "", japaneseString: session.titleJP)
+        title = session.localizedString(for: session.title ?? "TBD", japaneseString: session.titleJP)
         
         if let url = session.imageWebURL {
             imageURL = URL(string: url)
