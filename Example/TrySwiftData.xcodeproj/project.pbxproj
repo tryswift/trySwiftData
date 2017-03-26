@@ -37,6 +37,7 @@
 		FA79A5FF1E864863005696DC /* LightningTalkSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */; };
 		FA79A6011E87A38D005696DC /* TalkSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6001E87A38D005696DC /* TalkSessionViewModelTests.swift */; };
 		FC68B97A1E87AF32007E682D /* PartySessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68B9791E87AF32007E682D /* PartySessionViewModelTests.swift */; };
+		FC68B97C1E87B121007E682D /* WorkshopSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68B97B1E87B121007E682D /* WorkshopSessionViewModelTests.swift */; };
 		FCBBDE781E864C7200ABF000 /* LunchSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */; };
 		FCBBDE7A1E87993700ABF000 /* MeetupSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDE791E87993700ABF000 /* MeetupSessionViewModelTests.swift */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,7 @@
 		FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightningTalkSessionViewModelTests.swift; path = SessionTests/LightningTalkSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A6001E87A38D005696DC /* TalkSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TalkSessionViewModelTests.swift; path = SessionTests/TalkSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FC68B9791E87AF32007E682D /* PartySessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartySessionViewModelTests.swift; sourceTree = "<group>"; };
+		FC68B97B1E87B121007E682D /* WorkshopSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkshopSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FCBBDE791E87993700ABF000 /* MeetupSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupSessionViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,6 +196,7 @@
 				FCBBDE791E87993700ABF000 /* MeetupSessionViewModelTests.swift */,
 				FA79A6001E87A38D005696DC /* TalkSessionViewModelTests.swift */,
 				FC68B9791E87AF32007E682D /* PartySessionViewModelTests.swift */,
+				FC68B97B1E87B121007E682D /* WorkshopSessionViewModelTests.swift */,
 			);
 			name = SessionTests;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				FA79A5FD1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift in Sources */,
 				22F0E3671E50F1B50060EA9F /* TKO2017Locations.swift in Sources */,
 				22F0E3591E50F1B50060EA9F /* NYC2016Conferences.swift in Sources */,
+				FC68B97C1E87B121007E682D /* WorkshopSessionViewModelTests.swift in Sources */,
 				22F0E3641E50F1B50060EA9F /* TKO2017Conferences.swift in Sources */,
 				22F0E3631E50F1B50060EA9F /* TKO2017ConferenceDays.swift in Sources */,
 				22F0E36B1E50F1B50060EA9F /* TKO2017Speakers.swift in Sources */,
