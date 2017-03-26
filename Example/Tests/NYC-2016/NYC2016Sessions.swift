@@ -22,6 +22,7 @@ public let nyc2016Sessions: [String : Session] = [
         let session = Session()
         session.type = .meetup
         session.event = nyc2016Events["meetup"]
+        session.sponsor = nyc2016Sponsors["meetup"]
         return session
     }(),
 //---------------------------------------------------------
