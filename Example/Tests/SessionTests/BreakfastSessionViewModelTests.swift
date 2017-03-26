@@ -30,6 +30,10 @@ class BreakfastSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.logoURL.lastPathComponent, breakfast.imageAssetName)
     }
     
+    func testLocation() {
+        XCTAssertEqual(viewModel.location, breakfast.location!.name)
+    }
+    
     func testSessionDescription() {
         XCTAssertEqual(viewModel.sessionDescription, "❤️")
     }
