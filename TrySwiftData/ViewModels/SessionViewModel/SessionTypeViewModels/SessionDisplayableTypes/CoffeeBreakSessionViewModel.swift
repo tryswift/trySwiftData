@@ -43,7 +43,7 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
             return sponsor.logoURL
         }
         
-        return dataDefaults.logoImageURL
+        return dataDefaults.logoURL
     }
     
     var location: String {
@@ -55,7 +55,7 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return dataDefaults.summary
+        return dataDefaults.presentationSummary
     }
     
     var selectable: Bool {

@@ -36,7 +36,7 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
             return imageURL
         }
         
-        return sponsor.logoURL ?? dataDefaults.logoImageURL
+        return sponsor.logoURL ?? dataDefaults.logoURL
     }
     
     var location: String {
@@ -48,7 +48,7 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return dataDefaults.summary
+        return dataDefaults.presentationSummary
     }
     
     var selectable: Bool {

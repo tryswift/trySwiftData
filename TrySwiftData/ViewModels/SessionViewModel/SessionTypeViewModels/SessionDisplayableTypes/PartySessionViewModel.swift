@@ -29,7 +29,7 @@ struct PartySessionViewModel: SessionDisplayable {
     }
     
     var logoURL: URL {
-        return dataDefaults.imageURL ?? dataDefaults.logoImageURL
+        return dataDefaults.imageURL ?? dataDefaults.logoURL
     }
     
     var location: String {
@@ -41,7 +41,7 @@ struct PartySessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return dataDefaults.summary
+        return dataDefaults.presentationSummary
     }
     
     

@@ -6,18 +6,14 @@
 //
 //
 
-struct SessionDataDefaults {
-        
-    let title: String
-    let subtitle = "try! Conference"
-    let logoImageURL = Bundle.trySwiftAssetURL(for: "Logo.png")!
+struct SessionDataDefaults: SessionDisplayable {
+    
     let imageURL: URL?
-    let location: String
-    let summary = Conference.current.localizedDescription
-    let twitter = Conference.current.twitter!
+    
+    fileprivate let session: Session
     
     init(session: Session) {
-        title = session.localizedString(for: session.title ?? "TBD", japaneseString: session.titleJP)
+        self.session = session
         
         if let url = session.imageWebURL {
             imageURL = URL(string: url)
@@ -26,11 +22,43 @@ struct SessionDataDefaults {
         } else {
             imageURL = nil
         }
-        
+    }
+    
+    var title: String {
+        return session.localizedString(for: session.title ?? "TBD", japaneseString: session.titleJP)
+    }
+    
+    var subtitle: String {
+        return Conference.current.name ?? "try! Conference"
+    }
+    
+
+    var logoURL: URL {
+        return Conference.current.logoURL
+    }
+ 
+    
+    var location: String {
         if let location = session.location {
-            self.location = location.localizedName
+            return location.localizedName
         } else {
-            self.location = Venue.localizedName(for: .conference)
+            return Venue.localizedName(for: .conference)
         }
+    }
+    
+    var sessionDescription: String {
+        return "❤️".localized()
+    }
+    
+    var presentationSummary: String {
+        return Conference.current.localizedDescription
+    }
+    
+    var twitter: String {
+        return Conference.current.twitter!
+    }
+    
+    var selectable: Bool {
+        return false
     }
 }

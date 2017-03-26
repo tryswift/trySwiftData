@@ -41,7 +41,7 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
             return speakerImage
         }
         
-        return dataDefaults.logoImageURL
+        return dataDefaults.logoURL
     }
     
     var location: String {
@@ -53,7 +53,7 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return session.presentation?.localizedSummary ?? dataDefaults.summary
+        return session.presentation?.localizedSummary ?? dataDefaults.presentationSummary
     }
     
     var selectable: Bool {

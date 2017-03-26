@@ -40,7 +40,7 @@ struct TalkSessionViewModel: SessionDisplayable {
             return speakerImage
         }
         
-        return dataDefaults.logoImageURL
+        return dataDefaults.logoURL
     }
     
     var location: String {
@@ -52,7 +52,7 @@ struct TalkSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return presentation.localizedSummary ?? dataDefaults.summary
+        return presentation.localizedSummary ?? dataDefaults.presentationSummary
     }
     
     var selectable: Bool {

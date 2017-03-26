@@ -41,7 +41,7 @@ struct MeetupSessionViewModel: SessionDisplayable {
             return event.logoURL
         }
         
-        return dataDefaults.logoImageURL
+        return dataDefaults.logoURL
     }
     
     var location: String {
@@ -57,7 +57,7 @@ struct MeetupSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return dataDefaults.summary
+        return dataDefaults.presentationSummary
     }
     
     

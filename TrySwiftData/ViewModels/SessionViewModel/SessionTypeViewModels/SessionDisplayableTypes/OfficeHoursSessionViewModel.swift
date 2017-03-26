@@ -43,7 +43,7 @@ struct OfficeHoursSessionViewModel: SessionDisplayable {
             return speakerImage
         }
         
-        return dataDefaults.logoImageURL
+        return dataDefaults.logoURL
     }
     
     var location: String {
@@ -55,7 +55,7 @@ struct OfficeHoursSessionViewModel: SessionDisplayable {
     }
     
     var presentationSummary: String {
-        return session.presentation?.speaker?.localizedBio ?? dataDefaults.summary
+        return session.presentation?.speaker?.localizedBio ?? dataDefaults.presentationSummary
     }
     
     var selectable: Bool {
