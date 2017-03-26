@@ -54,6 +54,10 @@ class LightningTalkSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModelNoPresentation.logoURL.lastPathComponent, "Logo.png")
     }
     
+    func testLocation() {
+        XCTAssertEqual(viewModel.location, lightningTalk.location!.name)
+    }
+    
     func testSessionDescription() {
         XCTAssertEqual(viewModel.sessionDescription, "⚡️🎤 Lightning Talk")
     }
