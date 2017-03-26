@@ -36,6 +36,7 @@
 		FA79A5FD1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */; };
 		FA79A5FF1E864863005696DC /* LightningTalkSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */; };
 		FCBBDE781E864C7200ABF000 /* LunchSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */; };
+		FCBBDE7A1E87993700ABF000 /* MeetupSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDE791E87993700ABF000 /* MeetupSessionViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoffeeBreakSessionViewModelTests.swift; path = SessionTests/CoffeeBreakSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightningTalkSessionViewModelTests.swift; path = SessionTests/LightningTalkSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchSessionViewModelTests.swift; sourceTree = "<group>"; };
+		FCBBDE791E87993700ABF000 /* MeetupSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupSessionViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */,
 				FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */,
 				FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */,
+				FCBBDE791E87993700ABF000 /* MeetupSessionViewModelTests.swift */,
 			);
 			name = SessionTests;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				FA79A5FF1E864863005696DC /* LightningTalkSessionViewModelTests.swift in Sources */,
 				22F0E36D1E50F1B50060EA9F /* TKO2017Venues.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* CreateRealmTests.swift in Sources */,
+				FCBBDE7A1E87993700ABF000 /* MeetupSessionViewModelTests.swift in Sources */,
 				22F0E36C1E50F1B50060EA9F /* TKO2017Sponsors.swift in Sources */,
 				FA79A5FD1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift in Sources */,
 				22F0E3671E50F1B50060EA9F /* TKO2017Locations.swift in Sources */,
