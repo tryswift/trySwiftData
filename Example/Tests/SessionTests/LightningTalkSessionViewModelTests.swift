@@ -24,9 +24,11 @@ class LightningTalkSessionViewModelTests: XCTestCase {
         viewModel = SessionViewModel(session: lightningTalk)
         presentation = lightningTalk.presentation!
         
-        let lightingTalkNoPresentation = tko2017Sessions["day1LightningTalk2"]!
-        lightingTalkNoPresentation.presentation = nil
-        viewModelNoPresentation = SessionViewModel(session: lightingTalkNoPresentation)
+        let session_noPresentation = Session()
+        session_noPresentation.type = .lightningTalk
+        session_noPresentation.location = tko2017Locations["mainroom"]
+        session_noPresentation.presentation = nil
+        viewModelNoPresentation = SessionViewModel(session: session_noPresentation)
     }
     
     func testTitle() {
