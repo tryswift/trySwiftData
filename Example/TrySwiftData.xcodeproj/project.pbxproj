@@ -37,10 +37,11 @@
 		FA79A5FF1E864863005696DC /* LightningTalkSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */; };
 		FA79A6011E87A38D005696DC /* TalkSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6001E87A38D005696DC /* TalkSessionViewModelTests.swift */; };
 		FA79A6031E87A5A8005696DC /* OfficeHoursSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6021E87A5A8005696DC /* OfficeHoursSessionViewModelTests.swift */; };
-		FC68B97A1E87AF32007E682D /* PartySessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68B9791E87AF32007E682D /* PartySessionViewModelTests.swift */; };
-		FC68B97C1E87B121007E682D /* WorkshopSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68B97B1E87B121007E682D /* WorkshopSessionViewModelTests.swift */; };
-		FCBBDE781E864C7200ABF000 /* LunchSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */; };
-		FCBBDE7A1E87993700ABF000 /* MeetupSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBBDE791E87993700ABF000 /* MeetupSessionViewModelTests.swift */; };
+		FA79A6051E87B5CF005696DC /* SponsoredDemoSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6041E87B5CF005696DC /* SponsoredDemoSessionViewModelTests.swift */; };
+		FA79A60A1E87B6B4005696DC /* LunchSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6061E87B6B4005696DC /* LunchSessionViewModelTests.swift */; };
+		FA79A60B1E87B6B4005696DC /* MeetupSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6071E87B6B4005696DC /* MeetupSessionViewModelTests.swift */; };
+		FA79A60C1E87B6B4005696DC /* PartySessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6081E87B6B4005696DC /* PartySessionViewModelTests.swift */; };
+		FA79A60D1E87B6B4005696DC /* WorkshopSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6091E87B6B4005696DC /* WorkshopSessionViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,10 +79,11 @@
 		FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LightningTalkSessionViewModelTests.swift; path = SessionTests/LightningTalkSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A6001E87A38D005696DC /* TalkSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TalkSessionViewModelTests.swift; path = SessionTests/TalkSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A6021E87A5A8005696DC /* OfficeHoursSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfficeHoursSessionViewModelTests.swift; path = SessionTests/OfficeHoursSessionViewModelTests.swift; sourceTree = "<group>"; };
-		FC68B9791E87AF32007E682D /* PartySessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartySessionViewModelTests.swift; sourceTree = "<group>"; };
-		FC68B97B1E87B121007E682D /* WorkshopSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkshopSessionViewModelTests.swift; sourceTree = "<group>"; };
-		FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchSessionViewModelTests.swift; sourceTree = "<group>"; };
-		FCBBDE791E87993700ABF000 /* MeetupSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupSessionViewModelTests.swift; sourceTree = "<group>"; };
+		FA79A6041E87B5CF005696DC /* SponsoredDemoSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SponsoredDemoSessionViewModelTests.swift; path = SessionTests/SponsoredDemoSessionViewModelTests.swift; sourceTree = "<group>"; };
+		FA79A6061E87B6B4005696DC /* LunchSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LunchSessionViewModelTests.swift; path = SessionTests/LunchSessionViewModelTests.swift; sourceTree = "<group>"; };
+		FA79A6071E87B6B4005696DC /* MeetupSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeetupSessionViewModelTests.swift; path = SessionTests/MeetupSessionViewModelTests.swift; sourceTree = "<group>"; };
+		FA79A6081E87B6B4005696DC /* PartySessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PartySessionViewModelTests.swift; path = SessionTests/PartySessionViewModelTests.swift; sourceTree = "<group>"; };
+		FA79A6091E87B6B4005696DC /* WorkshopSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkshopSessionViewModelTests.swift; path = SessionTests/WorkshopSessionViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,12 +196,13 @@
 				FA79A5FA1E863B4B005696DC /* BreakfastSessionViewModelTests.swift */,
 				FA79A5FC1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift */,
 				FA79A5FE1E864863005696DC /* LightningTalkSessionViewModelTests.swift */,
-				FCBBDE771E864C7200ABF000 /* LunchSessionViewModelTests.swift */,
-				FCBBDE791E87993700ABF000 /* MeetupSessionViewModelTests.swift */,
+				FA79A6061E87B6B4005696DC /* LunchSessionViewModelTests.swift */,
+				FA79A6071E87B6B4005696DC /* MeetupSessionViewModelTests.swift */,
+				FA79A6081E87B6B4005696DC /* PartySessionViewModelTests.swift */,
+				FA79A6091E87B6B4005696DC /* WorkshopSessionViewModelTests.swift */,
 				FA79A6001E87A38D005696DC /* TalkSessionViewModelTests.swift */,
 				FA79A6021E87A5A8005696DC /* OfficeHoursSessionViewModelTests.swift */,
-				FC68B9791E87AF32007E682D /* PartySessionViewModelTests.swift */,
-				FC68B97B1E87B121007E682D /* WorkshopSessionViewModelTests.swift */,
+				FA79A6041E87B5CF005696DC /* SponsoredDemoSessionViewModelTests.swift */,
 			);
 			name = SessionTests;
 			sourceTree = "<group>";
@@ -324,28 +327,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCBBDE781E864C7200ABF000 /* LunchSessionViewModelTests.swift in Sources */,
 				FA79A5F91E860428005696DC /* AnnouncementSessionViewModelTests.swift in Sources */,
+				FA79A60D1E87B6B4005696DC /* WorkshopSessionViewModelTests.swift in Sources */,
 				22F0E35E1E50F1B50060EA9F /* NYC2016SessionBlocks.swift in Sources */,
 				FA79A6031E87A5A8005696DC /* OfficeHoursSessionViewModelTests.swift in Sources */,
 				22F0E3621E50F1B50060EA9F /* NYC2016Venues.swift in Sources */,
 				22F0E3601E50F1B50060EA9F /* NYC2016Speakers.swift in Sources */,
 				FA79A6011E87A38D005696DC /* TalkSessionViewModelTests.swift in Sources */,
+				FA79A60C1E87B6B4005696DC /* PartySessionViewModelTests.swift in Sources */,
 				FA79A5FF1E864863005696DC /* LightningTalkSessionViewModelTests.swift in Sources */,
 				22F0E36D1E50F1B50060EA9F /* TKO2017Venues.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* CreateRealmTests.swift in Sources */,
-				FCBBDE7A1E87993700ABF000 /* MeetupSessionViewModelTests.swift in Sources */,
 				22F0E36C1E50F1B50060EA9F /* TKO2017Sponsors.swift in Sources */,
 				FA79A5FD1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift in Sources */,
 				22F0E3671E50F1B50060EA9F /* TKO2017Locations.swift in Sources */,
 				22F0E3591E50F1B50060EA9F /* NYC2016Conferences.swift in Sources */,
-				FC68B97C1E87B121007E682D /* WorkshopSessionViewModelTests.swift in Sources */,
 				22F0E3641E50F1B50060EA9F /* TKO2017Conferences.swift in Sources */,
 				22F0E3631E50F1B50060EA9F /* TKO2017ConferenceDays.swift in Sources */,
 				22F0E36B1E50F1B50060EA9F /* TKO2017Speakers.swift in Sources */,
 				22F0E3681E50F1B50060EA9F /* TKO2017Presentations.swift in Sources */,
 				22F0E35C1E50F1B50060EA9F /* NYC2016Locations.swift in Sources */,
-				FC68B97A1E87AF32007E682D /* PartySessionViewModelTests.swift in Sources */,
+				FA79A60B1E87B6B4005696DC /* MeetupSessionViewModelTests.swift in Sources */,
+				FA79A60A1E87B6B4005696DC /* LunchSessionViewModelTests.swift in Sources */,
 				226E7B321E56D9BF0018E2F9 /* NYC2016Organizers.swift in Sources */,
 				22F0E35A1E50F1B50060EA9F /* NYC2016Events.swift in Sources */,
 				FA79A5FB1E863B4B005696DC /* BreakfastSessionViewModelTests.swift in Sources */,
@@ -356,6 +359,7 @@
 				22F0E3611E50F1B50060EA9F /* NYC2016Sponsors.swift in Sources */,
 				22F0E36A1E50F1B50060EA9F /* TKO2017Sessions.swift in Sources */,
 				22F0E35D1E50F1B50060EA9F /* NYC2016Presentations.swift in Sources */,
+				FA79A6051E87B5CF005696DC /* SponsoredDemoSessionViewModelTests.swift in Sources */,
 				22F0E3691E50F1B50060EA9F /* TKO2017SessionBlocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

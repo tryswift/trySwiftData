@@ -14,7 +14,7 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
     private let sponsor: Sponsor
     
     init?(_ session: Session) {
-        if session.type == .lightningTalk {
+        if session.type == .sponsoredDemo {
             self.session = session
             dataDefaults = SessionDataDefaults(session: session)
             sponsor = session.sponsor!
@@ -56,6 +56,6 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
     }
     
     var twitter: String {
-        return "@\(sponsor.twitter)"
+        return "@\(sponsor.twitter!)"
     }
 }
