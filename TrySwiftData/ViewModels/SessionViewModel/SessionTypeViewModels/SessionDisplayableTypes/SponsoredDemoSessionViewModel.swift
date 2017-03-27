@@ -27,7 +27,7 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
         return "Sponsored Demo".localized()
     }
     
-    var subtitle: String {
+    var presenter: String {
         return sponsor.localizedName
     }
     

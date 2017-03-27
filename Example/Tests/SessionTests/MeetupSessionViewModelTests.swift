@@ -62,14 +62,14 @@ class MeetupSessionViewModelTests: XCTestCase {
     
     //MARK: Subtitle
     
-    func testSubtitle() {
-        XCTAssertEqual( viewModel.subtitle, meetupSession.sponsor?.localizedName)
+    func testPresenter() {
+        XCTAssertEqual( viewModel.presenter, meetupSession.sponsor?.localizedName)
     }
     
     //MARK: Subtitle - No Sponsor
     
-    func test_NoSponsor_Subtitle() {
-        XCTAssertEqual( viewModel_NoSponsor.subtitle, "try! Conference")
+    func testPresenter_NoSponsor() {
+        XCTAssertEqual( viewModel_NoSponsor.presenter, "try! Conference")
     }
     
     // Problem - There are no assets for New York, so Logo URL test wont work

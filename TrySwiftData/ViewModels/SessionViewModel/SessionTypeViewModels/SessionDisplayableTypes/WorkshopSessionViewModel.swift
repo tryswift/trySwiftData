@@ -25,11 +25,11 @@ struct WorkshopSessionViewModel: SessionDisplayable {
         return event.localizedTitle
     }
     
-    var subtitle: String {
+    var presenter: String {
         if let sponsor = session.sponsor {
             return sponsor.localizedName
         }
-        return dataDefaults.subtitle
+        return dataDefaults.presenter
     }
     
     var imageURL: URL {

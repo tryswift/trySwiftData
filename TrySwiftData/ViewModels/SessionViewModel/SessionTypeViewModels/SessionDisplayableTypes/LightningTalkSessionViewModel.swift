@@ -25,7 +25,7 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
         return presentation.localizedTitle
     }
     
-    var subtitle: String {
+    var presenter: String {
         if let presentation = session.presentation {
             return presentation.speaker?.localizedName ?? "TBD"
         }

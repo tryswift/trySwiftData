@@ -27,7 +27,7 @@ struct TalkSessionViewModel: SessionDisplayable {
         return presentation.localizedTitle
     }
     
-    var subtitle: String {
+    var presenter: String {
         return presentation.speaker?.localizedName ?? "TBD"
     }
     

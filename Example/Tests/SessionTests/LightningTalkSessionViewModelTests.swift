@@ -40,12 +40,12 @@ class LightningTalkSessionViewModelTests: XCTestCase {
         
     }
     
-    func testSubtitle() {
-        XCTAssertEqual(viewModel.subtitle, presentation.speaker!.localizedName)
+    func testPresenter() {
+        XCTAssertEqual(viewModel.presenter, presentation.speaker!.localizedName)
     }
     
-    func testSubtitle_noPresentation() {
-        XCTAssertEqual(viewModelNoPresentation.subtitle, "TBD")
+    func testPresenter_noPresentation() {
+        XCTAssertEqual(viewModelNoPresentation.presenter, "TBD")
     }
     
     func testImageURL() {

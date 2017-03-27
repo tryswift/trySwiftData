@@ -24,8 +24,8 @@ class SponsoredDemoSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.title, "Sponsored Demo")
     }
     
-    func testSubtitle() {
-        XCTAssertEqual( viewModel.subtitle, sponsor.localizedName)
+    func testPresenter() {
+        XCTAssertEqual( viewModel.presenter, sponsor.localizedName)
     }
     
     func testShortDescription() {

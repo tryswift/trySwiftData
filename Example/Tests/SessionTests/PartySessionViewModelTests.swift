@@ -22,8 +22,8 @@ class PartySessionViewModelTests: XCTestCase {
         XCTAssertEqual( viewModel.title, partySession.title)
     }
     
-    func testSubtitle() {
-        XCTAssertEqual( viewModel.subtitle, "try! Conference")
+    func testPresenter() {
+        XCTAssertEqual( viewModel.presenter, "try! Conference")
     }
     
     func testImageURL() {

@@ -27,7 +27,7 @@ struct OfficeHoursSessionViewModel: SessionDisplayable {
         return String(format: "Office Hours with %@".localized(), speaker)
     }
     
-    var subtitle: String {
+    var presenter: String {
         if let presentation = session.presentation {
             return presentation.speaker?.localizedName ?? "⁉️"
         }

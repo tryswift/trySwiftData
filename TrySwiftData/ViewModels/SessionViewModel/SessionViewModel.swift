@@ -39,7 +39,7 @@ public struct SessionViewModel: SessionDisplayable {
     
     public var title: String { return displayble.title }
     
-    public var subtitle: String { return displayble.subtitle }
+    public var presenter: String { return displayble.presenter }
     
     public var imageURL: URL { return displayble.imageURL }
     

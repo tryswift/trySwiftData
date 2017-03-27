@@ -24,8 +24,8 @@ struct LunchSessionViewModel: SessionDisplayable {
         return "Lunch".localized()
     }
     
-    var subtitle: String {
-        return dataDefaults.subtitle
+    var presenter: String {
+        return dataDefaults.presenter
     }
     
     var imageURL: URL {

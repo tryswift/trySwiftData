@@ -22,8 +22,8 @@ class LunchSessionViewModelTests: XCTestCase {
         XCTAssertEqual( viewModel.title, "Lunch")
     }
     
-    func testSubtitle() {
-        XCTAssertEqual( viewModel.subtitle, "try! Conference")
+    func testPresenter() {
+        XCTAssertEqual( viewModel.presenter, "try! Conference")
     }
     
     func testImageURL() {

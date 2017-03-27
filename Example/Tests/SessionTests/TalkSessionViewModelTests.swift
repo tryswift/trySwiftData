@@ -27,8 +27,8 @@ class TalkSessionViewModelTests: XCTestCase {
         XCTAssertEqual( viewModel.title, presentation.localizedTitle)
     }
     
-    func testSubtitle() {
-        XCTAssertEqual(viewModel.subtitle, presentation.speaker!.localizedName)
+    func testPresenter() {
+        XCTAssertEqual(viewModel.presenter, presentation.speaker!.localizedName)
     }
     
     func testImageURL() {

@@ -32,12 +32,12 @@ class CoffeeBreakSessionViewModelTests: XCTestCase {
         XCTAssertEqual( viewModelWithSponsor.title, "Coffee Break, by \(sponsoredCoffeeBreak.sponsor!.name)")
     }
     
-    func testSubtitle_noSponsor() {
-        XCTAssertEqual(viewModel.subtitle, "try! Conference")
+    func testPresenter_noSponsor() {
+        XCTAssertEqual(viewModel.presenter, "try! Conference")
     }
     
-    func testSubtitle_withSponsor() {
-        XCTAssertEqual(viewModelWithSponsor.subtitle, sponsoredCoffeeBreak.sponsor!.name)
+    func testPresenter_withSponsor() {
+        XCTAssertEqual(viewModelWithSponsor.presenter, sponsoredCoffeeBreak.sponsor!.name)
     }
     
     func testImageURL_noSponsor() {

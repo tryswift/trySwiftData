@@ -39,12 +39,12 @@ class OfficeHoursSessionViewModelTests: XCTestCase {
         XCTAssertEqual( viewModel_noSpeaker.title, "Office Hours")
     }
     
-    func testSubtitle_withSpeaker() {
-        XCTAssertEqual(viewModel.subtitle, speaker.localizedName)
+    func testPresenter_withSpeaker() {
+        XCTAssertEqual(viewModel.presenter, speaker.localizedName)
     }
     
-    func testSubtitle_noSpeaker() {
-        XCTAssertEqual(viewModel_noSpeaker.subtitle, "⁉️")
+    func testPresenter_noSpeaker() {
+        XCTAssertEqual(viewModel_noSpeaker.presenter, "⁉️")
     }
     
     func testImageURL() {

@@ -11,8 +11,8 @@ protocol SessionDisplayable {
     /** The main name of this session */
     var title: String { get }
     
-    /** A follow-up tagline for the session */
-    var subtitle: String { get }
+    /** Who is in charge of this session */
+    var presenter: String { get }
     
     /** What image, if any is available for this session */
     var imageURL: URL { get }

@@ -24,8 +24,8 @@ struct BreakfastSessionViewModel: SessionDisplayable {
         return dataDefaults.title
     }
     
-    var subtitle: String {
-        return dataDefaults.subtitle
+    var presenter: String {
+        return dataDefaults.presenter
     }
     
     var imageURL: URL {
