@@ -31,8 +31,8 @@ struct TalkSessionViewModel: SessionDisplayable {
         return presentation.speaker?.localizedName ?? "TBD"
     }
     
-    var logoURL: URL {
-        if let imageURL = dataDefaults.imageURL {
+    var imageURL: URL {
+        if let imageURL = dataDefaults.customImageAssetURL {
             return imageURL
         }
         
@@ -40,7 +40,7 @@ struct TalkSessionViewModel: SessionDisplayable {
             return speakerImage
         }
         
-        return dataDefaults.logoURL
+        return dataDefaults.imageURL
     }
     
     var location: String {

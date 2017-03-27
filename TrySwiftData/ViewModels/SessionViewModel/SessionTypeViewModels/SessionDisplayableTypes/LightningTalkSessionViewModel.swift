@@ -32,8 +32,8 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
         return "TBD"
     }
     
-    var logoURL: URL {
-        if let imageURL = dataDefaults.imageURL {
+    var imageURL: URL {
+        if let imageURL = dataDefaults.customImageAssetURL {
             return imageURL
         }
         
@@ -41,7 +41,7 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
             return speakerImage
         }
         
-        return dataDefaults.logoURL
+        return dataDefaults.imageURL
     }
     
     var location: String {

@@ -40,8 +40,8 @@ class CoffeeBreakSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModelWithSponsor.subtitle, sponsoredCoffeeBreak.sponsor!.name)
     }
     
-    func testLogoURL_noSponsor() {
-        XCTAssertEqual(viewModel.logoURL.lastPathComponent, coffeeBreak.imageAssetName)
+    func testImageURL_noSponsor() {
+        XCTAssertEqual(viewModel.imageURL.lastPathComponent, coffeeBreak.imageAssetName)
     }
     
     func testLocation() {

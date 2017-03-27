@@ -15,8 +15,7 @@ protocol SessionDisplayable {
     var subtitle: String { get }
     
     /** What image, if any is available for this session */
-    // RENAME: IMAGEURL
-    var logoURL: URL { get }
+    var imageURL: URL { get }
     
     /** The location for where this session will occur */
     var location: String { get }

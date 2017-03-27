@@ -48,12 +48,12 @@ class LightningTalkSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModelNoPresentation.subtitle, "TBD")
     }
     
-    func testLogoURL() {
-        XCTAssertEqual(viewModel.logoURL.lastPathComponent, presentation.speaker!.imageAssetName)
+    func testImageURL() {
+        XCTAssertEqual(viewModel.imageURL.lastPathComponent, presentation.speaker!.imageAssetName)
     }
     
-    func testLogoURL_noPresentation() {
-        XCTAssertEqual(viewModelNoPresentation.logoURL.lastPathComponent, "Logo.png")
+    func testImageURL_noPresentation() {
+        XCTAssertEqual(viewModelNoPresentation.imageURL.lastPathComponent, "Logo.png")
     }
     
     func testLocation() {

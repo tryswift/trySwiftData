@@ -32,8 +32,8 @@ struct WorkshopSessionViewModel: SessionDisplayable {
         return dataDefaults.subtitle
     }
     
-    var logoURL: URL {
-        if let imageURL = dataDefaults.imageURL {
+    var imageURL: URL {
+        if let imageURL = dataDefaults.customImageAssetURL {
             return imageURL
         }
         
@@ -41,7 +41,7 @@ struct WorkshopSessionViewModel: SessionDisplayable {
             return event.logoURL
         }
         
-        return dataDefaults.logoURL
+        return dataDefaults.imageURL
     }
     
     var location: String {

@@ -28,8 +28,8 @@ struct PartySessionViewModel: SessionDisplayable {
         return dataDefaults.subtitle
     }
     
-    var logoURL: URL {
-        return dataDefaults.imageURL ?? dataDefaults.logoURL
+    var imageURL: URL {
+        return dataDefaults.customImageAssetURL ?? dataDefaults.imageURL
     }
     
     var location: String {

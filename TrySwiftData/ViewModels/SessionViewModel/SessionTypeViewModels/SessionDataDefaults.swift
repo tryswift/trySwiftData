@@ -8,7 +8,7 @@
 
 struct SessionDataDefaults: SessionDisplayable {
     
-    let imageURL: URL?
+    let customImageAssetURL: URL?
     
     fileprivate let session: Session
     
@@ -16,11 +16,11 @@ struct SessionDataDefaults: SessionDisplayable {
         self.session = session
         
         if let url = session.imageWebURL {
-            imageURL = URL(string: url)
+            customImageAssetURL = URL(string: url)
         } else if let assetName = session.imageAssetName {
-            imageURL = Bundle.trySwiftAssetURL(for: assetName)
+            customImageAssetURL = Bundle.trySwiftAssetURL(for: assetName)
         } else {
-            imageURL = nil
+            customImageAssetURL = nil
         }
     }
     
@@ -33,7 +33,7 @@ struct SessionDataDefaults: SessionDisplayable {
     }
     
 
-    var logoURL: URL {
+    var imageURL: URL {
         return Conference.current.logoURL
     }
  

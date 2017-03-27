@@ -31,12 +31,12 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
         return sponsor.localizedName
     }
     
-    var logoURL: URL {
-        if let imageURL = dataDefaults.imageURL {
+    var imageURL: URL {
+        if let imageURL = dataDefaults.customImageAssetURL {
             return imageURL
         }
         
-        return sponsor.logoURL ?? dataDefaults.logoURL
+        return sponsor.logoURL ?? dataDefaults.imageURL
     }
     
     var location: String {

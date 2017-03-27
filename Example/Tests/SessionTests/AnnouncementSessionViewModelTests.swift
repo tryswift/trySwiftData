@@ -26,8 +26,8 @@ class AnnouncementSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.subtitle, "try! Conference")
     }
     
-    func testLogoURL() {
-        XCTAssertEqual(viewModel.logoURL.lastPathComponent, announcement.imageAssetName)
+    func testImageURL() {
+        XCTAssertEqual(viewModel.imageURL.lastPathComponent, announcement.imageAssetName)
     }
     
     func testLocation() {

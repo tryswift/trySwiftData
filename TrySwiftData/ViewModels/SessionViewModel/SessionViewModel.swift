@@ -41,7 +41,7 @@ public struct SessionViewModel: SessionDisplayable {
     
     public var subtitle: String { return displayble.subtitle }
     
-    public var logoURL: URL { return displayble.logoURL }
+    public var imageURL: URL { return displayble.imageURL }
     
     public var location: String { return displayble.location }
     

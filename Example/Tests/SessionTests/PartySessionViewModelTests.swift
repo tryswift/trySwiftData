@@ -26,8 +26,8 @@ class PartySessionViewModelTests: XCTestCase {
         XCTAssertEqual( viewModel.subtitle, "try! Conference")
     }
     
-    func testLogoURL() {
-        XCTAssertEqual(viewModel.logoURL.lastPathComponent, partySession.imageAssetName)
+    func testImageURL() {
+        XCTAssertEqual(viewModel.imageURL.lastPathComponent, partySession.imageAssetName)
     }
     
     func testShortDescription() {

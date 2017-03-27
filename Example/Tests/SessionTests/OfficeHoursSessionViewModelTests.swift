@@ -47,8 +47,8 @@ class OfficeHoursSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel_noSpeaker.subtitle, "⁉️")
     }
     
-    func testLogoURL() {
-        XCTAssertEqual(viewModel.logoURL.lastPathComponent, speaker.imageAssetName)
+    func testImageURL() {
+        XCTAssertEqual(viewModel.imageURL.lastPathComponent, speaker.imageAssetName)
     }
     
     func testLocation() {

@@ -34,8 +34,8 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
         return dataDefaults.subtitle
     }
     
-    var logoURL: URL {
-        if let imageURL = dataDefaults.imageURL {
+    var imageURL: URL {
+        if let imageURL = dataDefaults.customImageAssetURL {
             return imageURL
         }
         
@@ -43,7 +43,7 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
             return sponsor.logoURL
         }
         
-        return dataDefaults.logoURL
+        return dataDefaults.imageURL
     }
     
     var location: String {
