@@ -38,9 +38,9 @@ class BreakfastSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.shortDescription, "❤️")
     }
     
-    func testSummary() {
+    func testLongDescription() {
         let conference = tko2017Conferences.first!
-        XCTAssertEqual(viewModel.summary, conference.localizedDescription)
+        XCTAssertEqual(viewModel.longDescription, conference.localizedDescription)
     }
     
     func testSelectable() {

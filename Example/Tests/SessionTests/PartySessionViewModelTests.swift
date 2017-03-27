@@ -39,7 +39,7 @@ class PartySessionViewModelTests: XCTestCase {
     }
     
     func testSummay() {
-        XCTAssertEqual(viewModel.summary, Conference.current.localizedDescription)
+        XCTAssertEqual(viewModel.longDescription, Conference.current.localizedDescription)
     }
     
     func testSelectable() {

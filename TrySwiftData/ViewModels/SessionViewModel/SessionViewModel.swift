@@ -47,7 +47,7 @@ public struct SessionViewModel: SessionDisplayable {
     
     public var shortDescription: String { return displayble.shortDescription }
     
-    public var summary: String { return displayble.summary }
+    public var longDescription: String { return displayble.longDescription }
     
     public var twitter: String { return displayble.twitter }
     

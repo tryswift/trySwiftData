@@ -51,8 +51,8 @@ struct TalkSessionViewModel: SessionDisplayable {
         return "Presentation".localized()
     }
     
-    var summary: String {
-        return presentation.localizedSummary ?? dataDefaults.summary
+    var longDescription: String {
+        return presentation.localizedSummary ?? dataDefaults.longDescription
     }
     
     var selectable: Bool {

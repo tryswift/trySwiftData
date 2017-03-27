@@ -43,8 +43,8 @@ class TalkSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.shortDescription, "Presentation")
     }
     
-    func testSummary() {
-        XCTAssertEqual(viewModel.summary, presentation!.localizedSummary)
+    func testLongDescription() {
+        XCTAssertEqual(viewModel.longDescription, presentation!.localizedSummary)
     }
     
     func testSelectable() {

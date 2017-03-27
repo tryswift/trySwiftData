@@ -59,12 +59,12 @@ class OfficeHoursSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.shortDescription, "Q&A")
     }
     
-    func testSummary_withSpeaker() {
-        XCTAssertEqual(viewModel.summary, speaker.localizedBio)
+    func testLongDescription_withSpeaker() {
+        XCTAssertEqual(viewModel.longDescription, speaker.localizedBio)
     }
     
-    func testSummary_noSpeaker() {
-        XCTAssertEqual(viewModel_noSpeaker.summary, conference.localizedDescription)
+    func testLongDescription_noSpeaker() {
+        XCTAssertEqual(viewModel_noSpeaker.longDescription, conference.localizedDescription)
     }
     
     func testSelectable() {

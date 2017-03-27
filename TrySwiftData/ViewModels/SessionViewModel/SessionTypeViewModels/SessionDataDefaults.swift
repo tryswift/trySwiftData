@@ -50,7 +50,7 @@ struct SessionDataDefaults: SessionDisplayable {
         return "❤️".localized()
     }
     
-    var summary: String {
+    var longDescription: String {
         return Conference.current.localizedDescription
     }
     

@@ -83,8 +83,8 @@ class WorkshopSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel_NoEvent.location, "Conference")
     }
     
-    func testSummary() {
-        XCTAssertEqual(viewModel.summary, Conference.current.localizedDescription)
+    func testLongDescription() {
+        XCTAssertEqual(viewModel.longDescription, Conference.current.localizedDescription)
     }
     
     func testSelectable() {

@@ -24,8 +24,8 @@ protocol SessionDisplayable {
     /** A short-form description of the session */
     var shortDescription: String { get }
     
-    /** Summary of the session */
-    var summary: String { get }
+    /** A long-form description of the session */
+    var longDescription: String { get }
     
     /** What Twitter handle, if any represents this session */
     var twitter: String { get }

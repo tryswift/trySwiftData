@@ -40,8 +40,8 @@ struct LunchSessionViewModel: SessionDisplayable {
         return dataDefaults.shortDescription
     }
     
-    var summary: String {
-        return dataDefaults.summary
+    var longDescription: String {
+        return dataDefaults.longDescription
     }
     
     var selectable: Bool {

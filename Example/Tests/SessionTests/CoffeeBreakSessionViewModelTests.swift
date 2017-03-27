@@ -52,8 +52,8 @@ class CoffeeBreakSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.shortDescription, "❤️")
     }
     
-    func testSummary() {
-        XCTAssertEqual(viewModel.summary, conference.localizedDescription)
+    func testLongDescription() {
+        XCTAssertEqual(viewModel.longDescription, conference.localizedDescription)
     }
     
     func testSelectable_noSponsor() {

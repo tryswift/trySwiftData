@@ -52,8 +52,8 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
         return "⚡️🎤 Lightning Talk".localized()
     }
     
-    var summary: String {
-        return session.presentation?.localizedSummary ?? dataDefaults.summary
+    var longDescription: String {
+        return session.presentation?.localizedSummary ?? dataDefaults.longDescription
     }
     
     var selectable: Bool {

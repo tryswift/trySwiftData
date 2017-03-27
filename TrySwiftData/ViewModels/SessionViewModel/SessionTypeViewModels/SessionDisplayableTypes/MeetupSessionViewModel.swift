@@ -56,8 +56,8 @@ struct MeetupSessionViewModel: SessionDisplayable {
         return "Special Event".localized()
     }
     
-    var summary: String {
-        return dataDefaults.summary
+    var longDescription: String {
+        return dataDefaults.longDescription
     }
     
     
