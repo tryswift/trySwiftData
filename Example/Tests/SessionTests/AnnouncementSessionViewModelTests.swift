@@ -34,13 +34,13 @@ class AnnouncementSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.location, announcement.location!.name)
     }
     
-    func testSessionDescription() {
-        XCTAssertEqual(viewModel.sessionDescription, "📣")
+    func testShortDescription() {
+        XCTAssertEqual(viewModel.shortDescription, "📣")
     }
     
-    func testPresentationSummary() {
+    func testSummary() {
         let conference = tko2017Conferences.first!
-        XCTAssertEqual(viewModel.presentationSummary, conference.localizedDescription)
+        XCTAssertEqual(viewModel.summary, conference.localizedDescription)
     }
     
     func testSelectable() {

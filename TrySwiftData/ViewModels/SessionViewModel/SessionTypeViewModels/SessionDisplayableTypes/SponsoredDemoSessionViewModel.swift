@@ -43,12 +43,12 @@ struct SponsoredDemoSessionViewModel: SessionDisplayable {
         return dataDefaults.location
     }
     
-    var sessionDescription: String {
+    var shortDescription: String {
         return "Demo".localized()
     }
     
-    var presentationSummary: String {
-        return dataDefaults.presentationSummary
+    var summary: String {
+        return dataDefaults.summary
     }
     
     var selectable: Bool {

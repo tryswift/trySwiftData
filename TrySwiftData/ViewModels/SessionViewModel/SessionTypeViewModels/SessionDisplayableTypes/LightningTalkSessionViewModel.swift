@@ -48,12 +48,12 @@ struct LightningTalkSessionViewModel: SessionDisplayable {
         return dataDefaults.location
     }
     
-    var sessionDescription: String {
+    var shortDescription: String {
         return "⚡️🎤 Lightning Talk".localized()
     }
     
-    var presentationSummary: String {
-        return session.presentation?.localizedSummary ?? dataDefaults.presentationSummary
+    var summary: String {
+        return session.presentation?.localizedSummary ?? dataDefaults.summary
     }
     
     var selectable: Bool {

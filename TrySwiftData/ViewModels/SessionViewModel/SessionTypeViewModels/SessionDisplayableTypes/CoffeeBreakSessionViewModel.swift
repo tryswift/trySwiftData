@@ -50,12 +50,12 @@ struct CoffeeBreakSessionViewModel: SessionDisplayable {
         return dataDefaults.location
     }
     
-    var sessionDescription: String {
-        return "❤️".localized()
+    var shortDescription: String {
+        return dataDefaults.shortDescription
     }
     
-    var presentationSummary: String {
-        return dataDefaults.presentationSummary
+    var summary: String {
+        return dataDefaults.summary
     }
     
     var selectable: Bool {

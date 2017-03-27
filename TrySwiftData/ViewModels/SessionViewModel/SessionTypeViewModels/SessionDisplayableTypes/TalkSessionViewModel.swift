@@ -47,12 +47,12 @@ struct TalkSessionViewModel: SessionDisplayable {
         return dataDefaults.location
     }
     
-    var sessionDescription: String {
+    var shortDescription: String {
         return "Presentation".localized()
     }
     
-    var presentationSummary: String {
-        return presentation.localizedSummary ?? dataDefaults.presentationSummary
+    var summary: String {
+        return presentation.localizedSummary ?? dataDefaults.summary
     }
     
     var selectable: Bool {

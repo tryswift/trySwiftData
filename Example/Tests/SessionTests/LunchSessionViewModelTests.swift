@@ -14,57 +14,39 @@ class LunchSessionViewModelTests: XCTestCase {
     fileprivate let lunchSession = tko2017Sessions["day1Lunch"]!
     fileprivate var viewModel: SessionViewModel!
     
-    //MARK: Setup
-    
     override func setUp() {
         viewModel = SessionViewModel(session: lunchSession)
     }
-    
-    //MARK: Title
     
     func testTitle() {
         XCTAssertEqual( viewModel.title, "Lunch")
     }
     
-    //MARK: Subtitle
-    
     func testSubtitle() {
         XCTAssertEqual( viewModel.subtitle, "try! Conference")
     }
-    
-    //MARK: Logo URL 
     
     func testLogoURL() {
         XCTAssertEqual(viewModel.logoURL.lastPathComponent, lunchSession.imageAssetName)
     }
     
-    //MARK: Session Description
-    
-    func testSessionDescription() {
-        XCTAssertEqual(viewModel.sessionDescription, "❤️")
+    func testShortDescription() {
+        XCTAssertEqual(viewModel.shortDescription, "❤️")
     }
-    
-    //MARK: Location
     
     func testLocation() {
         XCTAssertEqual(viewModel.location, lunchSession.location?.name)
     }
     
-    //MARK: Presentation Summary
-    
-    func testPresentationSummay() {
+    func testSummay() {
         let conference = tko2017Conferences.first!
-        XCTAssertEqual(viewModel.presentationSummary, conference.localizedDescription)
+        XCTAssertEqual(viewModel.summary, conference.localizedDescription)
     }
-    
-    //MARK: Selectable 
     
     func testSelectable() {
         XCTAssertFalse(viewModel.selectable)
     }
-    
-    //MARK: testTwitter
-    
+        
     func testTwitter() {
         let conference = tko2017Conferences.first!
         XCTAssertEqual(viewModel.twitter, "@\(conference.twitter!)")

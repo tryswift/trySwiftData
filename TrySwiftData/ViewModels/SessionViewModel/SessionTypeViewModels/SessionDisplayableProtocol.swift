@@ -21,13 +21,11 @@ protocol SessionDisplayable {
     /** The location for where this session will occur */
     var location: String { get }
     
-    /** A long-form description of the session */
-    // RENAME: sessionType
-    var sessionDescription: String { get }
+    /** A short-form description of the session */
+    var shortDescription: String { get }
     
-    /** Presentation Summary */
-    // summary
-    var presentationSummary: String { get }
+    /** Summary of the session */
+    var summary: String { get }
     
     /** What Twitter handle, if any represents this session */
     var twitter: String { get }

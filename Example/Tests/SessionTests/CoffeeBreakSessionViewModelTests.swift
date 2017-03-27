@@ -48,12 +48,12 @@ class CoffeeBreakSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.location, coffeeBreak.location!.name)
     }
     
-    func testSessionDescription() {
-        XCTAssertEqual(viewModel.sessionDescription, "❤️")
+    func testShortDescription() {
+        XCTAssertEqual(viewModel.shortDescription, "❤️")
     }
     
-    func testPresentationSummary() {
-        XCTAssertEqual(viewModel.presentationSummary, conference.localizedDescription)
+    func testSummary() {
+        XCTAssertEqual(viewModel.summary, conference.localizedDescription)
     }
     
     func testSelectable_noSponsor() {

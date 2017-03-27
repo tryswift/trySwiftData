@@ -45,9 +45,9 @@ public struct SessionViewModel: SessionDisplayable {
     
     public var location: String { return displayble.location }
     
-    public var sessionDescription: String { return displayble.sessionDescription }
+    public var shortDescription: String { return displayble.shortDescription }
     
-    public var presentationSummary: String { return displayble.presentationSummary }
+    public var summary: String { return displayble.summary }
     
     public var twitter: String { return displayble.twitter }
     

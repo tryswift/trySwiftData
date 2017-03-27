@@ -46,11 +46,11 @@ struct SessionDataDefaults: SessionDisplayable {
         }
     }
     
-    var sessionDescription: String {
+    var shortDescription: String {
         return "❤️".localized()
     }
     
-    var presentationSummary: String {
+    var summary: String {
         return Conference.current.localizedDescription
     }
     

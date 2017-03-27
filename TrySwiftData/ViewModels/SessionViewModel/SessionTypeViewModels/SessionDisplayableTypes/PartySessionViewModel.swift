@@ -36,12 +36,12 @@ struct PartySessionViewModel: SessionDisplayable {
         return session.venue!.localizedTitle
     }
     
-    var sessionDescription: String {
+    var shortDescription: String {
         return "🎉🎉🎉".localized()
     }
     
-    var presentationSummary: String {
-        return dataDefaults.presentationSummary
+    var summary: String {
+        return dataDefaults.summary
     }
     
     

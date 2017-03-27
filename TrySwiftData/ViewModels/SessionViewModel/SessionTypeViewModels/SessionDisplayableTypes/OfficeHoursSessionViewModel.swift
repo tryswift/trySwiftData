@@ -50,12 +50,12 @@ struct OfficeHoursSessionViewModel: SessionDisplayable {
         return dataDefaults.location
     }
     
-    var sessionDescription: String {
+    var shortDescription: String {
         return "Q&A".localized()
     }
     
-    var presentationSummary: String {
-        return session.presentation?.speaker?.localizedBio ?? dataDefaults.presentationSummary
+    var summary: String {
+        return session.presentation?.speaker?.localizedBio ?? dataDefaults.summary
     }
     
     var selectable: Bool {

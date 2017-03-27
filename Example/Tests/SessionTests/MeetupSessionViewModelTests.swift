@@ -79,50 +79,34 @@ class MeetupSessionViewModelTests: XCTestCase {
 //    func testLogoURL() {
 //        XCTAssertEqual(viewModel.logoURL.lastPathComponent, meetupSession.event?.logoAssetName)
 //    }
-
-    //MARK: Session Description
     
-    func testSessionDescription() {
-        XCTAssertEqual(viewModel.sessionDescription, "Special Event")
+    func testShortDescription() {
+        XCTAssertEqual(viewModel.shortDescription, "Special Event")
     }
-
-    //MARK: Location
     
     func testLocation() {
         XCTAssertEqual(viewModel.location, meetupSession.event?.localizedLocation)
     }
     
-    //MARK: Default Location - No Event
-    
-    func test_DefaultLocation() {
+    func testLocation_NoEvent() {
         XCTAssertEqual(viewModel_NoEvent.location, "Conference")
     }
-
-    //MARK: Presentation Summary
     
-    func testPresentationSummay() {
-        XCTAssertEqual(viewModel.presentationSummary, Conference.current.localizedDescription)
+    func testSummary() {
+        XCTAssertEqual(viewModel.summary, Conference.current.localizedDescription)
     }
-    
-    //MARK: Selectable
     
     func testSelectable() {
         XCTAssertFalse(meetupSession.event == nil)
     }
-
-    //MARK: Twitter
     
     func testTwitter() {
         XCTAssertEqual(viewModel.twitter, "@\(meetupSession.sponsor!.twitter!)")
     }
     
-    //MARK: Twitter - No Sponsor
-    
-    func test_NoSponsorTwitter() {
+    func testTwitter_NoSponsor() {
         XCTAssertEqual(viewModel_NoSponsor.twitter, "@\(Conference.current.twitter!)")
     }
-    
-    //MARK: No Twitter - Sponsor
     
     func test_NoTwitter_ButThereIsASponsor() {
         XCTAssertEqual(viewModel_NoEvent.twitter, "@tryswiftconf")

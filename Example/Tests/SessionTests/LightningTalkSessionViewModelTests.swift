@@ -60,17 +60,17 @@ class LightningTalkSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.location, lightningTalk.location!.name)
     }
     
-    func testSessionDescription() {
-        XCTAssertEqual(viewModel.sessionDescription, "⚡️🎤 Lightning Talk")
+    func testShortDescription() {
+        XCTAssertEqual(viewModel.shortDescription, "⚡️🎤 Lightning Talk")
     }
     
-    func testPresentationSummary() {
-        XCTAssertEqual(viewModel.presentationSummary, presentation!.localizedSummary)
+    func testSummary() {
+        XCTAssertEqual(viewModel.summary, presentation!.localizedSummary)
     }
     
     func testPresentationSummary_noPresentation() {
         let conference = tko2017Conferences.first!
-        XCTAssertEqual(viewModelNoPresentation.presentationSummary, conference.localizedDescription)
+        XCTAssertEqual(viewModelNoPresentation.summary, conference.localizedDescription)
     }
     
     func testSelectable() {
