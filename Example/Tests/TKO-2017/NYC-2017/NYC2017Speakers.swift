@@ -25,7 +25,7 @@ public let nyc2017Speakers: [String : Speaker] = [
         speaker.id = 2
         speaker.name = "Paola Mata"
         speaker.twitter = "PaolaNotPaolo"
-        speaker.imageAssetName = "paola.jpeg"
+        speaker.imageAssetName = "paola.jpg"
         speaker.bio = "Paola is an iOS developer at BuzzFeed, a social media addict, and an occasional blogger based in Brooklyn. Paola is also actively involved in the tech community as co-founder of NYC Tech Latinas and advisor to the Women in iOSoho meetup, and she regularly volunteers her time to promoting diversity in tech and supporting the next wave of new programmers. When she's not buried in code, you'll likely find Paola binge-watching a sci-fi series, lifting at the gym, or hunting down good eats."
         return speaker
     }(),
