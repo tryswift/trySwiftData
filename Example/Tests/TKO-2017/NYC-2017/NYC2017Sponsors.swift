@@ -32,7 +32,7 @@ public let nyc2017Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.domo.com/"
         sponsor.displayURL = "domo.com"
         sponsor.twitter = "domo"
-        sponsor.logoAssetName = "domo"
+        sponsor.logoAssetName = "domo.png"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -54,7 +54,7 @@ public let nyc2017Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.twilio.com/"
         sponsor.displayURL = "twilio.com"
         sponsor.twitter = "twilio"
-        sponsor.logoAssetName = "twilio"
+        sponsor.logoAssetName = "twilio.png"
         sponsor.level = .gold
         return sponsor
     }(),
@@ -103,7 +103,7 @@ public let nyc2017Sponsors: [String : Sponsor] = [
         sponsor.url = "https://www.jetbrains.com"
         sponsor.displayURL = "jetbrains.com"
         sponsor.twitter = "jetbrains"
-        sponsor.logoAssetName = "jetbrains"
+        sponsor.logoAssetName = "jetbrains.png"
         sponsor.level = .diversity
         return sponsor
     }(),
