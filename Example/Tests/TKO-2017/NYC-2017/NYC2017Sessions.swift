@@ -238,7 +238,7 @@ public let nyc2017Sessions: [String : Session] = [
         session.title = "🎳 Party"
         session.sponsor = nyc2017Sponsors["meetup"]
         session.imageAssetName = "bowling"
-        session.venue = nyc2016Venues["americanbeauty"]
+        session.venue = nyc2017Venues["frames"]
         return session
     }(),
 
