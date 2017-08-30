@@ -174,12 +174,14 @@ public let nyc2017Speakers: [String : Speaker] = [
         return speaker
     }(),
     
+    // special double speaker case
     "helenkostas" : { let speaker = Speaker()
-        speaker.id = 18
+        speaker.id = 24
         speaker.name = "Helen & Kostas"
         speaker.twitter = "workable"
         speaker.imageAssetName = "helen_kostas.jpg"
-        speaker.bio = "Eleni Papanikolopoulou is an active iOS Developer at Workable, an innovating recruiting software company, headquartered in Boston, MA. She is from Athens, Greece and holds a Master’s degree in Computer Science and IT Management from University of Manchester, UK. She started her developing career as a Java engineer but later on converted to Swift when contributing in Pobuca, a contact management app. She is an advocate of RxSwift for solving tough asynchronous-like problems and currently working in developing Error Handler, an open-source Swift framework. When she doesn't work, she enjoys traveling more than anything and watching Silicon Valley series. Kostas is an iOS Engineer at Workable, the recruitment software company. He's developed over a dozen iOS apps, from cooking and fashion, to retail, radio, food delivery and more. Having survived the years of Objective-C and manual memory management, he now basks in the comfort and (type) safety of Swift. He loves TDD, clean architecture and more recently getting to grips with functional programming and ReactiveX concepts."
+        speaker.hidden = true
+        speaker.bio = "Eleni Papanikolopoulou is an active iOS Developer at Workable, an innovating recruiting software company, headquartered in Boston, MA. She is from Athens, Greece and holds a Master’s degree in Computer Science and IT Management from University of Manchester, UK. She started her developing career as a Java engineer but later on converted to Swift when contributing in Pobuca, a contact management app. She is an advocate of RxSwift for solving tough asynchronous-like problems and currently working in developing Error Handler, an open-source Swift framework. When she doesn't work, she enjoys traveling more than anything and watching Silicon Valley series.\n\nKostas is an iOS Engineer at Workable, the recruitment software company. He's developed over a dozen iOS apps, from cooking and fashion, to retail, radio, food delivery and more. Having survived the years of Objective-C and manual memory management, he now basks in the comfort and (type) safety of Swift. He loves TDD, clean architecture and more recently getting to grips with functional programming and ReactiveX concepts."
         return speaker
     }(),
     
