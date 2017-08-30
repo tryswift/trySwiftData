@@ -9,11 +9,17 @@ class Tests: XCTestCase {
         XCTAssertNotNil(realm)
     }
 
-    /** try! Swift Tokyo 2017 */
-    func testGenerateNewTKO2017DefaultRealm() {
-        let sources = [tko2017Conferences, tko2017Sponsors, tko2017ConferenceDays] as [Any]
-        XCTAssert(generateDefaultRealm(named: "tryswift-tokyo2017.realm", sources: sources))
+    /** try! Swift New York 2017 */
+    func testGenerateNewNYC2017DefaultRealm() {
+        let sources = [nyc2017Conferences, nyc2017Sponsors, nyc2017ConferenceDays] as [Any]
+        XCTAssert(generateDefaultRealm(named: "tryswift.realm", sources: sources))
     }
+    
+//    /** try! Swift Tokyo 2017 */
+//    func testGenerateNewTKO2017DefaultRealm() {
+//        let sources = [tko2017Conferences, tko2017Sponsors, tko2017ConferenceDays] as [Any]
+//        XCTAssert(generateDefaultRealm(named: "tryswift-tokyo2017.realm", sources: sources))
+//    }
 
     /** try! Swift NYC 2016 */
 //    func testGenerateNewNYC2016DefaultRealm() {
@@ -24,9 +30,10 @@ class Tests: XCTestCase {
 
 extension Tests {
     public func generateDefaultRealm(named name: String, sources: [Any]) -> Bool {
+        
         // Create and configure the Realm file we'll be writing to
         let realm = generateRealm(named: name)
-
+        
         // Open a Realm write transaction
         realm.beginWrite()
 
