@@ -44,7 +44,7 @@ public let nyc2017Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "meetup.com"
         sponsor.twitter = "meetup"
         sponsor.logoAssetName = "meetup.png"
-        sponsor.level = .event
+        sponsor.level = .gold
         return sponsor
     }(),
     
@@ -162,7 +162,7 @@ public let nyc2017Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "realm.io"
         sponsor.twitter = "Realm"
         sponsor.logoAssetName = "realm.png"
-        sponsor.level = .platinum
+        sponsor.level = .event
         return sponsor
     }(),
     
@@ -194,7 +194,7 @@ public let nyc2017Sponsors: [String : Sponsor] = [
         sponsor.url = "https://tanookilabs.com/"
         sponsor.displayURL = "tanookilabs.com"
         sponsor.twitter = "TanookiLabs"
-        sponsor.logoAssetName = "tanookilabs.png"
+        sponsor.logoAssetName = "tanooki.png"
         sponsor.level = .event
         return sponsor
     }()

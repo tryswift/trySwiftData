@@ -57,7 +57,6 @@ public let nyc2017Sessions: [String : Session] = [
     "day1FirstCoffee" : {
         let session = Session()
         session.type = .coffeeBreak
-        session.imageAssetName = "breaktime1.png"
         session.location =  nyc2017Locations["hall"]
         session.sponsor = nyc2017Sponsors["domo"]
         return session
@@ -173,7 +172,6 @@ public let nyc2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .coffeeBreak
         session.location =   nyc2017Locations["stage"]
-        session.imageAssetName = "breaktime2.png"
         session.sponsor = nyc2017Sponsors["glowforge"]
         return session
     }(),
@@ -300,7 +298,6 @@ public let nyc2017Sessions: [String : Session] = [
         session.type = .coffeeBreak
         session.location =   nyc2017Locations["hall"]
         session.sponsor = nyc2017Sponsors["domo"]
-        session.imageAssetName = "breaktime2.png"
         return session
     }(),
 //---------------------------------------------------------
