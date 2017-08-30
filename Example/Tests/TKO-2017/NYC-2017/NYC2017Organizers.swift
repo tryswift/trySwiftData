@@ -43,7 +43,7 @@ public let nyc2017Organizers: [String : Organizer] = [
     }(),
     "erica" : {
         let organizer = Organizer()
-        organizer.id = 3
+        organizer.id = 4
         organizer.hidden = true
         organizer.name = "Erica Millado"
         organizer.twitter = "yayitserica"
@@ -53,7 +53,7 @@ public let nyc2017Organizers: [String : Organizer] = [
     }(),
     "satoshi" : {
         let organizer = Organizer()
-        organizer.id = 4
+        organizer.id = 5
         organizer.hidden = true
         organizer.name = "Satoshi Hachiya"
         organizer.twitter = "jpmartha_jp"
@@ -63,7 +63,7 @@ public let nyc2017Organizers: [String : Organizer] = [
     }(),
     "alvin" : {
         let organizer = Organizer()
-        organizer.id = 5
+        organizer.id = 6
         organizer.hidden = true
         organizer.name = "Alvin Varghese"
         organizer.twitter = "aaalveee"
@@ -73,7 +73,7 @@ public let nyc2017Organizers: [String : Organizer] = [
     }(),
     "vaish" : {
         let organizer = Organizer()
-        organizer.id = 6
+        organizer.id = 7
         organizer.hidden = true
         organizer.name = "Vaishnavi Srinivasan"
         organizer.twitter = "vaish"

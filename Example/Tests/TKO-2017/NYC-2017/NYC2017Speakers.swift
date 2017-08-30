@@ -49,7 +49,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "julio" : { let speaker = Speaker()
-        speaker.id = 4
+        speaker.id = 5
         speaker.name = "Julio Carrettoni"
         speaker.twitter = "dev_jac"
         speaker.imageAssetName = "julio.jpg"
@@ -58,7 +58,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "tanner" : { let speaker = Speaker()
-        speaker.id = 5
+        speaker.id = 6
         speaker.name = "Tanner Nelson"
         speaker.twitter = "tanner0101"
         speaker.imageAssetName = "tanner.jpg"
@@ -67,7 +67,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "neem" : { let speaker = Speaker()
-        speaker.id = 6
+        speaker.id = 7
         speaker.name = "Neem Serra"
         speaker.twitter = "TeamNeem"
         speaker.imageAssetName = "neem.jpg"
@@ -76,7 +76,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "inami" : { let speaker = Speaker()
-        speaker.id = 7
+        speaker.id = 8
         speaker.name = "Yasuhiro Inami"
         speaker.twitter = "inamiy"
         speaker.imageAssetName = "inamiy.jpg"
@@ -85,7 +85,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "priya" : { let speaker = Speaker()
-        speaker.id = 8
+        speaker.id = 9
         speaker.name = "Priya Rajagopal"
         speaker.twitter = "rajagp"
         speaker.imageAssetName = "priya.jpg"
@@ -94,7 +94,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "james" : { let speaker = Speaker()
-        speaker.id = 9
+        speaker.id = 10
         speaker.name = "James Dempsey"
         speaker.twitter = "jamesdempsey"
         speaker.imageAssetName = "james.jpg"
@@ -103,7 +103,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "krunoslav" : { let speaker = Speaker()
-        speaker.id = 10
+        speaker.id = 11
         speaker.name = "Krunoslav Zaher"
         speaker.twitter = "krunoslavzaher"
         speaker.imageAssetName = "krunoslav.jpg"
@@ -112,7 +112,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "sonam" : { let speaker = Speaker()
-        speaker.id = 11
+        speaker.id = 12
         speaker.name = "Sonam Dhingra"
         speaker.twitter = "Sdhingra89"
         speaker.imageAssetName = "sonam.jpg"
@@ -121,7 +121,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "ray" : { let speaker = Speaker()
-        speaker.id = 12
+        speaker.id = 13
         speaker.name = "Ray Tsaihong"
         speaker.twitter = "rmundo"
         speaker.imageAssetName = "ray.jpg"
@@ -130,7 +130,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "nataliya" : { let speaker = Speaker()
-        speaker.id = 13
+        speaker.id = 14
         speaker.name = "Nataliya Patsovska"
         speaker.twitter = "nataliya_bg"
         speaker.imageAssetName = "nataliya.jpg"
@@ -139,7 +139,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "paul" : { let speaker = Speaker()
-        speaker.id = 14
+        speaker.id = 15
         speaker.name = "Paul Fenwick"
         speaker.twitter = "pjf"
         speaker.imageAssetName = "paul.jpg"
@@ -148,7 +148,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "glenna" : { let speaker = Speaker()
-        speaker.id = 15
+        speaker.id = 16
         speaker.name = "Glenna Buford"
         speaker.twitter = "glennersboofy"
         speaker.imageAssetName = "glenna.jpg"
@@ -157,7 +157,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "helen" : { let speaker = Speaker()
-        speaker.id = 16
+        speaker.id = 17
         speaker.name = "Helen Papanikolopoulou"
         speaker.twitter = "elenipapanikolo"
         speaker.imageAssetName = "helen.png"
@@ -166,7 +166,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "kostas" : { let speaker = Speaker()
-        speaker.id = 17
+        speaker.id = 18
         speaker.name = "Kostas Kremizas"
         speaker.twitter = "kostaskremizas"
         speaker.imageAssetName = "kostas.jpg"
@@ -175,7 +175,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "meghan" : { let speaker = Speaker()
-        speaker.id = 18
+        speaker.id = 19
         speaker.name = "Meghan Kane"
         speaker.twitter = "kostaskremizas"
         speaker.imageAssetName = "meghan.jpg"
@@ -184,7 +184,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "ericasadun" : { let speaker = Speaker()
-        speaker.id = 19
+        speaker.id = 20
         speaker.name = "Erica Sadun"
         speaker.twitter = "ericasadun"
         speaker.imageAssetName = "ericasadun.png"
@@ -193,7 +193,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "carl" : { let speaker = Speaker()
-        speaker.id = 20
+        speaker.id = 21
         speaker.name = "Carl Brown"
         speaker.twitter = "CarlBrwn"
         speaker.imageAssetName = "carl.png"
@@ -202,7 +202,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "dennis" : { let speaker = Speaker()
-        speaker.id = 21
+        speaker.id = 22
         speaker.name = "Dennis Pilarinos"
         speaker.twitter = "dennispilarinos"
         speaker.imageAssetName = "dennis.jpg"
@@ -211,7 +211,7 @@ public let nyc2017Speakers: [String : Speaker] = [
     }(),
     
     "camille" : { let speaker = Speaker()
-        speaker.id = 22
+        speaker.id = 23
         speaker.name = "Camille Fournier"
         speaker.twitter = "skamille"
         speaker.imageAssetName = "camille.jpg"
