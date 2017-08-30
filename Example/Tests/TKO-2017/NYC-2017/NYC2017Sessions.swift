@@ -381,7 +381,7 @@ public let nyc2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .talk
         session.location =   nyc2017Locations["stage"]
-        session.presentation = nyc2017Presentations["helen"]
+        session.presentation = nyc2017Presentations["helenkostas"]
         return session
     }(),
     "day2SonamOfficeHours" : {
@@ -410,7 +410,7 @@ public let nyc2017Sessions: [String : Session] = [
     "day2HelenOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = nyc2017Presentations["helen"]
+        session.presentation = nyc2017Presentations["helenkostas"]
         session.location = nyc2017Locations["qaroom"]
         return session
     }(),
