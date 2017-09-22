@@ -108,6 +108,17 @@
 		FA79A6081E87B6B4005696DC /* PartySessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PartySessionViewModelTests.swift; path = SessionTests/PartySessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A6091E87B6B4005696DC /* WorkshopSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkshopSessionViewModelTests.swift; path = SessionTests/WorkshopSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A60E1E87BAD4005696DC /* SessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionViewModelTests.swift; path = SessionTests/SessionViewModelTests.swift; sourceTree = "<group>"; };
+		FC54EF3C1F74CA0A00176DA5 /* BLR2017ConferenceDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017ConferenceDays.swift; sourceTree = "<group>"; };
+		FC54EF3D1F74CA0A00176DA5 /* BLR2017Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Locations.swift; sourceTree = "<group>"; };
+		FC54EF3E1F74CA0B00176DA5 /* BLR2017SessionBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017SessionBlocks.swift; sourceTree = "<group>"; };
+		FC54EF3F1F74CA0B00176DA5 /* BLR2017Speakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Speakers.swift; sourceTree = "<group>"; };
+		FC54EF401F74CA0B00176DA5 /* BLR2017Sponsors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Sponsors.swift; sourceTree = "<group>"; };
+		FC54EF411F74CA0B00176DA5 /* BLR2017Conferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Conferences.swift; sourceTree = "<group>"; };
+		FC54EF421F74CA0B00176DA5 /* BLR2017Presentations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Presentations.swift; sourceTree = "<group>"; };
+		FC54EF431F74CA0B00176DA5 /* BLR2017Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Events.swift; sourceTree = "<group>"; };
+		FC54EF441F74CA0B00176DA5 /* BLR2017Organizers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Organizers.swift; sourceTree = "<group>"; };
+		FC54EF451F74CA0B00176DA5 /* BLR2017Sessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Sessions.swift; sourceTree = "<group>"; };
+		FC54EF461F74CA0B00176DA5 /* BLR2017Venues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Venues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +195,7 @@
 				22F0E33F1E50F1B50060EA9F /* NYC-2016 */,
 				22F0E34B1E50F1B50060EA9F /* TKO-2017 */,
 				FA05B8E11F490728001E0548 /* NYC-2017 */,
+				FC54EF3B1F74C9ED00176DA5 /* BLR-2017 */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -250,6 +262,24 @@
 				FA79A6041E87B5CF005696DC /* SponsoredDemoSessionViewModelTests.swift */,
 			);
 			name = SessionTests;
+			sourceTree = "<group>";
+		};
+		FC54EF3B1F74C9ED00176DA5 /* BLR-2017 */ = {
+			isa = PBXGroup;
+			children = (
+				FC54EF3C1F74CA0A00176DA5 /* BLR2017ConferenceDays.swift */,
+				FC54EF411F74CA0B00176DA5 /* BLR2017Conferences.swift */,
+				FC54EF431F74CA0B00176DA5 /* BLR2017Events.swift */,
+				FC54EF3D1F74CA0A00176DA5 /* BLR2017Locations.swift */,
+				FC54EF441F74CA0B00176DA5 /* BLR2017Organizers.swift */,
+				FC54EF421F74CA0B00176DA5 /* BLR2017Presentations.swift */,
+				FC54EF3E1F74CA0B00176DA5 /* BLR2017SessionBlocks.swift */,
+				FC54EF451F74CA0B00176DA5 /* BLR2017Sessions.swift */,
+				FC54EF3F1F74CA0B00176DA5 /* BLR2017Speakers.swift */,
+				FC54EF401F74CA0B00176DA5 /* BLR2017Sponsors.swift */,
+				FC54EF461F74CA0B00176DA5 /* BLR2017Venues.swift */,
+			);
+			path = "BLR-2017";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
