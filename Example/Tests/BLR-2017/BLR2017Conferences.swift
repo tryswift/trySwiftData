@@ -10,6 +10,8 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
+// Check the commented statement is correct or not
+
 public let blr2017Conferences: [Conference] = [
     {
         let trySwift = Conference()
@@ -22,7 +24,7 @@ public let blr2017Conferences: [Conference] = [
         trySwift.organizers.append(nyc2017Organizers["vaish"]!)
         trySwift.organizers.append(nyc2017Organizers["giridhar"]!)
         trySwift.venues.append(nyc2017Venues["thegrandmagrathhotel"]!) // Conference Venue
-        trySwift.venues.append(nyc2017Venues["91springboard"]!) // Workshop Space
+//        trySwift.venues.append(nyc2017Venues["91springboard"]!) // Workshop Space
         return trySwift
     }()
 ]

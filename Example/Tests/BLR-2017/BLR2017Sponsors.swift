@@ -10,6 +10,8 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
+// Some sponsors doesnt have twitter handles
+
 public let blr2017Sponsors: [String : Sponsor] = [
     
     //Platinum
@@ -26,71 +28,25 @@ public let blr2017Sponsors: [String : Sponsor] = [
 
 
     //Gold
-    "domo" : {
+    "techspeak" : {
         let sponsor = Sponsor()
-        sponsor.name = "Domo"
-        sponsor.url = "http://www.domo.com/"
-        sponsor.displayURL = "domo.com"
-        sponsor.twitter = "domo"
-        sponsor.logoAssetName = "domo.png"
+        sponsor.name = "Techspeak"
+        sponsor.url = "https://techspeak.email/"
+        sponsor.displayURL = "https://techspeak.email/"
+        sponsor.twitter = ""
+        sponsor.logoAssetName = "techspeak.png"
         sponsor.level = .gold
         return sponsor
     }(),
-    
-    "meetup" : {
-        let sponsor = Sponsor()
-        sponsor.name = "Meetup"
-        sponsor.url = "https://www.meetup.com"
-        sponsor.displayURL = "meetup.com"
-        sponsor.twitter = "meetup"
-        sponsor.logoAssetName = "meetup.png"
-        sponsor.level = .gold
-        return sponsor
-    }(),
-    
-    "twilio" : {
-        let sponsor = Sponsor()
-        sponsor.name = "Twilio"
-        sponsor.url = "http://www.twilio.com/"
-        sponsor.displayURL = "twilio.com"
-        sponsor.twitter = "twilio"
-        sponsor.logoAssetName = "twilio.png"
-        sponsor.level = .gold
-        return sponsor
-    }(),
-    
-    
-    "merrill" : {
-        let sponsor = Sponsor()
-        sponsor.name = "Merrill Corporation"
-        sponsor.url = "https://www.merrillcorp.com"
-        sponsor.displayURL = "merrillcorp.com"
-        sponsor.twitter = "MerrillCorp"
-        sponsor.logoAssetName = "merrill.png"
-        sponsor.level = .gold
-        return sponsor
-    }(),
-
 
     //Silver
-    "mercari" : {
+    "nfnlabs" : {
         let sponsor = Sponsor()
-        sponsor.name = "Mercari"
-        sponsor.url = "https://www.mercari.com"
-        sponsor.displayURL = "mercari.com"
-        sponsor.twitter = "mercari_app"
-        sponsor.logoAssetName = "mercari.png"
-        sponsor.level = .silver
-        return sponsor
-    }(),
-    
-    "glowforge" : {
-        let sponsor = Sponsor()
-        sponsor.name = "Glowforge"
-        sponsor.url = "https://glowforge.com/"
-        sponsor.displayURL = "glowforge.com"
-        sponsor.twitter = "glowforge"
-        sponsor.logoAssetName = "glowforge.png"
+        sponsor.name = "NFNLabs"
+        sponsor.url = "http://nfnlabs.in"
+        sponsor.displayURL = "nfnlabs.in"
+        sponsor.twitter = "nfnlabs"
+        sponsor.logoAssetName = "nfnlabs.png"
         sponsor.level = .silver
         return sponsor
     }(),
@@ -108,93 +64,103 @@ public let blr2017Sponsors: [String : Sponsor] = [
         return sponsor
     }(),
     
-    "glowforge_diversity" : {
+    "github" : {
         let sponsor = Sponsor()
-        sponsor.name = "Glowforge"
-        sponsor.url = "https://glowforge.com/"
-        sponsor.displayURL = "glowforge.com"
-        sponsor.twitter = "glowforge"
-        sponsor.logoAssetName = "glowforge.png"
-        sponsor.level = .diversity
+        sponsor.name = "Github"
+        sponsor.url = "https://github.com/"
+        sponsor.displayURL = "github.com"
+        sponsor.twitter = "github"
+        sponsor.logoAssetName = "github.png"
+        sponsor.level = .event
         return sponsor
     }(),
-    
-    "meetup_diversity" : {
-        let sponsor = Sponsor()
-        sponsor.name = "Meetup"
-        sponsor.url = "https://www.meetup.com"
-        sponsor.displayURL = "meetup.com"
-        sponsor.twitter = "meetup"
-        sponsor.logoAssetName = "meetup.png"
-        sponsor.level = .diversity
-        return sponsor
-    }(),
-    
-    "raizlabs" : {
-        let sponsor = Sponsor()
-        sponsor.name = "Raizlabs"
-        sponsor.url = "https://www.raizlabs.com/"
-        sponsor.displayURL = "raizlabs.com"
-        sponsor.twitter = "raizlabs"
-        sponsor.logoAssetName = "raizlabs.png"
-        sponsor.level = .diversity
-        return sponsor
-    }(),
-    
-    "lickability" : {
-        let sponsor = Sponsor()
-        sponsor.name = "Lickability"
-        sponsor.url = "http://lickability.com/"
-        sponsor.displayURL = "lickability.com"
-        sponsor.twitter = "lickability"
-        sponsor.logoAssetName = "lickability.png"
-        sponsor.level = .diversity
-        return sponsor
-    }(),
-    
 
-
-    // Event
-    "realm" : {
+    "pspdfkit" : {
         let sponsor = Sponsor()
-        sponsor.name = "Realm"
-        sponsor.url = "http://www.realm.io/"
-        sponsor.displayURL = "realm.io"
-        sponsor.twitter = "Realm"
-        sponsor.logoAssetName = "realm.png"
+        sponsor.name = "PSPDFKit"
+        sponsor.url = "https://pspdfkit.com/"
+        sponsor.displayURL = "pspdfkit.com"
+        sponsor.twitter = "pspdfkit"
+        sponsor.logoAssetName = "pspdfkit.png"
         sponsor.level = .event
         return sponsor
     }(),
     
-    "bts" : {
+    // Community
+    
+    "swiftindia" : {
         let sponsor = Sponsor()
-        sponsor.name = "Blue Trail Software"
-        sponsor.url = "https://bluetrailsoft.com/"
-        sponsor.displayURL = "bluetrailsoft.com"
-        sponsor.twitter = "bluetrailsoft"
-        sponsor.logoAssetName = "bts_software.png"
+        sponsor.name = "Swift India Developer Community"
+        sponsor.url = "https://swiftindia.in"
+        sponsor.displayURL = "swiftindia.in"
+        sponsor.twitter = "swiftindiagroup"
+        sponsor.logoAssetName = "swiftindia.png"
         sponsor.level = .event
         return sponsor
     }(),
     
-    "couchbase" : {
+    "bluecoders" : {
         let sponsor = Sponsor()
-        sponsor.name = "Couchbase"
-        sponsor.url = "https://www.couchbase.com/"
-        sponsor.displayURL = "couchbase.com"
-        sponsor.twitter = "couchbase"
-        sponsor.logoAssetName = "couchbase.png"
+        sponsor.name = "Blue Coders"
+        sponsor.url = "https://www.meetup.com/BlueCoders/"
+        sponsor.displayURL = "meetup.com/BlueCoders/"
+        sponsor.twitter = ""
+        sponsor.logoAssetName = "bb.png"
         sponsor.level = .event
         return sponsor
     }(),
     
-    "tanookilabs" : {
+    "makespace" : {
         let sponsor = Sponsor()
-        sponsor.name = "Tanooki Labs"
-        sponsor.url = "https://tanookilabs.com/"
-        sponsor.displayURL = "tanookilabs.com"
-        sponsor.twitter = "TanookiLabs"
-        sponsor.logoAssetName = "tanooki.png"
+        sponsor.name = "Makespace And Open Source Creativity"
+        sponsor.url = "http://www.bangaloremakespace.org/"
+        sponsor.displayURL = "bangaloremakespace.org/"
+        sponsor.twitter = "makespace_blr"
+        sponsor.logoAssetName = "Makes.png"
+        sponsor.level = .event
+        return sponsor
+    }(),
+    
+    "chennaigeeks" : {
+        let sponsor = Sponsor()
+        sponsor.name = "Chennai Geeks"
+        sponsor.url = "https://www.meetup.com/ChennaiGeeks/"
+        sponsor.displayURL = "meetup.com/ChennaiGeeks/"
+        sponsor.twitter = ""
+        sponsor.logoAssetName = "chennaigeeks.png"
+        sponsor.level = .event
+        return sponsor
+    }(),
+    
+    "iosdevthailand" : {
+        let sponsor = Sponsor()
+        sponsor.name = "iOS Dev Thailand"
+        sponsor.url = "https://www.facebook.com/groups/iosthailand/"
+        sponsor.displayURL = "facebook.com/groups/iosthailand/"
+        sponsor.twitter = ""
+        sponsor.logoAssetName = "iosthailand.png"
+        sponsor.level = .event
+        return sponsor
+    }(),
+    
+    "skillenza" : {
+        let sponsor = Sponsor()
+        sponsor.name = "Skillenza"
+        sponsor.url = "https://beta.skillenza.com/"
+        sponsor.displayURL = "https://beta.skillenza.com/"
+        sponsor.twitter = "skillenza"
+        sponsor.logoAssetName = "skillenza.png"
+        sponsor.level = .event
+        return sponsor
+    }(),
+    
+    "91springboard" : {
+        let sponsor = Sponsor()
+        sponsor.name = "91springboard"
+        sponsor.url = "http://www.91springboard.com/"
+        sponsor.displayURL = "91springboard.com/"
+        sponsor.twitter = "91springboard"
+        sponsor.logoAssetName = "91logo.png"
         sponsor.level = .event
         return sponsor
     }()

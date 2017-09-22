@@ -10,6 +10,8 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
+// Have to add some values in this class
+
 public let blr2017Venues: [String : Venue] = [
     "thegrandmagrathhotel" : {
         let venue = Venue()

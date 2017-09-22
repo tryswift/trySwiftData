@@ -47,7 +47,7 @@ public let blr2017Organizers: [String : Organizer] = [
         organizer.hidden = true
         organizer.name = "Giridhar VC"
         organizer.twitter = "giridharvc7"
-        organizer.imageAssetName = "" // Put Giridhar's Photo URL here
+        organizer.imageAssetName = "giridhar.jpg"
         organizer.bio = "Hailing from the land of temples, beaches and curd rice, Giridhar is a Swift enthusiast and iOS developer who writes code @zoho. When he’s not meddling with code or eating, you can find him playing his recent multiplayer addiction - Overwatch"
         return organizer
     }(),
