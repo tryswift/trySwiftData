@@ -12,7 +12,7 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
-public let nyc2017ConferenceDays: [ConferenceDay] = [
+public let blr2017ConferenceDays: [ConferenceDay] = [
     {
         let day1 = ConferenceDay()
         day1.date = Date.date(year: 2017, month: 9, day: 4, hour: 14, minute: 0, second: 0)

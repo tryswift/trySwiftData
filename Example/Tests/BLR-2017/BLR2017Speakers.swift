@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
-public let nyc2017Speakers: [String : Speaker] = [
+public let blr2017Speakers: [String : Speaker] = [
     
     "matt" : { let speaker = Speaker()
         speaker.id = 1

@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
-public let nyc2017Sessions: [String : Session] = [
+public let blr2017Sessions: [String : Session] = [
 //---------------------------------------------------------
     // Day 1 Sessions
     "day1Breakfast" : {

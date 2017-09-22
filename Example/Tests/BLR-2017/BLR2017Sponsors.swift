@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
-public let nyc2017Sponsors: [String : Sponsor] = [
+public let blr2017Sponsors: [String : Sponsor] = [
     
     //Platinum
     "ibm" : {

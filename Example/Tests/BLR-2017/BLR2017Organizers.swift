@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
-public let nyc2017Organizers: [String : Organizer] = [
+public let blr2017Organizers: [String : Organizer] = [
     "natashatherobot" : {
         let natashatherobot = Organizer()
         natashatherobot.id = 1

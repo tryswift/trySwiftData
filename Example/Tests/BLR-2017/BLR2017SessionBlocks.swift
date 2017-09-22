@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
-public let nyc2017SessionBlocks: [SessionBlock] = [
+public let blr2017SessionBlocks: [SessionBlock] = [
 
     // Day 1
     {

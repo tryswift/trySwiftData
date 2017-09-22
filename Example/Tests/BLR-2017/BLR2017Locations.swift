@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import TrySwiftData
 
-public let nyc2017Locations: [String : Location] = [
+public let blr2017Locations: [String : Location] = [
     "qaroom" : {
         let location = Location()
         location.name = "Q&A Area"
