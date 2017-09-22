@@ -23,7 +23,7 @@ public let blr2017Locations: [String : Location] = [
     }(),
     "stage" : {
         let location = Location()
-        location.name = "Stage 3"
+        location.name = "Main Stage"
         return location
     }()
 ]

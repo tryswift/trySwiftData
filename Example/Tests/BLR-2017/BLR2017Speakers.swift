@@ -12,221 +12,191 @@ import TrySwiftData
 
 public let blr2017Speakers: [String : Speaker] = [
     
-    "matt" : { let speaker = Speaker()
+    "robin" : { let speaker = Speaker()
         speaker.id = 1
-        speaker.name = "Matt Gallagher"
-        speaker.twitter = "cocoawithlove"
-        speaker.imageAssetName = "matt.jpg"
-        speaker.bio = "Matt Gallagher started his career writing embedded C at a printer company and computer vision research at a video games company. For the last decade, Matt has worked as a Mac and iOS developer and consultant across a range of fields from video server software to weather apps. His website, cocoawithlove.com, has offered in-depth articles on Mac and iOS development since 2008."
+        speaker.name = "Robin Malhotra"
+        speaker.twitter = "codeOfRobin"
+        speaker.imageAssetName = "robin.jpg"
+        speaker.bio = "Robin’s love affair with computers started with his dad’s hand-me-down IBM PC. He’s a huge swift fan (, not Taylor) who spends his free time playing basketball (Go Dubs!) and working on open source. When he’s not coding or wasting time on reddit, he usually plays NBA 2k, Overwatch or Mass Effect."
         return speaker
     }(),
     
-    "paola" : { let speaker = Speaker()
+    "bhargav" : { let speaker = Speaker()
         speaker.id = 2
-        speaker.name = "Paola Mata"
-        speaker.twitter = "PaolaNotPaolo"
-        speaker.imageAssetName = "paola.jpg"
-        speaker.bio = "Paola is an iOS developer at BuzzFeed, a social media addict, and an occasional blogger based in Brooklyn. Paola is also actively involved in the tech community as co-founder of NYC Tech Latinas and advisor to the Women in iOSoho meetup, and she regularly volunteers her time to promoting diversity in tech and supporting the next wave of new programmers. When she's not buried in code, you'll likely find Paola binge-watching a sci-fi series, lifting at the gym, or hunting down good eats."
+        speaker.name = "Bhargav Gurlanka"
+        speaker.twitter = "bhargavgurlanka"
+        speaker.imageAssetName = "bhargav.jpg"
+        speaker.bio = "Bhargav Gurlanka is an iOS developer, building apps since iOS 6, currently working at agoda.com. With a passion for both electronics and programming, he graduated as an Electronics Engineer and started his programming career as Freelance Web Dev. Fell in love with iOS early on and since then, he is purely working on mobile apps for big orgs. After office hours, you can find him in street food joints in Bangkok eating SomTam with sticky rice."
         return speaker
     }(),
     
-    "harlan" : { let speaker = Speaker()
+    "cate" : { let speaker = Speaker()
         speaker.id = 3
-        speaker.name = "Harlan Haskins"
-        speaker.twitter = "harlanhaskins"
-        speaker.imageAssetName = "harlan.jpg"
-        speaker.bio = "Harlan is a Computer Science student at Rochester Institute of Technology. He's previously worked at Apple as an intern on the Swift Quality Engineering team, where he contributed to LLVM, Swift, and the Swift Migrator. He’s also been working on Swift libraries to interface with LLVM and Clang, which he uses in his hobby compiler, Trill. He currently works as an iOS engineer at Bryx, Inc making apps for 911 and EMS responders."
+        speaker.name = "Cate Huston"
+        speaker.twitter = "catehstn"
+        speaker.imageAssetName = "cate.jpg"
+        speaker.bio = "Cate has spent her career working on mobile and documenting everything she learns using WordPress. Now she combines the two as Automattic’s mobile lead. She co-curates Technically Speaking, and admins the New-(ish) Manager Slack. You can find her on Twitter at @catehstn and at cate.blog. Cate has lived and worked in the UK, Australia, Canada, China, Colombia and the United States, as Director of Mobile Engineering at Ride, an engineer at Google, an Extreme Blue intern at IBM, and a ski instructor. Cate built Show & Hide (available on iTunes), and speaks internationally on mobile development and tech culture. Her writing has been published on sites as varied as Be Leaderly, Lifehacker, The Daily Beast, The Eloquent Woman and Model View Culture. She is an advisor at Glowforge. You can also find her at WhereTheHellIsCate.com."
         return speaker
     }(),
     
-    "craig" : { let speaker = Speaker()
+    "vatsal" : { let speaker = Speaker()
         speaker.id = 4
-        speaker.name = "Craig Clayton"
-        speaker.twitter = "thedevme"
-        speaker.imageAssetName = "craig.jpg"
-        speaker.bio = "Craig Clayton is a self-taught, Sr. iOS Engineer at Adept Mobile, which specializes in building mobile experiences primarily for NBA and NFL teams. He is the founder of Cocoa.academy, where he produces workshops and courses on iOS development. Craig is the author of the newly released book called iOS 10 Programming for Beginners.  He has worked as a mentor for both adults and kids, helping those who aspire to become iOS developers."
+        speaker.name = "Vatsal Manot"
+        speaker.twitter = "vatsal_manot"
+        speaker.imageAssetName = "vatsal.jpeg"
+        speaker.bio = "Vatsal is a Swift programmer with interest in compilers, runtimes and metaprogramming. He has written numerous runtime extensions (“tweaks”) for the jailbroken iPhone, and is currently writing a computer algebra system targeting iOS and macOS. He also enjoys eating and sleeping, as most humans do."
         return speaker
     }(),
     
-    "julio" : { let speaker = Speaker()
+    "mugunth" : { let speaker = Speaker()
         speaker.id = 5
-        speaker.name = "Julio Carrettoni"
-        speaker.twitter = "dev_jac"
-        speaker.imageAssetName = "julio.jpg"
-        speaker.bio = "Julio Carrettoni started his professional career in 2009 as an iPhoneOS Developer. Since that time he has developed also for Blackberry (Java and C++) and Android, but his platform of choice has always been iOS. Always working from Buenos Aires Argentina, Julio is also a co host at @NSCoderBA and an active collaborator and former speaker at @NSConfArg. Currently he performs as the VP of mobile applications in Blue Trail Software without ever stopping coding."
+        speaker.name = "Mugunth Kumar"
+        speaker.twitter = "mugunthkumar"
+        speaker.imageAssetName = "mugunth.jpg"
+        speaker.bio = "Mugunth is an independent iOS developer based in Singapore. He graduated in 2009 and holds a Masters degree from Nanyang Technological University, Singapore, majoring in Information Systems. He blogs about mobile development, writing tutorials focussing mostly on iOS platform. Mugunth has authored a handful of programming books, iOS 5 Programming: Pushing the limits, iOS 6 Programming: Pushing the limits and iOS 7 Programming: Pushing the limits. The books were in the top 100 most selling books on Amazon’s Computers and Technology Section. Mugunth also runs a classroom-based training in Singapore (http://iostraining.sg/), teaching advanced concepts in iOS programming. If he were not coding, he would probably be found at some exotic place capturing scenic photos of Mother Nature."
         return speaker
     }(),
     
-    "tanner" : { let speaker = Speaker()
+    "mamtha" : { let speaker = Speaker()
         speaker.id = 6
-        speaker.name = "Tanner Nelson"
-        speaker.twitter = "tanner0101"
-        speaker.imageAssetName = "tanner.jpg"
-        speaker.bio = "Tanner is an American software engineer based in New York City. He studied Computer Science at New York University and has worked as a full stack, iOS, and embedded systems engineer. Tanner's current focus is developing Vapor, an open source Server-Side Swift framework that he created in 2016."
+        speaker.name = "Mamatha Busi"
+        speaker.twitter = "MamathaBusi"
+        speaker.imageAssetName = "mamtha.jpg"
+        speaker.bio = "Mamatha Busi is an Open Source developer with IBM Software Labs, Bangalore. She is currently working on the open-source development of the Swift Foundation APIs in swift.org. Mamatha's focus is Runtimes for Programming Languages and has been a part of the engineering team for IBM JDK Class Libraries. She speaks extensively on Swift and the Server side implementation with the developer community at Meet-ups, Conferences and Universities."
         return speaker
     }(),
     
-    "neem" : { let speaker = Speaker()
+    "sreeram" : { let speaker = Speaker()
         speaker.id = 7
-        speaker.name = "Neem Serra"
-        speaker.twitter = "TeamNeem"
-        speaker.imageAssetName = "neem.jpg"
-        speaker.bio = "Neem Serra is an iOS developer in the St. Louis area. She teaches and mentors at a variety of non-profit organizations such as Software Carpentry and the Roy Clay Senior Tech Impact web development workshop. As the lead of the Google Women Techmakers group in St. Louis, she started the St. Louis Techies Project (STLTechies.com) to highlight the diversity of technical people in St. Louis. Neem loves to bake, read comics, and host craft nights."
+        speaker.name = "KS Sreeram"
+        speaker.twitter = "kssreeram"
+        speaker.imageAssetName = "sreeram.jpg"
+        speaker.bio = "KS Sreeram is a computer programmer who has been programming for 25 years. He works on programming language design, compilers, and natural language processing. He runs Clay Labs, a business that specializes in ground-up design and development of software applications. Clay Labs uses modeling & code-generation techniques to speed up software development."
         return speaker
     }(),
     
-    "inami" : { let speaker = Speaker()
+    "jesse" : { let speaker = Speaker()
         speaker.id = 8
-        speaker.name = "Yasuhiro Inami"
-        speaker.twitter = "inamiy"
-        speaker.imageAssetName = "inamiy.jpg"
-        speaker.bio = "Yasuhiro is an iOS developer at CyberAgent, Inc in Japan. While creating AbemaTV (Japanese TV app, abema.tv in his work, he also dedicates his time to functional programming and open source projects. He is a huge fan of Swift, Haskell, and any statically typed languages that compiler can check his bad code, yet he also loves unpredictable, dynamic world he lives in now."
+        speaker.name = "Jesse Squires"
+        speaker.twitter = "jesse_squires"
+        speaker.imageAssetName = "jesse.jpg"
+        speaker.bio = "Jesse is an iOS developer at PlanGrid. He writes and curates the Swift Weekly Brief newsletter, co-hosts the Swift Unwrapped podcast, and contributes to many open source projects. Outside of work he enjoys trail running and goes to punk and metal shows. He is fueled primarily by black coffee and black metal."
         return speaker
     }(),
     
-    "priya" : { let speaker = Speaker()
+    "kamilah" : { let speaker = Speaker()
         speaker.id = 9
-        speaker.name = "Priya Rajagopal"
-        speaker.twitter = "rajagp"
-        speaker.imageAssetName = "priya.jpg"
-        speaker.bio = "Priya Rajagopal is a Mobile Developer Advocate for Couchbase, living in Ann Arbor, MI. She has been professionally developing software for over 18 years. She is active in the local mobile developer community where she organizes the Mobile Monday Ann Arbor group and mentors other developers. Although her current interests lie in mobile development, she has previously worked on a range of technologies including IPTV, Social TV, targeted advertising, network management , network security and platform security. As a TISPAN IPTV standards delegate, she was a contributor to the IPTV architectural specifications. She has spent a decade in software R&D and is a co-inventor on almost 2 dozen US patents. When not developing software, she enjoys spending time with her family and watching movies."
+        speaker.name = "Kamilah Taylor"
+        speaker.twitter = "kamilah"
+        speaker.imageAssetName = "kamilah-taylor.jpg"
+        speaker.bio = "Kamilah is a Sr. Software Engineer at LinkedIn, currently does infrastructure and features on the LinkedIn Learning app, and worked on the complete rewrite of LinkedIn’s flagship app. Previously she did robotics at Wolfram Research and UIUC, is a co-author of Women in Tech, and likes that Swift reminds her of an upgraded version of Haskell."
         return speaker
     }(),
     
-    "james" : { let speaker = Speaker()
+    "jono" : { let speaker = Speaker()
         speaker.id = 10
-        speaker.name = "James Dempsey"
-        speaker.twitter = "jamesdempsey"
-        speaker.imageAssetName = "james.jpg"
-        speaker.bio = "James Dempsey is currently building iOS and macOS apps in Swift  as a tech lead at Upthere.  He is a fifteen-year Apple veteran gone indie. At Apple, he was an evangelist, technical trainer, curriculum manager, and software engineer, working on Aperture, iOS, and macOS. James is also the frontman of James Dempsey and the Breakpoints, a band that performs humorous original songs about Swift, iOS and macOS development. Their debut album Backtrace topped the iTunes comedy charts in the US, UK, and Canada, reaching #5 on the Billboard comedy album chart."
+        speaker.name = "Jonathan Guthrie"
+        speaker.twitter = "iamjono"
+        speaker.imageAssetName = "jono.jpg"
+        speaker.bio = "Jonathan (or Jono) is an experienced software engineer who is building Perfect roadmap features and enhancements and supporting developers who are using Perfect. Jono has been developing server-side applications and API’s using a number of different languages for nearly 20 years. He moved to Canada from New Zealand in 2010 to help architect the next generation of server-side development, and he's now part of the Perfect team bringing Swift to the server. In his spare time he’s a session musician, sound engineer, gamer, and loves writing API’s for all sorts of obscure things."
         return speaker
     }(),
     
-    "krunoslav" : { let speaker = Speaker()
+    "satoshi" : { let speaker = Speaker()
         speaker.id = 11
-        speaker.name = "Krunoslav Zaher"
-        speaker.twitter = "krunoslavzaher"
-        speaker.imageAssetName = "krunoslav.jpg"
-        speaker.bio = "Worked on various projects for the past 16 years (augmented reality engines, BPM systems, mobile applications, bots …) Recently studying functional programming and modeling systems in a declarative way using observable sequences. He is the initial committer in the RxSwift repository, helping out bootstrapping an ecosystem inside RxSwiftCommunity and sharing architecture ideas in RxFeedback repository. Currently building systems at a YC well-being startup called Bellabeat."
+        speaker.name = "Satoshi Hachiya"
+        speaker.twitter = "jpmartha_jp"
+        speaker.imageAssetName = "jpmarthajp.jpg"
+        speaker.bio = "Satoshi is a Japanese iOS developer at ookami, Inc. Currently, he's making an iOS app called Player!. He was a speaker at Mobile Optimized 2017 in Belarus. He is also a founder of Pancake Meetup taken place in Tokyo and San Jose so far. You can find him with a profile picture of pancakes on Twitter, GitHub and Instagram."
         return speaker
     }(),
     
-    "sonam" : { let speaker = Speaker()
+    "shivam" : { let speaker = Speaker()
         speaker.id = 12
-        speaker.name = "Sonam Dhingra"
-        speaker.twitter = "Sdhingra89"
-        speaker.imageAssetName = "sonam.jpg"
-        speaker.bio = "Sonam Dhingra is a Senior iOS engineer, entrepreneur, and spikeballer living in Brooklyn. She has a B.A in Business Administration & Finance and graduated from Boston University. Her background is extremely diverse. From being a real estate agent, to a motion graphics editor, to an entrepreneur, and for the past few years building iOS apps for a variety of companies. Her journey into programming included a 2 month iOS bootcamp in 2013. She has built over 3 iOS applications from the ground up through her experience at a few different agencies."
+        speaker.name = "Shivam Mishra"
+        speaker.twitter = "shivammishra9"
+        speaker.imageAssetName = "shivam.jpg"
+        speaker.bio = "Shivam leads BookMyShow's iOS team and is backed by 6 years of experience in Objective-C and Swift. He focuses on application architecture, and played a key role in the complete re-write of BookMyShow's app. His curiosity drives him to constantly learn and experiment, and he is currently dabbling in React Native. When he's not at his desk coding, he is busy organising & managing Swift Mumbai meet ups, winning hackathons, and reading about Indian mythology."
         return speaker
     }(),
     
-    "ray" : { let speaker = Speaker()
+    "aishwarya" : { let speaker = Speaker()
         speaker.id = 13
-        speaker.name = "Ray Tsaihong"
-        speaker.twitter = "rmundo"
-        speaker.imageAssetName = "ray.jpg"
-        speaker.bio = "Ray Tsaihong is an iOS developer based in Taipei currently working at LINE. He has worked on back end code, front end code, and code that runs in satellite computers, but his main loves are Swift, Cocoa, and the machines that run them."
+        speaker.name = "Aishwarya Kumar"
+        speaker.twitter = "Aishwarya_Kumar"
+        speaker.imageAssetName = "aishwarya.jpg"
+        speaker.bio = "With no relations to the namesake Rai Bachhan whatsoever, Aish comes from the land of Symbian, travelling through the diverse forests of Android, crossing the rocky Windows Phone 7, Windows 8x and 10 OS to finally reach the meadows of iOS. You can always find him driving - either changes in the Apps space in Flipkart or his car in Goa or someone else's car in GTA. From the App that played your Flipkart music to the one where you read your Flipkart ebooks or where you 'Ping'ed your sellers on Flipkart to one of the most fluid shopping apps, you can find him neck deep."
         return speaker
     }(),
     
-    "nataliya" : { let speaker = Speaker()
+    "chris" : { let speaker = Speaker()
         speaker.id = 14
-        speaker.name = "Nataliya Patsovska"
-        speaker.twitter = "nataliya_bg"
-        speaker.imageAssetName = "nataliya.jpg"
-        speaker.bio = "After graduating as a Software engineer, Nataliya focused on iOS development for more than 4 years, recently as a member of the mobile team at Spotify. Her passion about testing and maintainability in general drove a lot of the talks she did as part of her jobs. Now she is keen to share more broadly her personal reflections and experiences and to elaborate on those with the Swift community."
+        speaker.name = "Chris Bailey"
+        speaker.twitter = "Chris__Bailey"
+        speaker.imageAssetName = "chris.jpg"
+        speaker.bio = "Chris Bailey is a developer and technical leader in the Runtime Technologies team at IBM. Chris has spent over 15 years working on open source runtimes including Java, Node.js and Swift. Chris is a contributor and committor to the Swift Language, Foundation and Dispatch projects, and is on steering committee for the Swift Server APIs project aimed at making new networking, security and HTTP APIs available to the community. He is also the Chief Architect for the Swift@IBM, providing the open source Kitura server framework."
         return speaker
     }(),
     
-    "paul" : { let speaker = Speaker()
+    "vijayakumar" : { let speaker = Speaker()
         speaker.id = 15
-        speaker.name = "Paul Fenwick"
-        speaker.twitter = "pjf"
-        speaker.imageAssetName = "paul.jpg"
-        speaker.bio = "Paul Fenwick is an internationally acclaimed public speaker, developer, and science educator. Paul is well known for presenting on a diverse range of topics including privacy, neuroscience and neuroethics, Klingon programming, open source, depression and mental health, advancements in science, diversity, autonomous agents, and minesweeper automation. His dynamic presentation style and quirky humour has delighted audiences worldwide. Paul was awarded the 2013 O'Reilly Open Source award, and the 2010 White Camel award, both for outstanding contributions to the open source community."
+        speaker.name = "AB Vijay Kumar"
+        speaker.twitter = "abvijaykumar"
+        speaker.imageAssetName = "ab.jpg"
+        speaker.bio = "AB Vijay is a IBM Distinguished Engineer & CTO for Apple IBM Partnership. He is a senior inventor, who has more than 25 patents filed in his name. He has more than 19 years experience in IBM. He is a recognized as subject matter expert for his contribution to advanced mobility in automotive, and has led several implementation engagements involving complex industry solutions. He specializes in mobile, cloud, automotive, sensor-based machine-to-machine, Internet of Things, and telematics technologies."
         return speaker
     }(),
     
-    "glenna" : { let speaker = Speaker()
+    "bob" : { let speaker = Speaker()
         speaker.id = 16
-        speaker.name = "Glenna Buford"
-        speaker.twitter = "glennersboofy"
-        speaker.imageAssetName = "glenna.jpg"
-        speaker.bio = "Glenna is an Engineering Lead at Wooga, where she’s been working on Jelly Splash for over two years, making sure new versions get shipped regularly for players to enjoy the game over a long period of time. Glenna has expertise in iOS and Android development, is a director of Women Who Code Berlin, and organizer of Girls’ Games Workshops in Germany. When she’s not computering, she’s usually trying new beers or traveling."
+        speaker.name = "Bob Lee"
+        speaker.twitter = "bobthedeveloper"
+        speaker.imageAssetName = "bob.png"
+        speaker.bio = "Bob Lee is known as Bob the Developer. After having failed at running an app startup in college, He has been sharing what he has learned since last year. He focuses on the Swift fundamentals for those who want to get started with iOS Development at blog.bobthedeveloper.io . Besides teaching, He enjoys playing basketball, interacting with his readers, and finding shortcuts. "
         return speaker
     }(),
     
-    "helen" : { let speaker = Speaker()
+    "ritesh" : { let speaker = Speaker()
         speaker.id = 17
-        speaker.name = "Helen Papanikolopoulou"
-        speaker.twitter = "elenipapanikolo"
-        speaker.imageAssetName = "helen.png"
-        speaker.bio = "Eleni Papanikolopoulou is an active iOS Developer at Workable, an innovating recruiting software company, headquartered in Boston, MA. She is from Athens, Greece and holds a Master’s degree in Computer Science and IT Management from University of Manchester, UK. She started her developing career as a Java engineer but later on converted to Swift when contributing in Pobuca, a contact management app. She is an advocate of RxSwift for solving tough asynchronous-like problems and currently working in developing Error Handler, an open-source Swift framework. When she doesn't work, she enjoys traveling more than anything and watching Silicon Valley series."
+        speaker.name = "Ritesh Gupta"
+        speaker.twitter = "ritesh"
+        speaker.imageAssetName = "ritesh.jpg"
+        speaker.bio = "Ritesh Gupta is an iOS Engineer at Fueled, creator of RGListKit & author of Swift-Snippets on medium. He is also actively involved in the tech community as a lead organiser of Swift-India which conduct meetup once a month across various cities in India. He guest authored 295th issue of iOS dev weekly newsletter. When he is not swifting, he likes to share thoughts on twitter & enjoy different cuisines."
         return speaker
     }(),
     
-    "kostas" : { let speaker = Speaker()
+    "pushkar" : { let speaker = Speaker()
         speaker.id = 18
-        speaker.name = "Kostas Kremizas"
-        speaker.twitter = "kostaskremizas"
-        speaker.imageAssetName = "kostas.jpg"
-        speaker.bio = "Kostas is an iOS Engineer at Workable, the recruitment software company. He's developed over a dozen iOS apps, from cooking and fashion, to retail, radio, food delivery and more. Having survived the years of Objective-C and manual memory management, he now basks in the comfort and (type) safety of Swift. He loves TDD, clean architecture and more recently getting to grips with functional programming and ReactiveX concepts."
+        speaker.name = "Pushkar Kulkarni"
+        speaker.twitter = "pushkar_nk"
+        speaker.imageAssetName = "pushkar.jpg"
+        speaker.bio = "Pushkar Kulkarni has been working in the languages and frameworks space over the last ten years. He started his career as a Java JIT compiler developer with the the IBM Java Runtime. He spent days digging through system core files, fixing bugs without problem reproduction at hand! Later he changed gears to IBM Java Class Libraries development, fixing bugs and implementing features in the various Java packages (java.net, java.nio and java.util). Early in 2016, after Apple open sourced Swift he started working on swift-corelibs-foundation - the open source Swift implementation of the Foundation classes. Currently, as a committer on swift-corelibs-foundation, he is focused on developing and improving the Swift implementation of URLSession and friends."
         return speaker
     }(),
     
-    // special double speaker case
-    "helenkostas" : { let speaker = Speaker()
-        speaker.id = 24
-        speaker.name = "Helen & Kostas"
-        speaker.twitter = "workable"
-        speaker.imageAssetName = "helen_kostas.jpg"
-        speaker.hidden = true
-        speaker.bio = "Eleni Papanikolopoulou is an active iOS Developer at Workable, an innovating recruiting software company, headquartered in Boston, MA. She is from Athens, Greece and holds a Master’s degree in Computer Science and IT Management from University of Manchester, UK. She started her developing career as a Java engineer but later on converted to Swift when contributing in Pobuca, a contact management app. She is an advocate of RxSwift for solving tough asynchronous-like problems and currently working in developing Error Handler, an open-source Swift framework. When she doesn't work, she enjoys traveling more than anything and watching Silicon Valley series.\n\nKostas is an iOS Engineer at Workable, the recruitment software company. He's developed over a dozen iOS apps, from cooking and fashion, to retail, radio, food delivery and more. Having survived the years of Objective-C and manual memory management, he now basks in the comfort and (type) safety of Swift. He loves TDD, clean architecture and more recently getting to grips with functional programming and ReactiveX concepts."
-        return speaker
-    }(),
-    
-    "meghan" : { let speaker = Speaker()
+    "rahul" : { let speaker = Speaker()
         speaker.id = 19
-        speaker.name = "Meghan Kane"
-        speaker.twitter = "kostaskremizas"
-        speaker.imageAssetName = "meghan.jpg"
-        speaker.bio = "Meghan is an independent developer based in Berlin, building apps for the Apple ecosystem since 2009. Her recent work includes building Bike Workshop & SoundCloud, teaching ML for iOS developers, and a white paper with CERN physicists. She is passionate about encouraging people to learn to code and breaking down any barriers to entry to the world of programming. When not coding, Meghan can usually be found cycling around the world, playing board games, or reading."
+        speaker.name = "Rahul Katariya"
+        speaker.twitter = "rahulkatariya91"
+        speaker.imageAssetName = "rahul.jpg"
+        speaker.bio = "Rahul Katariya is an iOS Developer at Hike. There, he encourages Swift with Framework Oriented Programming. He has more than 4 years of professional experience and has worked with companies like Empeiria, Xebia. He has been contributing to Open Source whenever he can and believes in giving back to the community. He is the creator of Restofire and JetpackSwift/FrameworkTemplate repositories."
         return speaker
-    }(),
-    
-    "ericasadun" : { let speaker = Speaker()
-        speaker.id = 20
-        speaker.name = "Erica Sadun"
-        speaker.twitter = "ericasadun"
-        speaker.imageAssetName = "ericasadun.png"
-        speaker.bio = "Erica Sadun enjoys deep diving into technology and has written, co-written, and contributed to dozens of books about computing and digital media. Sadun has blogged at TUAW, Ars Technica, O'Reilly, and Lifehacker, and has authored and co-authored a whole heap of Swift proposals."
-        return speaker
-    }(),
-    
-    "carl" : { let speaker = Speaker()
-        speaker.id = 21
-        speaker.name = "Carl Brown"
-        speaker.twitter = "CarlBrwn"
-        speaker.imageAssetName = "carl.png"
-        speaker.bio = "Carl Brown is currently working with Swift on the Server at Swift@IBM. He's been writing iOS apps since 2008 and has done consulting work on several major app projects. He organizes the SwiftAustin and CocoaCoder meetup groups in Austin Texas, and has spoken at conferences including 360iDev and CocoaConf."
-        return speaker
-    }(),
-    
-    "dennis" : { let speaker = Speaker()
-        speaker.id = 22
-        speaker.name = "Dennis Pilarinos"
-        speaker.twitter = "dennispilarinos"
-        speaker.imageAssetName = "dennis.jpg"
-        speaker.bio = "Dennis Pilarinos is the founder and CEO of buddybuild, a continuous integration, delivery and user feedback platform that is designed, built and optimized specifically for mobile app developers. Prior to buddybuild, Dennis held product and engineering leadership roles at Amazon building and running the teams responsible for the Silk Web browser UI for the Kindle Fire Tablet and Fire Phone devices. Prior to his time at Amazon, he spent 9 years at Microsoft and founded the Azure teams focused on defining, building, delivering and operating the Messaging, Access Control and Workflow offerings of Microsoft's cloud services platform."
-        return speaker
-    }(),
-    
-    "camille" : { let speaker = Speaker()
-        speaker.id = 23
-        speaker.name = "Camille Fournier"
-        speaker.twitter = "skamille"
-        speaker.imageAssetName = "camille.jpg"
-        speaker.bio = "Camille Fournier is a Managing Director and Head of Platform Engineering at Two Sigma.  She is the former Chief Technology Officer of Rent The Runway and a former Vice President of Technology at Goldman Sachs. Fournier earned an undergraduate degree from Carnegie Mellon University and a Master’s degree in Computer Science from the University of Wisconsin–Madison. She is a maintainer of the Apache ZooKeeper open source project, writes the Ask The CTO column for O'Reilly Media, and is a regular public speaker and advocate for greater diversity within technology and leadership. Her book, The Manager's Path, was published by O'Reilly in early 2017."
-        return speaker
-    }(),
+    }()
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
