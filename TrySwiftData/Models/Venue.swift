@@ -16,18 +16,18 @@ import Contacts
 }
 
 public class Venue: Object {
-    open dynamic var title: String = ""
-    open dynamic var titleJP: String?
-    open dynamic var address: String = ""
-    open dynamic var addressJP: String?
-    open dynamic var website: String?
-    open dynamic var twitter: String?
-    open dynamic var logoAssetName: String?
-    open dynamic var logoImageWebURL: String?
-    open dynamic var wifiNetworkName: String?
-    open dynamic var wifiUsername: String?
-    open dynamic var wifiPassword: String?
-    open dynamic var type: VenueType = .conference
+    @objc open dynamic var title: String = ""
+    @objc open dynamic var titleJP: String?
+    @objc open dynamic var address: String = ""
+    @objc open dynamic var addressJP: String?
+    @objc open dynamic var website: String?
+    @objc open dynamic var twitter: String?
+    @objc open dynamic var logoAssetName: String?
+    @objc open dynamic var logoImageWebURL: String?
+    @objc open dynamic var wifiNetworkName: String?
+    @objc open dynamic var wifiUsername: String?
+    @objc open dynamic var wifiPassword: String?
+    @objc open dynamic var type: VenueType = .conference
 
     public var localizedTitle: String {
         return self.localizedString(for: title, japaneseString: titleJP)

@@ -1,9 +1,9 @@
 PODS:
-  - Realm (2.4.3):
-    - Realm/Headers (= 2.4.3)
-  - Realm/Headers (2.4.3)
-  - RealmSwift (2.4.3):
-    - Realm (= 2.4.3)
+  - Realm (2.10.1):
+    - Realm/Headers (= 2.10.1)
+  - Realm/Headers (2.10.1)
+  - RealmSwift (2.10.1):
+    - Realm (= 2.10.1)
   - TrySwiftData (0.1.0):
     - RealmSwift
     - TrySwiftData/Tokyo2017 (= 0.1.0)
@@ -19,10 +19,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
-  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
+  Realm: fc7a317a5c2c9ba91f5f235ede4e2ea76e9eba0c
+  RealmSwift: 505ed6c15942a2e76f5cfa78a8667cfa997ee75b
   TrySwiftData: 9c8acd05db49d952e0fbb69790b01f3b7441dbe8
 
-PODFILE CHECKSUM: 3fd397c0c60045784f35793f4c2eddc7394cb8b0
+PODFILE CHECKSUM: 515077a93b5799230e7a5d7aa9b158683986a7df
 
 COCOAPODS: 1.2.0
