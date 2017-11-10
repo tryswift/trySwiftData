@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
 	s.frameworks = 'UIKit', 'Foundation'
 	s.dependency 'RealmSwift'
-	s.default_subspec = 'Tokyo2017'
+	s.default_subspec = 'TrySwiftAssets'
 	s.source_files = 'TrySwiftData/**/*.{swift}'
 
     # For full-scale integration, such as the iOS app
