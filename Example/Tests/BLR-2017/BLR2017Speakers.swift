@@ -43,7 +43,7 @@ public let blr2017Speakers: [String : Speaker] = [
         speaker.id = 4
         speaker.name = "Vatsal Manot"
         speaker.twitter = "vatsal_manot"
-        speaker.imageAssetName = "vatsal.jpeg"
+        speaker.imageAssetName = "vatsal.jpg"
         speaker.bio = "Vatsal is a Swift programmer with interest in compilers, runtimes and metaprogramming. He has written numerous runtime extensions (“tweaks”) for the jailbroken iPhone, and is currently writing a computer algebra system targeting iOS and macOS. He also enjoys eating and sleeping, as most humans do."
         return speaker
     }(),
@@ -59,10 +59,10 @@ public let blr2017Speakers: [String : Speaker] = [
     
     "mamtha" : { let speaker = Speaker()
         speaker.id = 6
-        speaker.name = "Mamatha Busi"
-        speaker.twitter = "MamathaBusi"
-        speaker.imageAssetName = "mamtha.jpg"
-        speaker.bio = "Mamatha Busi is an Open Source developer with IBM Software Labs, Bangalore. She is currently working on the open-source development of the Swift Foundation APIs in swift.org. Mamatha's focus is Runtimes for Programming Languages and has been a part of the engineering team for IBM JDK Class Libraries. She speaks extensively on Swift and the Server side implementation with the developer community at Meet-ups, Conferences and Universities."
+        speaker.name = "Sai Hema Kanduri"
+        speaker.twitter = "KituraSwift"
+        speaker.imageAssetName = "sai.jpg"
+        speaker.bio = "Sai Hema Kanduri is an Open Source developer with IBM Software Labs, Bangalore. She is currently working on the open-source development of the Swift Foundation APIs on swift.org. Sai has been a part of the Runtime Technologies team for IBM JDK Class Libraries. She has over 9 years of experience in Web application & eclipse plugin development."
         return speaker
     }(),
     

@@ -18,13 +18,14 @@ public let blr2017Conferences: [Conference] = [
         trySwift.name = "try! Conference"
         trySwift.twitter = "tryswiftindia"
         trySwift.logoAssetName = "Logo.png"
-        trySwift.conferenceDescription = "try! Swift is an immersive community gathering about Swift Language Best Practices, Application Development in Swift, Server-Side Swift, Open Source Swift, and the Swift Community. Coming again to New York City in September 5th & 6th 2017, with workshops happening on the afternoon of September 4th!"
-        trySwift.organizers.append(nyc2017Organizers["natashatherobot"]!)
-        trySwift.organizers.append(nyc2017Organizers["alvin"]!)
-        trySwift.organizers.append(nyc2017Organizers["vaish"]!)
-        trySwift.organizers.append(nyc2017Organizers["giridhar"]!)
-        trySwift.venues.append(nyc2017Venues["thegrandmagrathhotel"]!) // Conference Venue
-//        trySwift.venues.append(nyc2017Venues["91springboard"]!) // Workshop Space
+        trySwift.conferenceDescription = "try! Swift is the biggest international iOS developer conference in the world focusing on the new Swift Programming Language. try! Swift India is an amazing chance for developers in the Asian Pacific region to learn the latest world trends in iOS development using the industry's best standards. Learn from 15 international speakers, engage with the community. Coming Bangalore on November 19th 2017!"
+        trySwift.organizers.append(blr2017Organizers["natashatherobot"]!)
+        trySwift.organizers.append(blr2017Organizers["alvin"]!)
+        trySwift.organizers.append(blr2017Organizers["vaish"]!)
+        trySwift.organizers.append(blr2017Organizers["giridhar"]!)
+        trySwift.venues.append(blr2017Venues["thegrandmagrathhotel"]!) // Conference Venue
+        trySwift.venues.append(blr2017Venues["swiftrobotworkshop"]!)
+        trySwift.venues.append(blr2017Venues["swiftguruworkshop"]!)
         return trySwift
     }()
 ]

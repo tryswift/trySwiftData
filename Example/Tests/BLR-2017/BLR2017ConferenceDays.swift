@@ -15,17 +15,9 @@ import TrySwiftData
 public let blr2017ConferenceDays: [ConferenceDay] = [
     {
         let day1 = ConferenceDay()
-        day1.date = Date.date(year: 2017, month: 11, day: 18, hour: 10, minute: 0, second: 0)
-        for index in 0...18 {
-            day1.sessionBlocks.append(nyc2017SessionBlocks[index])
-        }
-        return day1
-    }(),
-    {
-        let day2 = ConferenceDay()
-        day2.date = Date.date(year: 2017, month: 11, day: 19, hour: 6, minute: 0, second: 0)
-        for index in 19...35 {
-            day2.sessionBlocks.append(nyc2017SessionBlocks[index])
+        day1.date = Date.date(year: 2017, month: 11, day: 19, hour: 8, minute: 30, second: 0)
+        for index in 0...20 {
+            day2.sessionBlocks.append(blr2017SessionBlocks[index])
         }
         return day2
     }()
