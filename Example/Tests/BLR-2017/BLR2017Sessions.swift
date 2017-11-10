@@ -28,7 +28,7 @@ public let blr2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .announcement
         session.title = "Opening Remarks"
-        session.imageAssetName = "announce1.png"
+        session.imageAssetName = "announce_blr.png"
         session.location = blr2017Locations["stage"]
         return session
     }(),
@@ -43,7 +43,7 @@ public let blr2017Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day1Satoshi" : {
         let session = Session()
-        session.type = .talk
+        session.type = .lightningTalk
         session.location = blr2017Locations["stage"]
         session.presentation = blr2017Presentations["satoshi"]
         return session
@@ -60,7 +60,6 @@ public let blr2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .coffeeBreak
         session.location =  blr2017Locations["hall"]
-//        session.sponsor = nyc2017Sponsors["domo"]
         return session
     }(),
 //---------------------------------------------------------
@@ -100,6 +99,13 @@ public let blr2017Sessions: [String : Session] = [
         session.presentation = blr2017Presentations["mugunth"]
         return session
     }(),
+    "day1MugunthOfficeHours" : {
+        let session = Session()
+        session.type = .officeHours
+        session.location =  blr2017Locations["qaroom"]
+        session.presentation = blr2017Presentations["mugunth"]
+        return session
+    }(),
     "day1MamthaOfficeHours" : {
         let session = Session()
         session.type = .officeHours
@@ -109,7 +115,7 @@ public let blr2017Sessions: [String : Session] = [
     }(),
     "day1Aishwarya" : {
         let session = Session()
-        session.type = .talk
+        session.type = .lightningTalk
         session.location =  blr2017Locations["stage"]
         session.presentation = blr2017Presentations["aishwarya"]
         return session
@@ -171,7 +177,7 @@ public let blr2017Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day1Shivam" : {
         let session = Session()
-        session.type = .talk
+        session.type = .lightningTalk
         session.location =  blr2017Locations["stage"]
         session.presentation = blr2017Presentations["shivam"]
         return session
@@ -204,7 +210,6 @@ public let blr2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .coffeeBreak
         session.location =   blr2017Locations["stage"]
-//        session.sponsor = nyc2017Sponsors["glowforge"]
         return session
     }(),
 //---------------------------------------------------------
@@ -240,7 +245,7 @@ public let blr2017Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day1Akanksha" : {
         let session = Session()
-        session.type = .talk
+        session.type = .lightningTalk
         session.location =  blr2017Locations["stage"]
         session.presentation = blr2017Presentations["akanksha"]
         return session
@@ -281,7 +286,7 @@ public let blr2017Sessions: [String : Session] = [
         session.type = .announcement
         session.title = "Closing / Announcments"
         session.location =   blr2017Locations["stage"]
-        session.imageAssetName = "announce2.png"
+        session.imageAssetName = "announce_blr.png"
         return session
     }(),
 

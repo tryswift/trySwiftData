@@ -25,7 +25,7 @@ public let blr2017Presentations: [String : Presentation] = [
         let presentation = Presentation()
         presentation.id = 2
         presentation.title = "What is `Swifty`?"
-        presentation.summary = "You might have ever seen `Swifty` in iOS development. In this talk, Hachiya-san dives into features of Swift, and approaches what `Swifty` is."
+        presentation.summary = "You might have seen the word `Swifty` in iOS development. In this talk, Hachiya-san dives into features of Swift, and discusses what `Swifty` is."
         presentation.speaker = blr2017Speakers["satoshi"]
         return presentation
     }(),
@@ -98,7 +98,7 @@ public let blr2017Presentations: [String : Presentation] = [
         presentation.id = 10
         presentation.title = "All you need is Swift"
         presentation.summary = "In September last year Swift 3 was released, added official support for Swift on Linux for the first time. This provided the scope for Swift to be used for both front-end and back-end development, allowing iOS developers to gain the benefits of full-stack development that Web developers have enjoyed for some time. In just twelve months, this has moved from promise to reality, with full-stack Swift applications not just being possible but being developed and deployed by some of the largest companies in the world. In this session Chris and AB will introduce you to full-stack Swift development, show you how easy it is to get started, and talk about how the IBM MobileFirst for iOS Garage are building full-stack Swift applications their customers."
-        presentation.speaker = blr2017Speakers["vijayakumar"]
+        presentation.speaker = blr2017Speakers["abchris"]
         return presentation
     }(),
     

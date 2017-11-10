@@ -13,7 +13,7 @@ class TalkSessionViewModelTests: XCTestCase {
     
     fileprivate let conference = tko2017Conferences.first!
     
-    fileprivate let talk = tko2017Sessions["day1Alexis"]!
+    fileprivate let talk = blr2017Sessions["day1Jono"]!
     
     fileprivate var viewModel: SessionViewModel!
     fileprivate var presentation: Presentation!

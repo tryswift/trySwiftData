@@ -190,7 +190,17 @@ public let blr2017Speakers: [String : Speaker] = [
         speaker.imageAssetName = "akansha.jpg"
         speaker.bio = "Akanksha Sharma is an iOS Developer at Network18. She has been working in Swift for the past 3 years and has been an iOS Developer for 5 years. You can visit her GitHub or connect with her on Twitter."
         return speaker
+    }(),
+    
+    "abchris" : { let speaker = Speaker()
+        speaker.id = 21
+        speaker.name = "Chris & AB Vijay"
+        speaker.twitter = "KituraSwift"
+        speaker.imageAssetName = "abchris.png"
+        speaker.bio = "Chris Bailey is a developer and technical leader in the Runtime Technologies team at IBM. Chris has spent over 15 years working on open source runtimes including Java, Node.js and Swift. Chris is a contributor and committor to the Swift Language, Foundation and Dispatch projects, and is on steering committee for the Swift Server APIs project aimed at making new networking, security and HTTP APIs available to the community. He is also the Chief Architect for the Swift@IBM, providing the open source Kitura server framework. \n AB Vijay is a IBM Distinguished Engineer & CTO for Apple IBM Partnership. He is a senior inventor, who has more than 25 patents filed in his name. He has more than 19 years experience in IBM. He is a recognized as subject matter expert for his contribution to advanced mobility in automotive, and has led several implementation engagements involving complex industry solutions. He specializes in mobile, cloud, automotive, sensor-based machine-to-machine, Internet of Things, and telematics technologies."
+        return speaker
     }()
+
 ]
 
 

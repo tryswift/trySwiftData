@@ -13,7 +13,7 @@ class OfficeHoursSessionViewModelTests: XCTestCase {
     
     fileprivate let conference = tko2017Conferences.first!
     
-    fileprivate let officeHours = tko2017Sessions["day1FelixOfficeHours"]!
+    fileprivate let officeHours = blr2017Sessions["day1JonoOfficeHours"]!
     fileprivate var speaker: Speaker!
     
     fileprivate var viewModel: SessionViewModel!

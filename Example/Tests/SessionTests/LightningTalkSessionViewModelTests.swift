@@ -13,7 +13,7 @@ class LightningTalkSessionViewModelTests: XCTestCase {
     
     fileprivate let conference = tko2017Conferences.first!
     
-    fileprivate let lightningTalk = tko2017Sessions["day1LightningTalk1"]!
+    fileprivate let lightningTalk = blr2017Sessions["day1Satoshi"]!
     
     fileprivate var viewModel: SessionViewModel!
     fileprivate var presentation: Presentation!

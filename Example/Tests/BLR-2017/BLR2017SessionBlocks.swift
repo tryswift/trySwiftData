@@ -78,6 +78,7 @@ public let blr2017SessionBlocks: [SessionBlock] = [
         sessionBlock.startTime = Date.date(year: 2017, month: 11, day: 19, hour: 12, minute: 25, second: 0)
         sessionBlock.endTime = Date.date(year: 2017, month: 11, day: 19, hour: 12, minute: 35, second: 0)
         sessionBlock.sessions.append(blr2017Sessions["day1Aishwarya"]!)
+        sessionBlock.sessions.append(blr2017Sessions["day1MugunthOfficeHours"]!)
         return sessionBlock
     }(),
     {
@@ -168,8 +169,8 @@ public let blr2017SessionBlocks: [SessionBlock] = [
     }(),
     {
         let sessionBlock = SessionBlock()
-        sessionBlock.startTime = Date.date(year: 2017, month: 9, day: 5, hour: 19, minute: 0, second: 0)
-        sessionBlock.endTime = Date.date(year: 2017, month: 9, day: 5, hour: 19, minute: 30, second: 0)
+        sessionBlock.startTime = Date.date(year: 2017, month: 9, day: 5, hour: 18, minute: 0, second: 0)
+        sessionBlock.endTime = Date.date(year: 2017, month: 9, day: 5, hour: 18, minute: 30, second: 0)
         sessionBlock.sessions.append(blr2017Sessions["day1Closing"]!)
         return sessionBlock
     }()
