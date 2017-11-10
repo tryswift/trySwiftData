@@ -55,7 +55,7 @@ public class Venue: Object {
         case .conference: return "Conference".localized()
         case .hackathon:  return "Hackathon".localized()
         case .party:      return "Party".localized()
-        case .workshop    return "Workshop".localized()
+        case .workshop:   return "Workshop".localized()
         }
     }
 }

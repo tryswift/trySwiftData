@@ -17,8 +17,8 @@ public let blr2017ConferenceDays: [ConferenceDay] = [
         let day1 = ConferenceDay()
         day1.date = Date.date(year: 2017, month: 11, day: 19, hour: 8, minute: 30, second: 0)
         for index in 0...20 {
-            day2.sessionBlocks.append(blr2017SessionBlocks[index])
+            day1.sessionBlocks.append(blr2017SessionBlocks[index])
         }
-        return day2
+        return day1
     }()
 ]

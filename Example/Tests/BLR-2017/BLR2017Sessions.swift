@@ -107,6 +107,20 @@ public let blr2017Sessions: [String : Session] = [
         session.location = blr2017Locations["qaroom"]
         return session
     }(),
+    "day1Aishwarya" : {
+        let session = Session()
+        session.type = .talk
+        session.location =  blr2017Locations["stage"]
+        session.presentation = blr2017Presentations["aishwarya"]
+        return session
+    }(),
+    "day1AishwaryaOfficeHours" : {
+        let session = Session()
+        session.type = .officeHours
+        session.presentation = blr2017Presentations["aishwarya"]
+        session.location = blr2017Locations["qaroom"]
+        return session
+    }(),
     "day1Cate" : {
         let session = Session()
         session.type = .talk
@@ -224,6 +238,21 @@ public let blr2017Sessions: [String : Session] = [
         return session
     }(),
 //---------------------------------------------------------
+    "day1Akanksha" : {
+        let session = Session()
+        session.type = .talk
+        session.location =  blr2017Locations["stage"]
+        session.presentation = blr2017Presentations["akanksha"]
+        return session
+    }(),
+    "day1BhargavOfficeHours" : {
+        let session = Session()
+        session.type = .officeHours
+        session.presentation = blr2017Presentations["bhargav"]
+        session.location = blr2017Locations["qaroom"]
+        return session
+    }(),
+    //---------------------------------------------------------
     "day1Jesse" : {
         let session = Session()
         session.type = .talk
@@ -231,17 +260,17 @@ public let blr2017Sessions: [String : Session] = [
         session.presentation = blr2017Presentations["jesse"]
         return session
     }(),
-    "day1BhargavOfficeHours" : {
+    "day1AkankshaOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = blr2017Presentations["ray"]
+        session.presentation = blr2017Presentations["akanksha"]
         session.location = blr2017Locations["qaroom"]
         return session
     }(),
     "day1JesseOfficeHours" : {
         let session = Session()
         session.type = .officeHours
-        session.presentation = blr2017Presentations["ray"]
+        session.presentation = blr2017Presentations["jesse"]
         session.location = blr2017Locations["qaroom"]
         return session
     }(),

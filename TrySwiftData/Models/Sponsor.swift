@@ -67,8 +67,6 @@ public class Sponsor: Object {
         case .student:      return "Student".localized()
         case .event:        return "Event".localized()
         }
-        
-        return ""
     }
 }
 

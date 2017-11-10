@@ -13,12 +13,12 @@ import TrySwiftData
 public let blr2017Locations: [String : Location] = [
     "qaroom" : {
         let location = Location()
-        location.name = "Q&A Area"
+        location.name = "Gazebo"
         return location
     }(),
     "hall" : {
         let location = Location()
-        location.name = "Main Hall"
+        location.name = "Courtyard"
         return location
     }(),
     "stage" : {

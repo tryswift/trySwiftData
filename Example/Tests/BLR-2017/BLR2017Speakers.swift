@@ -181,6 +181,15 @@ public let blr2017Speakers: [String : Speaker] = [
         speaker.imageAssetName = "rahul.jpg"
         speaker.bio = "Rahul Katariya is an iOS Developer at Hike. There, he encourages Swift with Framework Oriented Programming. He has more than 4 years of professional experience and has worked with companies like Empeiria, Xebia. He has been contributing to Open Source whenever he can and believes in giving back to the community. He is the creator of Restofire and JetpackSwift/FrameworkTemplate repositories."
         return speaker
+    }(),
+    
+    "akanksha" : { let speaker = Speaker()
+        speaker.id = 20
+        speaker.name = "Akanksha Sharma"
+        speaker.twitter = "akanksharmaa"
+        speaker.imageAssetName = "akansha.jpg"
+        speaker.bio = "Akanksha Sharma is an iOS Developer at Network18. She has been working in Swift for the past 3 years and has been an iOS Developer for 5 years. You can visit her GitHub or connect with her on Twitter."
+        return speaker
     }()
 ]
 
