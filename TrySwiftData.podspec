@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 	s.source_files = 'TrySwiftData/**/*.{swift}'
 
     # For full-scale integration, such as the iOS app
-	s.subspec 'trySwiftAssets' do |core|
+	s.subspec 'TrySwiftAssets' do |core|
 		core.resource_bundles = {
 			'TrySwiftData' => ['TrySwiftData/Assets/**/*.strings','TrySwiftData/Assets/Conferences/**/*.{jpg,png,realm}']
 		}
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 	# For minimal integrations, like the watchOS widget
 	s.subspec 'Tokyo2017Lite' do |lite|
 		lite.resource_bundles = {
-			'TrySwiftData' => ['TrySwiftData/Assets/**/*.strings', 'TrySwiftData/Assets/Tokyo2017/*.{realm}']
+			'TrySwiftData' => ['TrySwiftData/Assets/**/*.strings', 'TrySwiftData/Assets/Conferences/*.{realm}']
 		}
 	end
 end
