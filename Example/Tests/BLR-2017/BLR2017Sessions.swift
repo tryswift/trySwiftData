@@ -59,6 +59,7 @@ public let blr2017Sessions: [String : Session] = [
     "day1FirstCoffee" : {
         let session = Session()
         session.type = .coffeeBreak
+        session.imageAssetName = "breaktime1.png"
         session.location =  blr2017Locations["hall"]
         return session
     }(),
@@ -209,6 +210,7 @@ public let blr2017Sessions: [String : Session] = [
     "day1SecondCoffee" : {
         let session = Session()
         session.type = .coffeeBreak
+        session.imageAssetName = "breaktime2.png"
         session.location =   blr2017Locations["stage"]
         return session
     }(),
