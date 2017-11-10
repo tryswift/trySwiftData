@@ -28,7 +28,7 @@ public let blr2017Sessions: [String : Session] = [
         let session = Session()
         session.type = .announcement
         session.title = "Opening Remarks"
-        session.imageAssetName = "announce_nyc_2.png"
+        session.imageAssetName = "announce1.png"
         session.location = blr2017Locations["stage"]
         return session
     }(),
@@ -281,7 +281,7 @@ public let blr2017Sessions: [String : Session] = [
         session.type = .announcement
         session.title = "Closing / Announcments"
         session.location =   blr2017Locations["stage"]
-        session.imageAssetName = "announce_nyc_1.png"
+        session.imageAssetName = "announce2.png"
         return session
     }(),
 
