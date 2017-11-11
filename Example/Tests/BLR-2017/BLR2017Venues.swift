@@ -18,9 +18,9 @@ public let blr2017Venues: [String : Venue] = [
         venue.title = "The Grand Magrath Hotel"
         venue.address = "30, Magrath Rd, Ashok Nagar, Bengaluru, Karnataka 560025"
         venue.website = "http://www.thegrandmagrath.com/"
-        venue.logoAssetName = ""
-        venue.wifiNetworkName = ""
-        venue.wifiPassword = ""
+        venue.logoAssetName = "magrath.jpg"
+        venue.wifiNetworkName = nil
+        venue.wifiPassword = nil
         venue.type = .conference
         return venue
     }(),
@@ -29,9 +29,9 @@ public let blr2017Venues: [String : Venue] = [
         venue.title = "91springboard Koramangala National Games Village"
         venue.address = "2, 3rd Floor, Padmavati Complex, Koramangala, 8th Block, Koramangala 8th Block, Koramangala, Bengaluru, Karnataka 560095"
         venue.website = "http://www.91springboard.com/coworking-space/bangalore/koramangala-national-games-village/"
-        venue.logoAssetName = ""
-        venue.wifiNetworkName = ""
-        venue.wifiPassword = ""
+        venue.logoAssetName = "91springboard-koramangala.jpg"
+        venue.wifiNetworkName = nil
+        venue.wifiPassword = nil
         venue.type = .workshop
         return venue
     }(),
@@ -40,9 +40,9 @@ public let blr2017Venues: [String : Venue] = [
         venue.title = "91springboard MG Road"
         venue.address = "1st Floor, Gopala Krishna Complex, #45/3 Residency road, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025"
         venue.website = "http://www.91springboard.com/coworking-space/bangalore/mg-road/"
-        venue.logoAssetName = ""
-        venue.wifiNetworkName = ""
-        venue.wifiPassword = ""
+        venue.logoAssetName = "91springboard-mgroad.jpg"
+        venue.wifiNetworkName = nil
+        venue.wifiPassword = nil
         venue.type = .workshop
         return venue
     }()

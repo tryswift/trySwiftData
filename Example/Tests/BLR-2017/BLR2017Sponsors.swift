@@ -28,12 +28,23 @@ public let blr2017Sponsors: [String : Sponsor] = [
 
 
     //Gold
+    "firebase" : {
+        let sponsor = Sponsor()
+        sponsor.name = "Firebase"
+        sponsor.url = "https://firebase.google.com/"
+        sponsor.displayURL = "firebase.google.com"
+        sponsor.twitter = "Firebase"
+        sponsor.logoAssetName = "firebase.png"
+        sponsor.level = .gold
+        return sponsor
+    }(),
+    
     "techspeak" : {
         let sponsor = Sponsor()
         sponsor.name = "Techspeak"
         sponsor.url = "https://techspeak.email/"
-        sponsor.displayURL = "https://techspeak.email/"
-        sponsor.twitter = ""
+        sponsor.displayURL = "techspeak.email"
+        sponsor.twitter = "techspeakdigest"
         sponsor.logoAssetName = "techspeak.png"
         sponsor.level = .gold
         return sponsor
@@ -138,7 +149,7 @@ public let blr2017Sponsors: [String : Sponsor] = [
         sponsor.url = "https://www.facebook.com/groups/iosthailand/"
         sponsor.displayURL = "facebook.com/groups/iosthailand/"
         sponsor.twitter = ""
-        sponsor.logoAssetName = "iosthailand.png"
+        sponsor.logoAssetName = "iosthailand.jpg"
         sponsor.level = .event
         return sponsor
     }(),
