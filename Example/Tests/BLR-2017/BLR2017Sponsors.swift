@@ -82,7 +82,7 @@ public let blr2017Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "github.com"
         sponsor.twitter = "github"
         sponsor.logoAssetName = "github.png"
-        sponsor.level = .event
+        sponsor.level = .diversity
         return sponsor
     }(),
 
@@ -93,7 +93,7 @@ public let blr2017Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "pspdfkit.com"
         sponsor.twitter = "pspdfkit"
         sponsor.logoAssetName = "pspdfkit.png"
-        sponsor.level = .event
+        sponsor.level = .diversity
         return sponsor
     }(),
     
