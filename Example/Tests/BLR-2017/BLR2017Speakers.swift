@@ -152,7 +152,7 @@ public let blr2017Speakers: [String : Speaker] = [
         speaker.name = "Bob Lee"
         speaker.twitter = "bobthedeveloper"
         speaker.imageAssetName = "bob.png"
-        speaker.bio = "Bob Lee is known as Bob the Developer. After having failed at running an app startup in college, He has been sharing what he has learned since last year. He focuses on the Swift fundamentals for those who want to get started with iOS Development at blog.bobthedeveloper.io . Besides teaching, He enjoys playing basketball, interacting with his readers, and finding shortcuts. "
+        speaker.bio = "Bob Lee is known as Bob the Developer. After having failed at running an app startup in college, He has been sharing what he has learned since last year. He focuses on the Swift fundamentals for those who want to get started with iOS Development at blog.bobthedeveloper.io . Besides teaching, He enjoys playing basketball, interacting with his readers, and finding shortcuts."
         return speaker
     }(),
     
