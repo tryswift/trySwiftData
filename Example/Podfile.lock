@@ -6,8 +6,8 @@ PODS:
     - Realm (= 3.0.2)
   - TrySwiftData (0.1.0):
     - RealmSwift
-    - TrySwiftData/Tokyo2017 (= 0.1.0)
-  - TrySwiftData/Tokyo2017 (0.1.0):
+    - TrySwiftData/TrySwiftAssets (= 0.1.0)
+  - TrySwiftData/TrySwiftAssets (0.1.0):
     - RealmSwift
 
 DEPENDENCIES:
@@ -16,13 +16,13 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   TrySwiftData:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   Realm: 6f23fd1f178a09342eac21bfa7c2bf4312a7a180
   RealmSwift: 695393add1b8f9d5fa75dd16e6355cf3935f71e2
-  TrySwiftData: 9c8acd05db49d952e0fbb69790b01f3b7441dbe8
+  TrySwiftData: 37cf3dbf30f401b52e1f6889503fffd2075e862e
 
 PODFILE CHECKSUM: 515077a93b5799230e7a5d7aa9b158683986a7df
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.4.0
