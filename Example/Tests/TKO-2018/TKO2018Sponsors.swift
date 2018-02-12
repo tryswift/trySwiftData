@@ -286,7 +286,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.url = "https://www.jetbrains.com/"
         sponsor.displayURL = "jetbrains.com"
         sponsor.logoAssetName = "jetbrains.png"
-        sponsor.level = .silver
+        sponsor.level = .diversity
         return sponsor
     }(),
     "eureka" : {
@@ -295,7 +295,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.url = "https://eure.jp/"
         sponsor.displayURL = "eure.jp"
         sponsor.logoAssetName = "eureka.png"
-        sponsor.level = .silver
+        sponsor.level = .diversity
         return sponsor
     }(),
     "firebase2" : {
@@ -304,7 +304,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.url = "https://firebase.google.com/"
         sponsor.displayURL = "firebase.google.com"
         sponsor.logoAssetName = "firebase.png"
-        sponsor.level = .silver
+        sponsor.level = .diversity
         return sponsor
     }(),
     "medley" : {
@@ -313,7 +313,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.url = "http://www.medley.jp/"
         sponsor.displayURL = "medley.jp"
         sponsor.logoAssetName = "medley.png"
-        sponsor.level = .silver
+        sponsor.level = .diversity
         return sponsor
     }(),
     "happycom" : {
@@ -322,7 +322,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.url = "https://www.happycom.co.jp/"
         sponsor.displayURL = "happycom.co.jp"
         sponsor.logoAssetName = "happycom.png"
-        sponsor.level = .silver
+        sponsor.level = .diversity
         return sponsor
     }(),
     
@@ -333,7 +333,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.url = "http://picappinc.jp/"
         sponsor.displayURL = "picappinc.jp"
         sponsor.logoAssetName = "picapp.png"
-        sponsor.level = .silver
+        sponsor.level = .student
         return sponsor
     }(),
     "mamorio2" : {
@@ -342,7 +342,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.url = "http://company.mamorio.jp/"
         sponsor.displayURL = "mamorio.jp"
         sponsor.logoAssetName = "mamorio.png"
-        sponsor.level = .silver
+        sponsor.level = .student
         return sponsor
     }(),
     "mercari2" : {
@@ -351,7 +351,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.url = "https://about.mercari.com/"
         sponsor.displayURL = "mercari.com"
         sponsor.logoAssetName = "mercari.png"
-        sponsor.level = .silver
+        sponsor.level = .student
         return sponsor
     }(),
     "nana2" : {
@@ -360,7 +360,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.url = "http://nana-music.com/"
         sponsor.displayURL = "nana-music.com"
         sponsor.logoAssetName = "nana.png"
-        sponsor.level = .silver
+        sponsor.level = .student
         return sponsor
     }(),
     
