@@ -183,7 +183,7 @@ public let tko2018Speakers: [String : Speaker] = [
         return speaker
     }(),
     "ezura" : { let speaker = Speaker()
-        speaker.id = 21
+        speaker.id = 20
         speaker.name = "Yuka Ezura"
         speaker.twitter = "eduraaa"
         speaker.imageAssetName = "ezura.png"
@@ -192,7 +192,7 @@ public let tko2018Speakers: [String : Speaker] = [
         return speaker
     }(),
     "pushkar" : { let speaker = Speaker()
-        speaker.id = 22
+        speaker.id = 21
         speaker.name = "Pushkar Kulkarni"
         speaker.twitter = "pushkar_nk"
         speaker.imageAssetName = "pushkar.jpg"
@@ -205,7 +205,7 @@ public let tko2018Speakers: [String : Speaker] = [
     
     // Lightning Talk Speakers
     "kita" : { let speaker = Speaker()
-        speaker.id = 23
+        speaker.id = 22
         speaker.name = "Yusuke Kita"
         speaker.twitter = "kitasuke"
         speaker.imageAssetName = "kita.jpg"
@@ -215,7 +215,7 @@ public let tko2018Speakers: [String : Speaker] = [
         return speaker
     }(),
     "kenmaz" : { let speaker = Speaker()
-        speaker.id = 24
+        speaker.id = 23
         speaker.name = "Kentaro Matsumae"
         speaker.twitter = "kenmaz"
         speaker.imageAssetName = "kenmaz.jpg"
@@ -225,7 +225,7 @@ public let tko2018Speakers: [String : Speaker] = [
         return speaker
     }(),
     "orakaro" : { let speaker = Speaker()
-        speaker.id = 25
+        speaker.id = 24
         speaker.name = "Vu Nhat Minh"
         speaker.twitter = "orakaro"
         speaker.imageAssetName = "orakaro.jpg"
@@ -235,7 +235,7 @@ public let tko2018Speakers: [String : Speaker] = [
         return speaker
     }(),
     "kotetu" : { let speaker = Speaker()
-        speaker.id = 26
+        speaker.id = 25
         speaker.name = "Toru Kuriyama"
         speaker.twitter = "kotetu"
         speaker.imageAssetName = "kotetu.jpg"
@@ -245,7 +245,7 @@ public let tko2018Speakers: [String : Speaker] = [
         return speaker
     }(),
     "tattn" : { let speaker = Speaker()
-        speaker.id = 27
+        speaker.id = 26
         speaker.name = "Tatsuya Tanaka"
         speaker.twitter = "tanakasan2525"
         speaker.imageAssetName = "tattn.jpg"
@@ -255,7 +255,7 @@ public let tko2018Speakers: [String : Speaker] = [
         return speaker
     }(),
     "yukiasai" : { let speaker = Speaker()
-        speaker.id = 28
+        speaker.id = 27
         speaker.name = "Yuki Asai"
         speaker.twitter = "yukiasai417"
         speaker.imageAssetName = "yukiasai.jpg"
