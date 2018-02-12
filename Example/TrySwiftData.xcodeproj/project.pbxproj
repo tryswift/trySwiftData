@@ -65,6 +65,17 @@
 		FA79A60C1E87B6B4005696DC /* PartySessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6081E87B6B4005696DC /* PartySessionViewModelTests.swift */; };
 		FA79A60D1E87B6B4005696DC /* WorkshopSessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A6091E87B6B4005696DC /* WorkshopSessionViewModelTests.swift */; };
 		FA79A60F1E87BAD4005696DC /* SessionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA79A60E1E87BAD4005696DC /* SessionViewModelTests.swift */; };
+		FAE088732030225200A5B560 /* TKO2018ConferenceDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE088722030225200A5B560 /* TKO2018ConferenceDays.swift */; };
+		FAE088752030229C00A5B560 /* TKO2018Conferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE088742030229C00A5B560 /* TKO2018Conferences.swift */; };
+		FAE088772030234A00A5B560 /* TKO2018Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE088762030234A00A5B560 /* TKO2018Events.swift */; };
+		FAE088792030237900A5B560 /* TKO2018Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE088782030237900A5B560 /* TKO2018Locations.swift */; };
+		FAE08881203023E200A5B560 /* TKO2018Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0887A203023E100A5B560 /* TKO2018Venues.swift */; };
+		FAE08882203023E200A5B560 /* TKO2018SessionBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0887B203023E100A5B560 /* TKO2018SessionBlocks.swift */; };
+		FAE08883203023E200A5B560 /* TKO2018Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0887C203023E100A5B560 /* TKO2018Sessions.swift */; };
+		FAE08884203023E200A5B560 /* TKO2018Sponsors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0887D203023E100A5B560 /* TKO2018Sponsors.swift */; };
+		FAE08885203023E200A5B560 /* TKO2018Speakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0887E203023E100A5B560 /* TKO2018Speakers.swift */; };
+		FAE08886203023E200A5B560 /* TKO2018Organizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0887F203023E200A5B560 /* TKO2018Organizers.swift */; };
+		FAE08887203023E200A5B560 /* TKO2018Presentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE08880203023E200A5B560 /* TKO2018Presentations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +130,17 @@
 		FA79A6081E87B6B4005696DC /* PartySessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PartySessionViewModelTests.swift; path = SessionTests/PartySessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A6091E87B6B4005696DC /* WorkshopSessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkshopSessionViewModelTests.swift; path = SessionTests/WorkshopSessionViewModelTests.swift; sourceTree = "<group>"; };
 		FA79A60E1E87BAD4005696DC /* SessionViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionViewModelTests.swift; path = SessionTests/SessionViewModelTests.swift; sourceTree = "<group>"; };
+		FAE088722030225200A5B560 /* TKO2018ConferenceDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKO2018ConferenceDays.swift; sourceTree = "<group>"; };
+		FAE088742030229C00A5B560 /* TKO2018Conferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKO2018Conferences.swift; sourceTree = "<group>"; };
+		FAE088762030234A00A5B560 /* TKO2018Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKO2018Events.swift; sourceTree = "<group>"; };
+		FAE088782030237900A5B560 /* TKO2018Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKO2018Locations.swift; sourceTree = "<group>"; };
+		FAE0887A203023E100A5B560 /* TKO2018Venues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2018Venues.swift; sourceTree = "<group>"; };
+		FAE0887B203023E100A5B560 /* TKO2018SessionBlocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2018SessionBlocks.swift; sourceTree = "<group>"; };
+		FAE0887C203023E100A5B560 /* TKO2018Sessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2018Sessions.swift; sourceTree = "<group>"; };
+		FAE0887D203023E100A5B560 /* TKO2018Sponsors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2018Sponsors.swift; sourceTree = "<group>"; };
+		FAE0887E203023E100A5B560 /* TKO2018Speakers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2018Speakers.swift; sourceTree = "<group>"; };
+		FAE0887F203023E200A5B560 /* TKO2018Organizers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2018Organizers.swift; sourceTree = "<group>"; };
+		FAE08880203023E200A5B560 /* TKO2018Presentations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKO2018Presentations.swift; sourceTree = "<group>"; };
 		FC54EF3C1F74CA0A00176DA5 /* BLR2017ConferenceDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017ConferenceDays.swift; sourceTree = "<group>"; };
 		FC54EF3D1F74CA0A00176DA5 /* BLR2017Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017Locations.swift; sourceTree = "<group>"; };
 		FC54EF3E1F74CA0B00176DA5 /* BLR2017SessionBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLR2017SessionBlocks.swift; sourceTree = "<group>"; };
@@ -207,6 +229,7 @@
 				22F0E34B1E50F1B50060EA9F /* TKO-2017 */,
 				FA05B8E11F490728001E0548 /* NYC-2017 */,
 				FC54EF3B1F74C9ED00176DA5 /* BLR-2017 */,
+				FAE088712030220600A5B560 /* TKO-2018 */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -273,6 +296,24 @@
 				FA79A6041E87B5CF005696DC /* SponsoredDemoSessionViewModelTests.swift */,
 			);
 			name = SessionTests;
+			sourceTree = "<group>";
+		};
+		FAE088712030220600A5B560 /* TKO-2018 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE088722030225200A5B560 /* TKO2018ConferenceDays.swift */,
+				FAE088742030229C00A5B560 /* TKO2018Conferences.swift */,
+				FAE088762030234A00A5B560 /* TKO2018Events.swift */,
+				FAE088782030237900A5B560 /* TKO2018Locations.swift */,
+				FAE0887F203023E200A5B560 /* TKO2018Organizers.swift */,
+				FAE08880203023E200A5B560 /* TKO2018Presentations.swift */,
+				FAE0887B203023E100A5B560 /* TKO2018SessionBlocks.swift */,
+				FAE0887C203023E100A5B560 /* TKO2018Sessions.swift */,
+				FAE0887E203023E100A5B560 /* TKO2018Speakers.swift */,
+				FAE0887D203023E100A5B560 /* TKO2018Sponsors.swift */,
+				FAE0887A203023E100A5B560 /* TKO2018Venues.swift */,
+			);
+			path = "TKO-2018";
 			sourceTree = "<group>";
 		};
 		FC54EF3B1F74C9ED00176DA5 /* BLR-2017 */ = {
@@ -429,9 +470,12 @@
 				22F0E35E1E50F1B50060EA9F /* NYC2016SessionBlocks.swift in Sources */,
 				FA79A6031E87A5A8005696DC /* OfficeHoursSessionViewModelTests.swift in Sources */,
 				22F0E3621E50F1B50060EA9F /* NYC2016Venues.swift in Sources */,
+				FAE08885203023E200A5B560 /* TKO2018Speakers.swift in Sources */,
 				22F0E3601E50F1B50060EA9F /* NYC2016Speakers.swift in Sources */,
 				FA79A6011E87A38D005696DC /* TalkSessionViewModelTests.swift in Sources */,
+				FAE08881203023E200A5B560 /* TKO2018Venues.swift in Sources */,
 				FA79A60C1E87B6B4005696DC /* PartySessionViewModelTests.swift in Sources */,
+				FAE08886203023E200A5B560 /* TKO2018Organizers.swift in Sources */,
 				FA79A5FF1E864863005696DC /* LightningTalkSessionViewModelTests.swift in Sources */,
 				FA4948F51FB53E370053D925 /* BLR2017Presentations.swift in Sources */,
 				FA05B8F51F490728001E0548 /* NYC2017Speakers.swift in Sources */,
@@ -439,6 +483,7 @@
 				607FACEC1AFB9204008FA782 /* CreateRealmTests.swift in Sources */,
 				22F0E36C1E50F1B50060EA9F /* TKO2017Sponsors.swift in Sources */,
 				FA4948F01FB53E2A0053D925 /* BLR2017ConferenceDays.swift in Sources */,
+				FAE088752030229C00A5B560 /* TKO2018Conferences.swift in Sources */,
 				FA79A5FD1E863F92005696DC /* CoffeeBreakSessionViewModelTests.swift in Sources */,
 				22F0E3671E50F1B50060EA9F /* TKO2017Locations.swift in Sources */,
 				FA4948FA1FB53E420053D925 /* BLR2017Venues.swift in Sources */,
@@ -450,7 +495,9 @@
 				FA05B8EF1F490728001E0548 /* NYC2017Events.swift in Sources */,
 				FA05B8F61F490728001E0548 /* NYC2017Sponsors.swift in Sources */,
 				22F0E36B1E50F1B50060EA9F /* TKO2017Speakers.swift in Sources */,
+				FAE088772030234A00A5B560 /* TKO2018Events.swift in Sources */,
 				22F0E3681E50F1B50060EA9F /* TKO2017Presentations.swift in Sources */,
+				FAE08883203023E200A5B560 /* TKO2018Sessions.swift in Sources */,
 				FA4948F71FB53E3B0053D925 /* BLR2017Sessions.swift in Sources */,
 				FA4948F11FB53E2D0053D925 /* BLR2017Conferences.swift in Sources */,
 				FA4948F41FB53E340053D925 /* BLR2017Organizers.swift in Sources */,
@@ -463,10 +510,14 @@
 				FA79A60A1E87B6B4005696DC /* LunchSessionViewModelTests.swift in Sources */,
 				226E7B321E56D9BF0018E2F9 /* NYC2016Organizers.swift in Sources */,
 				22F0E35A1E50F1B50060EA9F /* NYC2016Events.swift in Sources */,
+				FAE08882203023E200A5B560 /* TKO2018SessionBlocks.swift in Sources */,
 				FA79A60F1E87BAD4005696DC /* SessionViewModelTests.swift in Sources */,
+				FAE08887203023E200A5B560 /* TKO2018Presentations.swift in Sources */,
 				FA79A5FB1E863B4B005696DC /* BreakfastSessionViewModelTests.swift in Sources */,
 				FA05B8F41F490728001E0548 /* NYC2017Sessions.swift in Sources */,
 				22F0E3651E50F1B50060EA9F /* TKO2017Events.swift in Sources */,
+				FAE088732030225200A5B560 /* TKO2018ConferenceDays.swift in Sources */,
+				FAE088792030237900A5B560 /* TKO2018Locations.swift in Sources */,
 				22F0E3581E50F1B50060EA9F /* NYC2016ConferenceDays.swift in Sources */,
 				22FE792F1E56AF3700DCFCAF /* TKO2017Organizers.swift in Sources */,
 				FA4948F31FB53E320053D925 /* BLR2017Locations.swift in Sources */,
@@ -479,6 +530,7 @@
 				FA05B8F31F490728001E0548 /* NYC2017SessionBlocks.swift in Sources */,
 				FA79A6051E87B5CF005696DC /* SponsoredDemoSessionViewModelTests.swift in Sources */,
 				22F0E3691E50F1B50060EA9F /* TKO2017SessionBlocks.swift in Sources */,
+				FAE08884203023E200A5B560 /* TKO2018Sponsors.swift in Sources */,
 				FA4948F81FB53E3E0053D925 /* BLR2017Speakers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

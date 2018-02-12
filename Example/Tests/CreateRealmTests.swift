@@ -9,10 +9,10 @@ class Tests: XCTestCase {
         XCTAssertNotNil(realm)
     }
 
-    /** try! Swift Bangalore 2017 */
+    /** try! Swift Tokyo 2018 */
     func testGenerateNewNYC2017DefaultRealm() {
-        let sources = [blr2017Conferences, blr2017Sponsors, blr2017ConferenceDays] as [Any]
-        XCTAssert(generateDefaultRealm(named: "tryswift-blr2017.realm", sources: sources))
+        let sources = [tko2018Conferences, tko2018Sponsors, tko2018ConferenceDays] as [Any]
+        XCTAssert(generateDefaultRealm(named: "tryswift-tko2018.realm", sources: sources))
     }
     
 //    /** try! Swift New York 2017 */
