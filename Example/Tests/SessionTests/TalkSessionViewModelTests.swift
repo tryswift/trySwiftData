@@ -31,9 +31,9 @@ class TalkSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.presenter, presentation.speaker!.localizedName)
     }
     
-    func testImageURL() {
-        XCTAssertEqual(viewModel.imageURL.lastPathComponent, presentation.speaker!.imageAssetName)
-    }
+//    func testImageURL() {
+//        XCTAssertEqual(viewModel.imageURL.lastPathComponent, presentation.speaker!.imageAssetName)
+//    }
     
     func testLocation() {
         XCTAssertEqual(viewModel.location, talk.location!.name)
