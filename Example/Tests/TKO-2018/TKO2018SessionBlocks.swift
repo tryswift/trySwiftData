@@ -37,13 +37,13 @@ public let tko2018SessionBlocks: [SessionBlock] = [
     {
         let sessionBlock = SessionBlock()
         sessionBlock.startTime = Date.date(year: 2018, month: 3, day: 1, hour: 10, minute: 25, second: 0)
-        sessionBlock.endTime = Date.date(year: 2018, month: 3, day: 1, hour: 10, minute: 40, second: 0)
+        sessionBlock.endTime = Date.date(year: 2018, month: 3, day: 1, hour: 10, minute: 35, second: 0)
         sessionBlock.sessions.append(tko2018Sessions["day1SIL"]!)
         return sessionBlock
     }(),
     {
         let sessionBlock = SessionBlock()
-        sessionBlock.startTime = Date.date(year: 2018, month: 3, day: 1, hour: 10, minute: 40, second: 0)
+        sessionBlock.startTime = Date.date(year: 2018, month: 3, day: 1, hour: 10, minute: 35, second: 0)
         sessionBlock.endTime = Date.date(year: 2018, month: 3, day: 1, hour: 11, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2018Sessions["day1Clang"]!)
         sessionBlock.sessions.append(tko2018Sessions["day1SwiftTourOfficeHours"]!)
@@ -197,13 +197,13 @@ public let tko2018SessionBlocks: [SessionBlock] = [
     {
         let sessionBlock = SessionBlock()
         sessionBlock.startTime = Date.date(year: 2018, month: 3, day: 2, hour: 10, minute: 25, second: 0)
-        sessionBlock.endTime = Date.date(year: 2018, month: 3, day: 2, hour: 10, minute: 40, second: 0)
+        sessionBlock.endTime = Date.date(year: 2018, month: 3, day: 2, hour: 10, minute: 35, second: 0)
         sessionBlock.sessions.append(tko2018Sessions["day2PeerLabs"]!)
         return sessionBlock
     }(),
     {
         let sessionBlock = SessionBlock()
-        sessionBlock.startTime = Date.date(year: 2018, month: 3, day: 2, hour: 10, minute: 40, second: 0)
+        sessionBlock.startTime = Date.date(year: 2018, month: 3, day: 2, hour: 10, minute: 35, second: 0)
         sessionBlock.endTime = Date.date(year: 2018, month: 3, day: 2, hour: 11, minute: 0, second: 0)
         sessionBlock.sessions.append(tko2018Sessions["day2VisualizeAlgorithms"]!)
         sessionBlock.sessions.append(tko2018Sessions["day2ProofsOfficeHours"]!)

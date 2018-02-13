@@ -76,8 +76,8 @@ public let tko2018Presentations: [String : Presentation] = [
         presentation.id = 7
         presentation.title = "TBD"
         presentation.titleJP = "TBD"
-        presentation.summary = "In this talk, we'll walk through some practical uses of reactive programming in app development, using examples from my daily experiences. We'll explore tips and tricks for determining when reactive programming can be a potent tool, as well as scenarios to avoid that might threaten code quality and performance. The talk will focus on concepts in reactive programming, the code will show off different Swift reactive implementations."
-        presentation.summaryJP = "この講演では、私の日々の経験からの例を使って、アプリ開発におけるリアクションプログラミングの実践的な使い方を紹介します。リアクティブプログラミングがどんなときに強力なツールになりえるのかを判断するヒントとともにコードの品質とパフォーマンスを脅かす可能性があるために避けるべきシナリオも紹介します。 このトークでは、様々なSwiftのリアクティブな実装を例示しながらリアクティブプログラミングの概念に焦点を当てていきます。"
+        presentation.summary = "TBD"
+        presentation.summaryJP = "TBD"
         presentation.speaker = tko2018Speakers["norman"]
         return presentation
     }(),
@@ -166,7 +166,7 @@ public let tko2018Presentations: [String : Presentation] = [
         presentation.id = 16
         presentation.title = "Finally Solving the Expression Problem"
         presentation.titleJP = "Expression Problem を解決する"
-        presentation.summary = "UIKit let's us describe view hierarchies by putting together a bunch of UIView and UIView subclasses. We can even create our own views by subclassing UIView ourselves without even reaching into UIKit! But we can't reuse this view description on AppKit or for serialization. Imagine for a moment, we had EnumKit, it's like UIKit, but the views are provided as cases of an enum. Now we can reuse the view description, but we can no longer create our own views without reaching into EnumKit (or forking the library). The 'Final Tagless' approach gives us the best of both worlds taking advantage of Swift’s powerful Self type inside protocols. "
+        presentation.summary = "UIKit lets us describe view hierarchies by putting together a bunch of UIView and UIView subclasses. We can even create our own views by subclassing UIView ourselves without even reaching into UIKit! But we can't reuse this view description on AppKit or for serialization. Imagine for a moment, we had EnumKit, it's like UIKit, but the views are provided as cases of an enum. Now we can reuse the view description, but we can no longer create our own views without reaching into EnumKit (or forking the library). The 'Final Tagless' approach gives us the best of both worlds taking advantage of Swift’s powerful Self type inside protocols. "
         presentation.summaryJP = "UIKitでは、一連の UIView と UIView のサブクラスをまとめてビュー階層を記述します。UIViewをサブクラス化することによって自分自身のビューを作成することもできます。しかし、この View Description をAppKitやシリアライゼーションに再利用することはできません。UIKit と似たようなものに EnumKit があり、 View は列挙型のケースとして提供されています。これで View Description を使いまわすことができますが、EnumKit なしで (もしくはライブラリをフォークしないと）ビューを生成することができません。'Final Tagless' は、Swift のプロトコルの内部にある強力な Self 型を用いて、双方の世界をベストな状態にします。"
         presentation.speaker = tko2018Speakers["bkase"]
         return presentation

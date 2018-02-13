@@ -50,7 +50,7 @@ public let tko2018Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day1SIL" : {
         let session = Session()
-        session.type = .talk
+        session.type = .lightningtalk
         session.location = tko2018Locations["mainroom"]
         session.presentation = tko2018Presentations["sil"]
         return session
@@ -516,8 +516,8 @@ public let tko2018Sessions: [String : Session] = [
         let session = Session()
         session.title = "Party"
         session.type = .party
-        session.imageAssetName = "party1.png"
-        session.venue = tko2017Venues["christon"]
+        session.imageAssetName = "party2.png"
+        session.venue = tko2018Venues["bellesalle-shinjuku"]
         session.location = tko2018Locations["mainroom"]
         return session
     }(),
