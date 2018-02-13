@@ -320,5 +320,77 @@ public let tko2018Presentations: [String : Presentation] = [
         presentation.summaryJP = "開発者のツールと経験を向上させるためのアイディアを探すにはどうすればよいでしょうか？新しい開発ツールを作成するか、開発プロセスを調整することで、日々の開発における共通の苦しみとその改善方法を見ていきます。 10倍の開発者がいるなら、その人は他の10人の開発者の生活をより良くするものに取り組むことを決めた人です。"
         presentation.speaker = tko2018Speakers["merowing"]
         return presentation
+    }(),
+    
+    // Workshops
+    "kitura-workshop" : {
+        let presentation = Presentation()
+        presentation.id = 32
+        presentation.title = "Building real-world server-side Swift applications with Kitura"
+        presentation.titleJP = "使える！Kituraを使ってサーバーサイドSwiftアプリを作ろう！"
+        presentation.summary = "You can now build powerful server-side applications in your favorite language, Swift. In this workshop Taiji will take you through what you need to consider when building a back-end service for your iOS apps. This will be followed by you building a real-world server-side application using Kitura that will interface with a client-side application.</h6> <h6>You’ll learn what an API is, how to install, create and deploy a template Kitura application, how to build upon that template, what codable routing is and how to use it, and, finally, show you how to bring the whole story together in a demo application you can take-away and show your peers!"
+        presentation.summaryJP = "みなさんの大好きなプログラミング言語Swiftで、強力なサーバーサイドアプリが作れます。 このワークショップでは、IBM Developer AdvocateのTaijiがiOSアプリのバックエンドサービスを作る際に何が必要かを説明します。さらに、Kituraを使用してクライアント側のアプリケーションとインターフェイスするサーバーサイドアプリを構築します。</h6><h6>APIの使い方、インストール方法、Kituraアプリのテンプレートの作り方とそのデプロイ方法、コーディング可能なルーティングの使い方、そして全体的なストーリーをデモアプリと 共にお見せします！"
+        presentation.speaker = tko2018Speakers["taiji"]
+        return presentation
+    }(),
+    "firebase-workshop" : {
+        let presentation = Presentation()
+        presentation.id = 33
+        presentation.title = "Cloud Firestore Workshop"
+        presentation.titleJP = "Cloud Firestore Workshop"
+        presentation.summary = "Cloud Firestore is the next-generation document-object database in the cloud from Firebase. In this workshop, we'll help you understand all of the features of Cloud Firestore, and how to best use it in developing production ready scalable apps. This workshop will provide you with a general introduction to NoSQL databases, and then will cover more advanced topics like querying, transactions, security rules, offline support, pagination, and more!"
+        presentation.summaryJP = "Cloud Firestore は Firebase のクラウド上にある次世代のドキュメントオブジェクトデータベースです。 このワークショップでは、Cloud Firestore のすべての機能を理解したり、実用段階でスケーラブルなアプリケーションを開発する際に、その機能を最大限に活用する方法を理解するためのお手伝いをします。NoSQL データベースの概要を紹介し、クエリ、トランザクション、セキュリティルール、オフラインサポート、ページネーションなど、より高度なトピックについて説明します。"
+        presentation.speaker = tko2018Speakers["todd"]
+        return presentation
+    }(),
+    "open-source-workshop" : {
+        let presentation = Presentation()
+        presentation.id = 34
+        presentation.title = "Open Source Swift"
+        presentation.titleJP = "Open Source Swift"
+        presentation.summary = "In this workshop we will look at the Swift compilation process and what those parts are, learn a bit about LLVM, how to find a bug to work on using bugs.swift.org and then making a build with our changes and running tests.</h6><h6>A merged pull request is not the goal of this workshop, but after attending this workshop you should have enough knowledge to get started and know where to look to learn more. If you are proficient in C++ or even have some experience with LLVM, then you can start working with the Swift compiler right away. If you do not have former C++ knowledge fear not, the Swift standard library is written mostly in Swift and the python / swift hybrid '.gyb' files."
+        presentation.summaryJP = "このワークショップでは、Swift のコンパイルプロセスとその構成要素について説明し、LLVMに ついて少し学び、bugs.swift.org から取り組むバグを見つけ、変更を加えてテストを実行する方法を学びます。</h6><h6>プルリクエストがマージされることはこのワークショップの目標ではありませんが、このワークショップに参加した後は、すぐに始められるだけの十分な知識を身につけ、より学ぶために見るべき場所がわかっていることでしょう。C++ に習熟していたり、LLVMの経験があるなら、すぐに Swift コンパイラを使い始めることができます。 C++ の経験がなくても、Swift の標準ライブラリは主に Swift で書かれていたり、python と Swift のハイブリッドである '.gyb' ファイルで構成されています。"
+        presentation.speaker = tko2018Speakers["opensource"]
+        return presentation
+    }(),
+    "swift-quest-workshop" : {
+        let presentation = Presentation()
+        presentation.id = 35
+        presentation.title = "Mastering Value Types in Swift with SWIFT QUEST"
+        presentation.titleJP = "Swiftの値型を極める powered by SWIFT QUEST"
+        presentation.summary = "Swift is a value-type centered language and training is necessary to write code that makes best use of value types. In this workshop, you will learn how to: Create mutable class-centered code that is common in Objective-C and Java, Correct to immutable class-centered code to avoid problems, Correct to value-type-centered code while working with immutable classes. Abstract explanations and artificial examples are often used when learning the concept of programming, but it is difficult to understand how to use it in actual development. By using RPG as a theme, we will aim to understand how to effectively apply the learnings to real programming and other problems."
+        presentation.summaryJP = "Swift は値型中心の言語ですが、それを使いこなすにはトレーニングが必要です。本ワークショップでは RPG の戦闘シーンという具体的なプログラムを実装しながら、次の手順で値型の使い方を身に付けていただくことができます。Objective-C や Java で多いミュータブルクラス中心のコードで RPG の戦闘シーンを実装,>ミュータブルクラスの問題を解決するためにイミュータブルクラス中心のコードに修正,イミュータブルクラスと値型の対応関係に基づき、より簡単に実装できる値型中心のコードに修正。プログラミングの概念を学ぶときには抽象的な説明や人工的な例が用いられることが多いですが、実際の開発における使い方を理解するのはなかなか難しいです。 RPG を題材にすることで、現実のプログラミングに即してそれがどのように役立つのかを理解し、他の問題でも効果的に応用できるようになっていただくことを目指します。"
+        presentation.speaker = tko2018Speakers["koher"]
+        return presentation
+    }(),
+    "ar-workshop" : {
+        let presentation = Presentation()
+        presentation.id = 36
+        presentation.title = "Augmented Reality, Swiftly!"
+        presentation.titleJP = "AR をSwiftyに！"
+        presentation.summary = "Join members of Facebook's AR Studio team for an overview of the challenges of creating a large-scale macOS app that mixes Swift, Objective-C(++) and C++. Use Swift to build your own AR experience!"
+        presentation.summaryJP = "Facebook の AR Studio チームと一緒に、Swift, Objective-C(++), C++ が混ざった大規模な macOS アプリに挑戦してみましょう。Swift を使ってあなたの AR 体験を作ります。"
+        presentation.speaker = tko2018Speakers["fb"]
+        return presentation
+    }(),
+    "realm-workshop" : {
+        let presentation = Presentation()
+        presentation.id = 37
+        presentation.title = "Making Apps with Realm Cloud"
+        presentation.titleJP = "Realm Cloudを使ってアプリを作ろう"
+        presentation.summary = "By using Realm Cloud, which can be used Realm Platform easily, we'd like to make app interact with server-side, without developing APIs."
+        presentation.summaryJP = "Realm Platformを簡単に利用できるRealm Cloudを使って、APIを開発することなくサーバーサイドと連携するアプリを作ります。"
+        presentation.speaker = tko2018Speakers["katsumi"]
+        return presentation
+    }(),
+    "peerlabs-tokyo" : {
+        let presentation = Presentation()
+        presentation.id = 38
+        presentation.title = "Peer Labs"
+        presentation.titleJP = "ピアラボ (もくもく会)"
+        presentation.summary = "Peer Labs is your chance to get hands on with things you learned from try! Swift presentations, discuss any issues with the speakers, connect with your peers, work on open source projects, organize impromptu learning sessions and more! Peer labs do not have a strict structure, and are open-ended instead. It is what you and your peers make of it! We will ask everyone to introduce themselves in the beginning, and then it is up to you to ask questions and work together with others on projects that interest you."
+        presentation.summaryJP = "ピアラボ（もくもく会）はtry! Swift のプレゼンテーションから学んだことやスピーカーと議論した問題に取り組む場所です。他の人と仲良くなったり、オープンソースプロジェクトに取り組んだり、即興でLTをはじめたりなどの絶好の機会です！ピアラボには決まった形はなく、オープンです。同じ会場にいる仲間と一緒に作り上げていきます。最初にお互いに自己紹介をしてから、質問しあったり、興味のあるプロジェクトに一緒に取り組んだりしてみましょう。"
+        presentation.speaker = tko2018Speakers["peers"]
+        return presentation
     }()
 ]

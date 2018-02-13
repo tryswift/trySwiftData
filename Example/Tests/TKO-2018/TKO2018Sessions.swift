@@ -531,7 +531,8 @@ public let tko2018Sessions: [String : Session] = [
         session.title = "Peer Labs"
         session.imageAssetName = "workshop.jpg"
         session.titleJP = "受付・朝食"
-        session.event = tko2018Events["peerlabs"]
+        session.presentation = tko2018Presentations["peerlabs-tokyo"]
+        session.venue = tko2018Venues["line"]
         return session
     }(),
     //---------------------------------------------------------
@@ -541,7 +542,8 @@ public let tko2018Sessions: [String : Session] = [
         session.title = "Building real-world server-side Swift applications with Kitura"
         session.titleJP = "使える！Kituraを使ってサーバーサイドSwiftアプリを作ろう！"
         session.imageAssetName = "taiji.jpg"
-        session.event = tko2018Events["kitura-workshop"]
+        session.presentation = tko2018Presentations["kitura-workshop"]
+        session.venue = tko2018Venues["casareal"]
         return session
     }(),
     //---------------------------------------------------------
@@ -551,7 +553,8 @@ public let tko2018Sessions: [String : Session] = [
         session.title = "Cloud Firestore Workshop"
         session.titleJP = "Cloud Firestore Workshop"
         session.imageAssetName = "todd.jpg"
-        session.event = tko2018Events["firebase-workshop"]
+        session.presentation = tko2018Presentations["firebase-workshop"]
+        session.venue = tko2018Venues["casareal"]
         return session
     }(),
     //---------------------------------------------------------
@@ -561,7 +564,8 @@ public let tko2018Sessions: [String : Session] = [
         session.title = "Open Source Swift"
         session.titleJP = "Open Source Swift"
         session.imageAssetName = "opensource.png"
-        session.event = tko2018Events["open-source-swift-workshop"]
+        session.presentation = tko2018Presentations["open-source-swift-workshop"]
+        session.venue = tko2018Venues["casareal"]
         return session
     }(),
     //---------------------------------------------------------
@@ -571,7 +575,8 @@ public let tko2018Sessions: [String : Session] = [
         session.title = "Mastering Value Types in Swift with SWIFT QUEST"
         session.titleJP = "Swiftの値型を極める powered by SWIFT QUEST"
         session.imageAssetName = "koher.jpg"
-        session.event = tko2018Events["swift-quest-workshop"]
+        session.presentation = tko2018Presentations["swift-quest-workshop"]
+        session.venue = tko2018Venues["casareal"]
         return session
     }(),
     //---------------------------------------------------------
@@ -581,7 +586,8 @@ public let tko2018Sessions: [String : Session] = [
         session.title = "Augmented Reality, Swiftly!"
         session.titleJP = "AR をSwiftyに！"
         session.imageAssetName = "fb.jpg"
-        session.event = tko2018Events["ar-workshop"]
+        session.presentation = tko2018Presentations["ar-workshop"]
+        session.venue = tko2018Venues["dena"]
         return session
     }(),
     //---------------------------------------------------------
@@ -591,7 +597,8 @@ public let tko2018Sessions: [String : Session] = [
         session.title = "Making Apps with Realm Cloud"
         session.titleJP = "Realm Cloudを使ってアプリを作ろう"
         session.imageAssetName = "katsumi.jpg"
-        session.event = tko2018Events["realm-workshop"]
+        session.presentation = tko2018Presentations["realm-workshop"]
+        session.venue = tko2018Venues["casareal"]
         return session
     }(),
     //---------------------------------------------------------

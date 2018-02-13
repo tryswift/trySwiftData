@@ -304,4 +304,120 @@ public let tko2018Speakers: [String : Speaker] = [
         speaker.bioJP = "株式会社メルカリ所属の iOS エンジニアです。 Swift とゲームと睡眠が好きで、時間配分に悩んでいます。最近 MHW を買ってしまい、ゲームに必要な時間が2倍になってしまいました。大変です。"
         return speaker
     }(),
+    
+    // Workshop Instructors
+    
+    "taiji" : { let speaker = Speaker()
+        speaker.id = 32
+        speaker.name = "Taiji HAGINO"
+        speaker.twitter = "taiponrock"
+        speaker.imageAssetName = "taiji.jpg"
+        speaker.type = .instructor
+        speaker.bio = "IBM Developer Advocate. DevRel guy. Specialist for IoT, Web and Mobile Apps. Ale Beer and Rock Musics are my favorites."
+        speaker.bioJP = "IBMデベロッパーアドボケイト。DevRelに軸足を置き絶賛活動中。Web、モバイル、IoTあたりのスペシャリスト。エールビールとロックミュージックが大好き。"
+        return speaker
+    }(),
+    "todd" : { let speaker = Speaker()
+        speaker.id = 33
+        speaker.name = "Todd Kerpelman"
+        speaker.twitter = "ToddKerpelman"
+        speaker.imageAssetName = "todd.jpg"
+        speaker.type = .instructor
+        speaker.bio = "Todd Kerpelman is a Developer Advocate at Google, which means he primarily spends his time making YouTube videos and has somehow convinced Google to pay him for it. As of last year, he's been spending most of his time talking about Firebase. Todd has two small children, so his hobbies primarily consist of falling asleep on the couch, attending Moana-themed birthday parties, and reminiscing about the days when he wasn't too tired to have actual hobbies."
+        speaker.bioJP = "Todd Kerpelman は Google のデベロッパーアドボケイトです。よく Firebase の Youtube の動画に登場したり、去年は各地で Firebase の講演をしていました。2人の小さな子供がいて、彼の趣味は主にソファでのんびりしたり、Moana をテーマにした誕生会に参加したり、あまりにも疲れていて趣味などなかった日々を想い起こしたりすることです。"
+        return speaker
+    }(),
+    "nicholas" : { let speaker = Speaker()
+        speaker.id = 34
+        speaker.name = "Nicholas Maccharoli"
+        speaker.twitter = "din0sr"
+        speaker.imageAssetName = "nicholas.jpg"
+        speaker.type = .instructor
+        speaker.bio = "Nicholas Maccharoli is an iOS developer working at VASILY. He is the author of the Swift Evolution proposals SE-0053 and SE-0177 and has also made contributions to apple/swift. Visit github.com/nirma if you want to learn more!"
+        speaker.bioJP = "Nicholas Maccharoli は VASILY の iOS エンジニアです。Swift Evolution の SE-0053 と SE-0117 のプロポーサルの著者で、apple/swift へもコントリビュートしています。<a href='https://github.com/nirma' target='_blank'>GitHub</a> で詳細をみることができます。"
+        return speaker
+    }(),
+    "ikesyo" : { let speaker = Speaker()
+        speaker.id = 35
+        speaker.name = "Sho Ikeda"
+        speaker.twitter = "ikesyo"
+        speaker.imageAssetName = "sho.jpg"
+        speaker.type = .instructor
+        speaker.bio = "Sho Ikeda is a Swift (corelibs-foundation) contributor, author of Himotoki, maintainer for Carthage, ReactiveSwift, and many more. He currently works at Hatena in Kyoto."
+        speaker.bioJP = "Sho Ikeda は Swift (corelibs-foundation) のコントリビュータであり、Himotoki の作者でもあり、Carthage や ReactiveSwift など数多くのライブラリのメンテナーです。現在は京都にある株式会社はてなで働いています。"
+        return speaker
+    }(),
+    "koher" : { let speaker = Speaker()
+        speaker.id = 36
+        speaker.name = "Yuta Koshizawa"
+        speaker.twitter = "koher"
+        speaker.imageAssetName = "koher.jpg"
+        speaker.type = .instructor
+        speaker.bio = "Yuta Koshizawa is a developer at Qoncept. His posts about Swift on Qiita are well known among Japanese iOS developers. He has also been developing SWIFT QUEST, which is an online book for beginners to learn programming from Hello World to monads using only Swift."
+        speaker.bioJP = "Qoncept の開発者。Qiita に Swift に関する記事を投稿していて、日本のiOSエンジニアにはよく知られている。また、SWIFT QUEST というプログラミング初心者が Hello world から モナドまで、Swift だけ使って勉強するためのオンラインブックを開発している。"
+        return speaker
+    }(),
+    "thomas" : { let speaker = Speaker()
+        speaker.id = 37
+        speaker.name = "Thomas Paul Mann"
+        speaker.twitter = "thomaspaulmann"
+        speaker.imageAssetName = "thomas.jpg"
+        speaker.type = .instructor
+        speaker.bio = "Thomas Mann is a software engineer at Facebook London, working on AR Studio. He joined Facebook a year ago. Prior to this he worked for various different companies on mobile applications varying from topics like video live streaming to near field communications, between cars and mobile devices."
+        speaker.bioJP = "Thomas Mann は Facebook London のソフトウェアエンジニアで、AR Studio に取り組んでいます。昨年 Facebook に入社しました。それ以前は、ビデオライブストリーミングや近距離通信、車とモバイルデバイスの間のトピックなど、さまざまなモバイルアプリケーションのさまざまな企業で働いていました。"
+        return speaker
+    }(),
+    "alex" : { let speaker = Speaker()
+        speaker.id = 38
+        speaker.name = "Alex Rozanski"
+        speaker.twitter = "alexrozanski"
+        speaker.imageAssetName = "alex.jpg"
+        speaker.type = .instructor
+        speaker.bio = "Alex Rozanski is a product engineer currently working on AR Studio. In his spare time he is an avid photographer and traveller."
+        speaker.bioJP = "Alex Rozanski は現在 AR Studio で働いているプロダクトエンジニアです。空き時間には熱心に写真を撮ったり、旅行に出かけます。"
+        return speaker
+    }(),
+    "jason" : { let speaker = Speaker()
+        speaker.id = 39
+        speaker.name = "Jason Harris"
+        speaker.twitter = "smeger"
+        speaker.imageAssetName = "jason.jpg"
+        speaker.type = .instructor
+        speaker.bio = "Jason Harris has been creating spiffiness and silliness since ... well, for a long time! He hacked the hell out of OS X in the naughts to create Shapeshifter, the Haxie™ that probably broke all of your apps. And he led the Chicken of the VNC project that got a bit of use back in the day. He wrote much of the frontend of Twitter's #music app that nobody remembers was a thing, and wrote the initial prototype version of Twitter for Apple Watch. He led the initiative to bring Twitter for iPad to parity with the phone version and managed Twitter's iOS Infrastructure team. Now he's doing assorted geekery and sourcery for Facebook's AR efforts in London. And he makes a delicious manhattan and he definitely did not write this bio himself oh no."
+        speaker.bioJP = "Jason Harris は長い間 Apple のプラットフォームに取り組んできました。誰も覚えていないであろう Twitter の音楽アプリも作っていました。最近は、Apple Watch 版の Twitter のプロトタイプを作っていました。Twitter の iPad 版のデザイン変更を率いたり、iOS のインフラチームのマネジメントもしていました。今は、ロンドンの Facebook の AR チームで働いています。"
+        return speaker
+    }(),
+    "fb" : { let speaker = Speaker()
+        speaker.id = 40
+        speaker.name = "Thomas Paul Mann, Alex Rozanski, Jason Harris"
+        speaker.hidden = true
+        speaker.twitter = "facebook"
+        speaker.imageAssetName = "fb.jpg"
+        speaker.type = .instructor
+        speaker.bio = "NA"
+        speaker.bioJP = "NA"
+        return speaker
+    }(),
+    "opensource" : { let speaker = Speaker()
+        speaker.id = 41
+        speaker.name = "Nicholas Maccharoli & Sho Ikeda"
+        speaker.hidden = true
+        speaker.twitter = "tryswiftconf"
+        speaker.imageAssetName = "opensource.png"
+        speaker.type = .instructor
+        speaker.bio = "NA"
+        speaker.bioJP = "NA"
+        return speaker
+    }(),
+    "peers" : { let speaker = Speaker()
+        speaker.id = 42
+        speaker.name = "Peers!"
+        speaker.hidden = true
+        speaker.twitter = "tryswiftconf"
+        speaker.imageAssetName = "workshop.jpg"
+        speaker.type = .instructor
+        speaker.bio = "NA"
+        speaker.bioJP = "NA"
+        return speaker
+    }(),
 ]

@@ -22,47 +22,5 @@ public let tko2018Locations: [String : Location] = [
         location.name = "Main Hall"
         location.nameJP = "ホール"
         return location
-    }(),
-    "peerlabs" : {
-        let location = Location()
-        location.name = "LINE HQ"
-        location.nameJP = "LINE HQ"
-        return location
-    }(),
-    "workshop1" : {
-        let location = Location()
-        location.name = "Workshop Venue"
-        location.nameJP = "TRANSLATION NEEDED"
-        return location
-    }(),
-    "workshop2" : {
-        let location = Location()
-        location.name = "Workshop Venue"
-        location.nameJP = "TRANSLATION NEEDED"
-        return location
-    }(),
-    "workshop3" : {
-        let location = Location()
-        location.name = "Workshop Venue"
-        location.nameJP = "TRANSLATION NEEDED"
-        return location
-    }(),
-    "workshop4" : {
-        let location = Location()
-        location.name = "Workshop Venue"
-        location.nameJP = "TRANSLATION NEEDED"
-        return location
-    }(),
-    "workshop5" : {
-        let location = Location()
-        location.name = "Workshop Venue"
-        location.nameJP = "TRANSLATION NEEDED"
-        return location
-    }(),
-    "workshop6" : {
-        let location = Location()
-        location.name = "Workshop Venue"
-        location.nameJP = "TRANSLATION NEEDED"
-        return location
-    }(),
+    }()
 ]
