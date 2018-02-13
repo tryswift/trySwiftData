@@ -304,5 +304,4 @@ public let tko2018Speakers: [String : Speaker] = [
         speaker.bioJP = "株式会社メルカリ所属の iOS エンジニアです。 Swift とゲームと睡眠が好きで、時間配分に悩んでいます。最近 MHW を買ってしまい、ゲームに必要な時間が2倍になってしまいました。大変です。"
         return speaker
     }(),
-    
 ]

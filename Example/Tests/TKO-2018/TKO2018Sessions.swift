@@ -50,7 +50,7 @@ public let tko2018Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day1SIL" : {
         let session = Session()
-        session.type = .lightningtalk
+        session.type = .lightningTalk
         session.location = tko2018Locations["mainroom"]
         session.presentation = tko2018Presentations["sil"]
         return session
@@ -529,69 +529,69 @@ public let tko2018Sessions: [String : Session] = [
         let session = Session()
         session.type = .workshop
         session.title = "Peer Labs"
-        session.imageAssetName = "donuts2.png"
+        session.imageAssetName = "workshop.jpg"
         session.titleJP = "受付・朝食"
-        session.location = tko2018Locations["peerlabs"]
+        session.event = tko2018Events["peerlabs"]
         return session
     }(),
     //---------------------------------------------------------
     "day3Workshop1" : {
         let session = Session()
         session.type = .workshop
-        session.title = "API Workshops"
-        session.titleJP = "APIワークショップ"
-        session.imageAssetName = "announce1.png"
-        session.location = tko2018Locations["workshop1"]
+        session.title = "Building real-world server-side Swift applications with Kitura"
+        session.titleJP = "使える！Kituraを使ってサーバーサイドSwiftアプリを作ろう！"
+        session.imageAssetName = "taiji.jpg"
+        session.event = tko2018Events["kitura-workshop"]
         return session
     }(),
     //---------------------------------------------------------
     "day3Workshop2" : {
         let session = Session()
         session.type = .workshop
-        session.title = "API Workshops"
-        session.titleJP = "APIワークショップ"
-        session.imageAssetName = "announce1.png"
-        session.location = tko2018Locations["workshop2"]
+        session.title = "Cloud Firestore Workshop"
+        session.titleJP = "Cloud Firestore Workshop"
+        session.imageAssetName = "todd.jpg"
+        session.event = tko2018Events["firebase-workshop"]
         return session
     }(),
     //---------------------------------------------------------
     "day3Workshop3" : {
         let session = Session()
         session.type = .workshop
-        session.title = "API Workshops"
-        session.titleJP = "APIワークショップ"
-        session.imageAssetName = "announce1.png"
-        session.location = tko2018Locations["workshop3"]
+        session.title = "Open Source Swift"
+        session.titleJP = "Open Source Swift"
+        session.imageAssetName = "opensource.png"
+        session.event = tko2018Events["open-source-swift-workshop"]
         return session
     }(),
     //---------------------------------------------------------
     "day3Workshop4" : {
         let session = Session()
         session.type = .workshop
-        session.title = "API Workshops"
-        session.titleJP = "APIワークショップ"
-        session.imageAssetName = "announce1.png"
-        session.location = tko2018Locations["workshop4"]
+        session.title = "Mastering Value Types in Swift with SWIFT QUEST"
+        session.titleJP = "Swiftの値型を極める powered by SWIFT QUEST"
+        session.imageAssetName = "koher.jpg"
+        session.event = tko2018Events["swift-quest-workshop"]
         return session
     }(),
     //---------------------------------------------------------
     "day3Workshop5" : {
         let session = Session()
         session.type = .workshop
-        session.title = "API Workshops"
-        session.titleJP = "APIワークショップ"
-        session.imageAssetName = "announce1.png"
-        session.location = tko2018Locations["workshop5"]
+        session.title = "Augmented Reality, Swiftly!"
+        session.titleJP = "AR をSwiftyに！"
+        session.imageAssetName = "fb.jpg"
+        session.event = tko2018Events["ar-workshop"]
         return session
     }(),
     //---------------------------------------------------------
     "day3Workshop6" : {
         let session = Session()
         session.type = .workshop
-        session.title = "API Workshops"
-        session.titleJP = "APIワークショップ"
-        session.imageAssetName = "announce1.png"
-        session.location = tko2018Locations["workshop6"]
+        session.title = "Making Apps with Realm Cloud"
+        session.titleJP = "Realm Cloudを使ってアプリを作ろう"
+        session.imageAssetName = "katsumi.jpg"
+        session.event = tko2018Events["realm-workshop"]
         return session
     }(),
     //---------------------------------------------------------
