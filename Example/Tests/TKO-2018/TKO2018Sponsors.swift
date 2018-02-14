@@ -516,7 +516,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.name = "Yoshikuni Kato"
         sponsor.url = "https://twitter.com/yoshikuni_kato"
         sponsor.displayURL = "twitter.com/yoshikuni_kato"
-        sponsor.logoAssetName = "yoshikuni_kato.jpeg"
+        sponsor.logoAssetName = "yoshikuni_kato.jpg"
         sponsor.level = .individual
         return sponsor
     }(),

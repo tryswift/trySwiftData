@@ -411,7 +411,7 @@ public let tko2018Speakers: [String : Speaker] = [
     }(),
     "peers" : { let speaker = Speaker()
         speaker.id = 42
-        speaker.name = "Peers!"
+        speaker.name = "You!"
         speaker.hidden = true
         speaker.twitter = "tryswiftconf"
         speaker.imageAssetName = "workshop.jpg"
