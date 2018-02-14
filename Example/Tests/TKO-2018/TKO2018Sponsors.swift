@@ -525,7 +525,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.name = "Atsushi Nagase"
         sponsor.url = "https://ja.ngs.io/"
         sponsor.displayURL = "ja.ngs.io"
-        sponsor.logoAssetName = "atsushi_nagase.jpeg"
+        sponsor.logoAssetName = "atsushi_nagase.jpg"
         sponsor.level = .individual
         return sponsor
     }(),
