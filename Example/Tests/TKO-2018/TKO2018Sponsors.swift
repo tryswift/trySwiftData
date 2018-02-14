@@ -15,7 +15,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     //Platinum
     "line" : {
         let sponsor = Sponsor()
-        sponsor.name = "LINE株式会社"
+        sponsor.name = "LINE"
+        sponsor.nameJP = "LINE株式会社"
         sponsor.url = "https://engineering.linecorp.com/ja/"
         sponsor.displayURL = "engineering.linecorp.com"
         sponsor.logoAssetName = "line.png"
@@ -33,7 +34,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "mercari" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社メルカリ"
+        sponsor.name = "mercari"
+        sponsor.nameJP = "株式会社メルカリ"
         sponsor.url = "https://about.mercari.com/"
         sponsor.displayURL = "mercari.com"
         sponsor.logoAssetName = "mercari.png"
@@ -44,7 +46,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     //Gold
     "cyberagent" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社サイバーエージェント"
+        sponsor.name = "CyberAgent"
+        sponsor.nameJP = "株式会社サイバーエージェント"
         sponsor.url = "https://www.cyberagent.co.jp/"
         sponsor.displayURL = "cyberagent.co.jp"
         sponsor.logoAssetName = "cyberagent.png"
@@ -53,7 +56,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "cookpad" : {
         let sponsor = Sponsor()
-        sponsor.name = "クックパッド株式会社"
+        sponsor.name = "Cookpad"
+        sponsor.nameJP = "クックパッド株式会社"
         sponsor.url = "https://info.cookpad.com/"
         sponsor.displayURL = "cookpad.com"
         sponsor.logoAssetName = "cookpad.png"
@@ -71,7 +75,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "fenrir" : {
         let sponsor = Sponsor()
-        sponsor.name = "フェンリル株式会社"
+        sponsor.nameJP = "フェンリル株式会社"
+        sponsor.name = "Fenrir, Inc"
         sponsor.url = "https://www.fenrir-inc.com/"
         sponsor.displayURL = "fenrir-inc.com"
         sponsor.logoAssetName = "fenrir.png"
@@ -80,7 +85,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "recruitlifestyle" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社リクルートライフスタイル"
+        sponsor.name = "Recruit Lifestyle"
+        sponsor.nameJP = "株式会社リクルートライフスタイル"
         sponsor.url = "https://www.recruit-lifestyle.co.jp/"
         sponsor.displayURL = "recruit-lifestyle.co.jp"
         sponsor.logoAssetName = "recruitlifestyle.png"
@@ -89,7 +95,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "moneyforward" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社マネーフォワード"
+        sponsor.name = "MoneyForward"
+        sponsor.nameJP = "株式会社マネーフォワード"
         sponsor.url = "https://corp.moneyforward.com/"
         sponsor.displayURL = "moneyforward.com"
         sponsor.logoAssetName = "moneyforward.png"
@@ -98,7 +105,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "recruit-mp" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社リクルートマーケティングパートナーズ"
+        sponsor.name = "Recruit Marketing Partners"
+        sponsor.nameJP = "株式会社リクルートマーケティングパートナーズ"
         sponsor.url = "http://www.recruit-mp.co.jp/"
         sponsor.displayURL = "recruit-mp.co.jp"
         sponsor.logoAssetName = "recruit_marketing_partners.png"
@@ -107,7 +115,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "freee" : {
         let sponsor = Sponsor()
-        sponsor.name = "freee株式会社"
+        sponsor.name = "freee"
+        sponsor.nameJP = "freee株式会社"
         sponsor.url = "https://corp.freee.co.jp/"
         sponsor.displayURL = "freee.co.jp"
         sponsor.logoAssetName = "freee.png"
@@ -116,7 +125,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "gamewith" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社GameWith"
+        sponsor.name = "GameWith"
+        sponsor.nameJP = "株式会社GameWith"
         sponsor.url = "https://gamewith.co.jp/"
         sponsor.displayURL = "gamewith.co.jp"
         sponsor.logoAssetName = "gamewith.png"
@@ -125,7 +135,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "dena" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社ディー・エヌ・エー"
+        sponsor.name = "DeNA"
+        sponsor.nameJP = "株式会社ディー・エヌ・エー"
         sponsor.url = "http://dena.com/jp/"
         sponsor.displayURL = "dena.com/jp"
         sponsor.logoAssetName = "dena.png"
@@ -134,7 +145,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "handslab" : {
         let sponsor = Sponsor()
-        sponsor.name = "ハンズラボ株式会社"
+        sponsor.name = "Hands Lab"
+        sponsor.nameJP = "ハンズラボ株式会社"
         sponsor.url = "https://www.hands-lab.com/"
         sponsor.displayURL = "hands-lab.com"
         sponsor.logoAssetName = "hands_lab.png"
@@ -143,7 +155,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "showroom" : {
         let sponsor = Sponsor()
-        sponsor.name = "SHOWROOM株式会社"
+        sponsor.name = "SHOWROOM"
+        sponsor.nameJP = "SHOWROOM株式会社"
         sponsor.url = "http://showroom.co.jp/"
         sponsor.displayURL = "showroom.co.jp"
         sponsor.logoAssetName = "showroom.png"
@@ -152,7 +165,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "casareal" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社カサレアル"
+        sponsor.name = "Casareal"
+        sponsor.nameJP = "株式会社カサレアル"
         sponsor.url = "https://www.casareal.co.jp/ls/"
         sponsor.displayURL = "casareal.co.jp"
         sponsor.logoAssetName = "casareal.png"
@@ -161,7 +175,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "wantedly" : {
         let sponsor = Sponsor()
-        sponsor.name = "ウォンテッドリー株式会社"
+        sponsor.name = "Wantedly, Inc."
+        sponsor.nameJP = "ウォンテッドリー株式会社"
         sponsor.url = "https://wantedlyinc.com/ja/"
         sponsor.displayURL = "wantedlyinc.com/ja"
         sponsor.logoAssetName = "wantedly.png"
@@ -181,7 +196,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     // Silver
     "ookami" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社ookami"
+        sponsor.name = "ookami"
+        sponsor.nameJP = "株式会社ookami"
         sponsor.url = "https://ookami.tokyo/"
         sponsor.displayURL = "ookami.tokyo"
         sponsor.logoAssetName = "ookami.png"
@@ -190,7 +206,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "furyu" : {
         let sponsor = Sponsor()
-        sponsor.name = "フリュー株式会社"
+        sponsor.name = "Furyu"
+        sponsor.nameJP = "フリュー株式会社"
         sponsor.url = "http://www.furyu.jp/"
         sponsor.displayURL = "furyu.jp"
         sponsor.logoAssetName = "furyu.png"
@@ -199,7 +216,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "gmopepabo" : {
         let sponsor = Sponsor()
-        sponsor.name = "GMOペパボ株式会社"
+        sponsor.name = "GMO Pepabo"
+        sponsor.nameJP = "GMOペパボ株式会社"
         sponsor.url = "https://pepabo.com/"
         sponsor.displayURL = "pepabo.com"
         sponsor.logoAssetName = "gmopepabo.png"
@@ -208,7 +226,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "picapp" : {
         let sponsor = Sponsor()
-        sponsor.name = "ピックアップ株式会社"
+        sponsor.name = "PicApp"
+        sponsor.nameJP = "ピックアップ株式会社"
         sponsor.url = "http://picappinc.jp/"
         sponsor.displayURL = "picappinc.jp"
         sponsor.logoAssetName = "picapp.png"
@@ -217,7 +236,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "mamorio" : {
         let sponsor = Sponsor()
-        sponsor.name = "MAMORIO株式会社"
+        sponsor.name = "MAMORIO"
+        sponsor.nameJP = "MAMORIO株式会社"
         sponsor.url = "http://company.mamorio.jp/"
         sponsor.displayURL = "mamorio.jp"
         sponsor.logoAssetName = "mamorio.png"
@@ -226,7 +246,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "hatena" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社はてな"
+        sponsor.name = "Hatena"
+        sponsor.nameJP = "株式会社はてな"
         sponsor.url = "http://hatenacorp.jp/"
         sponsor.displayURL = "hatenacorp.jp"
         sponsor.logoAssetName = "hatena.png"
@@ -235,7 +256,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "nana" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社nana music"
+        sponsor.name = "nana music"
+        sponsor.nameJP = "株式会社nana music"
         sponsor.url = "http://nana-music.com/"
         sponsor.displayURL = "nana-music.com"
         sponsor.logoAssetName = "nana.png"
@@ -244,7 +266,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "enigmo" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社エニグモ"
+        sponsor.name = "Enigmo"
+        sponsor.nameJP = "株式会社エニグモ"
         sponsor.url = "http://www.enigmo.co.jp/"
         sponsor.displayURL = "enigmo.co.jp"
         sponsor.logoAssetName = "enigmo.png"
@@ -253,7 +276,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "caraquri" : {
         let sponsor = Sponsor()
-        sponsor.name = "からくり株式会社"
+        sponsor.name = "Caraquri"
+        sponsor.nameJP = "からくり株式会社"
         sponsor.url = "http://caraquri.com/"
         sponsor.displayURL = "caraquri.com"
         sponsor.logoAssetName = "caraquri.png"
@@ -262,7 +286,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "bitflyer" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社bitFlyer"
+        sponsor.name = "bitFlyer"
+        sponsor.nameJP = "株式会社bitFlyer"
         sponsor.url = "https://bitflyer.jp/"
         sponsor.displayURL = "bitflyer.jp"
         sponsor.logoAssetName = "bitflyer.png"
@@ -271,7 +296,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "diverse" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社Diverse"
+        sponsor.name = "Diverse, Inc."
+        sponsor.nameJP = "株式会社Diverse"
         sponsor.url = "https://diverse-inc.co.jp/"
         sponsor.displayURL = "diverse-inc.co.jp"
         sponsor.logoAssetName = "diverse.png"
@@ -291,7 +317,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "eureka" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社エウレカ"
+        sponsor.name = "Eureka"
+        sponsor.nameJP = "株式会社エウレカ"
         sponsor.url = "https://eure.jp/"
         sponsor.displayURL = "eure.jp"
         sponsor.logoAssetName = "eureka.png"
@@ -309,7 +336,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "medley" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社メドレー"
+        sponsor.name = "Medley"
+        sponsor.nameJP = "株式会社メドレー"
         sponsor.url = "http://www.medley.jp/"
         sponsor.displayURL = "medley.jp"
         sponsor.logoAssetName = "medley.png"
@@ -318,7 +346,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "happycom" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社ハッピーコム"
+        sponsor.name = "HappyCom"
+        sponsor.nameJP = "株式会社ハッピーコム"
         sponsor.url = "https://www.happycom.co.jp/"
         sponsor.displayURL = "happycom.co.jp"
         sponsor.logoAssetName = "happycom.png"
@@ -329,7 +358,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     //Student
     "picapp2" : {
         let sponsor = Sponsor()
-        sponsor.name = "ピックアップ株式会社"
+        sponsor.name = "PicApp"
+        sponsor.nameJP = "ピックアップ株式会社"
         sponsor.url = "http://picappinc.jp/"
         sponsor.displayURL = "picappinc.jp"
         sponsor.logoAssetName = "picapp.png"
@@ -338,7 +368,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "mamorio2" : {
         let sponsor = Sponsor()
-        sponsor.name = "MAMORIO株式会社"
+        sponsor.name = "MAMORIO"
+        sponsor.nameJP = "MAMORIO株式会社"
         sponsor.url = "http://company.mamorio.jp/"
         sponsor.displayURL = "mamorio.jp"
         sponsor.logoAssetName = "mamorio.png"
@@ -347,7 +378,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "mercari2" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社メルカリ"
+        sponsor.name = "Mercari"
+        sponsor.nameJP = "株式会社メルカリ"
         sponsor.url = "https://about.mercari.com/"
         sponsor.displayURL = "mercari.com"
         sponsor.logoAssetName = "mercari.png"
@@ -356,7 +388,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "nana2" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社nana music"
+        sponsor.name = "nana music"
+        sponsor.nameJP = "株式会社nana music"
         sponsor.url = "http://nana-music.com/"
         sponsor.displayURL = "nana-music.com"
         sponsor.logoAssetName = "nana.png"
@@ -367,7 +400,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     // Lanyard
     "sansan" : {
         let sponsor = Sponsor()
-        sponsor.name = "Sansan株式会社"
+        sponsor.name = "Sansan"
+        sponsor.nameJP = "Sansan株式会社"
         sponsor.url = "https://jp.corp-sansan.com/"
         sponsor.displayURL = "jp.corp-sansan.com"
         sponsor.logoAssetName = "sansan.png"
@@ -378,7 +412,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     // Bag
     "mamorio3" : {
         let sponsor = Sponsor()
-        sponsor.name = "MAMORIO株式会社"
+        sponsor.name = "MAMORIO"
+        sponsor.nameJP = "MAMORIO株式会社"
         sponsor.url = "http://company.mamorio.jp/"
         sponsor.displayURL = "company.mamorio.jp"
         sponsor.logoAssetName = "mamorio.png"
@@ -389,7 +424,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     // Event
     "rcube" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社アールキューブ"
+        sponsor.name = "RCube, Inc."
+        sponsor.nameJP = "株式会社アールキューブ"
         sponsor.url = "https://rcubeinc.com/"
         sponsor.displayURL = "rcubeinc.com"
         sponsor.logoAssetName = "rcube.png"
@@ -398,7 +434,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "love_swift" : {
         let sponsor = Sponsor()
-        sponsor.name = "Swift愛好会"
+        sponsor.name = "Love Swift"
+        sponsor.nameJP = "Swift愛好会"
         sponsor.url = "https://love-swift.connpass.com/"
         sponsor.displayURL = "love-swift.connpass.com"
         sponsor.logoAssetName = "love_swift.png"
@@ -407,7 +444,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "retty" : {
         let sponsor = Sponsor()
-        sponsor.name = "Retty株式会社"
+        sponsor.name = "Retty"
+        sponsor.nameJP = "Retty株式会社"
         sponsor.url = "https://corp.retty.me/"
         sponsor.displayURL = "retty.me"
         sponsor.logoAssetName = "retty.png"
@@ -416,7 +454,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "trill" : {
         let sponsor = Sponsor()
-        sponsor.name = "TRILL株式会社"
+        sponsor.name = "TRILL"
+        sponsor.nameJP = "TRILL株式会社"
         sponsor.url = "https://trill-corp.jp"
         sponsor.displayURL = "trill-corp.jp"
         sponsor.logoAssetName = "trill.png"
@@ -425,7 +464,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "visits" : {
         let sponsor = Sponsor()
-        sponsor.name = "VISITS Technologies株式会社"
+        sponsor.name = "VISITS Technologies"
+        sponsor.nameJP = "VISITS Technologies株式会社"
         sponsor.url = "https://visits.world"
         sponsor.displayURL = "visits.world"
         sponsor.logoAssetName = "visits.png"
@@ -434,7 +474,8 @@ public let tko2018Sponsors: [String : Sponsor] = [
     }(),
     "ookami2" : {
         let sponsor = Sponsor()
-        sponsor.name = "株式会社ookami"
+        sponsor.name = "ookami"
+        sponsor.nameJP = "株式会社ookami"
         sponsor.url = "https://ookami.tokyo/company/"
         sponsor.displayURL = "ookami.tokyo"
         sponsor.logoAssetName = "ookami.png"
