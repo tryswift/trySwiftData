@@ -29,7 +29,7 @@ public let tko2018Venues: [String : Venue] = [
         venue.address = "3-11-24 Mita, Minato-ku, Tokyo, 108-0073"
         venue.addressJP = "〒108-0073 Tōkyō-to, Minato-ku, Mita, 3 Chome−11−24"
         venue.website = "https://goo.gl/maps/WRn4P892zW92"
-        venue.logoAssetName = "hallA.jpg"
+        venue.logoAssetName = "casareal-venue.jpg"
         venue.type = .workshop
         return venue
     }(),
@@ -39,8 +39,8 @@ public let tko2018Venues: [String : Venue] = [
         venue.titleJP = "DeNA"
         venue.address = "2 Chome-21-1 Shibuya, Shibuya-ku, Tokyo, 150-8510"
         venue.addressJP = "2 Chome-21-1 Shibuya, 渋谷区 Shibuya-ku, Tōkyō-to 150-8510"
-        venue.website = "https://goo.gl/maps/NTYtUy4XhPU2"
-        venue.logoAssetName = "hallA.jpg"
+        venue.website = "casareal.co.jp"
+        venue.logoAssetName = "dena-venue.jpg"
         venue.type = .workshop
         return venue
     }(),
@@ -50,8 +50,8 @@ public let tko2018Venues: [String : Venue] = [
         venue.titleJP = "LINE株式会社"
         venue.address = "4 Chome-1-6 Shinjuku, Shinjuku-ku, Tōkyō-to 160-0022"
         venue.addressJP = "4 Chome-1-6 Shinjuku, Shinjuku-ku, Tōkyō-to 160-0022"
-        venue.website = "https://goo.gl/maps/whJWXNtztgw"
-        venue.logoAssetName = "hallA.jpg"
+        venue.website = "engineering.linecorp.com"
+        venue.logoAssetName = "line-venue.jpg"
         venue.type = .workshop
         return venue
     }(),

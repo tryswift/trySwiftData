@@ -226,8 +226,8 @@ public let tko2018Presentations: [String : Presentation] = [
         presentation.id = 22
         presentation.title = "Designing Experiences With Augmented Reality"
         presentation.titleJP = "拡張現実における体験設計"
-        presentation.summary = "As technology becomes more ubiquitous with the real world, it is inevitable that experiences will go beyond screens and in physical space. Like VR and Voice, Augmented Reality (AR) is one of the emerging technologies experiencing an undiscovered phase, similar to mobile applications just a decade ago.</p><p>David Hoang shares his experiences designing for AR. This talk will cover the best practices of what makes a great AR experience, how to prototype physically, and share a few concepts using Apple’s ARKit."
-        presentation.summaryJP = "技術が現実世界でよりユビキタスになっていくにつれて、経験がスクリーンや物理空間からはみ出てくるのは避けられません。VRや声のように、また10年前モバイルアプリケーションがそうだったように、拡張現実 (AR) は未知の段階にいる新しい技術です。</p><p>David Hoangは、ARの設計で経験したことをお話します。このトークでは、優れたAR体験を実現するためのベストプラクティス、物理的なプロトタイプ作成方法、AppleのARKitを使ったコンセプトを紹介します。"
+        presentation.summary = "As technology becomes more ubiquitous with the real world, it is inevitable that experiences will go beyond screens and in physical space. Like VR and Voice, Augmented Reality (AR) is one of the emerging technologies experiencing an undiscovered phase, similar to mobile applications just a decade ago. David Hoang shares his experiences designing for AR. This talk will cover the best practices of what makes a great AR experience, how to prototype physically, and share a few concepts using Apple’s ARKit."
+        presentation.summaryJP = "技術が現実世界でよりユビキタスになっていくにつれて、経験がスクリーンや物理空間からはみ出てくるのは避けられません。VRや声のように、また10年前モバイルアプリケーションがそうだったように、拡張現実 (AR) は未知の段階にいる新しい技術です。David Hoangは、ARの設計で経験したことをお話します。このトークでは、優れたAR体験を実現するためのベストプラクティス、物理的なプロトタイプ作成方法、AppleのARKitを使ったコンセプトを紹介します。"
         presentation.speaker = tko2018Speakers["david"]
         return presentation
     }(),
@@ -286,8 +286,8 @@ public let tko2018Presentations: [String : Presentation] = [
         presentation.id = 28
         presentation.title = "UIImageView vs Metal"
         presentation.titleJP = "UIImageView vs Metal"
-        presentation.summary = "Metal is an API that provides access to the GPU. Apple announced it's 10x times faster than OpenGL. In this session, I'll explain the basics of Metal, then compare the performance of graphics rendering with UIImageView.</p><p> Even if you don't use the API directly, your app is implicitly benefitting from Metal. This comparison to a familiar class will lead you to be conscious of the GPU layer that we usually miss."
-        presentation.summaryJP = "MetalはGPUへのアクセスを提供するAPIで、OpenGLより10倍速いという謳い文句で登場しました。本セッションではMetalの基礎を解説しつつ、そのグラフィックス描画性能をUIImageViewと比較してみます。</p><p>MetalのAPIを直接利用する機会がなくても、Metalはあなたのアプリの裏で暗躍しています。身近なクラスとの比較を通じて、普段我々が意識することのないGPUのレイヤで何が起きているのか、目を向けてみるきっかけになればと思います。"
+        presentation.summary = "Metal is an API that provides access to the GPU. Apple announced it's 10x times faster than OpenGL. In this session, I'll explain the basics of Metal, then compare the performance of graphics rendering with UIImageView. Even if you don't use the API directly, your app is implicitly benefitting from Metal. This comparison to a familiar class will lead you to be conscious of the GPU layer that we usually miss."
+        presentation.summaryJP = "MetalはGPUへのアクセスを提供するAPIで、OpenGLより10倍速いという謳い文句で登場しました。本セッションではMetalの基礎を解説しつつ、そのグラフィックス描画性能をUIImageViewと比較してみます。MetalのAPIを直接利用する機会がなくても、Metalはあなたのアプリの裏で暗躍しています。身近なクラスとの比較を通じて、普段我々が意識することのないGPUのレイヤで何が起きているのか、目を向けてみるきっかけになればと思います。"
         presentation.speaker = tko2018Speakers["shu"]
         return presentation
     }(),
@@ -329,7 +329,7 @@ public let tko2018Presentations: [String : Presentation] = [
         presentation.title = "Building real-world server-side Swift applications with Kitura"
         presentation.titleJP = "使える！Kituraを使ってサーバーサイドSwiftアプリを作ろう！"
         presentation.summary = "You can now build powerful server-side applications in your favorite language, Swift. In this workshop Taiji will take you through what you need to consider when building a back-end service for your iOS apps. This will be followed by you building a real-world server-side application using Kitura that will interface with a client-side application. You’ll learn what an API is, how to install, create and deploy a template Kitura application, how to build upon that template, what codable routing is and how to use it, and, finally, show you how to bring the whole story together in a demo application you can take-away and show your peers!"
-        presentation.summaryJP = "みなさんの大好きなプログラミング言語Swiftで、強力なサーバーサイドアプリが作れます。 このワークショップでは、IBM Developer AdvocateのTaijiがiOSアプリのバックエンドサービスを作る際に何が必要かを説明します。さらに、Kituraを使用してクライアント側のアプリケーションとインターフェイスするサーバーサイドアプリを構築します。</h6><h6>APIの使い方、インストール方法、Kituraアプリのテンプレートの作り方とそのデプロイ方法、コーディング可能なルーティングの使い方、そして全体的なストーリーをデモアプリと 共にお見せします！"
+        presentation.summaryJP = "みなさんの大好きなプログラミング言語Swiftで、強力なサーバーサイドアプリが作れます。 このワークショップでは、IBM Developer AdvocateのTaijiがiOSアプリのバックエンドサービスを作る際に何が必要かを説明します。さらに、Kituraを使用してクライアント側のアプリケーションとインターフェイスするサーバーサイドアプリを構築します。APIの使い方、インストール方法、Kituraアプリのテンプレートの作り方とそのデプロイ方法、コーディング可能なルーティングの使い方、そして全体的なストーリーをデモアプリと 共にお見せします！"
         presentation.speaker = tko2018Speakers["taiji"]
         return presentation
     }(),
@@ -348,8 +348,8 @@ public let tko2018Presentations: [String : Presentation] = [
         presentation.id = 34
         presentation.title = "Open Source Swift"
         presentation.titleJP = "Open Source Swift"
-        presentation.summary = "In this workshop we will look at the Swift compilation process and what those parts are, learn a bit about LLVM, how to find a bug to work on using bugs.swift.org and then making a build with our changes and running tests.</h6><h6>A merged pull request is not the goal of this workshop, but after attending this workshop you should have enough knowledge to get started and know where to look to learn more. If you are proficient in C++ or even have some experience with LLVM, then you can start working with the Swift compiler right away. If you do not have former C++ knowledge fear not, the Swift standard library is written mostly in Swift and the python / swift hybrid '.gyb' files."
-        presentation.summaryJP = "このワークショップでは、Swift のコンパイルプロセスとその構成要素について説明し、LLVMに ついて少し学び、bugs.swift.org から取り組むバグを見つけ、変更を加えてテストを実行する方法を学びます。</h6><h6>プルリクエストがマージされることはこのワークショップの目標ではありませんが、このワークショップに参加した後は、すぐに始められるだけの十分な知識を身につけ、より学ぶために見るべき場所がわかっていることでしょう。C++ に習熟していたり、LLVMの経験があるなら、すぐに Swift コンパイラを使い始めることができます。 C++ の経験がなくても、Swift の標準ライブラリは主に Swift で書かれていたり、python と Swift のハイブリッドである '.gyb' ファイルで構成されています。"
+        presentation.summary = "In this workshop we will look at the Swift compilation process and what those parts are, learn a bit about LLVM, how to find a bug to work on using bugs.swift.org and then making a build with our changes and running tests. A merged pull request is not the goal of this workshop, but after attending this workshop you should have enough knowledge to get started and know where to look to learn more. If you are proficient in C++ or even have some experience with LLVM, then you can start working with the Swift compiler right away. If you do not have former C++ knowledge fear not, the Swift standard library is written mostly in Swift and the python / swift hybrid '.gyb' files."
+        presentation.summaryJP = "このワークショップでは、Swift のコンパイルプロセスとその構成要素について説明し、LLVMに ついて少し学び、bugs.swift.org から取り組むバグを見つけ、変更を加えてテストを実行する方法を学びます。プルリクエストがマージされることはこのワークショップの目標ではありませんが、このワークショップに参加した後は、すぐに始められるだけの十分な知識を身につけ、より学ぶために見るべき場所がわかっていることでしょう。C++ に習熟していたり、LLVMの経験があるなら、すぐに Swift コンパイラを使い始めることができます。 C++ の経験がなくても、Swift の標準ライブラリは主に Swift で書かれていたり、python と Swift のハイブリッドである '.gyb' ファイルで構成されています。"
         presentation.speaker = tko2018Speakers["opensource"]
         return presentation
     }(),
