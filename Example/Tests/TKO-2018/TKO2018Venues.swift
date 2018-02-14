@@ -28,7 +28,7 @@ public let tko2018Venues: [String : Venue] = [
         venue.titleJP = "Casareal"
         venue.address = "3-11-24 Mita, Minato-ku, Tokyo, 108-0073"
         venue.addressJP = "〒108-0073 Tōkyō-to, Minato-ku, Mita, 3 Chome−11−24"
-        venue.website = "https://goo.gl/maps/WRn4P892zW92"
+        venue.website = "casareal.co.jp"
         venue.logoAssetName = "casareal-venue.jpg"
         venue.type = .workshop
         return venue
@@ -39,7 +39,7 @@ public let tko2018Venues: [String : Venue] = [
         venue.titleJP = "DeNA"
         venue.address = "2 Chome-21-1 Shibuya, Shibuya-ku, Tokyo, 150-8510"
         venue.addressJP = "2 Chome-21-1 Shibuya, 渋谷区 Shibuya-ku, Tōkyō-to 150-8510"
-        venue.website = "casareal.co.jp"
+        venue.website = "dena.com/jp"
         venue.logoAssetName = "dena-venue.jpg"
         venue.type = .workshop
         return venue
