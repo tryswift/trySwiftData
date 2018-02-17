@@ -210,6 +210,26 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.priority = 18
         return sponsor
     }(),
+    "twilio" : {
+        let sponsor = Sponsor()
+        sponsor.name = "Twilio"
+        sponsor.url = "https://www.twilio.com/"
+        sponsor.displayURL = "twilio.com"
+        sponsor.logoAssetName = "twilio.png"
+        sponsor.level = .gold
+        sponsor.priority = 59
+        return sponsor
+    }(),
+    "ibm" : {
+        let sponsor = Sponsor()
+        sponsor.name = "IBM"
+        sponsor.url = "https://www.ibm.com/developerworks/"
+        sponsor.displayURL = "ibm.com/developerworks"
+        sponsor.logoAssetName = "ibm.png"
+        sponsor.level = .gold
+        sponsor.priority = 60
+        return sponsor
+    }(),
     
     // Silver
     "ookami" : {
@@ -331,6 +351,16 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.logoAssetName = "diverse.png"
         sponsor.level = .silver
         sponsor.priority = 29
+        return sponsor
+    }(),
+    "kytrade" : {
+        let sponsor = Sponsor()
+        sponsor.name = "KYT"
+        sponsor.url = "http://www.kytrade.co.jp/"
+        sponsor.displayURL = "kytrade.co.jp"
+        sponsor.logoAssetName = "kytrade.png"
+        sponsor.level = .silver
+        sponsor.priority = 61
         return sponsor
     }(),
     
