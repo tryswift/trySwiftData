@@ -11,7 +11,7 @@ class Tests: XCTestCase {
 
     /** try! Swift Tokyo 2018 */
     func testGenerateTokyo2018DefaultRealm() {
-        let sources = [tko2018Conferences, tko2018Sponsors, tko2018ConferenceDays] as [Any]
+        let sources = [tko2018Conferences, tko2018Sponsors, tko2018ConferenceDays, tko2018Speakers] as [Any]
         XCTAssert(generateDefaultRealm(named: "tryswift-tko2018.realm", sources: sources))
     }
     
