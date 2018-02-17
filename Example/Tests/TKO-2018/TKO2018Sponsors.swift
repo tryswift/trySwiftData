@@ -21,6 +21,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "engineering.linecorp.com"
         sponsor.logoAssetName = "line.png"
         sponsor.level = .platinum
+        sponsor.priority = 1
         return sponsor
     }(),
     "yahoo" : {
@@ -30,6 +31,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "yahoo.co.jp"
         sponsor.logoAssetName = "yahoo_japan.png"
         sponsor.level = .platinum
+        sponsor.priority = 2
         return sponsor
     }(),
     "mercari" : {
@@ -40,6 +42,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "mercari.com"
         sponsor.logoAssetName = "mercari.png"
         sponsor.level = .platinum
+        sponsor.priority = 3
         return sponsor
     }(),
     
@@ -52,6 +55,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "cyberagent.co.jp"
         sponsor.logoAssetName = "cyberagent.png"
         sponsor.level = .gold
+        sponsor.priority = 4
         return sponsor
     }(),
     "cookpad" : {
@@ -62,6 +66,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "cookpad.com"
         sponsor.logoAssetName = "cookpad.png"
         sponsor.level = .gold
+        sponsor.priority = 5
         return sponsor
     }(),
     "vasily" : {
@@ -71,6 +76,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "vasily.jp"
         sponsor.logoAssetName = "vasily.png"
         sponsor.level = .gold
+        sponsor.priority = 6
         return sponsor
     }(),
     "fenrir" : {
@@ -81,6 +87,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "fenrir-inc.com"
         sponsor.logoAssetName = "fenrir.png"
         sponsor.level = .gold
+        sponsor.priority = 7
         return sponsor
     }(),
     "recruitlifestyle" : {
@@ -91,6 +98,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "recruit-lifestyle.co.jp"
         sponsor.logoAssetName = "recruitlifestyle.png"
         sponsor.level = .gold
+        sponsor.priority = 8
         return sponsor
     }(),
     "moneyforward" : {
@@ -101,6 +109,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "moneyforward.com"
         sponsor.logoAssetName = "moneyforward.png"
         sponsor.level = .gold
+        sponsor.priority = 9
         return sponsor
     }(),
     "recruit-mp" : {
@@ -111,6 +120,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "recruit-mp.co.jp"
         sponsor.logoAssetName = "recruit_marketing_partners.png"
         sponsor.level = .gold
+        sponsor.priority = 10
         return sponsor
     }(),
     "freee" : {
@@ -121,6 +131,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "freee.co.jp"
         sponsor.logoAssetName = "freee.png"
         sponsor.level = .gold
+        sponsor.priority = 11
         return sponsor
     }(),
     "gamewith" : {
@@ -131,6 +142,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "gamewith.co.jp"
         sponsor.logoAssetName = "gamewith.png"
         sponsor.level = .gold
+        sponsor.priority = 12
         return sponsor
     }(),
     "dena" : {
@@ -141,6 +153,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "dena.com/jp"
         sponsor.logoAssetName = "dena.png"
         sponsor.level = .gold
+        sponsor.priority = 13
         return sponsor
     }(),
     "handslab" : {
@@ -151,6 +164,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "hands-lab.com"
         sponsor.logoAssetName = "hands_lab.png"
         sponsor.level = .gold
+        sponsor.priority = 14
         return sponsor
     }(),
     "showroom" : {
@@ -161,6 +175,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "showroom.co.jp"
         sponsor.logoAssetName = "showroom.png"
         sponsor.level = .gold
+        sponsor.priority = 15
         return sponsor
     }(),
     "casareal" : {
@@ -171,6 +186,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "casareal.co.jp"
         sponsor.logoAssetName = "casareal.png"
         sponsor.level = .gold
+        sponsor.priority = 16
         return sponsor
     }(),
     "wantedly" : {
@@ -181,6 +197,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "wantedlyinc.com/ja"
         sponsor.logoAssetName = "wantedly.png"
         sponsor.level = .gold
+        sponsor.priority = 17
         return sponsor
     }(),
     "firebase" : {
@@ -190,6 +207,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "firebase.google.com"
         sponsor.logoAssetName = "firebase.png"
         sponsor.level = .gold
+        sponsor.priority = 18
         return sponsor
     }(),
     
@@ -202,6 +220,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "ookami.tokyo"
         sponsor.logoAssetName = "ookami.png"
         sponsor.level = .silver
+        sponsor.priority = 19
         return sponsor
     }(),
     "furyu" : {
@@ -212,6 +231,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "furyu.jp"
         sponsor.logoAssetName = "furyu.png"
         sponsor.level = .silver
+        sponsor.priority = 20
         return sponsor
     }(),
     "gmopepabo" : {
@@ -222,6 +242,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "pepabo.com"
         sponsor.logoAssetName = "gmopepabo.png"
         sponsor.level = .silver
+        sponsor.priority = 21
         return sponsor
     }(),
     "picapp" : {
@@ -232,6 +253,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "picappinc.jp"
         sponsor.logoAssetName = "picapp.png"
         sponsor.level = .silver
+        sponsor.priority = 22
         return sponsor
     }(),
     "mamorio" : {
@@ -242,6 +264,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "mamorio.jp"
         sponsor.logoAssetName = "mamorio.png"
         sponsor.level = .silver
+        sponsor.priority = 23
         return sponsor
     }(),
     "hatena" : {
@@ -252,6 +275,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "hatenacorp.jp"
         sponsor.logoAssetName = "hatena.png"
         sponsor.level = .silver
+        sponsor.priority = 24
         return sponsor
     }(),
     "nana" : {
@@ -262,6 +286,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "nana-music.com"
         sponsor.logoAssetName = "nana.png"
         sponsor.level = .silver
+        sponsor.priority = 25
         return sponsor
     }(),
     "enigmo" : {
@@ -272,6 +297,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "enigmo.co.jp"
         sponsor.logoAssetName = "enigmo.png"
         sponsor.level = .silver
+        sponsor.priority = 26
         return sponsor
     }(),
     "caraquri" : {
@@ -282,6 +308,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "caraquri.com"
         sponsor.logoAssetName = "caraquri.png"
         sponsor.level = .silver
+        sponsor.priority = 27
         return sponsor
     }(),
     "bitflyer" : {
@@ -292,6 +319,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "bitflyer.jp"
         sponsor.logoAssetName = "bitflyer.png"
         sponsor.level = .silver
+        sponsor.priority = 28
         return sponsor
     }(),
     "diverse" : {
@@ -302,6 +330,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "diverse-inc.co.jp"
         sponsor.logoAssetName = "diverse.png"
         sponsor.level = .silver
+        sponsor.priority = 29
         return sponsor
     }(),
     
@@ -313,6 +342,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "jetbrains.com"
         sponsor.logoAssetName = "jetbrains.png"
         sponsor.level = .diversity
+        sponsor.priority = 30
         return sponsor
     }(),
     "eureka" : {
@@ -323,6 +353,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "eure.jp"
         sponsor.logoAssetName = "eureka.png"
         sponsor.level = .diversity
+        sponsor.priority = 31
         return sponsor
     }(),
     "firebase2" : {
@@ -332,6 +363,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "firebase.google.com"
         sponsor.logoAssetName = "firebase.png"
         sponsor.level = .diversity
+        sponsor.priority = 32
         return sponsor
     }(),
     "medley" : {
@@ -342,6 +374,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "medley.jp"
         sponsor.logoAssetName = "medley.png"
         sponsor.level = .diversity
+        sponsor.priority = 33
         return sponsor
     }(),
     "happycom" : {
@@ -352,6 +385,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "happycom.co.jp"
         sponsor.logoAssetName = "happycom.png"
         sponsor.level = .diversity
+        sponsor.priority = 34
         return sponsor
     }(),
     
@@ -364,6 +398,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "picappinc.jp"
         sponsor.logoAssetName = "picapp.png"
         sponsor.level = .student
+        sponsor.priority = 35
         return sponsor
     }(),
     "mamorio2" : {
@@ -374,6 +409,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "mamorio.jp"
         sponsor.logoAssetName = "mamorio.png"
         sponsor.level = .student
+        sponsor.priority = 36
         return sponsor
     }(),
     "mercari2" : {
@@ -384,6 +420,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "mercari.com"
         sponsor.logoAssetName = "mercari.png"
         sponsor.level = .student
+        sponsor.priority = 37
         return sponsor
     }(),
     "nana2" : {
@@ -394,6 +431,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "nana-music.com"
         sponsor.logoAssetName = "nana.png"
         sponsor.level = .student
+        sponsor.priority = 38
         return sponsor
     }(),
     
@@ -406,6 +444,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "jp.corp-sansan.com"
         sponsor.logoAssetName = "sansan.png"
         sponsor.level = .lanyard
+        sponsor.priority = 39
         return sponsor
     }(),
     
@@ -418,6 +457,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "company.mamorio.jp"
         sponsor.logoAssetName = "mamorio.png"
         sponsor.level = .bag
+        sponsor.priority = 40
         return sponsor
     }(),
     
@@ -430,6 +470,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "rcubeinc.com"
         sponsor.logoAssetName = "rcube.png"
         sponsor.level = .event
+        sponsor.priority = 41
         return sponsor
     }(),
     "love_swift" : {
@@ -440,6 +481,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "love-swift.connpass.com"
         sponsor.logoAssetName = "love_swift.png"
         sponsor.level = .event
+        sponsor.priority = 42
         return sponsor
     }(),
     "retty" : {
@@ -450,6 +492,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "retty.me"
         sponsor.logoAssetName = "retty.png"
         sponsor.level = .event
+        sponsor.priority = 43
         return sponsor
     }(),
     "trill" : {
@@ -460,6 +503,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "trill-corp.jp"
         sponsor.logoAssetName = "trill.png"
         sponsor.level = .event
+        sponsor.priority = 44
         return sponsor
     }(),
     "visits" : {
@@ -470,6 +514,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "visits.world"
         sponsor.logoAssetName = "visits.png"
         sponsor.level = .event
+        sponsor.priority = 45
         return sponsor
     }(),
     "ookami2" : {
@@ -480,6 +525,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "ookami.tokyo"
         sponsor.logoAssetName = "ookami.png"
         sponsor.level = .event
+        sponsor.priority = 46
         return sponsor
     }(),
     
@@ -491,6 +537,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "github.com/daisukenagata/MetalReFresh"
         sponsor.logoAssetName = "daisuke_nagata.jpg"
         sponsor.level = .individual
+        sponsor.priority = 47
         return sponsor
     }(),
     "takayama" : {
@@ -500,6 +547,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "twitter.com/takayama"
         sponsor.logoAssetName = "kyosuke_takayama.jpg"
         sponsor.level = .individual
+        sponsor.priority = 48
         return sponsor
     }(),
     "clipy" : {
@@ -509,6 +557,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "clipy-app.com"
         sponsor.logoAssetName = "clipy.png"
         sponsor.level = .individual
+        sponsor.priority = 49
         return sponsor
     }(),
     "yoshikuni_kato" : {
@@ -518,6 +567,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "twitter.com/yoshikuni_kato"
         sponsor.logoAssetName = "yoshikuni_kato.jpg"
         sponsor.level = .individual
+        sponsor.priority = 50
         return sponsor
     }(),
     "atsushi_nagase" : {
@@ -527,6 +577,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "ja.ngs.io"
         sponsor.logoAssetName = "atsushi_nagase.jpg"
         sponsor.level = .individual
+        sponsor.priority = 51
         return sponsor
     }(),
     "kobei_tabata" : {
@@ -536,6 +587,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "twitter.com/nerd0geek1"
         sponsor.logoAssetName = "kobei_tabata.jpg"
         sponsor.level = .individual
+        sponsor.priority = 52
         return sponsor
     }(),
     "koji_okada" : {
@@ -545,6 +597,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "backapp.co.jp"
         sponsor.logoAssetName = "koji_okada.jpg"
         sponsor.level = .individual
+        sponsor.priority = 53
         return sponsor
     }(),
     "shingo_sato" : {
@@ -554,6 +607,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "egg-is-world.com"
         sponsor.logoAssetName = "shingo_sato.jpg"
         sponsor.level = .individual
+        sponsor.priority = 54
         return sponsor
     }(),
     "frnk" : {
@@ -563,6 +617,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "twitter.com/frnk"
         sponsor.logoAssetName = "daigo_wakabayashi.jpg"
         sponsor.level = .individual
+        sponsor.priority = 55
         return sponsor
     }(),
     "solti" : {
@@ -572,6 +627,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "twitter.com/Solti"
         sponsor.logoAssetName = "hiroyuki_aoki.jpg"
         sponsor.level = .individual
+        sponsor.priority = 56
         return sponsor
     }(),
     "takuto_nagano" : {
@@ -581,6 +637,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.displayURL = "facebook.com/takuto.nagano.7"
         sponsor.logoAssetName = "takuto_nagano.jpg"
         sponsor.level = .individual
+        sponsor.priority = 57
         return sponsor
     }(),
 ]
