@@ -53,7 +53,7 @@ public class Sponsor: Object {
         let realm = try! Realm.trySwiftRealm()
 
         var resultsSet = [Results<Sponsor>]()
-        for i in 0...SponsorLevel.bag.rawValue {
+        for i in 0...SponsorLevel.individual.rawValue {
             let sponsors = realm.objects(Sponsor.self).sorted(byKeyPath: "priority", ascending: true).filter("level == %d", i)
             if sponsors.count > 0 {
                 resultsSet.append(sponsors)
