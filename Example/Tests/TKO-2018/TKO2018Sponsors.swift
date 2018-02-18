@@ -558,6 +558,16 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.priority = 46
         return sponsor
     }(),
+    "pivotal" : {
+        let sponsor = Sponsor()
+        sponsor.name = "Pivotal"
+        sponsor.url = "https://pivotal.io/locations/tokyo"
+        sponsor.displayURL = "pivotal.io"
+        sponsor.logoAssetName = "pivotal.png"
+        sponsor.level = .event
+        sponsor.priority = 62
+        return sponsor
+    }(),
     
     // Individual
     "daisuke_nagata" : {
