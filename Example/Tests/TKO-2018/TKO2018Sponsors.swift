@@ -685,7 +685,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.name = "Lihsuan Chen"
         sponsor.url = "https://github.com/vc7"
         sponsor.displayURL = "github.com/vc7"
-        sponsor.logoAssetName = "vc7.jpg"
+        sponsor.logoAssetName = "vc7.png"
         sponsor.level = .individual
         sponsor.priority = 68
         return sponsor
