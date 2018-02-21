@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 	s.tvos.deployment_target = '10.1'
 
 	s.frameworks = 'UIKit', 'Foundation'
-	s.dependency 'RealmSwift'
+	s.dependency 'RealmSwift', '3.2.0-beta.1'
 	s.default_subspec = 'TrySwiftAssets'
 	s.source_files = 'TrySwiftData/**/*.{swift}'
 
