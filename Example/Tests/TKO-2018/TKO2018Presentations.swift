@@ -74,10 +74,10 @@ public let tko2018Presentations: [String : Presentation] = [
     "icloud" : {
         let presentation = Presentation()
         presentation.id = 7
-        presentation.title = "TBD"
-        presentation.titleJP = "TBD"
-        presentation.summary = "TBD"
-        presentation.summaryJP = "TBD"
+        presentation.title = "Event driven networking for Swift"
+        presentation.titleJP = "Event driven networking for Swift"
+        presentation.summary = "Everyone knows that Swift is the language of choice for building apps for iPhone, iPad, Mac, Apple Watch and Apple TV. Over the last couple of years, Swift has also emerged as a great language for developing server applications that run on Linux. Today, most high-scale environments run by companies like Apple, Facebook, Google, Netflix and Twitter use performance-optimized networking frameworks built in Java, C++ and other languages.  This talk will cover how the server infrastructure teams at Apple are using Swift in their development, leveraging years of experience writing high-performance, highly-scalable network applications."
+        presentation.summaryJP = "Swift が iPhone, iPad, Mac, Apple Watch そして Apple TV のアプリを開発する言語として選ばれていることはみなさんご存知でしょう。この数年、Swift は Linux で動作するサーバーサイドアプリケーションを開発するのにも優れた言語としても浮上してきました。現在、Apple, Facebook, Google, Netflix, Twitter などの企業が運用する大規模な環境では、Java、C ++などの言語による、パフォーマンスに最適化されたネットワークフレームワークが使われています。このトークでは、Apple のサーバーインフラストラクチャーチームが長年の経験を活かし、どのように高性能でスケーラビリティの高いネットワークアプリケーションを作成して、どのように開発時にSwiftを利用しているかについて説明します。"
         presentation.speaker = tko2018Speakers["norman"]
         return presentation
     }(),
