@@ -1,4 +1,6 @@
 use_frameworks!
+platform :ios, '11.0'
+
 target ‘TrySwiftData_Tests' do
   pod ‘TrySwiftData', :path => '../'
   pod 'RealmSwift'
