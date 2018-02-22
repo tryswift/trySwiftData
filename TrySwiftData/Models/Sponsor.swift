@@ -47,16 +47,15 @@ public class Sponsor {
     }
 
     /* Return an array of `Results` objects */
-    public class var all: [SponsorLevel : [String : Sponsor]] {
+    public class var all: [Int : [Sponsor]] {
 
-        var resultsSet = [ SponsorLevel : [String : Sponsor] ]()
+        var resultsSet = [ Int : [Sponsor] ]()
         for i in 0...SponsorLevel.individual.rawValue {
-            let sponsors = tko2018Sponsors.sorted { $0.value.priority > $1.value.priority }.filter { $0.value.level.rawValue == i }.dictionary()
+            let sponsors = tko2018Sponsors.filter { $0.value.level.rawValue == i }
             
             if sponsors.count > 0 {
-                if let sponsorLevel = SponsorLevel(rawValue: i) {
-                    resultsSet[sponsorLevel] = sponsors
-                }
+                let sponsorsSorted = sponsors.sorted { $0.value.priority < $1.value.priority }
+                resultsSet[i] = sponsorsSorted.map { $0.value }
             }
         }
 

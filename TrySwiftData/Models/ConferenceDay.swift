@@ -8,12 +8,12 @@
 
 public class ConferenceDay {
     /* The date of this particular day of the conference. */
-    var date: Date = Date()
+    public var date: Date = Date()
 
     /* The list of sessions, sorted into time blocks for that day. */
     open var sessionBlocks = [SessionBlock]()
 
     public static var all: [ConferenceDay] {
-        return tko2018ConferenceDays.sorted { $0.date > $1.date }
+        return tko2018ConferenceDays.sorted { $0.date < $1.date }
     }
 }

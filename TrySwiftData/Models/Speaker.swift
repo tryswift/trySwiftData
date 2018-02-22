@@ -24,9 +24,9 @@ public class Speaker {
     public var hidden: Bool = false
     public var type: SpeakerType = .presentation
 
-    public class var all: [String : Speaker] {
-        let speakers = tko2018Speakers.filter { $0.value.hidden == false}
-        return speakers.sorted { $0.value.name > $1.value.name }.dictionary()
+    public class var all: [Speaker] {
+        let speakers = tko2018Speakers.values.filter { $0.hidden == false}
+        return speakers.sorted { $0.name < $1.name }
     }
 
     public var localizedName: String {
