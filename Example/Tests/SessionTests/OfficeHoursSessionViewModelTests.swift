@@ -11,9 +11,11 @@ import TrySwiftData
 
 class OfficeHoursSessionViewModelTests: XCTestCase {
     
-    fileprivate let conference = tko2017Conferences.first!
+    fileprivate let conference = Conference.current
     
-    fileprivate let officeHours = blr2017Sessions["day1JonoOfficeHours"]!
+    fileprivate let officeHours = {
+        return Session.all.filter { $0.value.type == SessionType.officeHours }.first!.value
+    }()
     fileprivate var speaker: Speaker!
     
     fileprivate var viewModel: SessionViewModel!
@@ -23,12 +25,7 @@ class OfficeHoursSessionViewModelTests: XCTestCase {
     override func setUp() {
         viewModel = SessionViewModel(session: officeHours)
         speaker = officeHours.presentation!.speaker
-        
-        let session_noSpeaker = Session()
-        session_noSpeaker.type = .officeHours
-        session_noSpeaker.presentation = nil
-        session_noSpeaker.location = tko2017Locations["qaroom"]
-        viewModel_noSpeaker = SessionViewModel(session: session_noSpeaker)
+        viewModel_noSpeaker = SessionViewModel(session: officeHours)
     }
     
     func testTitle_withSpeaker() {

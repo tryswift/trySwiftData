@@ -11,7 +11,9 @@ import TrySwiftData
 
 class PartySessionViewModelTests: XCTestCase {
    
-    fileprivate let partySession = tko2017Sessions["day2Party"]!
+    fileprivate let partySession = {
+        return Session.all.filter { $0.value.type == SessionType.party }.first!.value
+    }()
     fileprivate var viewModel: SessionViewModel!
         
     override func setUp() {
@@ -47,6 +49,6 @@ class PartySessionViewModelTests: XCTestCase {
     }
     
     func testTwitter() {
-        XCTAssertEqual(viewModel.twitter, "@tryswiftconf")
+        XCTAssertEqual(viewModel.twitter, Conference.current.twitter)
     }
 }

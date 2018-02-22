@@ -11,7 +11,10 @@ import TrySwiftData
 
 class AnnouncementSessionViewModelTests: XCTestCase {
     
-    fileprivate let announcement = tko2017Sessions["day1Opening"]!
+    fileprivate let conference = Conference.current
+    fileprivate let announcement = {
+        return Session.all.filter { $0.value.type == SessionType.announcement }.first!.value
+    }()
     fileprivate var viewModel: SessionViewModel!
     
     override func setUp() {
@@ -39,7 +42,6 @@ class AnnouncementSessionViewModelTests: XCTestCase {
     }
     
     func testLongDescription() {
-        let conference = tko2017Conferences.first!
         XCTAssertEqual(viewModel.longDescription, conference.localizedDescription)
     }
     
@@ -48,7 +50,6 @@ class AnnouncementSessionViewModelTests: XCTestCase {
     }
     
     func testTwitter() {
-        let conference = tko2017Conferences.first!
         XCTAssertEqual(viewModel.twitter, "@\(conference.twitter!)")
     }
 }

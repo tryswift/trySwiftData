@@ -11,9 +11,11 @@ import TrySwiftData
 
 class TalkSessionViewModelTests: XCTestCase {
     
-    fileprivate let conference = tko2017Conferences.first!
+    fileprivate let conference = Conference.current
     
-    fileprivate let talk = blr2017Sessions["day1Jono"]!
+    fileprivate let talk = {
+        return Session.all.filter { $0.value.type == SessionType.talk }.first!.value
+    }()
     
     fileprivate var viewModel: SessionViewModel!
     fileprivate var presentation: Presentation!
