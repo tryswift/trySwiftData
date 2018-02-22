@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import RealmSwift
-import TrySwiftData
 
 // Check the commented statement is correct or not
 

@@ -1,17 +1,9 @@
 PODS:
-  - Realm (3.0.2):
-    - Realm/Headers (= 3.0.2)
-  - Realm/Headers (3.0.2)
-  - RealmSwift (3.0.2):
-    - Realm (= 3.0.2)
   - TrySwiftData (0.1.0):
-    - RealmSwift
     - TrySwiftData/TrySwiftAssets (= 0.1.0)
-  - TrySwiftData/TrySwiftAssets (0.1.0):
-    - RealmSwift
+  - TrySwiftData/TrySwiftAssets (0.1.0)
 
 DEPENDENCIES:
-  - RealmSwift
   - TrySwiftData (from `../`)
 
 EXTERNAL SOURCES:
@@ -19,10 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Realm: 6f23fd1f178a09342eac21bfa7c2bf4312a7a180
-  RealmSwift: 695393add1b8f9d5fa75dd16e6355cf3935f71e2
-  TrySwiftData: 37cf3dbf30f401b52e1f6889503fffd2075e862e
+  TrySwiftData: a61c092c7eae752dce51ea9169f3455f7451c2d7
 
-PODFILE CHECKSUM: 515077a93b5799230e7a5d7aa9b158683986a7df
+PODFILE CHECKSUM: f90fa0a429c447a2ce4ad39681f2a1ec8628b580
 
 COCOAPODS: 1.4.0

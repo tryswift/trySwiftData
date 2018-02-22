@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import RealmSwift
-import TrySwiftData
 
 public let tko2018Presentations: [String : Presentation] = [
     "swift_tour" : {

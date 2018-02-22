@@ -7,7 +7,5 @@
 //
 
 import Foundation
-import RealmSwift
-import TrySwiftData
 
 public let tko2018Events: [String : Event] = [:]

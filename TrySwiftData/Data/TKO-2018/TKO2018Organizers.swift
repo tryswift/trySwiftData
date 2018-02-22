@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import RealmSwift
-import TrySwiftData
 
 public let tko2018Organizers: [String : Organizer] = [
     "natashatherobot" : {

@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import RealmSwift
-import TrySwiftData
 
 public let tko2018Speakers: [String : Speaker] = [
     "norman" : { let speaker = Speaker()
