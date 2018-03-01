@@ -566,7 +566,7 @@ public let tko2018Sponsors: [String : Sponsor] = [
         sponsor.priority = 62
         return sponsor
     }(),
-    "pivotal" : {
+    "crashacademy" : {
         let sponsor = Sponsor()
         sponsor.name = "crash.academy"
         sponsor.url = "https://crash.academy"
