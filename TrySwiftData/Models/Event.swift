@@ -7,11 +7,11 @@
 //
 
 public class Event {
-    public var title: String = ""
+    public var title = ""
     public var titleJP: String?
     public var logoAssetName: String?
     public var logoImageWebURL: String?
-    public var location: String = ""
+    public var location = ""
     public var locationJP: String?
     public var website: String?
 
