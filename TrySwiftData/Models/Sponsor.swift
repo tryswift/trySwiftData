@@ -7,19 +7,19 @@
 //
 
 public enum SponsorLevel: Int {
-    case platinum = 0
-    case gold = 1
-    case silver = 2
-    case diversity = 3
-    case student = 4
-    case event = 5
-    case lanyard = 6
-    case bag = 7
-    case individual = 8
+    case platinum
+    case gold
+    case silver
+    case diversity
+    case student
+    case event
+    case lanyard
+    case bag
+    case individual
 }
 
 public class Sponsor {
-    public var name: String = ""
+    public var name = ""
     public var nameJP: String?
     public var url: String?
     public var displayURL: String?
@@ -27,7 +27,7 @@ public class Sponsor {
     public var logoAssetName: String?
     public var logoImageWebURL: String?
     public var level: SponsorLevel = .event
-    public var priority: Int = 0
+    public var priority = 0
     
 
     public var localizedName: String {

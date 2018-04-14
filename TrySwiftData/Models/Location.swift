@@ -7,7 +7,7 @@
 //
 
 public class Location {
-    public var name: String = ""
+    public var name = ""
     public var nameJP: String?
 
     public var localizedName: String {

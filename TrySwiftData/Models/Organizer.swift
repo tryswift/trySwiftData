@@ -9,19 +9,19 @@
 import Foundation
 
 public class Organizer {
-    public var id: Int = 0
-    public var name: String = "TBD"
+    public var id = 0
+    public var name = "TBD"
     public var nameJP: String?
-    public var twitter: String = "TBD"
+    public var twitter = "TBD"
     public var imageAssetName: String? = nil
     public var imageWebURL: String? = nil
-    public var bio: String = "TBD"
+    public var bio = "TBD"
     public var bioJP: String?
-    public var hidden: Bool = false
+    public var hidden = false
 
     public static var all: [String : Organizer] {
         let organizers =  tko2018Organizers.filter { $0.value.hidden == false}
-        let sortedOrganizers = organizers.sorted{ $0.value.name > $1.value.name }
+        let sortedOrganizers = organizers.sorted { $0.value.name > $1.value.name }
         return sortedOrganizers.dictionary()
     }
 

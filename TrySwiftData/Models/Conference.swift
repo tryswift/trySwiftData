@@ -11,12 +11,12 @@ public class Conference {
     public var twitter: String?
     public var logoAssetName: String?
     public var logoImageWebURL: String?
-    public var conferenceDescription: String = ""
+    public var conferenceDescription = ""
     public var conferenceDescriptionJP: String?
-    public var email: String = "info@tryswift.co"
-    public var slackURL: String = ""
-    public var githubIssuesURL: String = "https://github.com/tryswift/trySwiftAppFinal/issues"
-    public var codeOfConductURL: String = "https://www.tryswift.co/code-of-conduct/"
+    public var email = "info@tryswift.co"
+    public var slackURL = ""
+    public var githubIssuesURL = "https://github.com/tryswift/trySwiftAppFinal/issues"
+    public var codeOfConductURL = "https://www.tryswift.co/code-of-conduct/"
     public var venues = [Venue]()
     public var organizers = [Organizer]()
 

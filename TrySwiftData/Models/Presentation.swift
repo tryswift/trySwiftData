@@ -8,11 +8,11 @@
 
 
 public class Presentation {
-    public var id: Int = 0
+    public var id = 0
     public var speaker: Speaker?
-    public var title: String = "TBD"
+    public var title = "TBD"
     public var titleJP: String?
-    public var summary: String = "TBD"
+    public var summary = "TBD"
     public var summaryJP: String?
 
     public var localizedTitle: String {

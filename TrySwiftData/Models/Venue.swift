@@ -16,9 +16,9 @@ public enum VenueType: Int {
 }
 
 public class Venue {
-    public var title: String = ""
+    public var title = ""
     public var titleJP: String?
-    public var address: String = ""
+    public var address = ""
     public var addressJP: String?
     public var website: String?
     public var twitter: String?
