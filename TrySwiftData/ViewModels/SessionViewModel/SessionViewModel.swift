@@ -34,6 +34,8 @@ public struct SessionViewModel: SessionDisplayable {
             displayble = OfficeHoursSessionViewModel(session)!
         case .party:
             displayble = PartySessionViewModel(session)!
+        case .registration:
+            displayble = RegistrationSessionViewModel(session)!
         }
     }
     

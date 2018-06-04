@@ -25,7 +25,7 @@ public class Speaker {
     public var type: SpeakerType = .presentation
 
     public class var all: [Speaker] {
-        let speakers = tko2018Speakers.values.filter { $0.hidden == false}
+        let speakers = sjo2018Speakers.values.filter { $0.hidden == false}
         return speakers.sorted { $0.name < $1.name }
     }
 
