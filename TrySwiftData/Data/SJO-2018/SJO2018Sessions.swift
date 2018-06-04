@@ -13,7 +13,7 @@ public let sjo2018Sessions: [String : Session] = [
     // Day 1 Sessions
     "day1MorningRegistration" : Session(
         type: .registration,
-        title: "Morning Registration",
+        title: "Morning Registration, Twilio Quest",
         titleJP: nil,
         imageAssetName: "rikoPurple.png",
         sponsor: nil,
@@ -36,7 +36,7 @@ public let sjo2018Sessions: [String : Session] = [
     ),
 //---------------------------------------------------------
     "day1Panel" : Session(
-        type: .announcement,
+        type: .panel,
         title: "Swift Open Source Panel",
         titleJP: nil,
         imageAssetName: nil,
@@ -54,14 +54,14 @@ public let sjo2018Sessions: [String : Session] = [
         imageAssetName: "lunch.png",
         sponsor: nil,
         presentation: nil,
-        location: sjo2018Locations["mainroom"],
+        location: sjo2018Locations["outside"],
         event: nil,
         venue: nil
     ),
 //---------------------------------------------------------
     "day1AfternoonRegistration" : Session(
         type: .registration,
-        title: "Afternoon Registration",
+        title: "Afternoon Registration, Twilio Quest",
         titleJP: nil,
         imageAssetName: "rikoOrange.png",
         sponsor: nil,

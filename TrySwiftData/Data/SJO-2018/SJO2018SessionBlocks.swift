@@ -36,16 +36,6 @@ public let sjo2018SessionBlocks: [SessionBlock] = [
     ),
     SessionBlock(
         startTime: Date.date(year: 2018, month: 6, day: 8, hour: 13, minute: 30, second: 0),
-        endTime: Date.date(year: 2018, month: 6, day: 8, hour: 13, minute: 45, second: 0),
-        sessions: [sjo2018Sessions["day1Announcement"]!]
-    ),
-    SessionBlock(
-        startTime: Date.date(year: 2018, month: 6, day: 8, hour: 13, minute: 45, second: 0),
-        endTime: Date.date(year: 2018, month: 6, day: 8, hour: 14, minute: 30, second: 0),
-        sessions: [sjo2018Sessions["day1Presentations"]!]
-    ),
-    SessionBlock(
-        startTime: Date.date(year: 2018, month: 6, day: 8, hour: 14, minute: 30, second: 0),
         endTime: Date.date(year: 2018, month: 6, day: 8, hour: 18, minute: 0, second: 0),
         sessions: [sjo2018Sessions["day1Workshop"]!]
     ),

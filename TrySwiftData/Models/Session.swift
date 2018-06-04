@@ -21,6 +21,7 @@ public enum SessionType: Int {
     case officeHours
     case party
     case registration
+    case panel
 }
 
 public struct Session {

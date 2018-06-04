@@ -11,7 +11,12 @@ import Foundation
 public let sjo2018Locations: [String : Location] = [
     "mainroom" :
         Location(
-            name: "Almaden",
-            nameJP: "Almaden"
-        )
+            name: "Almaden@Hilton",
+            nameJP: "Almaden@Hilton"
+        ),
+    "outside" :
+        Location(
+            name: "San Jose",
+            nameJP: "San Jose"
+    )
 ]
