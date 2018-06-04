@@ -9,6 +9,7 @@
 import XCTest
 import TrySwiftData
 
+
 class WorkshopSessionViewModelTests: XCTestCase {
     
     //MARK: Local Variables

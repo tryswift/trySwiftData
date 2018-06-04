@@ -9,6 +9,7 @@
 import XCTest
 import TrySwiftData
 
+/*
 class TalkSessionViewModelTests: XCTestCase {
     
     fileprivate let conference = Conference.current
@@ -57,3 +58,4 @@ class TalkSessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.twitter, "@\(presentation.speaker!.twitter)")
     }
 }
+ */

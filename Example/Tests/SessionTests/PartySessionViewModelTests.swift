@@ -9,6 +9,7 @@
 import XCTest
 import TrySwiftData
 
+/*
 class PartySessionViewModelTests: XCTestCase {
    
     fileprivate let partySession = {
@@ -52,3 +53,4 @@ class PartySessionViewModelTests: XCTestCase {
         XCTAssertEqual(viewModel.twitter, Conference.current.twitter)
     }
 }
+ */

@@ -9,6 +9,7 @@
 import XCTest
 import TrySwiftData
 
+/*
 class CoffeeBreakSessionViewModelTests: XCTestCase {
     
     fileprivate let conference = Conference.current
@@ -75,3 +76,4 @@ class CoffeeBreakSessionViewModelTests: XCTestCase {
 //    }
     
 }
+ */

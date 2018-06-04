@@ -50,7 +50,7 @@ class BreakfastSessionViewModelTests: XCTestCase {
     }
     
     func testTwitter() {
-        XCTAssertEqual(viewModel.twitter, "@\(conference.twitter!)")
+        XCTAssertEqual(viewModel.twitter, "@\(conference.twitter)")
     }
     
 }

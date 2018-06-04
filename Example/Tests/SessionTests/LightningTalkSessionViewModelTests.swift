@@ -9,6 +9,7 @@
 import XCTest
 import TrySwiftData
 
+/*
 class LightningTalkSessionViewModelTests: XCTestCase {
     
     fileprivate let conference = Conference.current
@@ -86,3 +87,4 @@ class LightningTalkSessionViewModelTests: XCTestCase {
     }
     
 }
+ */
