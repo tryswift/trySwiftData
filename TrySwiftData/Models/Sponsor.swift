@@ -6,6 +6,8 @@
 //  Copyright © 2016 NatashaTheRobot. All rights reserved.
 //
 
+import Foundation
+
 public enum SponsorLevel: Int {
     case platinum
     case gold
