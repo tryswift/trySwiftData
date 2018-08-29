@@ -75,7 +75,7 @@ class WorkshopSessionViewModelTests: XCTestCase {
     
     
     func testShortDescription() {
-        XCTAssertEqual(viewModel.shortDescription, "Special Event")
+        XCTAssertEqual(viewModel.shortDescription, "💻")
     }
     
     func testLocation_withEvent() {

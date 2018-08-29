@@ -34,7 +34,7 @@ class LunchSessionViewModelTests: XCTestCase {
     }
     
     func testShortDescription() {
-        XCTAssertEqual(viewModel.shortDescription, "❤️")
+        XCTAssertEqual(viewModel.shortDescription, "🌯")
     }
     
     func testLocation() {
