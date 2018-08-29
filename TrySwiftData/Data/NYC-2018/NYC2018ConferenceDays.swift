@@ -13,7 +13,7 @@ public let nyc2018ConferenceDays: [ConferenceDay] = [
         ),
     ConferenceDay(
         date: Date.date(year: 2018, month: 9, day: 4, hour: 8, minute: 0, second: 0),
-        sessionBlocks: Array(nyc2018SessionBlocks[2...19])
+        sessionBlocks: Array(nyc2018SessionBlocks[1...19])
         ),
     ConferenceDay(
         date: Date.date(year: 2018, month: 9, day: 5, hour: 8, minute: 0, second: 0),

@@ -295,7 +295,7 @@ public let nyc2018Speakers: [String : Speaker] = [
     
     "vapor_team" : Speaker(
         id: 35,
-        name: "Tanner Nelson & Logan Wright",
+        name: "Tanner & Logan",
         twitter: "codevapor",
         imageAssetName: "tannerlogan.png",
         bio: "",
@@ -304,7 +304,7 @@ public let nyc2018Speakers: [String : Speaker] = [
     
     "kitura_team" : Speaker(
         id: 36,
-        name: "Chris Bailey & Ian Partridge",
+        name: "Chris & Ian",
         twitter: "KituraSwift",
         imageAssetName: "chrisian.png",
         bio: "Chris Bailey is a developer and technical leader in the Runtime Technologies team at IBM. Chris has spent over 15 years working on open source runtimes including Java, Node.js and Swift. Chris is a contributor and committor to the Swift Language, Foundation and Dispatch projects, and is on steering committee for the Swift Server APIs project aimed at making new networking, security and HTTP APIs available to the community. He is also the Chief Architect for the Swift@IBM, providing the open source Kitura server framework.\n\nIan Partridge is the technical lead of the Swift@IBM development team, working in open source to bring Swift to the cloud. A committer to the core Swift libraries and a developer of Kitura, one of the leading Swift web frameworks, he comes from a background in virtual machine performance and debugging. Ian regularly speaks at conferences including AltConf, iOSCon, dotSwift, SwiftConf and more.",
