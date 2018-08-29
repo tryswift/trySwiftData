@@ -28,7 +28,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "firebase.google.com",
         logoAssetName: "firebase.png",
         level: .platinum,
-        priority: 1
+        priority: 2
     ),
     
 
@@ -41,7 +41,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "twilio.com",
         logoAssetName: "twilio.png",
         level: .gold,
-        priority: 1
+        priority: 3
     ),
     
     "udacity" : Sponsor(
@@ -51,7 +51,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "udacity.com",
         logoAssetName: "udacity.png",
         level: .gold,
-        priority: 1
+        priority: 4
     ),
     
     "ww" : Sponsor(
@@ -61,7 +61,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "weightwatchers.com",
         logoAssetName: "weightwatchers.png",
         level: .gold,
-        priority: 1
+        priority: 5
     ),
     
     "butterfly" : Sponsor(
@@ -71,7 +71,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "butterflynetwork.com",
         logoAssetName: "butterfly.png",
         level: .gold,
-        priority: 1
+        priority: 6
     ),
 
 
@@ -84,7 +84,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "merrillcorp.com",
         logoAssetName: "merrill.png",
         level: .silver,
-        priority: 4
+        priority: 7
     ),
     
     "asl" : Sponsor(
@@ -94,7 +94,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "asynchrony.com",
         logoAssetName: "ASL.png",
         level: .silver,
-        priority: 4
+        priority: 8
     ),
     
     // Student
@@ -106,7 +106,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "jetbrains.com",
         logoAssetName: "jetbrains.png",
         level: .student,
-        priority: 4
+        priority: 9
     ),
     
     // Diversity
@@ -118,7 +118,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "meetup.com",
         logoAssetName: "meetup.png",
         level: .diversity,
-        priority: 4
+        priority: 10
     ),
     
     "lickability" : Sponsor(
@@ -128,7 +128,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "lickability.com",
         logoAssetName: "lickability.png",
         level: .diversity,
-        priority: 4
+        priority: 11
     ),
     
     "c1" : Sponsor(
@@ -138,7 +138,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "capitalone.com",
         logoAssetName: "c1.png",
         level: .diversity,
-        priority: 4
+        priority: 12
     ),
     
     "xogroup" : Sponsor(
@@ -148,7 +148,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "xogroupinc.com",
         logoAssetName: "xogroup.png",
         level: .diversity,
-        priority: 4
+        priority: 13
     ),
     
     "udacity_diversity" : Sponsor(
@@ -158,7 +158,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "udacity.com",
         logoAssetName: "udacity.png",
         level: .diversity,
-        priority: 1
+        priority: 14
     ),
     
     "novoda" : Sponsor(
@@ -168,7 +168,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "novoda.com",
         logoAssetName: "novoda.png",
         level: .diversity,
-        priority: 1
+        priority: 15
     ),
 
 
@@ -181,7 +181,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "glowforge.com",
         logoAssetName: "glowforge.png",
         level: .event,
-        priority: 4
+        priority: 16
     ),
 
     "tanookilabs" : Sponsor(
@@ -191,7 +191,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "tanookilabs.com",
         logoAssetName: "tanooki.png",
         level: .event,
-        priority: 4
+        priority: 17
     ),
     
     "xing" : Sponsor(
@@ -201,7 +201,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "xing.com",
         logoAssetName: "xoom.png",
         level: .event,
-        priority: 4
+        priority: 18
     ),
     
     "slice" : Sponsor(
@@ -211,7 +211,7 @@ public let nyc2018Sponsors: [String : Sponsor] = [
         displayURL: "slice.com",
         logoAssetName: "slice.png",
         level: .event,
-        priority: 4
+        priority: 19
     ),
     
 ]

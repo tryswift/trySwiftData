@@ -92,6 +92,7 @@ public let nyc2018Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day1FirstCoffee" : Session(
         type : .coffeeBreak,
+        imageAssetName : "breaktime1.png",
         location :  nyc2018Locations["hall"]
         ),
 //---------------------------------------------------------
@@ -119,6 +120,7 @@ public let nyc2018Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day2Twilio" : Session(
         type : .sponsoredDemo,
+        imageAssetName: "twilio_square.png",
         sponsor : nyc2018Sponsors["twilio"],
         location : nyc2018Locations["stage"]
         ),
@@ -186,6 +188,7 @@ public let nyc2018Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day1SecondCoffee" : Session(
         type : .coffeeBreak,
+        imageAssetName : "breaktime2.png",
         location :   nyc2018Locations["stage"]
         ),
 //---------------------------------------------------------
@@ -234,7 +237,7 @@ public let nyc2018Sessions: [String : Session] = [
     "day1Party" : Session(
         type : .party,
         title : "🎳 Party",
-        imageAssetName : "bowling",
+        imageAssetName : "frames.jpg",
         venue : nyc2018Venues["frames"]
         ),
 
@@ -279,6 +282,7 @@ public let nyc2018Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day2FirstCoffee" : Session(
         type : .coffeeBreak,
+        imageAssetName : "breaktime1.png",
         location :   nyc2018Locations["hall"]
         ),
 //---------------------------------------------------------
@@ -367,7 +371,7 @@ public let nyc2018Sessions: [String : Session] = [
 //---------------------------------------------------------
     "day2SecondCoffee" : Session(
         type : .coffeeBreak,
-        imageAssetName : "breaktime1.png",
+        imageAssetName : "breaktime2.png",
         location :   nyc2018Locations["hall"]
         ),
 //---------------------------------------------------------

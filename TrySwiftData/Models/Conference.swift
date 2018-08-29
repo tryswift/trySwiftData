@@ -18,6 +18,9 @@ public struct Conference {
     public let codeOfConductURL = "https://www.tryswift.co/code-of-conduct/"
     public let venues: [Venue]
     public let organizers: [Organizer]
+    public let emojiSet: String
+    public let timezone: String
+    public let dateFormat: String
 
     class BundleIdenifier { }
     static var conferenceBundle: Bundle { return Bundle(for: Conference.BundleIdenifier.self) }

@@ -9,15 +9,15 @@
 public let nyc2018ConferenceDays: [ConferenceDay] = [
     ConferenceDay(
         date: Date.date(year: 2018, month: 9, day: 3, hour: 14, minute: 0, second: 0),
-        sessionBlocks: Array(nyc2018SessionBlocks[0...6])
+        sessionBlocks: Array(nyc2018SessionBlocks[0..<1])
         ),
     ConferenceDay(
-        date: Date.date(year: 2018, month: 9, day: 8, hour: 8, minute: 0, second: 0),
-        sessionBlocks: Array(nyc2018SessionBlocks[0...6])
+        date: Date.date(year: 2018, month: 9, day: 4, hour: 8, minute: 0, second: 0),
+        sessionBlocks: Array(nyc2018SessionBlocks[2...19])
         ),
     ConferenceDay(
-        date: Date.date(year: 2018, month: 6, day: 8, hour: 8, minute: 0, second: 0),
-        sessionBlocks: Array(nyc2018SessionBlocks[0...6])
+        date: Date.date(year: 2018, month: 9, day: 5, hour: 8, minute: 0, second: 0),
+        sessionBlocks: Array(nyc2018SessionBlocks[20...38])
         )
 ]
 

@@ -16,7 +16,7 @@ public struct Speaker {
     public let id: Int
     public let name: String
     public let nameJP: String?
-    public let twitter: String?
+    public let twitter: String
     public let imageAssetName: String?
     public let imageWebURL: String?
     public let bio: String
@@ -28,7 +28,7 @@ public struct Speaker {
     init(id: Int,
          name: String,
          nameJP: String? = nil,
-         twitter: String?,
+         twitter: String,
          imageAssetName: String?,
          imageWebURL: String? = nil,
          bio: String,

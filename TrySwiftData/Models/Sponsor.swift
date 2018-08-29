@@ -67,11 +67,12 @@ public struct Sponsor {
             let sponsors = nyc2018Sponsors.filter { $0.value.level.rawValue == i }
             
             if sponsors.count > 0 {
-                let sponsorsSorted = sponsors.sorted { $0.value.priority < $1.value.priority }
+                //let sponsorsSorted = sponsors.sorted { $0.value.priority < $1.value.priority }
+                let sponsorsSorted = sponsors.sorted { $0.value.name < $1.value.name }
                 resultsSet[i] = sponsorsSorted.map { $0.value }
             }
         }
-
+        
         return resultsSet
     }
 

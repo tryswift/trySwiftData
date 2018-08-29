@@ -23,21 +23,21 @@ public let nyc2018Venues: [String : Venue] = [
         type: .conference
     ),
     "frames" : Venue(
-        title: "Party: Frames NYC",
+        title: "Frames NYC",
         titleJP: nil,
         address: "550 9th Ave, New York, NY 10018",
         addressJP: nil,
         website: "https://www.framesnyc.com/",
         twitter: nil,
         logoAssetName: "frames.jpg",
-        wifiNetworkName: "try Swift NYC",
+        wifiNetworkName: nil,
         wifiUsername: nil,
         wifiPassword: nil,
         type: .party
     ),
     
     "kitura_workshop" : Venue(
-        title: "Build a Cloud-Native Swift App",
+        title: "590 Madison Avenue, 12-1220",
         titleJP: nil,
         address: "590 Madison Avenue, New York, NY 10022",
         addressJP: nil,
@@ -51,7 +51,7 @@ public let nyc2018Venues: [String : Venue] = [
     ),
     
     "functional_workshop" : Venue(
-        title: "Understanding Function Composition with Setters",
+        title: "33 West 60th Street, 8th Floor",
         titleJP: nil,
         address: "33 West 60th Street, New York, NY 10023",
         addressJP: nil,
@@ -65,7 +65,7 @@ public let nyc2018Venues: [String : Venue] = [
     ),
     
     "vapor_workshop" : Venue(
-        title: "Deploying Your First Vapor API",
+        title: "345 West 35th Street",
         titleJP: nil,
         address: "345 West 35th Street, New York, NY 10001",
         addressJP: nil,
@@ -79,7 +79,7 @@ public let nyc2018Venues: [String : Venue] = [
     ),
     
     "kotlin_workshop" : Venue(
-        title: "Kotlin: Through the Looking Glass",
+        title: "138 West 25th Street, 7th FL",
         titleJP: nil,
         address: "138 West 25th Street, New York, NY 10001",
         addressJP: nil,
@@ -93,7 +93,7 @@ public let nyc2018Venues: [String : Venue] = [
     ),
     
     "ar_workshop" : Venue(
-        title: "Augmented Reality using ARKit",
+        title: "1441 Broadway, 6th floor",
         titleJP: nil,
         address: "1441 Broadway, New York, NY 10018",
         addressJP: nil,
@@ -107,7 +107,7 @@ public let nyc2018Venues: [String : Venue] = [
     ),
     
     "accessibility_workshop" : Venue(
-        title: "Making Your App More Accessible",
+        title: "20 W 23rd St, 4th floor",
         titleJP: nil,
         address: "20 W 23rd St, New York, NY 10010",
         addressJP: nil,
@@ -121,13 +121,13 @@ public let nyc2018Venues: [String : Venue] = [
     ),
     
     "crypto_workshop" : Venue(
-        title: "Adding Cryptocurrency Support to your iOS App",
+        title: "900 Broadway",
         titleJP: nil,
         address: "900 Broadway, New York, NY 10003",
         addressJP: nil,
         website: nil,
         twitter: nil,
-        logoAssetName: "tanooki.jpg",
+        logoAssetName: "tanooki_square.png",
         wifiNetworkName: nil,
         wifiUsername: nil,
         wifiPassword: nil,

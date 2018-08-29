@@ -280,13 +280,13 @@ public let nyc2018Speakers: [String : Speaker] = [
         id: 33,
         name: "Matias Seijas",
         twitter: "mseijas_",
-        imageAssetName: "mseijas.jpg",
+        imageAssetName: "mseijas.png",
         bio: "Matias is an iOS + Ethereum developer based in New York City. His interests and experience span a wide range of domains—from designing applications that use humor to help children with autism spectrum disorder, to reimagining navigation for the visually impaired, and developing interfaces for ambient intelligence environments. Excited about the future of technology, Matías has recently created Ethereum Playgrounds: an open-source collective focused on building a community of like-minded developers to share ideas and solutions to common challenges in the current Ethereum developer ecosystem through experimentation and play."
     ),
     
     "crypto_team" : Speaker(
         id: 34,
-        name: "Tamar Nachmany, Zeina Amhaz, Matias Seijas",
+        name: "Tamar, Zeina, Matias",
         twitter: "tryswiftnyc",
         imageAssetName: "cryptoteam.png",
         bio: "",
@@ -307,7 +307,7 @@ public let nyc2018Speakers: [String : Speaker] = [
         name: "Chris Bailey & Ian Partridge",
         twitter: "KituraSwift",
         imageAssetName: "chrisian.png",
-        bio: "",
+        bio: "Chris Bailey is a developer and technical leader in the Runtime Technologies team at IBM. Chris has spent over 15 years working on open source runtimes including Java, Node.js and Swift. Chris is a contributor and committor to the Swift Language, Foundation and Dispatch projects, and is on steering committee for the Swift Server APIs project aimed at making new networking, security and HTTP APIs available to the community. He is also the Chief Architect for the Swift@IBM, providing the open source Kitura server framework.\n\nIan Partridge is the technical lead of the Swift@IBM development team, working in open source to bring Swift to the cloud. A committer to the core Swift libraries and a developer of Kitura, one of the leading Swift web frameworks, he comes from a background in virtual machine performance and debugging. Ian regularly speaks at conferences including AltConf, iOSCon, dotSwift, SwiftConf and more.",
         hidden: true
     ),
     

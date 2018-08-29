@@ -8,14 +8,17 @@
 
 public let nyc2018Conferences: [Conference] = [
     Conference(
-        name: "try! Conference",
+        name: "try! NYC",
         twitter: "tryswiftnyc",
         logoAssetName: "Logo_NYC.png",
-        conferenceDescription: "try! Swift San Jose is your chance to contribute to Swift. Join a panel of Swift Open Source contributors for a discussion about the latest news on the Swift open source project, then contribute to Swift Evolution yourself with the help of community mentors! Happening on Friday, June 8th at the Hilton connected to the San Jose McEnery Convention Center at WWDC.",
+        conferenceDescription: "try! Conference is an international community gathering about the latest advancements in Swift Development. The event is about bringing together talent from all around the world to collaborate and share advanced knowledge and techniques to improve Swift craftsmanship. Coming again to New York City on September 4th & 5th 2018, with workshops happening on September 3rd!",
         conferenceDescriptionJP: nil,
         email: "nyc@tryswift.co",
         slackURL: "https://tryswiftnyc2018.slack.com/",
-        venues: nyc2018Venues.map { $1 },
-        organizers: nyc2018Organizers.map { $1 }
+        venues: [nyc2018Venues["newworldstages"]!, nyc2018Venues["frames"]!],
+        organizers: nyc2018Organizers,
+        emojiSet: "🐥🎉🗽",
+        timezone: "EST",
+        dateFormat: "h:mm a"
         )
 ]
