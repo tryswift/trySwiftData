@@ -144,7 +144,7 @@ public let nyc2018Presentations: [String : Presentation] = [
     "tactileux" : Presentation(
         id: 20,
         speaker: nyc2018Speakers["sdw"],
-        title: "What I learned creating a social media app clone",
+        title: "Crafting a delightful tactile user interface",
         summary: "Go through the steps to take a simple user interface from a utility to a sheer delight. Learn the touches and mindset required to (re)design your app's UI to let users love interacting with it."
     ),
     
