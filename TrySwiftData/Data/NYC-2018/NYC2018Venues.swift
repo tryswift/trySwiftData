@@ -121,9 +121,9 @@ public let nyc2018Venues: [String : Venue] = [
     ),
     
     "crypto_workshop" : Venue(
-        title: "900 Broadway",
+        title: "900 Broadway, Suite 404",
         titleJP: nil,
-        address: "900 Broadway, New York, NY 10003",
+        address: "900 Broadway, Suite 404, New York, NY 10003",
         addressJP: nil,
         website: nil,
         twitter: nil,
