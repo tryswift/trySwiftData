@@ -59,7 +59,7 @@ public let nyc2018Organizers: [Organizer] = [
         id: 1,
         name: "Matias Seijas",
         nameJP: nil,
-        twitter: "mseijas_",
+        twitter: "mseijas",
         imageAssetName: "matias.png",
         bio: "Matias is an iOS developer, interaction designer, and entrepeneur based in NYC. Passionate about integrating art, human nature, and technology in creative and novel forms, Matias' experience spans a wide range of domains—from designing applications that use humor to help children with autism spectrum disorder, to reimagining navigation for the visually impaired through haptic expressions, and developing AI-powered interfaces that can anticipate users' needs. His projects have been covered by numerous publications including The New York Times, the Discovery Channel, the 2018 Access+Ability exhibition at the Cooper Hewitt, Smithsonian Design Museum, and the 2015 AT&T Connect Ability Challenge for innovative assistive technologies.",
         bioJP: nil,
