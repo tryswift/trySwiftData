@@ -279,7 +279,7 @@ public let nyc2018Speakers: [String : Speaker] = [
     "mseijas" : Speaker(
         id: 33,
         name: "Matias Seijas",
-        twitter: "mseijas_",
+        twitter: "mseijas",
         imageAssetName: "mseijas.png",
         bio: "Matias is an iOS + Ethereum developer based in New York City. His interests and experience span a wide range of domains—from designing applications that use humor to help children with autism spectrum disorder, to reimagining navigation for the visually impaired, and developing interfaces for ambient intelligence environments. Excited about the future of technology, Matías has recently created Ethereum Playgrounds: an open-source collective focused on building a community of like-minded developers to share ideas and solutions to common challenges in the current Ethereum developer ecosystem through experimentation and play."
     ),
