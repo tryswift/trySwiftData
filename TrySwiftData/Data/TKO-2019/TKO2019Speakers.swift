@@ -8,7 +8,7 @@
 
 import Foundation
 
-public let nyc2018Speakers: [String : Speaker] = [
+public let tko2019Speakers: [String : Speaker] = [
     
     "ash" : Speaker(
         id: 1,

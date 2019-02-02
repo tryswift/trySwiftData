@@ -31,7 +31,7 @@ public struct Conference {
     }
 
     public static var current: Conference {
-        return nyc2018Conferences.first!
+        return tko2019Conferences.first!
     }
 
     public var logoURL: URL {

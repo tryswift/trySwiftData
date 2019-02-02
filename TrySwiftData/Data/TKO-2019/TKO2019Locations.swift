@@ -6,7 +6,7 @@
 //  Copyright © 2017 NatashaTheRobot. All rights reserved.
 //
 
-public let nyc2018Locations: [String : Location] = [
+public let tko2019Locations: [String : Location] = [
     "qaroom" :
         Location(
             name: "Q&A Area",

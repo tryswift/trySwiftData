@@ -6,4 +6,4 @@
 //  Copyright © 2017 NatashaTheRobot. All rights reserved.
 //
 
-public let nyc2018Events: [String : Event] = [:]
+public let tko2019Events: [String : Event] = [:]

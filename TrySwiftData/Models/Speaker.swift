@@ -48,7 +48,7 @@ public struct Speaker {
     }
     
     public static var all: [Speaker] {
-        let speakers = nyc2018Speakers.values.filter { $0.hidden == false}
+        let speakers = tko2019Speakers.values.filter { $0.hidden == false}
         return speakers.sorted { $0.name < $1.name }
     }
 

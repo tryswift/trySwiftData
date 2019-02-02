@@ -4,7 +4,7 @@
 
 import Foundation
 
-public let nyc2018Organizers: [Organizer] = [
+public let tko2019Organizers: [Organizer] = [
     Organizer(
         id: 1,
         name: "Natasha Murashev",

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public let nyc2018Sponsors: [String : Sponsor] = [
+public let tko2019Sponsors: [String : Sponsor] = [
     
     //Platinum
     "ibm" : Sponsor(

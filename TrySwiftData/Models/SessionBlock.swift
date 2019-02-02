@@ -17,6 +17,6 @@ public struct SessionBlock {
     public let sessions: [Session]
 
     public static var all: [SessionBlock] {
-        return nyc2018SessionBlocks
+        return tko2019SessionBlocks
     }
 }
