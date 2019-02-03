@@ -9,21 +9,6 @@
 import Foundation
 
 public let tko2019SessionBlocks: [SessionBlock] = [
-   
-    // Day 0
-    SessionBlock(
-        startTime : Date.date(year: 2019, month: 3, day: 3, hour: 14, minute: 0, second: 0),
-        endTime : Date.date(year: 2019, month: 3, day: 3, hour: 18, minute: 0, second: 0),
-        sessions : [
-            tko2019Sessions["kitura_workshop"]!,
-            tko2019Sessions["vapor_workshop"]!,
-            tko2019Sessions["ar_workshop"]!,
-            tko2019Sessions["accessiblity_workshop"]!,
-            tko2019Sessions["crypto_workshop"]!,
-            tko2019Sessions["func_workshop"]!,
-            tko2019Sessions["kotlin_workshop"]!
-        ]
-    ),
     
     // Day 1
     

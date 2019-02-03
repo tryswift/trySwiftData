@@ -9,58 +9,12 @@
 import Foundation
 
 public let tko2019Sessions: [String : Session] = [
-
-//---------------------------------------------------------
-    // Day 0 Workshops
-    
-    "kitura_workshop" : Session(
-        type: .workshop,
-        presentation: tko2019Presentations["kitura_workshop"],
-        venue: tko2019Venues["kitura_workshop"]
-        ),
-    
-    "vapor_workshop" : Session(
-        type: .workshop,
-        presentation: tko2019Presentations["vapor_workshop"],
-        venue: tko2019Venues["vapor_workshop"]
-    ),
-    
-    "ar_workshop" : Session(
-        type: .workshop,
-        presentation: tko2019Presentations["ar_workshop"],
-        venue: tko2019Venues["ar_workshop"]
-    ),
-    
-    "accessiblity_workshop" : Session(
-        type: .workshop,
-        presentation: tko2019Presentations["accessiblity_workshop"],
-        venue: tko2019Venues["accessibility_workshop"]
-    ),
-    
-    "crypto_workshop" : Session(
-        type: .workshop,
-        presentation: tko2019Presentations["crypto_workshop"],
-        venue: tko2019Venues["crypto_workshop"]
-    ),
-    
-    "func_workshop" : Session(
-        type: .workshop,
-        presentation: tko2019Presentations["func_workshop"],
-        venue: tko2019Venues["functional_workshop"]
-    ),
-    
-    "kotlin_workshop" : Session(
-        type: .workshop,
-        presentation: tko2019Presentations["kotlin_workshop"],
-        venue: tko2019Venues["kotlin_workshop"]
-    ),
-    
-    
 //---------------------------------------------------------
     // Day 1 Sessions
     "day1Breakfast" : Session(
         type: .breakfast,
         title: "Registration & Breakfast",
+        titleJP: "受付・朝食",
         imageAssetName: "donuts2.png",
         location:  tko2019Locations["hall"]
     ),
@@ -68,20 +22,27 @@ public let tko2019Sessions: [String : Session] = [
     "day1Opening" : Session(
         type: .announcement,
         title: "Opening Remarks",
-        imageAssetName: "announce_nyc_2.png",
-        location: tko2019Locations["stage"]
+        titleJP: "開会",
+        imageAssetName: "announce2.png",
+        location: tko2019Locations["hall"]
     ),
 //---------------------------------------------------------
-    "day1Ash" : Session(
+    "day1_1024jp" : Session(
         type: .talk,
-        presentation: tko2019Presentations["fear"],
-        location: tko2019Locations["stage"]
+        presentation: tko2019Presentations["native_macos"],
+        location: tko2019Locations["hall"]
     ),
 //---------------------------------------------------------
-    "day1Bas" : Session(
+    "day1LT1" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT1"],
+        location: tko2019Locations["hall"]
+    ),
+//---------------------------------------------------------
+    "day1Liz" : Session(
         type: .talk,
-        presentation: tko2019Presentations["granted"],
-        location: tko2019Locations["stage"]
+        presentation: tko2019Presentations["accessibility"],
+        location: tko2019Locations["hall"]
     ),
     
     "day1AshOfficeHours" : Session(

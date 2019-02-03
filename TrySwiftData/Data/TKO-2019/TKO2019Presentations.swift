@@ -10,228 +10,246 @@ import Foundation
 
 public let tko2019Presentations: [String : Presentation] = [
     
-    // Workshops
-    
-    "func_workshop" : Presentation(
-        id: 1,
-        speaker: tko2019Speakers["stephencelis"],
-        title: "Understanding Function Composition with Setters",
-        summary: "In this workshop we'll take a different approach to explore the foundations of functional programming: by focusing on functions and how they compose. We'll get comfortable with composition by defining and working with various operators, build an intuition for how function signatures connect, and bring things down to earth with some real-world applications for simplifying and improving your everyday code."
-    ),
-    
-    "crypto_workshop" : Presentation(
-        id: 2,
-        speaker: tko2019Speakers["crypto_team"],
-        title: "Adding Cryptocurrency Support to your iOS App",
-        summary: "This workshop will be a chance for iOS engineers interested in the intersection of Ethereum and mobile to learn about supporting Ethereum transactions on iOS. We’ll leave time for people to discuss what they’re working on, so both beginners and people already working on Ethereum-iOS projects are welcome!"
-    ),
-    
-    "kotlin_workshop" : Presentation(
-        id: 3,
-        speaker: tko2019Speakers["jonbott"],
-        title: "Kotlin: Through the looking glass",
-        summary: "Have you ever needed to consume a cross-platform library such as Charts for iOS and keep parity with your Android teammates?  Or perhaps you've been curious about porting your app to Android, but don't want to deal with Java.  Well, the good news is you can do this easily because you already know Kotlin - you just need some hands-on experience and to learn about the few small differences. Come take a look at how easy it is to learn Kotlin, build an android app, and find out what the hype is all about!  It ain't all roses, but it is a beautiful thing!"
-    ),
-    
-    "accessiblity_workshop" : Presentation(
-        id: 4,
-        speaker: tko2019Speakers["bas"],
-        title: "Making your app more accessible",
-        summary: "Go hands on with the accessibility APIs to make your app a better experience for everyone. By first exploring the different ways we can use our devices with the accessibility tools, you can get an idea of what it is like to use these tools, and where an app needs work to improve it. Work either on your own app or one of the great open source apps to improve your app for all users."
-    ),
-    
-    "ar_workshop" : Presentation(
-        id: 5,
-        speaker: tko2019Speakers["berta"],
-        title: "Augmented Reality using ARKit",
-        summary: "In this workshop, we will be building a tag championship game using the world map from ARKit 2, a small cooperative game using AR object in space where every participant shares the same world and reality. During the workshop attendees will not only learn how to share world AR experiences through ARKit 2 but also how to render 3D models, have objects react to proximity of users and use a 3D scene to build an AR experience."
-    ),
-    
-    "kitura_workshop" : Presentation(
-        id: 6,
-        speaker: tko2019Speakers["kitura_team"],
-        title: "Build a Cloud-Native Swift App",
-        summary: "In this workshop you'll learn the fundamentals of cloud-native technologies like Docker and Kubernetes, and build and deploy a real server-side Swift microservice into a production cloud cluster.  By first building a RESTful API in Kitura, we'll add in database persistence, monitoring, scaling and failover.  Sounds complicated?  We provide the tools and APIs to make it easy.  Learn some key skills, and get on the road to being a full-stack engineer."
-    ),
-    
-    "vapor_workshop" : Presentation(
-        id: 7,
-        speaker: tko2019Speakers["vapor_team"],
-        title: "Deploying Your First Vapor API",
-        summary: "This workshop is designed to help guide you through the deploy of your first Vapor API. We'll cover the basics of getting started with a new project, show some of the finer points of an API with Vapor, and ultimately, we'll cover how to deploy your project to the cloud. Let's be honest, building websites is cool, but until you have it live in the cloud, it always feels like something's missing. Come spend the day with Tanner Nelson and Logan Wright to learn more."
-    ),
-    
     // Presentations - Day 1
 
-    "fear" : Presentation(
+    "native_macos" : Presentation(
+        id: 1,
+        speaker: tko2019Speakers["1024jp"],
+        title: "Native macOS application, or the world of AppKit",
+        titleJP: "native macOS application、またはAppKitの世界",
+        summary: "Swift is the language which we cannot build native application in the iOS or macOS world without, but what is the native application? Is it the native application using Cocoa framework with Swift? To be proved native merits, programmers should know frameworks well, be familiar with Human Interface Guidelines and understand target OS well. By the way, we feel that the Marzipan is just around corner. In this talk, I'd like to talk about the essential point of view in building beautiful macOS native applications.",
+        summaryJP: "SwiftはiOSやmacOSなどの世界でネイティブアプリケーションを作るのに欠かせない言語ですが、さてnativeアプリケーションとはなんでしょうか？ SwiftからCocoaフレームワークを使えばネイティブアプリケーションなのでしょうか。ネイティブの真価を発揮するにはプログラマがFrameworkを知り尽くしHuman Interface Guidelinesに精通し、自身が対象OSの良き理解者である必要があります。そういえばMazipanの足音も聞こえてきましたね。美しいmacOSネイティブアプリケーションを作る上で欠かせない視点をお話しします。"
+    ),
+    
+    
+    "LT1" : Presentation(
+        id: 2,
+        speaker: tko2019Speakers["TBD_LT1"],
+        title: "LT1",
+        summary: "LT1"
+    ),
+    
+    "accessibility" : Presentation(
+        id: 3,
+        speaker: tko2019Speakers["liz_marley"],
+        title: "Color Contrast for Accessibility",
+        titleJP: "アクセシビリティのためのカラーコントラスト",
+        summary: "How much text contrast is enough? Instead of quibbling over shades of gray, we can use an equation to evaluate relative luminance and ensure more of our users can experience our content. An overview of the science behind the equation, and an exploration of some edge cases.",
+        summaryJP: "テキストのコントラストはどれだけあれば十分でしょうか？グレースケールの色をいじり回す、式を使用して相対的な明るさを評価し、より多くのユーザーがコンテンツを体験できるようにします。方程式の背後にある科学の概要、およびいくつかのエッジケースを探求してみます。"
+    ),
+    
+    "swift_light" : Presentation(
+        id: 4,
+        speaker: tko2019Speakers["jon_tait_beason"],
+        title: "Swift as Light",
+        titleJP: "Swift Light",
+        summary: "The Glowforge 3D Laser Printer creates beautiful things out of wood, leather, acrylic and more. By leveraging Coregraphics and other iOS APIs, our app allows users to create and manipulate vector graphics which they can send to their Glowforge. In this talk, we will review how we built some of these features in Swift and how Swift helps to make our solutions more robust, elegant and safe.",
+        summaryJP: "Glowforgeの3Dレーザープリンターは木、革、アクリルなどから美しい製品を作り出します。Coregraphicsと他のiOS APIを利用することで、アプリのユーザーはGlowforgeに送ることができるベクターグラフィックを作成したり、操作したりすることができます。このトークではこれらの機能をSwiftを用いてどのように構築したか、そしてSwiftを用いることで私達のソリューションがどのようにより堅牢でエレガントで安全になったかを説明します。"
+    ),
+    
+    "LT2" : Presentation(
+        id: 5,
+        speaker: tko2019Speakers["TBD_LT2"],
+        title: "LT2",
+        summary: "LT2"
+    ),
+    
+    "generics" : Presentation(
+        id: 6,
+        speaker: tko2019Speakers["yoshimura_hikaru"],
+        title: "Generics in protocol extension",
+        titleJP: "protocol/extensionにジェネリクスを入れたい",
+        summary: "The protocol only handle existential type like associatedtype. For some protocol, when we give some functions in protocol extension, we must put a concrete type. Protocol extension will work like searching function based on type, so it's needed concrete type in somewhere. For example, for some type called A, sometimes we want to write extension using List[A] finaly. In this talk, I'd like to consider how to create generics by force from existential type like associatedtype by using Curry-Howard correspondence.",
+        summaryJP: "protocolはassociatedtypeといった、いわゆる存在型しか扱うことができない。あるprotocolに対してextensionで機能を与えるとき、associatedtypeには必ずなんらかの具体的な型を入れることが求められる。protocol/extensionは型に基づいて関数を探すような動きをするため、どこかでは具体的な型が必要となるが、たとえば任意の型AについてList[A]を最終的に利用するようなextensionを書きたい時がある。このトークでは、カリー＝ハワード同型対応を利用してassociatedtypeのような存在型からジェネリクスを無理やり生み出す方法について考察する"
+    ),
+    
+    "keypath" : Presentation(
+        id: 7,
+        speaker: tko2019Speakers["benedikt_terhechte"],
+        title: "Introduction to Swift Keypaths",
+        titleJP: "Keypath入門",
+        summary: "Keypaths were added in Swift 4. They're a fantastic feature but sometimes it feels difficult to find good situations for using them. However, when understood and used the right way, keypaths allow you to implement additional abstractions into your codebase that would be much harder with generics or protocols. In order to be able to do that, though, it is useful to intuitively understand when to apply the Keypath pattern.\nThis talk will first explain the different types of keypaths that exist and then go through real world examples to showcase how they can be leveraged in your own projects.",
+        summaryJP: "KeypathはSwift 4で追加された機能です。素晴らしい機能を持っていますが、時として使い所を見つけるのが難しく感じます。しかし、Keypathを理解して正しく使えた時、ジェネリクスやプロトコルによるさらなる抽象化を実装できます。ただし、これを行えるようにするには、Keypathのパターンをいつ適用するかの直感的な理解が役に立ちます。このトークでは、まず、存在するさまざまな種類のKeypathについて説明し、次に実際の例を通して、それらが自分のプロジェクトでどのように活用できるかを紹介します。"
+    ),
+    
+    "memoryleak" : Presentation(
         id: 8,
-        speaker: tko2019Speakers["ash"],
-        title: "Circumventing Fear of the Unknown",
-        summary: "Have you ever seen Batman Begins? There's this great line where a bad guy says 'you always fear what you don't understand', and while I think there may be some truth to that, humans are pretty smart and I think we can probably figure out how to overcome our fears. When building software, we come across things we don't understand all the time. Overcoming our fear of what's beyond our understanding is incredibly useful to be happy and productive programmers. In this talk, Ash Furrow will go over some examples of things that scared him, and some of the techniques he uses to overcome that fear."
+        speaker: tko2019Speakers["tarunon"],
+        title: "Discover memory leak with Testcase",
+        titleJP: "テストケースでMemory Leakを発見する",
+        summary: "In Swift, memory are managed with ARC, so it's occurred memory-leak easily with bad code. How do you avoid memory-leak? Coding rules, Code review or QA as last bastion? Of course we are lazy, so we like something automated than effort or guts. As 4th way, I'd like to talk about test case implementation with Mirror.",
+        summaryJP: "SwiftはARCでメモリを管理しています。従って下手な書き方をすればメモリリークがいとも簡単に発生します。 どのようにメモリリークを防ぎますか？コーディング規約、コードレビュー、最後の砦のQA… 勿論、我々は怠惰なので、努力や根性よりも、自動的に動作するものを好みます。第四の方法として、Mirrorを使ったテストケースの実装を紹介します。"
     ),
     
-    
-    "granted" : Presentation(
+    "LT3" : Presentation(
         id: 9,
-        speaker: tko2019Speakers["bas"],
-        title: "Taken For Granted",
-        summary: "A look back at Swift when it was still in development (and how it rapidly changed), when in was in its beta stages, through to Swift 1 and 2 — and what is to come. I want to explore interesting parts of the evolution of the Swift language, and what that can bring now that we have a stable Swift 4, with Swift 5 around the corner - while also taking a look at the various long-term goals, like concurrency, regex, and an ownership model. How open source Swift has changed the language (particularly focusing on the involvement of the Swift evolution process) and the community that has formed around it."
+        speaker: tko2019Speakers["TBD_LT3"],
+        title: "LT3",
+        summary: "LT3"
     ),
     
-    "machinelearning" : Presentation(
+    "arkit" : Presentation(
         id: 10,
-        speaker: tko2019Speakers["aileen"],
-        title: "Understanding the Machine Learning Behind Common iOS Use Cases",
-        summary: "A look back at Swift when it was still in development (and how it rapidly changed), when in was in its beta stages, through to Swift 1 and 2 — and what is to come. I want to explore interesting parts of the evolution of the Swift language, and what that can bring now that we have a stable Swift 4, with Swift 5 around the corner - while also taking a look at the various long-term goals, like concurrency, regex, and an ownership model. How open source Swift has changed the language (particularly focusing on the involvement of the Swift evolution process) and the community that has formed around it."
+        speaker: tko2019Speakers["namrata_bandekar"],
+        title: "So you want to build an ARKit app",
+        titleJP: "ARKitのアプリを作ろう",
+        summary: "ARKit has shown how AR can be integrated into apps to make them more engaging and fun. If you are thinking about using ARKit in your app, this talk is for you. This talk covers challenges I experienced when building ARKit apps such as ensuring good app performance, positioning virtual objects and working with planes. Learn how to use ARKit to its full potential, keep your AR apps performant and deliver a polished end user experience.",
+        summaryJP: "ARKitはARをアプリに組み込んでより魅力的で楽しいものにする方法を示しました。もしあなたのアプリにARKitを使うことを考えているならこの話はあなたのためのものです。このトークではアプリのパフォーマンス確保や仮想オブジェクトの配置、平面の操作など、ARKitアプリを作る上で私が経験したチャレンジをお話します。ARKitを最大限活用し、ARアプリのパフォーマンスを維持し、洗練されたエンドユーザーエクスペリエンスを実現する方法を学びましょう。"
     ),
     
-    "memojis" : Presentation(
+    "LT4" : Presentation(
         id: 11,
-        speaker: tko2019Speakers["berta"],
-        title: "Memojis under the hood",
-        summary: "During this year's keynote memoji was introduced to iOS 12 and iPhone X, allowing users to create a meme of their own persona and use that for message apps as an animoji. In this talk I will walk you through some of the new thing from Face Tracking and how you can create your own memoji using ARKit 2."
+        speaker: tko2019Speakers["TBD_LT4"],
+        title: "LT4",
+        summary: "LT4"
     ),
     
-    "startup" : Presentation(
+    "usingc" : Presentation(
         id: 12,
-        speaker: tko2019Speakers["leah"],
-        title: "Idea to launch - the start of a startup",
-        summary: "Everyone is starting a startup these days. As a three-time startup founder, I'll get into how to come up with a great app idea, build a prototype and test it with users, pick a company name and incorporate, and how to launch your app to the world."
+        speaker: tko2019Speakers["cecilia_humlelu"],
+        title: "Using C, C++ and Objective C frameworks in Swift apps",
+        titleJP: "SwiftのアプリでCやC++、Objective-Cのフレームワークを使おう",
+        summary: "Swift is powerful, it is also relatively new. There are a lot of open source libraries that are written in C, C++ or Objective C. Is there a way to use them all to triple the opportunities to create more unique apps? Yes, we can! In this talk we will go through the basics to explain the relationship among C, C++ and Objective C and demonstrate how to set up the dependencies in a swift project.",
+        summaryJP: "Swiftは強力で、また、比較的新しい言語です。世の中にはC言語や、C++、Objective-Cで書かれたオープンソースライブラリが多くあります。ユニークなアプリを作るチャンスを3倍にするために、これを利用する手はないのでしょうか？ あります！ このトークでは、C、C++、Objective-Cの関係性を説明するための基本をなぞり、SwiftのプロジェクトにDependencyを追加する方法をデモします。"
     ),
     
-    "server" : Presentation(
+    "LT5" : Presentation(
         id: 13,
-        speaker: tko2019Speakers["gopal"],
-        title: "Swift on Server: Are We There Yet?",
-        summary: "Swift on the server has been talked about since Swift was open sourced. There have been a lot of efforts to make Swift on the server viable. However, when building a product, you should be focused on your product, not on the tools and frameworks backing it. This talk evaluates the holistic experience of building a small (but real) backend in Swift, versus a few well known frameworks in other languages, and tries to answer the age old question: Are we there yet?"
-    ),
-    
-    "swiftnioNetwork" : Presentation(
-        id: 14,
-        speaker: tko2019Speakers["jw"],
-        title: "SwiftNIO and Network.framework",
-        summary: "SwiftNIO was developed with a focus on providing useful, high-performance tools for building event-driven networking applications on the server side. It turns out that these primitives also work well in client applications. While the primitives transfer over, the networking environment is very different, and the socket layer, which works well in a server environment, is substantially less suited to operating on mobile clients. For this reason, SwiftNIO provides integration with the brand new Network.framework on Apple's client devices: a modern network stack for a mobile age. This talk will discuss the powerful tools that Network.framework provides, and how SwiftNIO exposes them. It'll discuss the different design tradeoffs between server and client side, and cover some of the key differences in the networking environments. Finally, this talk will look to the future, and discuss how the server and client worlds could converge over time."
-    ),
-    
-    "generic" : Presentation(
-        id: 15,
-        speaker: tko2019Speakers["jt"],
-        title: "Making it Generic",
-        summary: "Generic programming is a powerful paradigm that improves productivity and safety by allowing components to be reused without modification. In this talk, you will learn to make generic programs by identifying common requirements in a collection of similar concrete types."
+        speaker: tko2019Speakers["TBD_LT5"],
+        title: "LT5",
+        summary: "LT5"
     ),
     
     "siri" : Presentation(
-        id: 17,
-        speaker: tko2019Speakers["christina"],
-        title: "Let Them Say What They Want: Adding Siri Shortcuts",
-        summary: "Siri Shortcuts help to improve your user experience by making actions available with Siri in iOS, watchOS, CarPlay and HomePod. We can set up our apps to give easy access to frequent actions without needing to open the app. Even better, iOS can suggest frequently used actions pro-actively using notifications or the lock screen.</p><p>We’ll see how to add custom Siri Shortcuts to our apps, how to  expose them so that Siri can recommend them, and how to let users set up their own voice commands to access their favourite Shortcuts."
+        id: 14,
+        speaker: tko2019Speakers["nic_laughter"],
+        title: "Streamlining Interactions with Siri Shortcuts",
+        titleJP: "Siri Shortcutsとのやりとりを合理化する",
+        summary: "Siri Shortcuts is a new technology that enables the user to identify specific paths within an app they use often to be done quickly and easily using Siri. By enabling this capability in your apps, you can drive higher engagement and more ease of use with your app!",
+        summaryJP: "Siri Shortcutsは、ユーザーが頻繁に使用するアプリ内の特定のパスを識別し、Siriを使用してすばやく簡単に実行できるようにする新しい技術です。アプリでこの機能を有効にすることで、アプリのエンゲージメントと使いやすさを向上させることができます。"
     ),
     
-    "mlstart" : Presentation(
-        id: 18,
-        speaker: tko2019Speakers["audrey"],
-        title: "Getting Started with Apple ML",
-        summary: "You want to add ML to your apps but you think you need to study a lot of math and write Python and you can’t find the time? Think again: Apple’s Create ML gets you started in the comfort of Xcode and Swift! No math needed :]. Create ML is brilliant for getting you started with ML. It makes it easy to try different datasets — getting your data right is actually the hardest and most time consuming part of ML. Once you get started with ML, you won’t want to wait / hope for Apple to add more models to Create ML. To help you explore the ML universe that’s written in Python, I’ll reduce the fright factor by comparing Create ML Swift with Turi Create Python, and showing you how to quick-start your exploration of Turi Create. And I’ll point you to Keras and scikit-learn, in case you want to roll your own models."
-    ),
-    
-    "socialmedia" : Presentation(
-        id: 19,
-        speaker: tko2019Speakers["jen"],
-        title: "What I learned creating a social media app clone",
-        summary: "Ever look at an app and think, 'I wonder how I'd build that?' After scrolling through Instagram looking at cat photos, I decided to try my hand at building some of its features to determine how I'd tackle common development challenges. In this talk I share what I learned, including tips for designing a scalable data structure in a NoSQL database and implementing smooth scrolling with dynamically downloaded images."
-    ),
-    
-    "tactileux" : Presentation(
-        id: 20,
-        speaker: tko2019Speakers["sdw"],
-        title: "Crafting a delightful tactile user interface",
-        summary: "Go through the steps to take a simple user interface from a utility to a sheer delight. Learn the touches and mindset required to (re)design your app's UI to let users love interacting with it."
+    "prototype" : Presentation(
+        id: 15,
+        speaker: tko2019Speakers["maxim_cramer"],
+        title: "try Prototype!",
+        titleJP: "try Prototype!",
+        summary: "Why do we really write code? I’ve been wondering: how long is code suppose to live, and just how disposable is it? If our end goal is to deliver great and useful features for our users, is it worth writing disposable code to get to robust code? As good programmers we hone our craft, but let’s look at how can we put all that knowledge to good use so we build the right things, rather than just building things right.",
+        summaryJP: "なぜ私たちはコードを書くのでしょう？私は疑問に思っていました。コードはどれくらいの期間存続すると想定されていて、どれだけ使い捨てられるのでしょう？最終目標がユーザーに優れた便利な機能を提供することである場合、堅牢なコードに到達するために使い捨てるコードを書く価値はあるのでしょうか？私たちは優れたプログラマーとして、技術に磨きをかけますが、ただ正しくものを構築するのではなく、正しいものを構築するためにこれらすべての知識をどのように活用できるかを見てみましょう。"
     ),
     
     // Presentations - Day 2
 
-    "sdks" : Presentation(
-        id: 22,
-        speaker: tko2019Speakers["felix"],
-        title: "Trusting SDKs",
-        summary: "Using third party SDKs significantly speeds up your development process. Felix will talk about the risks of depending on external code, and how an attacker can easily inject malicious code in software you bundle within your app."
+    "magic" : Presentation(
+        id: 16,
+        speaker: tko2019Speakers["dave_deLong"],
+        title: "The Laws of Magic",
+        titleJP: "魔法の法則",
+        summary: "Learn to develop intelligent and immersive experiences by following rules inspired by Sci-Fi and Fantasy fiction. Like software, a complex and engaging magic system uses guidelines to construct a concrete user experience. This talk explores some speculative laws that support fictional world-building and shows how you can incorporate these lessons into your day-to-day app and code development to produce the same result: user engagement, purpose, and a sense of wonder.",
+        summaryJP: "サイエンスフィクションとファンタジー小説にインスパイアされたルールに従って、知的で没入型の体験を開発することを学びます。ソフトウェアと同様に、複雑で魅力的な魔法のシステムもガイドラインを使用して具体的なユーザー体験を構築します。この講演では、架空の世界構築をサポートするいくつかの思索的な法則を探り、これらの教訓を日々のアプリとコード開発に組み込んで同じ結果を生み出す方法を説明します。"
     ),
     
-    "swiftnio" : Presentation(
+    "LT6" : Presentation(
+        id: 17,
+        speaker: tko2019Speakers["TBD_LT6"],
+        title: "LT6",
+        summary: "LT6"
+    ),
+    
+    "hardware" : Presentation(
+        id: 18,
+        speaker: tko2019Speakers["sally_shepard"],
+        title: "Swift Hardware Hacking",
+        summary: "In this talk, we’ll explore how to use Swift to hack hardware.We’ll look at expanding the functionality of a cat coin bank (the one where you place a coin on top and cat pulls it into the coin bank) using a micro-controller and various sensors.We will:\n\n・Count money as it is deposited\n・Speak out the deposited amount/total balance\n・Connect to a phone via Bluetooth LE to send information between devices\n\nThe purpose of this talk is to understand how to get started working with Swift and hardware, it will provide enough of a foundation so you can try projects on your own.",
+        summaryJP: "このトークでは、Swiftを使ったハードウェアのハックの方法をお話します。猫の貯金箱(上にコインを置くと、猫がそれを貯金箱の中に引き込むもの)の機能を、マイクロコントローラーや様々なセンサーをつかって拡張する様子をお見せします。内容は\n\n・お金が預けられた際にカウントする。\n・預金総額/総合収支を音声でお知らせする。\n・Bluetooth LEで電話と接続し、デバイス間で情報を送る。\n\nです。このトークの目的は、どのようにSwiftでハードウェアを扱うことを始めるか理解することです。自分のプロジェクトで試せるように、必要十分な土台を提供します。"
+    ),
+    
+    "LT7" : Presentation(
+        id: 19,
+        speaker: tko2019Speakers["TBD_LT7"],
+        title: "LT7",
+        summary: "LT7"
+    ),
+    
+    "metadata" : Presentation(
+        id: 20,
+        speaker: tko2019Speakers["yuta_saito"],
+        title: "Swift type metadata",
+        summary: "Swift has type metadata, which can be stored type information on runtime. We don't use directly not so much, but it's important to understand the behavior of Swift runtime. In this talk, I'd like to talk about the type metadata and its implementation.",
+        summaryJP: "Swiftには実行時に型情報を保持するためのType metadataという仕組みがあります。 我々が頻繁に直接使うことはありませんが、Swiftのランタイムの動作を理解するための重要な要素です。 このトークでは Type metadata やその実装について紹介します。"
+    ),
+    
+    "extending" : Presentation(
+        id: 21,
+        speaker: tko2019Speakers["mayuko_inoue"],
+        title: "次へつなごう— Extending a hand to the next generation of Apple developers",
+        summary: "It’s never been a better time to start learning how to code. Technologies are evolving and growing every day, and with Apple’s recent advances in Swift and Swift playgrounds, Apple development has never been easier to try. However in the tech industry, there still exists a large gap between individuals trying to enter the industry as a Software Engineer, and the hiring demands of tech companies trying to fill their engineering roles. This talk will focus on this gap - the leaky bucket we see in the demographics of Software Engineers. We’ll talk about how we as Software Engineers can strengthen the existing Apple developer community by discussing how we can extend a hand to those trying to enter. This will involve topics such as sharing perspectives from non-Software Engineers about the difficulties of breaking the barrier, as well as the unique opportunity that Swift and this Apple developer community can provide.",
+        summaryJP: "これほどコーディングを学び始めるのによいタイミングはなかったでしょう。技術は日進月歩、進化を遂げています。Appleの開発はSwiftやSwift playgroundにおける進歩によって今までよりも簡単に取り組めるようになりました。しかし、テック業界では、ソフトウェアエンジニアとしてこの業界に入ろうとしている個人と、エンジニアリングの役割を果たすことを試みるテック企業の採用要求にはまだギャップが存在します。このトークでは、このギャップ、つまりソフトウェアエンジニアの人口統計に見られる漏れやすいバケツに焦点を当てます。どのようにして参入しようとしている人々に手を差し伸べることができるかを議論することによって、ソフトウェアエンジニアとしての私たちが既存のApple開発者コミュニティをどのように強化できるかについてお話しします。これには、壁を乗り越えることの難しさ、ならびにSwiftとこのApple開発者コミュニティが提供できるユニークな機会について、ソフトウェアエンジニア以外のエンジニアとの意見交換の共有などのトピックが含まれます。"
+    ),
+    
+    "sounds" : Presentation(
+        id: 22,
+        speaker: tko2019Speakers["adam_bell"],
+        title: "Shaping Sounds in Swift",
+        titleJP: "Swiftにおける音の成形",
+        summary: "Sound design with synthesizers is always viewed as something incredibly complicated, however with Swift it doesn't need to be. This talk will focus on the basics of sound synthesis, design, and how you can take really basic sounds and turn them into some of the most memorable of the century.",
+        summaryJP: "シンセサイザーを使ったサウンドデザインはいつも信じられないほど複雑なものと見なされていますが、Swiftではそうする必要はありません。このトークでは、音の合成、デザインの基本、そして基本的な音を、どうやって今世紀最も記憶に残るものに変えることができるかに焦点を当てます。"
+    ),
+    
+    "LT8" : Presentation(
         id: 23,
-        speaker: tko2019Speakers["logan"],
-        title: "Swift NIO, Vapor, and Server Concurrency",
-        summary: "NiO, Vapor's integration, and what it means for future of Swift."
+        speaker: tko2019Speakers["TBD_LT8"],
+        title: "LT8",
+        summary: "LT8"
+    ),
+    
+    "assembly" : Presentation(
+        id: 24,
+        speaker: tko2019Speakers["andrew"],
+        title: "Assembly. You can do it!",
+        titleJP: "アセンブリ、君ならできる！",
+        summary: "We’ve all had the experience of debugging an app only to end up looking at a wall of assembly that seems impossible to understand. Or maybe you’ve wanted to look at the source code for a UIKit method to understand why it behaves the way it does. In this talk, I’ll show you that even us regular developers can learn enough assembly to help track down bugs, to reverse engineer parts of the system frameworks, and to understand our own code more deeply.",
+        summaryJP: "みなさんにはアプリのデバッグで、結局アセンブリという自分には理解不能な壁を見るだけになった経験があったでしょう。もしくは、なぜUIKitがこのような挙動を示すのかを理解するために、UIKitのメソッドのソードコードをみたくなったこともあるかもしれません。このトークでは、我々のような普通の開発者でもアセンブリを深く学ぶことによって、バグを見つけ出したり、システムフレームワークのリバースエンジニアリングを行ったり、自身のコードをより深く理解することができることをお見せします。"
+    ),
+    
+    "LT9" : Presentation(
+        id: 25,
+        speaker: tko2019Speakers["TBD_LT9"],
+        title: "LT9",
+        summary: "LT9"
+    ),
+    
+    "designsystem" : Presentation(
+        id: 26,
+        speaker: tko2019Speakers["krstnfx"],
+        title: "Building a Mobile Design System",
+        titleJP: "モバイルのデザインシステムを構築する",
+        summary: "Learn how to build a mobile design system from the ground up. Learn what a design system is, how it's useful to your team, how it can help speed up your development and the first 3-5 things you need to focus on to get started successfully.",
+        summaryJP: "モバイルデザインシステムをゼロから構築する方法を学びます。デザインシステムとは何か、チームにどう役立つのか、開発のスピードアップにどのように役立つか、そして成功するためにはじめにフォーカスすべき３〜５つのことを学びます。"
+    ),
+    
+    "LT10" : Presentation(
+        id: 27,
+        speaker: tko2019Speakers["TBD_LT10"],
+        title: "LT10",
+        summary: "LT10"
     ),
     
     "coredata" : Presentation(
-        id: 24,
-        speaker: tko2019Speakers["tom"],
-        title: "Effective Core Data with Swift",
-        summary: "Core Data brings a lot of power to an app and continues to evolve, but it can have rough spots when you're working in Swift. What if you want to save an enum pr a struct? Does it help if your data is Codable? What's the best way to create Swift-friendly model classes? This session will cover techniques and gotchas for integrating Core Data with your Swift code."
-    ),
-    
-    "swift-services" : Presentation(
-        id: 25,
-        speaker: tko2019Speakers["kitura_team"],
-        title: "Swift Services are Simple",
-        summary: "Chris and Ian will explore what it’s like to build REST APIs in Kitura 2, using the built-in support for OpenAPI. Quickly generate an iOS and Android client SDK to use in your app, and deploy your server-side Swift app to the cloud. We’ll also provide an update on Kitura development and what the future might hold."
-    ),
-    
-    "codereview" : Presentation(
-        id: 26,
-        speaker: tko2019Speakers["april"],
-        title: "Compassionate—Yet Candid—Code Reviews",
-        summary: "Code reviews are essential for maintaining code quality and helping developers sharpen their coding skills. However, code reviews are also difficult to get right. Many code review comments end up being unclear, trivial, or condescending.</p><p>With compassion as a guideline, though, we can work to establish code review practices that minimize suffering for everyone involved—the code authors, the code reviewers, the code maintainers, and even the end users.</p><p>In this talk, you’ll learn that Compassionate Code Reviews are not about “sugarcoating” feedback and actually demand a considerable degree of candor. Equipped with a set of guidelines for executing Compassionate Code Reviews, you’ll leave inspired to apply them on your team to create better code and happier coders."
-    ),
-    
-    "marzipan" : Presentation(
-        id: 27,
-        speaker: tko2019Speakers["peter"],
-        title: "Hacking Marzipan",
-        summary: "I will show the hacks currently needed to try Marzipan, and walk through what I needed to do to get PDF Viewer to run on macOS Mojave."
-    ),
-    
-    "coreml" : Presentation(
         id: 28,
-        speaker: tko2019Speakers["kenmaz"],
-        title: "Super Resolution with CoreML",
-        summary: "The ‘Super Resolution' technique is used for converting low resolution images into high resolution, which reduces the amount of image data that needs to be transferred. In this talk, I'd like to show you the implementation of super resolution with CoreML and Swift, and compare the results with conventional methods. I’ll also talk about how to train your own model using your own data step by step. In addition, I’d like to introduce recent topics such as Turi Create, Swift for TensorFlow, CoreML2 and CreateML, which will be enhanced in iOS 12 and I’ll look at how iOS will take advantage of machine learning technology in the future.."
+        speaker: tko2019Speakers["donnywals"],
+        title: "In defence of Core Data",
+        titleJP: "Core Dataを守るために",
+        summary: "Over the year, Core Data has gained a pretty bad reputation amongst developers who prefer to use another service like Realm for their local persistence. In this talk I will make an argument for using Core Data and why it's not so bad. I will share some examples of where it's easy to go wrong with Core Data, and how to avoid those pitfalls. I will also quickly go over setting up Core Data in an app and by the end the audience should have a couple of simple rules that should help them safely integrate Core Data in their apps.",
+        summaryJP: "この数年、Core Dataはローカルでの永続化において、Realmのような他のサービスを好む開発者の間でかなりひどい評判を得ています。このトークでは、Core Dataを使うことはそんなに悪いことではない理由を説明します。Core Dataでうまくいかないところや、その落とし穴を回避する例をお見せします。また、Core Dataのアプリへの設定についても簡単に説明します。終わりには、みなさんはCore Dataをアプリに安全に統合するのに役立つ簡単なルールを用意することになるでしょう。"
     ),
     
-    "notifications" : Presentation(
+    "magician" : Presentation(
         id: 29,
-        speaker: tko2019Speakers["kaya"],
-        title: "Customizing Your Notifications for iOS 12",
-        summary: "At WWDC, Apple announced a lot of changes coming to Notifications for iOS 12. In this talk, we’ll go over these new features (provisional authorization, updating notification settings from the lock screen, group notifications and user interaction within a notification) and discuss ideas on how and why you might want to take advantage of them for your app."
+        speaker: tko2019Speakers["chris_britt"],
+        title: "Magician's DevKit",
+        titleJP: "マジシャンの開発ツール",
+        summary: "Storyteller and magician Chris Britt will talk about the magical mindset of ground breaking technologists and performance magicians(some are both!) he knows in Silicon Valley area and how they dream and solve for the impossible. These women and men have done amazing things: came up with the name and concept of hypertext, coded the first online airfare transaction, and lead the speech synthesis for Siri for Steve Jobs (he's an amazing magician as well!). Chris will share hands-on tools that everyone watching this talk can take with them to think, see and solve in new ways.",
+        summaryJP: "ストーリーテラーでありマジシャンであるChris Brittが、シリコンバレーで知った画期的な技術者とパフォーマンスマジシャン（何人かは両方を兼ねている！）の素晴らしい考え方と彼らがどのように夢を見て不可能を解決するかについて話します。彼/彼女らはHypertextの名前と概念を思いついたり、最初の航空運賃取引を実装したり、Steve Jobs（彼も同様に素晴らしいマジシャンだ！）のためにSiriの音声合成をリードするなど、驚くべきことを成し遂げました。Chrisはこの講演を聞いてくれているみなさんが新しい方法で考えたり、理解したり、解決するために使える実践的なツールを共有します。"
     ),
-    
-    "speed" : Presentation(
-        id: 30,
-        speaker: tko2019Speakers["erica"],
-        title: "Need for Speed: How XO Group Optimized their Image Loading Time on The Knot Mobile App",
-        summary: "In an increasingly fast-paced society, users demand immediate satisfaction from their products. When they tap on a mobile app icon they expect it to launch in four seconds or less. With 23% of users abandoning an app after first use, there’s not a second to spare in making a great first impression. See how much of The Knot’s loading time was eaten up by our asset catalogs and what we did about it."
-    ),
-    
-    "strings" : Presentation(
-        id: 31,
-        speaker: tko2019Speakers["mattt"],
-        title: "Strings Seven Ways",
-        summary: "Strings are the most versatile type in the Swift standard library. This talk looks at seven different ways to understand and work with strings: as collections of Unicode characters, as identifiers, as paths, as natural language text, as encoded data, as structured data, and as typographic content."
-    ),
-    
-    "betterswift" : Presentation(
-        id: 32,
-        speaker: tko2019Speakers["ddate"],
-        title: "Make our Swift better",
-        summary: "It has been three years since Swift was first introduced. Yet there are still missing features and unfixed bugs. The good news is that Swift is open source and we, the community have the power to fix it. In this talk, I’ll discuss how to pitch an idea in Swift Forums, submit a Proposal, and how to build, test and benchmark Swift using the example of Dictionary.compactMapValues that I proposed and got merged for Swift 5."
-    ),
-    
-    "superpowers" : Presentation(
-        id: 33,
-        speaker: tko2019Speakers["alicia"],
-        title: "Using your superpowers for good to change the world!",
-        summary: "A 16-year-old inspired me to learn to code. This lit the fuse that would take me on an amazing journey through challenges and victories while creating an app to help victims escape domestic violence and abuse."
-    ),
-    
 ]

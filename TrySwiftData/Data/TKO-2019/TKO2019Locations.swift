@@ -9,18 +9,13 @@
 public let tko2019Locations: [String : Location] = [
     "qaroom" :
         Location(
-            name: "Q&A Area",
-            nameJP: "Q&A Area"
+            name: "Q&A Room",
+            nameJP: "Q&Aルーム"
     ),
     "hall" :
         Location(
-            name: "Main Hall",
-            nameJP: "Main Hall"
-    ),
-    "stage" :
-        Location(
-            name: "Stage 2",
-            nameJP: "Stage 2"
+            name: "Hall",
+            nameJP: "ホール"
     )
 ]
 
