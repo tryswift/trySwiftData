@@ -32,6 +32,11 @@ public let tko2019Sessions: [String : Session] = [
         presentation: tko2019Presentations["native_macos"],
         location: tko2019Locations["hall"]
     ),
+    "day1_1024jpOfficeHours" : Session(
+        type: .officeHours,
+        presentation: tko2019Presentations["native_macos"],
+        location: tko2019Locations["qaroom"]
+    ),
 //---------------------------------------------------------
     "day1LT1" : Session(
         type: .lightningTalk,
@@ -39,15 +44,14 @@ public let tko2019Sessions: [String : Session] = [
         location: tko2019Locations["hall"]
     ),
 //---------------------------------------------------------
-    "day1Liz" : Session(
+    "day1Accessibility" : Session(
         type: .talk,
         presentation: tko2019Presentations["accessibility"],
         location: tko2019Locations["hall"]
     ),
-    
-    "day1AshOfficeHours" : Session(
+    "day1AccessibilityOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["fear"],
+        presentation : tko2019Presentations["accessibility"],
         location : tko2019Locations["qaroom"]
     ),
 //---------------------------------------------------------
@@ -57,45 +61,44 @@ public let tko2019Sessions: [String : Session] = [
         location :  tko2019Locations["hall"]
         ),
 //---------------------------------------------------------
-    "day1Aileen" : Session(
+    "day1SwiftLight" : Session(
         type : .talk,
-        presentation : tko2019Presentations["machinelearning"],
-        location : tko2019Locations["stage"]
+        presentation : tko2019Presentations["swift_light"],
+        location : tko2019Locations["hall"]
         ),
-    "day1BasOfficeHours" : Session(
+    "day1SwiftLightOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["granted"],
+        presentation : tko2019Presentations["swift_light"],
         location : tko2019Locations["qaroom"]
         ),
 //---------------------------------------------------------
-    "day1Berta" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["memojis"],
-        location :   tko2019Locations["stage"]
-        ),
-    "day1AileenOfficeHours" : Session(
-        type : .officeHours,
-        presentation : tko2019Presentations["machinelearning"],
-        location : tko2019Locations["qaroom"]
-        ),
+    "day1LT2" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT2"],
+        location: tko2019Locations["hall"]
+    ),
 //---------------------------------------------------------
-    "day2Twilio" : Session(
-        type : .sponsoredDemo,
-        imageAssetName: "twilio_square.png",
-        sponsor : tko2019Sponsors["twilio"],
-        location : tko2019Locations["stage"]
-        ),
-//---------------------------------------------------------
-    "day1Leah" : Session(
+    "day1Generics" : Session(
         type : .talk,
-        presentation : tko2019Presentations["startup"],
-        location :  tko2019Locations["stage"]
-        ),
-    "day1BertaOfficeHours" : Session(
+        presentation : tko2019Presentations["generics"],
+        location : tko2019Locations["hall"]
+    ),
+    "day1GenericsOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["memojis"],
+        presentation : tko2019Presentations["generics"],
         location : tko2019Locations["qaroom"]
-        ),
+    ),
+//---------------------------------------------------------
+    "day1Keypath" : Session(
+        type : .talk,
+        presentation : tko2019Presentations["keypath"],
+        location : tko2019Locations["hall"]
+    ),
+    "day1KeypathOfficeHours" : Session(
+        type : .officeHours,
+        presentation : tko2019Presentations["keypath"],
+        location : tko2019Locations["qaroom"]
+    ),
 //---------------------------------------------------------
     "day1Lunch" : Session(
         type : .lunch,
@@ -103,143 +106,124 @@ public let tko2019Sessions: [String : Session] = [
         location :   tko2019Locations["hall"]
         ),
 //---------------------------------------------------------
-    "day1Gopal" : Session(
+    "day1Memoryleak" : Session(
         type : .talk,
-        presentation : tko2019Presentations["server"],
-        location :   tko2019Locations["stage"]
-        ),
-    "day1LeahOfficeHours" : Session(
-        type : .officeHours,
-        presentation : tko2019Presentations["startup"],
-        location : tko2019Locations["qaroom"]
-        ),
-//---------------------------------------------------------
-    "day1JW" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["swiftnioNetwork"],
-        location :   tko2019Locations["stage"]
+        presentation : tko2019Presentations["memoryleak"],
+        location : tko2019Locations["hall"]
     ),
-    "day1GopalOfficeHours" : Session(
+    "day1MemoryleakOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["server"],
+        presentation : tko2019Presentations["memoryleak"],
         location : tko2019Locations["qaroom"]
     ),
 //---------------------------------------------------------
-    "day1JT" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["generic"],
-        location :   tko2019Locations["stage"]
-        ),
-    "day1JWOfficeHours" : Session(
-        type : .officeHours,
-        presentation : tko2019Presentations["swiftnioNetwork"],
-        location : tko2019Locations["qaroom"]
-        ),
+    "day1LT3" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT3"],
+        location: tko2019Locations["hall"]
+    ),
 //---------------------------------------------------------
-    "day1Christina" : Session(
+    "day1Arkit" : Session(
         type : .talk,
-        presentation : tko2019Presentations["siri"],
-        location :  tko2019Locations["stage"]
-        ),
-    "day1JTOfficeHours" : Session(
+        presentation : tko2019Presentations["arkit"],
+        location : tko2019Locations["hall"]
+    ),
+    "day1ArkitOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["generic"],
+        presentation : tko2019Presentations["arkit"],
         location : tko2019Locations["qaroom"]
-        ),
+    ),
+//---------------------------------------------------------
+    "day1LT4" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT4"],
+        location: tko2019Locations["hall"]
+    ),
 //---------------------------------------------------------
     "day1SecondCoffee" : Session(
         type : .coffeeBreak,
         imageAssetName : "breaktime2.png",
-        location :   tko2019Locations["stage"]
+        location :   tko2019Locations["hall"]
         ),
 //---------------------------------------------------------
-    "day1Audrey" : Session(
+    "day1Usingc" : Session(
         type : .talk,
-        presentation : tko2019Presentations["mlstart"],
-        location :  tko2019Locations["stage"]
-        ),
-    "day1ChristinaOfficeHours" : Session(
+        presentation : tko2019Presentations["usingc"],
+        location : tko2019Locations["hall"]
+    ),
+    "day1UsingcOfficeHours" : Session(
+        type : .officeHours,
+        presentation : tko2019Presentations["usingc"],
+        location : tko2019Locations["qaroom"]
+    ),
+//---------------------------------------------------------
+    "day1LT5" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT5"],
+        location: tko2019Locations["hall"]
+    ),
+//---------------------------------------------------------
+    "day1Siri" : Session(
+        type : .talk,
+        presentation : tko2019Presentations["siri"],
+        location : tko2019Locations["hall"]
+    ),
+    "day1SiriOfficeHours" : Session(
         type : .officeHours,
         presentation : tko2019Presentations["siri"],
         location : tko2019Locations["qaroom"]
-        ),
+    ),
 //---------------------------------------------------------
-    "day1Jen" : Session(
+    "day1Prototype" : Session(
         type : .talk,
-        presentation : tko2019Presentations["socialmedia"],
-        location :  tko2019Locations["stage"]
-        ),
-    "day1AudreyOfficeHours" : Session(
+        presentation : tko2019Presentations["prototype"],
+        location : tko2019Locations["hall"]
+    ),
+    "day1PrototypeOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["mlstart"],
+        presentation : tko2019Presentations["prototype"],
         location : tko2019Locations["qaroom"]
-        ),
-//---------------------------------------------------------
-    "day1SDW" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["tactileux"],
-        location :  tko2019Locations["stage"]
-        ),
-    "day1JenOfficeHours" : Session(
-        type : .officeHours,
-        presentation : tko2019Presentations["socialmedia"],
-        location : tko2019Locations["qaroom"]
-        ),
-
+    ),
 //---------------------------------------------------------
     "day1Closing" : Session(
         type : .announcement,
         title : "Closing / Announcments",
         imageAssetName : "announce_nyc_1.png",
-        location :   tko2019Locations["stage"]
+        location :   tko2019Locations["hall"]
         ),
-
+    
 //---------------------------------------------------------
-    "day1Party" : Session(
-        type : .party,
-        title : "🎳 Party",
-        imageAssetName : "frames.jpg",
-        venue : tko2019Venues["frames"]
-        ),
-
-
-//---------------------------------------------------------
-// Day 2 Sessions
+    // Day 2 Sessions
     "day2Breakfast" : Session(
         type : .breakfast,
         title : "Breakfast",
         imageAssetName : "donuts1.png",
         location :   tko2019Locations["hall"]
         ),
-    //---------------------------------------------------------
+//---------------------------------------------------------
     "day2Opening" : Session(
         type : .announcement,
         title : "Opening Remarks",
         imageAssetName : "announce_nyc_1.png",
-        location :   tko2019Locations["stage"]
+        location :   tko2019Locations["hall"]
         ),
-    //---------------------------------------------------------
-    "day2Felix" : Session(
+//---------------------------------------------------------
+    "day2Magic" : Session(
         type : .talk,
-        presentation : tko2019Presentations["sdks"],
-        location :   tko2019Locations["stage"]
+        presentation : tko2019Presentations["magic"],
+        location :   tko2019Locations["hall"]
         ),
-    "day2SDWOfficeHours" : Session(
+    "day2MagicOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["tactileux"],
+        presentation : tko2019Presentations["magic"],
         location : tko2019Locations["qaroom"]
         ),
 //---------------------------------------------------------
-    "day2Logan" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["swiftnio"],
-        location :   tko2019Locations["stage"]
-        ),
-    "day2FelixOfficeHours" : Session(
-        type : .officeHours,
-        presentation : tko2019Presentations["sdks"],
-        location : tko2019Locations["qaroom"]
-        ),
+    "day2LT6" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT6"],
+        location: tko2019Locations["hall"]
+    ),
 //---------------------------------------------------------
     "day2FirstCoffee" : Session(
         type : .coffeeBreak,
@@ -247,36 +231,42 @@ public let tko2019Sessions: [String : Session] = [
         location :   tko2019Locations["hall"]
         ),
 //---------------------------------------------------------
-    "day2Tom" : Session(
+    "day2Hardware" : Session(
         type : .talk,
-        presentation : tko2019Presentations["coredata"],
-        location :   tko2019Locations["stage"]
+        presentation : tko2019Presentations["hardware"],
+        location :   tko2019Locations["hall"]
         ),
-    "day2LoganOfficeHours" : Session(
+    "day2HardwareOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["swiftnio"],
+        presentation : tko2019Presentations["hardware"],
         location : tko2019Locations["qaroom"]
         ),
 //---------------------------------------------------------
-    "day2Kitura" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["swift-services"],
-        location :   tko2019Locations["stage"]
-        ),
-    "day2TomOfficeHours" : Session(
-        type : .officeHours,
-        presentation : tko2019Presentations["coredata"],
-        location : tko2019Locations["qaroom"]
-        ),
-//---------------------------------------------------------
-    "day2April" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["codereview"],
-        location :   tko2019Locations["stage"]
+    "day2LT7" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT7"],
+        location: tko2019Locations["hall"]
     ),
-    "day2KituraOfficeHours" : Session(
+//---------------------------------------------------------
+    "day2Metadata" : Session(
+        type : .talk,
+        presentation : tko2019Presentations["metadata"],
+        location :   tko2019Locations["hall"]
+    ),
+    "day2MetadataOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["swift-services"],
+        presentation : tko2019Presentations["metadata"],
+        location : tko2019Locations["qaroom"]
+    ),
+//---------------------------------------------------------
+    "day2Extending" : Session(
+        type : .talk,
+        presentation : tko2019Presentations["extending"],
+        location :   tko2019Locations["hall"]
+    ),
+    "day2ExtendingOfficeHours" : Session(
+        type : .officeHours,
+        presentation : tko2019Presentations["extending"],
         location : tko2019Locations["qaroom"]
     ),
 //---------------------------------------------------------
@@ -286,49 +276,39 @@ public let tko2019Sessions: [String : Session] = [
         location :   tko2019Locations["hall"]
         ),
 //---------------------------------------------------------
-    "day2Peter" : Session(
+    "day2Sounds" : Session(
         type : .talk,
-        presentation : tko2019Presentations["marzipan"],
-        location :   tko2019Locations["stage"]
+        presentation : tko2019Presentations["sounds"],
+        location :   tko2019Locations["hall"]
     ),
-    "day2AprilOfficeHours" : Session(
+    "day2SoundsOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["codereview"],
+        presentation : tko2019Presentations["sounds"],
         location : tko2019Locations["qaroom"]
     ),
 //---------------------------------------------------------
-    "day2Kenmaz" : Session(
+    "day2LT8" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT8"],
+        location: tko2019Locations["hall"]
+    ),
+//---------------------------------------------------------
+    "day2Assembly" : Session(
         type : .talk,
-        presentation : tko2019Presentations["coreml"],
-        location :   tko2019Locations["stage"]
+        presentation : tko2019Presentations["assembly"],
+        location :   tko2019Locations["hall"]
         ),
-    "day2PeterOfficeHours" : Session(
+    "day2AssemblyOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["marzipan"],
+        presentation : tko2019Presentations["assembly"],
         location : tko2019Locations["qaroom"]
         ),
 //---------------------------------------------------------
-    "day2Kaya" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["notifications"],
-        location :   tko2019Locations["stage"]
-        ),
-    "day2KenmazOfficeHours" : Session(
-        type : .officeHours,
-        presentation : tko2019Presentations["coreml"],
-        location : tko2019Locations["qaroom"]
-        ),
-//---------------------------------------------------------
-    "day2Erica" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["speed"],
-        location :   tko2019Locations["stage"]
-        ),
-    "day2KayaOfficeHours" : Session(
-        type : .officeHours,
-        presentation : tko2019Presentations["notifications"],
-        location : tko2019Locations["qaroom"]
-        ),
+    "day2LT9" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT9"],
+        location: tko2019Locations["hall"]
+    ),
 //---------------------------------------------------------
     "day2SecondCoffee" : Session(
         type : .coffeeBreak,
@@ -336,36 +316,42 @@ public let tko2019Sessions: [String : Session] = [
         location :   tko2019Locations["hall"]
         ),
 //---------------------------------------------------------
-    "day2Mattt" : Session(
+    "day2Designsystem" : Session(
         type : .talk,
-        presentation : tko2019Presentations["strings"],
-        location :   tko2019Locations["stage"]
+        presentation : tko2019Presentations["designsystem"],
+        location :   tko2019Locations["hall"]
         ),
-    "day2EricaOfficeHours" : Session(
+    "day2DesignsystemOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["speed"],
+        presentation : tko2019Presentations["designsystem"],
         location : tko2019Locations["qaroom"]
         ),
 //---------------------------------------------------------
-    "day2Ddate" : Session(
+    "day2LT10" : Session(
+        type: .lightningTalk,
+        presentation: tko2019Presentations["LT10"],
+        location: tko2019Locations["hall"]
+    ),
+//---------------------------------------------------------
+    "day2Coredata" : Session(
         type : .talk,
-        presentation : tko2019Presentations["betterswift"],
-        location :   tko2019Locations["stage"]
+        presentation : tko2019Presentations["coredata"],
+        location :   tko2019Locations["hall"]
         ),
-    "day2MatttOfficeHours" : Session(
+    "day2CoredataOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["strings"],
+        presentation : tko2019Presentations["coredata"],
         location : tko2019Locations["qaroom"]
         ),
 //---------------------------------------------------------
-    "day2Alicia" : Session(
+    "day2Magician" : Session(
         type : .talk,
-        presentation : tko2019Presentations["superpowers"],
-        location :   tko2019Locations["stage"]
+        presentation : tko2019Presentations["magician"],
+        location :   tko2019Locations["hall"]
         ),
-    "day2DdateOfficeHours" : Session(
+    "day2MagicianOfficeHours" : Session(
         type : .officeHours,
-        presentation : tko2019Presentations["betterswift"],
+        presentation : tko2019Presentations["magician"],
         location : tko2019Locations["qaroom"]
         ),
 //---------------------------------------------------------
@@ -373,7 +359,21 @@ public let tko2019Sessions: [String : Session] = [
         type : .announcement,
         title : " Closing / Announcements",
         imageAssetName : "announce_nyc_2.png",
-        location :   tko2019Locations["stage"]
-        )
+        location :   tko2019Locations["hall"]
+        ),
 //---------------------------------------------------------
+    "day2Party" : Session(
+        type : .party,
+        title : "🎳 Party",
+        imageAssetName : "frames.jpg",
+        location :   tko2019Locations["hall"]
+    ),
+//---------------------------------------------------------
+    // Day 3 Sessions
+    "day3Workshop1" : Session(
+        type : .workshop,
+        title : "awesome workshop",
+        imageAssetName : "announce1.png",
+        location :   tko2019Locations["workshop_location1"]
+    )
 ]

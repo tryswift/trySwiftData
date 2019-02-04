@@ -16,6 +16,11 @@ public let tko2019Locations: [String : Location] = [
         Location(
             name: "Hall",
             nameJP: "ホール"
+    ),
+    "workshop_location1" :
+        Location(
+            name: "TBA",
+            nameJP: "TBA"
     )
 ]
 
