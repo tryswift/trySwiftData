@@ -51,7 +51,7 @@ public let tko2019Speakers: [String : Speaker] = [
         id: 5,
         name: "Chris Britt",
         twitter: "chrisbritt",
-        imageAssetName: "chris_britt.jpg",
+        imageAssetName: "chris_britt2.jpg",
         bio: "Chris Britt is a speaker, emcee and magical thinker.  He has spent ten years working in tech marketing at Dell and EMC Corp, and helped kickstart the funding of Hypothes.is, an open source project that allows annotation of the web, with anyone, anywhere. As a magician he has invented over 50 illusions and is happy to be back in the innovative and inspiring city of Tokyo.",
         bioJP: "Chris Brittはスピーカー、司会者そしてマジカルシンカーです。彼は、DellとEMC Corpで10年に渡ってハイテクマーケティングに携わったり、誰でも、どこでも、Webに注釈を付けることができるオープンソースプロジェクトであるHypothes.isの資金調達を手助けしたりしました。マジシャンとして、彼は50を超えるイリュージョンを発明しました。イノベーティブで感動的な東京の街に戻ってきて幸せです。"
     ),
@@ -110,11 +110,11 @@ public let tko2019Speakers: [String : Speaker] = [
         bioJP: "Ceciliaです。開発者でもあり、ミニチュアクラフターやアクロヨガなどもしています。予想もしてないと思いますが、かつてリフトトラックの運転手でした。"
     ),
     
-    "dave_deLong" : Speaker(
+    "dave_delong" : Speaker(
         id: 11,
         name: "Dave DeLong",
         twitter: "davedelong",
-        imageAssetName: "dave_deLong.jpg",
+        imageAssetName: "dave_delong.jpg",
         bio: "A seven-year veteran of Apple, Dave DeLong is an accomplished iOS engineer with a passion for teaching, experimentation, and hacking the Objective-C runtime. During his time at Apple, he worked on the UIKit framework, Developer Evangelism, and Apple Maps. He also worked on the Product Experience team at Snap, Inc.                                                                                  Dave, his family, and his large collection of Brandon Sanderson books live near Salt Lake City, where he’s an active member of the local developer community. He can often be found on Twitter teaching developers about all the ways that calendrical calculations can go wrong and pontificating on the virtues of eating chocolate with peanut butter.",
         bioJP: "Appleの7年のベテランであるDave DeLongは、教えること、実験すること、そしてObjective-Cランタイムをハックすることに情熱を注いでいる熟練したiOSエンジニアです。彼はAppleにいた間、UIKit、Developer Evangelism、そしてApple Mapsに取り組んでいました。また、Snap, Inc.のプロダクトエクスペリエンスチームにも携わっていました。彼は家族とソルトレイクシティの近くに住んでいて、たくさんのBrandon Sanderson本のコレクションを持っていたり、地元の開発者コミュニティで活発に活動しています。彼はよくTwitterに出没して、開発者にカレンダーの計算はうまくいかないことや、ピーナッツバターとチョコレートを食べることの美徳について教えている姿をみることができます。"
     ),

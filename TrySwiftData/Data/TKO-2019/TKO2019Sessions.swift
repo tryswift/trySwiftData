@@ -27,12 +27,12 @@ public let tko2019Sessions: [String : Session] = [
         location: tko2019Locations["hall"]
     ),
 //---------------------------------------------------------
-    "day1_1024jp" : Session(
+    "day11024jp" : Session(
         type: .talk,
         presentation: tko2019Presentations["native_macos"],
         location: tko2019Locations["hall"]
     ),
-    "day1_1024jpOfficeHours" : Session(
+    "day11024jpOfficeHours" : Session(
         type: .officeHours,
         presentation: tko2019Presentations["native_macos"],
         location: tko2019Locations["qaroom"]
@@ -179,7 +179,7 @@ public let tko2019Sessions: [String : Session] = [
         presentation : tko2019Presentations["prototype"],
         location : tko2019Locations["hall"]
     ),
-    "day1PrototypeOfficeHours" : Session(
+    "day2PrototypeOfficeHours" : Session(
         type : .officeHours,
         presentation : tko2019Presentations["prototype"],
         location : tko2019Locations["qaroom"]
@@ -366,7 +366,8 @@ public let tko2019Sessions: [String : Session] = [
         type : .party,
         title : "🎳 Party",
         imageAssetName : "frames.jpg",
-        location :   tko2019Locations["hall"]
+        location :   tko2019Locations["hall"],
+        venue: tko2019Venues["bellesalle-shibuya-first"] //TODO
     ),
 //---------------------------------------------------------
     // Day 3 Sessions

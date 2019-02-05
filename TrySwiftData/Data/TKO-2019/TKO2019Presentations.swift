@@ -142,7 +142,7 @@ public let tko2019Presentations: [String : Presentation] = [
 
     "magic" : Presentation(
         id: 16,
-        speaker: tko2019Speakers["dave_deLong"],
+        speaker: tko2019Speakers["dave_delong"],
         title: "The Laws of Magic",
         titleJP: "魔法の法則",
         summary: "Learn to develop intelligent and immersive experiences by following rules inspired by Sci-Fi and Fantasy fiction. Like software, a complex and engaging magic system uses guidelines to construct a concrete user experience. This talk explores some speculative laws that support fictional world-building and shows how you can incorporate these lessons into your day-to-day app and code development to produce the same result: user engagement, purpose, and a sense of wonder.",
