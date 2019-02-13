@@ -655,7 +655,24 @@ public let tko2019Sponsors: [String : Sponsor] = [
         priority: 63
     ),
     
+    "akinori_fukumura" : Sponsor(
+        name: "Akinori Fukumura",
+        nameJP: nil,
+        url: "https://twitter.com/fukumura",
+        displayURL: "twitter.com/fukumura",
+        logoAssetName: "akinori_fukumura.jpg",
+        level: .individual,
+        priority: 64
+    ),
+    
+    "takeshi_sato" : Sponsor(
+        name: "Takeshi Sato",
+        nameJP: nil,
+        url: "https://twitter.com/hatakenokakashi",
+        displayURL: "twitter.com/hatakenokakashi",
+        logoAssetName: "takeshi_sato.jpg",
+        level: .individual,
+        priority: 65
+    ),
+    
 ]
-
-
-
