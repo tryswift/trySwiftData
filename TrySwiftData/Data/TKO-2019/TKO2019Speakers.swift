@@ -116,7 +116,7 @@ public let tko2019Speakers: [String : Speaker] = [
         twitter: "b3ll",
         imageAssetName: "adam_bell.jpg",
         bio: "Adam is a software engineer specializing in audio, animations, interactions, and gestures, currently working on Origami Studio at Facebook. When he's not racing cars or messing with synthesizers, you'll usually find him dabbling in the internals of Apple products or getting Doom to run on platforms it really wasn't designed for <a href='https://www.youtube.com/watch?v=GD0L46y3IqI' target='_blank'>(https://www.youtube.com/watch?v=GD0L46y3IqI)</a> 🙃.",
-        bioJP: "Adamは、オーディオ、アニメーション、インタラクション、ジェスチャーに精通したソフトウェアエンジニアです。現在は、FacebookのOrigami Studioで働いています。彼は、シンセサイザーにちょっかいを出すかカーレースをしていないときは、大体Apple製品をいじっているかDoomが動かないように作られているプラットフォームでDoomを動かしています https://www.youtube.com/watch?v=GD0L46y3IqI🙃。"
+        bioJP: "Adamは、オーディオ、アニメーション、インタラクション、ジェスチャーに精通したソフトウェアエンジニアです。現在は、FacebookのOrigami Studioで働いています。彼は、シンセサイザーにちょっかいを出すかカーレースをしていないときは、大体Apple製品をいじっているかDoomが動かないように作られているプラットフォームでDoomを動かしています https://www.youtube.com/watch?v=GD0L46y3IqI 🙃。"
     ),
     
     "mayuko_inoue" : Speaker(
@@ -124,7 +124,7 @@ public let tko2019Speakers: [String : Speaker] = [
         name: "Mayuko Inoue",
         twitter: "hellomayuko",
         imageAssetName: "mayuko_inoue.jpg",
-        bio: "Mayuko is an iOS Engineer and the founder of <a href='https://www.youtube.com/helloMayuko' target='_blank'>helloMayuko</a>, a youtube channel with over 200,000 subscribers aimed at helping make the tech industry feel more accessible to those trying to enter. She creates vlog-style videos about software development and other topics to demystify the life and career path of a Software Engineer. She is passionate about the creating products that help people, the creative arts, and boppin music.",
+        bio: "Mayuko is an iOS Engineer and the founder of https://www.youtube.com/helloMayuko , a youtube channel with over 200,000 subscribers aimed at helping make the tech industry feel more accessible to those trying to enter. She creates vlog-style videos about software development and other topics to demystify the life and career path of a Software Engineer. She is passionate about the creating products that help people, the creative arts, and boppin music.",
         bioJP: "MayukoはiOSエンジニアと20万人以上のチャンネル登録者を持つYoutuberです。 初心者にとってテック業界をより身近に感じるよう、ソフトウェアエンジニアのキャリアパスやシリコンバレーでの生活、ソフトウェア開発やその他の話題についてのvlogを制作してます。 アメリカ生まれ育ちで関西弁を喋る彼女。最近はサードウェイブコーヒーにはまってます。"
     ),
     
@@ -173,94 +173,94 @@ public let tko2019Speakers: [String : Speaker] = [
         bioJP: "Donnyは情熱的で好奇心旺盛なiOS開発者、著者、スピーカーです。Disneyで働いていて、内部iOSSDKを開発しています。この数年iOS開発本を３冊書き、何回か登壇したり、ワークショップを開いています。iOS開発以外では、猫の愛好家だったり、ギターの即興が好きです。"
     ),
     
-    "TBD_LT1" : Speaker(
+    "yuki" : Speaker(
         id: 19,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Yuki Aki",
+        twitter: "___freddi___",
+        imageAssetName: "yuki.png",
+        bio: "Yuki is an iOS Developer at LINE Fukuoka. From started intern, his Quority of Life and weight has increased so that he is in a diet. Reacently He reads Swiftc and SIL so much hard. When he's not coding, he likes to draw cat illustration.",
+        bioJP: "LINE Fukuokaでインターンシップエンジニアやっていて、4月から正式なエンジニアになります。インターン始めてからQOLが上がって10kg太りました、ダイエット辛いです。Swift歴は3月で1年になり、最近は周り影響でswiftcのコードやSILとか読んだりしてますが、周りよりも読めなくて辛いです。趣味は猫の絵を書くことですが、最近iPadを壊してとても辛いです。"
     ),
     
-    "TBD_LT2" : Speaker(
+    "tomoya" : Speaker(
         id: 20,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Tomoya Hirano",
+        twitter: "noppefoxwolf",
+        imageAssetName: "tomoya.png",
+        bio: "Tomoya is iOS developer at DeNA and works on Pococha, which is live streaming app. He loves fox so much🦊💕",
+        bioJP: "株式会社ディー・エヌ・エーでライブ配信アプリPocochaを開発しています。キツネが大好き🦊💕"
     ),
     
-    "TBD_LT3" : Speaker(
+    "kapsy" : Speaker(
         id: 21,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Michael Petrie",
+        twitter: "kapsy1312",
+        imageAssetName: "kapsy.jpg",
+        bio: "My name is Michael Petrie, but everyone calls me Kapsy. I work for ZOZO Technologies and lead the iOS measurement framework team. I have a background in games and real time programming, using C and C++, and yearn for the day when we can all decide on a common ISA (Instruction Set Architecture) and be happy.",
+        bioJP: "Michael Petrieです。みんなからはKaspyと呼ばれています。ZOZO Technologiesで働いていて、iOS measurement frameworkチームをリードしています。CとC ++を使ったゲームとリアルタイムプログラミングのバックグラウンドを持っています。みんなが共通のISA（Instruction Set Architecture）を決めて幸せになれる日を切望しています。"
     ),
     
-    "TBD_LT4" : Speaker(
+    "ryo" : Speaker(
         id: 22,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Ryo Izumi",
+        twitter: "izm256",
+        imageAssetName: "ryo.jpg",
+        bio: "Ryo is an iOS Developer at Nohana. He likes to drink sake so much.",
+        bioJP: "株式会社ノハナでiOSエンジニアをしています。 お酒をよく飲みます。"
     ),
     
-    "TBD_LT5" : Speaker(
+    "kamil" : Speaker(
         id: 23,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Kamil Borzym",
+        twitter: "kam800",
+        imageAssetName: "kamil.jpg",
+        bio: "Kamil is an iOS software developer. He is very curious of how things work internally, so he likes to decompile frameworks and apps.",
+        bioJP: "KamilはiOSソフトウェア開発者です。ものが中でどう動くのかに興味があって、フレームワークやアプリをデコンパイルするのが好きです。"
     ),
     
-    "TBD_LT6" : Speaker(
+    "rina" : Speaker(
         id: 24,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Rina Kotake",
+        twitter: "koooootake",
+        imageAssetName: "rina.png",
+        bio: "Rina started to work at DeNA from 2017. From she was child, her dream is being Pokemon master. In 2011 MITOU Program, she adopted this program and open her eyes up to the fun in making things. She attended a lots of hackathon and contest and got over 25 awards. Now she develops MangaBox iOS app.",
+        bioJP: "将来の夢は「ポケモンマスター」。未踏事業「スーパークリエイター」に認定されて以降、ものづくりの楽しさに目覚める。多くのハッカソンやコンテストに参加し、25以上の賞を獲得。現在はDeNAで「マンガボックス」のiOSアプリ開発を行う。"
     ),
     
-    "TBD_LT7" : Speaker(
+    "kuniwak" : Speaker(
         id: 25,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Yuki Kokubun",
+        twitter: "orga_chem",
+        imageAssetName: "kuniwak.png",
+        bio: "Yuki is working at DeNA and experts for unit testing in iOS / Web. He purchases fun, wise, and valued testing. He likes to hear the voice of testing.",
+        bioJP: "iOS や Web の単体テストを専門としていて、最近は株式会社ディー・エヌ・エーで楽しく賢く価値あるテストを追求している。趣味はテストの声を聴くこと。"
     ),
     
-    "TBD_LT8" : Speaker(
+    "yuto" : Speaker(
         id: 26,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Yuto Mizutani",
+        twitter: "expensive_man",
+        imageAssetName: "yuto.png",
+        bio: "Yuto is new graduate iOS developer at VALU. He hopes to bridge scientific research and technology. He has been working with iOS (Swift) in collaboration with external organizations since he was student. He likes electronic work, so his dream is to build fully automated home.",
+        bioJP: "株式会社 VALU にて iOS アプリを開発している新卒エンジニア。科学研究と技術の橋渡しをしたいと願い、大学時代から外部機関と連携し iOS (Swift) を用いた研究を行っている。 電子工作が好きで、将来の夢は自宅の全自動化。"
     ),
     
-    "TBD_LT9" : Speaker(
+    "katsumi" : Speaker(
         id: 27,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Kishikawa Katsumi",
+        twitter: "k_katsumi",
+        imageAssetName: "katsumi.png",
+        bio: "iOS Developer. Love to create small tools for developers.",
+        bioJP: "開発者向けの小さなツールを作るのが好きです。"
     ),
     
-    "TBD_LT10" : Speaker(
+    "kitasuke" : Speaker(
         id: 28,
-        name: "lt speaker",
-        twitter: "lt speaker",
-        imageAssetName: "donnywals.jpg",
-        bio: "TBD",
-        bioJP: "TBD"
+        name: "Yusuke Kita",
+        twitter: "kitasuke",
+        imageAssetName: "kitasuke.png",
+        bio: "I’m a Software Engineer at Mercari. I've been working on Mercari US app in frontend and backend team. I'm passionate about learning new technology. When not coding, you can find me cycling.",
+        bioJP: "メルカリのソフトウェアエンジニア。Mericari USアプリのフロントエンド・バックエンドチームで働いています。新しい技術を学ぶのが大好きです。休みの日はサイクリングをしています。"
     ),
 ]
 
