@@ -47,15 +47,6 @@ public let tko2019Speakers: [String : Speaker] = [
         bioJP: "MaximはロンドンにあるAutodeskのDesign Technologistです。SwiftKeyでイカしたiOSキーボードを作ったり、Artsyで指先で観れる現代アートを作ったあと、今はもっぱらVFXスタジオでの最高の体験を創造するためのプロトタイピングをしています。また、MENNENIAやBeluga Beanでの技術顧問を通じて、起業家やスタートアップが技術をより使いやすいものにしています。"
     ),
     
-    "chris_britt" : Speaker(
-        id: 5,
-        name: "Chris Britt",
-        twitter: "chrisbritt",
-        imageAssetName: "chris_britt2.jpg",
-        bio: "Chris Britt is a speaker, emcee and magical thinker.  He has spent ten years working in tech marketing at Dell and EMC Corp, and helped kickstart the funding of Hypothes.is, an open source project that allows annotation of the web, with anyone, anywhere. As a magician he has invented over 50 illusions and is happy to be back in the innovative and inspiring city of Tokyo.",
-        bioJP: "Chris Brittはスピーカー、司会者そしてマジカルシンカーです。彼は、DellとEMC Corpで10年に渡ってハイテクマーケティングに携わったり、誰でも、どこでも、Webに注釈を付けることができるオープンソースプロジェクトであるHypothes.isの資金調達を手助けしたりしました。マジシャンとして、彼は50を超えるイリュージョンを発明しました。イノベーティブで感動的な東京の街に戻ってきて幸せです。"
-    ),
-    
     "jon_tait_beason" : Speaker(
         id: 6,
         name: "Jon-Tait Beason",
