@@ -24,9 +24,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT1" : Presentation(
         id: 2,
-        speaker: tko2019Speakers["TBD_LT1"],
-        title: "LT1",
-        summary: "LT1"
+        speaker: tko2019Speakers["yuki"],
+        title: "️️️️Deep dive into Swift Literal",
+        titleJP: "脱Swiftリテラル初心者",
+        summary: "In this talk, I'll talk about Swift Literals to your deeply understanding. By following the 'Literal Object' journey from Swift Code to SIL, and LLVM IR code, you can see how literals are handed over to the app as exact data from code string, with Intrinsic Protocols. Also, I'll focus on Literal exploitation using Intrinsic Protocols and new features for literals in Swift 5.0. By my talk, you will be a developer well known about Swift Literal.",
+        summaryJP: "皆さんのSwiftリテラルの深い理解への導きと、脱「リテラル初心者」の手助けをさせていただきます。Swift CodeからSIL、そしてLLVM IRコードまでの「リテラルオブジェクト」の旅を見て、コード上のただの文字列であるリテラルが「どのようにして私達（そしてアプリのユーザー）の手元にデータとして渡される準備が整うか」を、「Intrinsic Protocols（組み込みプロトコル）」とともに見ていきます。また、そこから「既存のIntrinsic Protocolsを利用したリテラル活用術」と、「Swift5.0 のリテラルのための新機能」にもフォーカスしていきます。一緒にSwiftのリテラルの世界を覗いて、Swiftリテラル初心者から大きな一歩を踏み出してみませんか？"
     ),
     
     "accessibility" : Presentation(
@@ -49,9 +51,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT2" : Presentation(
         id: 5,
-        speaker: tko2019Speakers["TBD_LT2"],
-        title: "LT2",
-        summary: "LT2"
+        speaker: tko2019Speakers["noppefoxwolf"],
+        title: "Limited import clarification and its effect",
+        titleJP: "限定的なimportの明示とその効果",
+        summary: "Import is able to explicitly specify submodules or specific elements.In this session, I will review the specifications of these imports and consider the impact on binary size and performance.",
+        summaryJP: "普段なんとなく書いているimportですがサブモジュールや特定の要素を明示的に指定することができます。このセッションではこれらのimportの仕様を振り返り、またバイナリサイズやパフォーマンスに与える影響を考えていきます。"
     ),
     
     "generics" : Presentation(
@@ -83,9 +87,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT3" : Presentation(
         id: 9,
-        speaker: tko2019Speakers["TBD_LT3"],
-        title: "LT3",
-        summary: "LT3"
+        speaker: tko2019Speakers["kapsy"],
+        title: "Graphics like Pixar using Swift",
+        titleJP: "PixarのようなグラフィックをSwiftで実現する",
+        summary: "This is a talk about some of the hurdles faced when writing a simple Ray Tracer from scratch, using Swift.<br><br>Ray Tracing is the cornerstone of Pixar's infamous Renderman 3D rendering technology, which dominates the animated film industry. It works by physically modeling light rays and their interactions with objects and surfaces.<br><br>Within recent years there has been a renewed interest in real time Ray Tracing, with the advent of more powerful and specialized hardware such as NVIDIAs RTX. Even renowned programmer John Carmack has stated that 'all roads lead to Rome', when asked about the future of real time computer graphics and Ray Tracing.<br><br>While I enjoy working with traditional graphics rasterizers, I have always been interested in physically modeling light, and have wanted to learn more about the processes involved. Here I talk about how I programmed a Ray Tracer that renders a simple scene from first principles. Given the timing, it also seemed like the perfect opportunity to test the versatility of Swift.",
+        summaryJP: "このトークでは、簡単な光線追跡をSwiftを使ってゼロから作る際に直面する障害についてお話します。光線追跡法は、アニメーションフィルム産業を席巻する、Pixarのあの悪名高いRendermanの3Dレンダリング技術の基礎となっています。これは、光線の物理モデルと、オブジェクトと表面の相互作用によるものです。<br><br>昨今では、NVIDIAのRTXのような、より強力で特化したハードウェアによって、リアルタイムでの光線追跡の分野には新たな関心が寄せられています。<br>著名なプログラマーであるJohn Carmackさえ、コンピューターグラフィックと光線追跡の未来について尋ねられた際、「全ての道はローマに続く」と述べています。<br><br>私は、伝統的なグラフィックラスタライザーに取り組むのを楽しむ一方で、いつも、物理的にモデリングされた光とに興味を持ち、それにまつわるプロセスについて学びたいと思ってきました。ここでは、私がどのようにシンプルな場面を描画する光線追跡をプログラムしたかについて話します。これは、多芸なSwiftを試すのにいい機会となるでしょう。"
     ),
     
     "arkit" : Presentation(
@@ -99,9 +105,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT4" : Presentation(
         id: 11,
-        speaker: tko2019Speakers["TBD_LT4"],
-        title: "LT4",
-        summary: "LT4"
+        speaker: tko2019Speakers["ryo"],
+        title: "Introducing to SourceKit-LSP",
+        titleJP: "Introducing to SourceKit-LSP",
+        summary: "Language Server Protocol (LSP) has attracted attention today, and some Language Server of various programming language has been developed. Swift is no exception. SourceKit-LSP was announced in 2018, and development is still continuing now. In this talk, I'd like to talk about the outline of LSP and future development environment using SourceKit-LSP.",
+        summaryJP: "Launguage Server Protocol(LSP)は近頃注目を集めており、様々なプログラミング言語のLanguage Serverが開発されています。\nSwiftも例外ではなく、2018年にはSourceKit-LSPが発表され、現在も開発が続いています。このトークではLSPについての概要と、SourceKit-LSPを使った将来の開発環境についてお話したいと思います。"
     ),
     
     "usingc" : Presentation(
@@ -115,9 +123,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT5" : Presentation(
         id: 13,
-        speaker: tko2019Speakers["TBD_LT5"],
-        title: "LT5",
-        summary: "LT5"
+        speaker: tko2019Speakers["kamil"],
+        title: "MachObfuscator",
+        titleJP: "MachObfuscator",
+        summary: "I will show you a completely new approach to iOS app obfuscation. MachObfuscator is an open-sourced binary obfuscator written in pure Swift.",
+        summaryJP: "iOSアプリの難読化に対するまったく新しいアプローチを紹介します。 MachObfuscatorはSwiftで書かれたオープンソースのバイナリ難読化ツールです。"
     ),
     
     "siri" : Presentation(
@@ -151,9 +161,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT6" : Presentation(
         id: 17,
-        speaker: tko2019Speakers["TBD_LT6"],
-        title: "LT6",
-        summary: "LT6"
+        speaker: tko2019Speakers["rina"],
+        title: "Making Portrait mode yourself",
+        titleJP: "ポートレートモードを自作しよう",
+        summary: "On the iPhoneX series, with dual cameras, you can blur the background using depth information and finish beautiful portrait photographs.<br>In this talk I will talk about the process of separating and blurring the foreground and background from the image 'without depth information', blurring the portrait mode, swigging with Swift, finishing beautiful pictures.",
+        summaryJP: "最近のiPhoneはデュアルカメラやTrueDepthカメラの搭載により、深度情報を利用して背景をぼかし、被写体を際立たせた美しい写真を撮影することができます。\nこのトークでは、「深度情報を持たない」画像から背景と被写体を分離してぼかすポートレートモードを、Swiftでゴリゴリ自作して、美しい写真を仕上げていく過程をお話しします。"
     ),
     
     "hardware" : Presentation(
@@ -166,9 +178,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT7" : Presentation(
         id: 19,
-        speaker: tko2019Speakers["TBD_LT7"],
-        title: "LT7",
-        summary: "LT7"
+        speaker: tko2019Speakers["kuniwak"],
+        title: "Basics of Implement convenience with SwiftSyntax",
+        titleJP: "SwiftSyntax で便利を実現する基礎",
+        summary: "SwiftSyntax can realize swift code generation, rewriting, static inspection and so on.<br>However, how to use SwiftSyntax is almost known. I'd like to talk about this method in digest.",
+        summaryJP: "SwiftSyntax を使うと、Swift のコード生成や書き換え、静的検査などを実現できます。しかし、SwiftSyntax の使い方はほとんど知られていません。この方法をダイジェストで紹介します。"
     ),
     
     "metadata" : Presentation(
@@ -198,9 +212,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT8" : Presentation(
         id: 23,
-        speaker: tko2019Speakers["TBD_LT8"],
-        title: "LT8",
-        summary: "LT8"
+        speaker: tko2019Speakers["yuto"],
+        title: "Psychology study background and prospects in iOS device",
+        titleJP: "iOS端末を利用した心理学研究の背景と展望",
+        summary: "In past psychology study, experiments using Personal computer or physical lebber has conducted. And today the way is changing that experiments using touch screen for human or other animals are increased. In this talk, I'd like to show you about the histrical background and iPad application using Swift, which cooporate with research institutes, then discuss the necessity and role for software technology in future science study.",
+        summaryJP: "これまでの心理学研究では、パーソナルコンピュータを利用したものや、物理的なレバーを用いた実験が行なわれてきました。\nしかし、今日ではそのあり方が変貌しつつあります。その内容は、ヒトやヒト以外の動物においても、タッチスクリーンを用いた実験が増えているという事実です。\nその歴史的背景と、登壇者が現在研究機関と協力して開発・実施しているSwift製のiPadアプリを紹介しつつ、これからの科学研究におけるソフトウェア技術の必要性とその役割を論じます。"
     ),
     
     "assembly" : Presentation(
@@ -214,9 +230,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT9" : Presentation(
         id: 25,
-        speaker: tko2019Speakers["TBD_LT9"],
-        title: "LT9",
-        summary: "LT9"
+        speaker: tko2019Speakers["katsumi"],
+        title: "All about linking libraries",
+        titleJP: "All about linking libraries",
+        summary: "When developing an iOS application, you rarely do not use libraries or framework.<br>We use OS provided frameworks such like UIKit and Swift standard libraries. We also use useful third-party libraries.<br><br>At the same time, everyone may have suffered from link errors, duplicate symbols, weird error messages from package managers.<br>It is difficult to solve link errors because the cause of the problem comes from various things such as project setting,  the library is static or dynamic, distribution method of the library or execution environment (on device or simulator).<br><br>Learning the mechanism of the link makes you possible to solve the problems.<br><br>In this talk, I will explain about a library and framework which can be used for iOS applications and explain the mechanism of how external libraries will be linked with your applications.",
+        summaryJP: "iOSアプリを開発する際、ライブラリやフレームワークを使わないということはほとんどありません。<br>OSが提供するUIKitやSwift標準ライブラリを使いますし、サードバーティの便利なライブラリを使用することもあります。\nそして、誰もが１度はリンクエラーや重複したシンボル、パッケージマネージャが出力するエラーメッセージに悩んだことがあることでしょう。\nリンクエラーの解決が難しいのは、問題の原因がプロジェクト設定、ライブラリの種類・配布方法、実行先（デバイスやシミュレータ）の環境など多岐にわたるためです。\n\nリンクとは何か、何が起こっているのかを学ぶことでその問題は解決できるようになります。\n\nこのセッションではLibraryとFramework、StaticとDynamicの違い、それぞれのメリットとデメリット、SwiftからImportするために必要なことを知り、外部のライブラリがどのようにして自分のアプリから利用できるようになるかという仕組みを解説します。"
     ),
     
     "designsystem" : Presentation(
@@ -230,9 +248,11 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT10" : Presentation(
         id: 27,
-        speaker: tko2019Speakers["TBD_LT10"],
-        title: "LT10",
-        summary: "LT10"
+        speaker: tko2019Speakers["kitasuke"],
+        title: "Contributing to Swift Compiler",
+        titleJP: "Swiftコンパイラにコントリビュートする",
+        summary: "Do you want to contribute to Swift Compiler? If you have cool idea, it’s a good enough reason to start. It’s challenging, but Swift community helps you a lot! In this talk, we’ll cover overview of Swift Compiler and go over how and where to start.",
+        summaryJP: "Swiftコンパイラにコントリビュートしてみたいと思ったことはありますか？いいアイディアがあるなら、それで十分動機になります。難しい部分もありますが、Swiftコミュニティがお手伝いします！このトークでは、Swiftコンパイラの概要と、コンパイラの始め方、どこから始めたら良いかをお話しします。"
     ),
     
     "coredata" : Presentation(
