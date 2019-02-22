@@ -354,6 +354,16 @@ public let tko2019Sponsors: [String : Sponsor] = [
         level: .silver,
         priority: 34
     ),
+    
+    "wealthnavi" : Sponsor(
+        name: "ウェルスナビ株式会社",
+        nameJP: nil,
+        url: "https://www.wealthnavi.com/",
+        displayURL: "wealthnavi.com",
+        logoAssetName: "wealthnavi.png",
+        level: .silver,
+        priority: 99
+    ),
 
     // Diversity
     
