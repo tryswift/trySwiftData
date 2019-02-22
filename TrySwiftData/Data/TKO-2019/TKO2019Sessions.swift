@@ -293,6 +293,17 @@ public let tko2019Sessions: [String : Session] = [
         location: tko2019Locations["hall"]
     ),
 //---------------------------------------------------------
+    "day2SwiftCheck" : Session(
+        type : .talk,
+        presentation : tko2019Presentations["swiftcheck"],
+        location :   tko2019Locations["hall"]
+    ),
+    "day2SwiftCheckOfficeHours" : Session(
+        type : .officeHours,
+        presentation : tko2019Presentations["swiftcheck"],
+        location : tko2019Locations["qaroom"]
+    ),
+//---------------------------------------------------------
     "day2Assembly" : Session(
         type : .talk,
         presentation : tko2019Presentations["assembly"],
@@ -341,17 +352,6 @@ public let tko2019Sessions: [String : Session] = [
     "day2CoredataOfficeHours" : Session(
         type : .officeHours,
         presentation : tko2019Presentations["coredata"],
-        location : tko2019Locations["qaroom"]
-        ),
-//---------------------------------------------------------
-    "day2Magician" : Session(
-        type : .talk,
-        presentation : tko2019Presentations["magician"],
-        location :   tko2019Locations["hall"]
-        ),
-    "day2MagicianOfficeHours" : Session(
-        type : .officeHours,
-        presentation : tko2019Presentations["magician"],
         location : tko2019Locations["qaroom"]
         ),
 //---------------------------------------------------------

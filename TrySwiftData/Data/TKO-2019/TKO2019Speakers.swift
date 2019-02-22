@@ -262,6 +262,15 @@ public let tko2019Speakers: [String : Speaker] = [
         bio: "I’m a Software Engineer at Mercari. I've been working on Mercari US app in frontend and backend team. I'm passionate about learning new technology. When not coding, you can find me cycling.",
         bioJP: "メルカリのソフトウェアエンジニア。Mericari USアプリのフロントエンド・バックエンドチームで働いています。新しい技術を学ぶのが大好きです。休みの日はサイクリングをしています。"
     ),
+    
+    "yusuke" : Speaker(
+        id: 29,
+        name: "Yusuke Hosonuma",
+        twitter: "tobi462",
+        imageAssetName: "yusuke.jpg",
+        bio: "Yusuke is working at DeNA SWET group. He recognizes how beautiful of Functional Programming and study Haskell now. He likes to solve algorithm problems with Haskell, with automated testing.",
+        bioJP: "株式会社DeNAのSWETグループで働いてます。最近、関数型プログラミングの美しさを再認識し、Haskellに再入門しています。Haskellでアルゴリズムの問題を解くのが楽しかったりする日々です。もちろん自動テストを添えて。"
+    ),
 ]
 
 

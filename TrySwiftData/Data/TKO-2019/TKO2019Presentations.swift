@@ -219,6 +219,15 @@ public let tko2019Presentations: [String : Presentation] = [
         summaryJP: "これまでの心理学研究では、パーソナルコンピュータを利用したものや、物理的なレバーを用いた実験が行なわれてきました。\nしかし、今日ではそのあり方が変貌しつつあります。その内容は、ヒトやヒト以外の動物においても、タッチスクリーンを用いた実験が増えているという事実です。\nその歴史的背景と、登壇者が現在研究機関と協力して開発・実施しているSwift製のiPadアプリを紹介しつつ、これからの科学研究におけるソフトウェア技術の必要性とその役割を論じます。"
     ),
     
+    "swiftcheck" : Presentation(
+        id: 99,
+        speaker: tko2019Speakers["yusuke"],
+        title: "Property-based test beginning with SwiftCheck",
+        titleJP: "SwiftCheckで始めるProperty-based Testing",
+        summary: "There is a method called Property-based Testing that describes the logical properties that the function should satisfy and generates random input values ​​to test. It's based on Haskell 's QuickCheck is the main source, and it has been ported to many languages ​​and also Swift has an OSS called SwiftCheck.  In this talk, I'll show you the concept of Property-based Testing and how to describe with SwiftCheck.",
+        summaryJP: "関数が満たすべき論理的性質を記述し、ランダムな入力値を生成させてテストを行うProperty-based Testingというテスト手法があります。HaskellのQuickCheckが大元となっていますが、多数の言語に移植されており、SwiftでもSwiftCheckというOSSが開発されています。このトークではProperty-based Testingの考え方と、SwiftCheckでの記述方法を解説をします。"
+    ),
+    
     "assembly" : Presentation(
         id: 24,
         speaker: tko2019Speakers["andrew"],
@@ -262,14 +271,5 @@ public let tko2019Presentations: [String : Presentation] = [
         titleJP: "Core Dataを守るために",
         summary: "Over the year, Core Data has gained a pretty bad reputation amongst developers who prefer to use another service like Realm for their local persistence. In this talk I will make an argument for using Core Data and why it's not so bad. I will share some examples of where it's easy to go wrong with Core Data, and how to avoid those pitfalls. I will also quickly go over setting up Core Data in an app and by the end the audience should have a couple of simple rules that should help them safely integrate Core Data in their apps.",
         summaryJP: "この数年、Core Dataはローカルでの永続化において、Realmのような他のサービスを好む開発者の間でかなりひどい評判を得ています。このトークでは、Core Dataを使うことはそんなに悪いことではない理由を説明します。Core Dataでうまくいかないところや、その落とし穴を回避する例をお見せします。また、Core Dataのアプリへの設定についても簡単に説明します。終わりには、みなさんはCore Dataをアプリに安全に統合するのに役立つ簡単なルールを用意することになるでしょう。"
-    ),
-    
-    "magician" : Presentation(
-        id: 29,
-        speaker: tko2019Speakers["chris_britt"],
-        title: "Magician's DevKit",
-        titleJP: "マジシャンの開発ツール",
-        summary: "Storyteller and magician Chris Britt will talk about the magical mindset of ground breaking technologists and performance magicians(some are both!) he knows in Silicon Valley area and how they dream and solve for the impossible. These women and men have done amazing things: came up with the name and concept of hypertext, coded the first online airfare transaction, and lead the speech synthesis for Siri for Steve Jobs (he's an amazing magician as well!). Chris will share hands-on tools that everyone watching this talk can take with them to think, see and solve in new ways.",
-        summaryJP: "ストーリーテラーでありマジシャンであるChris Brittが、シリコンバレーで知った画期的な技術者とパフォーマンスマジシャン（何人かは両方を兼ねている！）の素晴らしい考え方と彼らがどのように夢を見て不可能を解決するかについて話します。彼/彼女らはHypertextの名前と概念を思いついたり、最初の航空運賃取引を実装したり、Steve Jobs（彼も同様に素晴らしいマジシャンだ！）のためにSiriの音声合成をリードするなど、驚くべきことを成し遂げました。Chrisはこの講演を聞いてくれているみなさんが新しい方法で考えたり、理解したり、解決するために使える実践的なツールを共有します。"
     ),
 ]

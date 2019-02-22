@@ -203,7 +203,7 @@ public let tko2019SessionBlocks: [SessionBlock] = [
     SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 22, hour: 12, minute: 30, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 12, minute: 55, second: 0),
-        sessions : [tko2019Sessions["day2Extending"]!,
+        sessions : [tko2019Sessions["day2Designsystem"]!,
                     tko2019Sessions["day2MetadataOfficeHours"]!]
     ),
     
@@ -217,7 +217,7 @@ public let tko2019SessionBlocks: [SessionBlock] = [
         startTime : Date.date(year: 2019, month: 3, day: 22, hour: 14, minute: 30, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 14, minute: 55, second: 0),
         sessions : [tko2019Sessions["day2Sounds"]!,
-                    tko2019Sessions["day2ExtendingOfficeHours"]!]
+                    tko2019Sessions["day2DesignsystemOfficeHours"]!]
             ),
     
     SessionBlock(
@@ -225,11 +225,11 @@ public let tko2019SessionBlocks: [SessionBlock] = [
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 15, minute: 05, second: 0),
         sessions : [tko2019Sessions["day2LT8"]!]
     ),
-
+    
     SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 22, hour: 15, minute: 5, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 15, minute: 30, second: 0),
-        sessions : [tko2019Sessions["day2Assembly"]!,
+        sessions : [tko2019Sessions["day2SwiftCheck"]!,
                     tko2019Sessions["day2SoundsOfficeHours"]!]
     ),
     
@@ -248,8 +248,8 @@ public let tko2019SessionBlocks: [SessionBlock] = [
     SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 22, hour: 16, minute: 35, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 17, minute: 0, second: 0),
-        sessions : [tko2019Sessions["day2Designsystem"]!,
-                    tko2019Sessions["day2AssemblyOfficeHours"]!]
+        sessions : [tko2019Sessions["day2Assembly"]!,
+                    tko2019Sessions["day2SwiftCheckOfficeHours"]!]
     ),
     
     SessionBlock(
@@ -262,13 +262,13 @@ public let tko2019SessionBlocks: [SessionBlock] = [
         startTime : Date.date(year: 2019, month: 3, day: 22, hour: 17, minute: 10, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 17, minute: 35, second: 0),
         sessions : [tko2019Sessions["day2Coredata"]!,
-                    tko2019Sessions["day2DesignsystemOfficeHours"]!]
+                    tko2019Sessions["day2AssemblyOfficeHours"]!]
     ),
     
     SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 22, hour: 17, minute: 35, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 18, minute: 0, second: 0),
-        sessions : [tko2019Sessions["day2Magician"]!,
+        sessions : [tko2019Sessions["day2Extending"]!,
                     tko2019Sessions["day2CoredataOfficeHours"]!]
     ),
     
