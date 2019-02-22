@@ -31,6 +31,12 @@ public let tko2019SessionBlocks: [SessionBlock] = [
     ),
     
     SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 21, hour: 10, minute: 25, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 21, hour: 10, minute: 35, second: 0),
+        sessions : [tko2019Sessions["day1LT1"]!]
+    ),
+    
+    SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 21, hour: 10, minute: 35, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 21, hour: 11, minute: 0, second: 0),
         sessions : [tko2019Sessions["day1Accessibility"]!,
@@ -48,6 +54,12 @@ public let tko2019SessionBlocks: [SessionBlock] = [
         endTime : Date.date(year: 2019, month: 3, day: 21, hour: 11, minute: 55, second: 0),
         sessions : [tko2019Sessions["day1SwiftLight"]!,
                     tko2019Sessions["day1AccessibilityOfficeHours"]!]
+    ),
+    
+    SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 21, hour: 11, minute: 55, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 21, hour: 12, minute: 05, second: 0),
+        sessions : [tko2019Sessions["day1LT2"]!]
     ),
     
     SessionBlock(
@@ -78,10 +90,22 @@ public let tko2019SessionBlocks: [SessionBlock] = [
     ),
 
     SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 21, hour: 14, minute: 55, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 21, hour: 15, minute: 05, second: 0),
+        sessions : [tko2019Sessions["day1LT3"]!]
+    ),
+    
+    SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 21, hour: 15, minute: 5, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 21, hour: 15, minute: 30, second: 0),
         sessions : [tko2019Sessions["day1Arkit"]!,
                     tko2019Sessions["day1MemoryleakOfficeHours"]!]
+    ),
+    
+    SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 21, hour: 15, minute: 30, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 21, hour: 15, minute: 40, second: 0),
+        sessions : [tko2019Sessions["day1LT4"]!]
     ),
     
     SessionBlock(
@@ -95,6 +119,12 @@ public let tko2019SessionBlocks: [SessionBlock] = [
         endTime : Date.date(year: 2019, month: 3, day: 21, hour: 17, minute: 0, second: 0),
         sessions : [tko2019Sessions["day1Usingc"]!,
                     tko2019Sessions["day1ArkitOfficeHours"]!]
+    ),
+    
+    SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 21, hour: 17, minute: 0, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 21, hour: 17, minute: 10, second: 0),
+        sessions : [tko2019Sessions["day1LT5"]!]
     ),
     
     SessionBlock(
@@ -139,6 +169,12 @@ public let tko2019SessionBlocks: [SessionBlock] = [
     ),
     
     SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 22, hour: 10, minute: 25, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 22, hour: 10, minute: 35, second: 0),
+        sessions : [tko2019Sessions["day2LT6"]!]
+    ),
+    
+    SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 22, hour: 11, minute: 0, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 11, minute: 30, second: 0),
         sessions : [tko2019Sessions["day2FirstCoffee"]!]
@@ -149,6 +185,12 @@ public let tko2019SessionBlocks: [SessionBlock] = [
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 11, minute: 55, second: 0),
         sessions : [tko2019Sessions["day2Hardware"]!,
                     tko2019Sessions["day2MagicOfficeHours"]!]
+    ),
+    
+    SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 22, hour: 11, minute: 55, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 22, hour: 12, minute: 05, second: 0),
+        sessions : [tko2019Sessions["day2LT7"]!]
     ),
     
     SessionBlock(
@@ -177,13 +219,24 @@ public let tko2019SessionBlocks: [SessionBlock] = [
         sessions : [tko2019Sessions["day2Sounds"]!,
                     tko2019Sessions["day2ExtendingOfficeHours"]!]
             ),
-            
+    
+    SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 22, hour: 14, minute: 55, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 22, hour: 15, minute: 05, second: 0),
+        sessions : [tko2019Sessions["day2LT8"]!]
+    ),
 
     SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 22, hour: 15, minute: 5, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 15, minute: 30, second: 0),
         sessions : [tko2019Sessions["day2Assembly"]!,
                     tko2019Sessions["day2SoundsOfficeHours"]!]
+    ),
+    
+    SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 22, hour: 15, minute: 30, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 22, hour: 15, minute: 40, second: 0),
+        sessions : [tko2019Sessions["day2LT9"]!]
     ),
     
     SessionBlock(
@@ -197,6 +250,12 @@ public let tko2019SessionBlocks: [SessionBlock] = [
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 17, minute: 0, second: 0),
         sessions : [tko2019Sessions["day2Designsystem"]!,
                     tko2019Sessions["day2AssemblyOfficeHours"]!]
+    ),
+    
+    SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 22, hour: 17, minute: 0, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 22, hour: 17, minute: 10, second: 0),
+        sessions : [tko2019Sessions["day2LT10"]!]
     ),
     
     SessionBlock(

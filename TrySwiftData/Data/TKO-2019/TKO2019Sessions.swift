@@ -188,7 +188,7 @@ public let tko2019Sessions: [String : Session] = [
     "day1Closing" : Session(
         type : .announcement,
         title : "Closing / Announcments",
-        imageAssetName : "announce_nyc_1.png",
+        imageAssetName : "announce1.png",
         location :   tko2019Locations["hall"]
         ),
     
@@ -204,7 +204,7 @@ public let tko2019Sessions: [String : Session] = [
     "day2Opening" : Session(
         type : .announcement,
         title : "Opening Remarks",
-        imageAssetName : "announce_nyc_1.png",
+        imageAssetName : "announce1.png",
         location :   tko2019Locations["hall"]
         ),
 //---------------------------------------------------------
@@ -358,7 +358,7 @@ public let tko2019Sessions: [String : Session] = [
     "day2Closing" : Session(
         type : .announcement,
         title : " Closing / Announcements",
-        imageAssetName : "announce_nyc_2.png",
+        imageAssetName : "announce2.png",
         location :   tko2019Locations["hall"]
         ),
 //---------------------------------------------------------

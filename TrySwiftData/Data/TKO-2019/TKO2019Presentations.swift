@@ -51,7 +51,7 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "LT2" : Presentation(
         id: 5,
-        speaker: tko2019Speakers["noppefoxwolf"],
+        speaker: tko2019Speakers["tomoya"],
         title: "Limited import clarification and its effect",
         titleJP: "限定的なimportの明示とその効果",
         summary: "Import is able to explicitly specify submodules or specific elements.In this session, I will review the specifications of these imports and consider the impact on binary size and performance.",
