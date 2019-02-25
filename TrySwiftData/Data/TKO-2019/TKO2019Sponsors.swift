@@ -242,6 +242,16 @@ public let tko2019Sponsors: [String : Sponsor] = [
         level: .gold,
         priority: 23
     ),
+    
+    "twilio" : Sponsor(
+        name: "Twilio",
+        nameJP: nil,
+        url: "https://www.twilio.com/",
+        displayURL: "twilio.com",
+        logoAssetName: "twilio.png",
+        level: .gold,
+        priority: 23
+    ),
 
     //Silver
 
@@ -568,8 +578,8 @@ public let tko2019Sponsors: [String : Sponsor] = [
     "koji_okada" : Sponsor(
         name: "Koji Okada",
         nameJP: nil,
-        url: "https://avatars2.githubusercontent.com/u/3303088?s=460&v=4",
-        displayURL: "githubusercontent.com",
+        url: "https://twitter.com/KojiOkada2",
+        displayURL: "twitter.com/KojiOkada2",
         logoAssetName: "koji_okada.png",
         level: .individual,
         priority: 54
