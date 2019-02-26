@@ -271,6 +271,24 @@ public let tko2019Speakers: [String : Speaker] = [
         bio: "Yusuke is working at DeNA SWET group. He recognizes how beautiful of Functional Programming and study Haskell now. He likes to solve algorithm problems with Haskell, with automated testing.",
         bioJP: "株式会社DeNAのSWETグループで働いてます。最近、関数型プログラミングの美しさを再認識し、Haskellに再入門しています。Haskellでアルゴリズムの問題を解くのが楽しかったりする日々です。もちろん自動テストを添えて。"
     ),
+    
+    "david" : Speaker(
+        id: 30,
+        name: "David Okun",
+        twitter: "dokun24",
+        imageAssetName: "david.jpg",
+        bio: "David Okun is a mobile software developer turned developer advocate for IBM in Austin, Texas. David has been primarily focused on iOS mobile software, but is also interested in Swift on the Server, and other web technologies such as Node.js.",
+        bioJP: "David Okunは元々モバイルソフトウェア開発者でしたが、現在はIBMのTexas州Austinの支社でDeveloper Advocateをしています。Davidは主にiOSのモバイルソフトウェアにフォーカスしていましたが、Swift on Serverや、Node.jsのような他のwebの技術にも興味があります。"
+    ),
+    
+    "ian" : Speaker(
+        id: 31,
+        name: "Ian Partridge",
+        twitter: "alfa",
+        imageAssetName: "ian.jpg",
+        bio: "Ian Partridge is the technical lead of the Swift@IBM development team, working in open source to bring Swift to the cloud. A committer to the core Swift libraries and a developer of Kitura, one of the leading Swift web frameworks, he comes from a background in virtual machine performance and debugging. Ian regularly speaks at conferences including AltConf, iOSCon, dotSwift, SwiftConf and more.",
+        bioJP: "Ian PartridgeはSwift@IBM開発チームのテクニカルリードで、Swiftをクラウドに持っていくOSSの開発をしています。Core Swift Libraryのコミッターをしていたり、SwiftのwebフレームワークのひとつであるKituraの開発者でもあります。仮装マシンのパフォーマンスやデバッグのバックグラウンドを持っています。IanはAltConfやiOSCon,dotSwift, SwiftConfなどのカンファレンスで登壇をしています。"
+    ),
 ]
 
 
