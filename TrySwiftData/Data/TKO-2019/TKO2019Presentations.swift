@@ -133,10 +133,10 @@ public let tko2019Presentations: [String : Presentation] = [
     "siri" : Presentation(
         id: 14,
         speaker: tko2019Speakers["nic_laughter"],
-        title: "Streamlining Interactions with Siri Shortcuts",
-        titleJP: "Siri Shortcutsとのやりとりを合理化する",
-        summary: "Siri Shortcuts is a new technology that enables the user to identify specific paths within an app they use often to be done quickly and easily using Siri. By enabling this capability in your apps, you can drive higher engagement and more ease of use with your app!",
-        summaryJP: "Siri Shortcutsは、ユーザーが頻繁に使用するアプリ内の特定のパスを識別し、Siriを使用してすばやく簡単に実行できるようにする新しい技術です。アプリでこの機能を有効にすることで、アプリのエンゲージメントと使いやすさを向上させることができます。"
+        title: "Driving Engagement with Siri Shortcuts and NSUserActivity",
+        titleJP: "Siri ShortcutsとNSUserActivityによるエンゲージメント推進",
+        summary: "NSUserActivity is an incredibly powerful tool which allows the developer to increase an app's visibility on devices. With the introduction of Siri Shortcuts, it's easier than ever to increase engagement with app features. We will explore how to add the power of SiriKit's voice-activated automation to make your app even more enjoyable for your users.",
+        summaryJP: "NSUserActivityは、開発者がデバイス上でのアプリの可視性を高めることができるとても強力なツールです。 Siri Shortcutsの導入により、アプリの機能とのエンゲージメントがこれまで以上に簡単になりました。 SiriKitの自動音声起動機能を追加して、ユーザーのアプリ体験をさらに楽しくする方法を探ります。"
     ),
     
     "prototype" : Presentation(
