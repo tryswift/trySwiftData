@@ -115,7 +115,7 @@ public let tko2019Speakers: [String : Speaker] = [
         name: "Adam Bell",
         twitter: "b3ll",
         imageAssetName: "adam_bell.jpg",
-        bio: "Adam is a software engineer specializing in audio, animations, interactions, and gestures, currently working on Origami Studio at Facebook. When he's not racing cars or messing with synthesizers, you'll usually find him dabbling in the internals of Apple products or getting Doom to run on platforms it really wasn't designed for <a href='https://www.youtube.com/watch?v=GD0L46y3IqI' target='_blank'>(https://www.youtube.com/watch?v=GD0L46y3IqI)</a> 🙃.",
+        bio: "Adam is a software engineer specializing in audio, animations, interactions, and gestures, currently working on Origami Studio at Facebook. When he's not racing cars or messing with synthesizers, you'll usually find him dabbling in the internals of Apple products or getting Doom to run on platforms it really wasn't designed for https://www.youtube.com/watch?v=GD0L46y3IqI 🙃.",
         bioJP: "Adamは、オーディオ、アニメーション、インタラクション、ジェスチャーに精通したソフトウェアエンジニアです。現在は、FacebookのOrigami Studioで働いています。彼は、シンセサイザーにちょっかいを出すかカーレースをしていないときは、大体Apple製品をいじっているかDoomが動かないように作られているプラットフォームでDoomを動かしています https://www.youtube.com/watch?v=GD0L46y3IqI 🙃。"
     ),
     
