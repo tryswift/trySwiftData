@@ -695,4 +695,24 @@ public let tko2019Sponsors: [String : Sponsor] = [
         priority: 65
     ),
     
+    "sho_ikeda" : Sponsor(
+        name: "Sho Ikeda",
+        nameJP: nil,
+        url: "https://twitter.com/ikesyo",
+        displayURL: "twitter.com/ikesyo",
+        logoAssetName: "sho_ikeda.jpg",
+        level: .individual,
+        priority: 66
+    ),
+    
+    "taniguche" : Sponsor(
+        name: "Yusuke Taniguchi",
+        nameJP: nil,
+        url: "https://twitter.com/taniguche_",
+        displayURL: "twitter.com/taniguche_",
+        logoAssetName: "yusuke_taniguchi.jpg",
+        level: .individual,
+        priority: 67
+    ),
+    
 ]
