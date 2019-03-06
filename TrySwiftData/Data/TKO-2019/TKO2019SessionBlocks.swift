@@ -175,6 +175,12 @@ public let tko2019SessionBlocks: [SessionBlock] = [
     ),
     
     SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 22, hour: 10, minute: 35, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 22, hour: 11, minute: 00, second: 0),
+        sessions : [tko2019Sessions["day2SocialNetwork"]!]
+    ),
+    
+    SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 22, hour: 11, minute: 0, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 22, hour: 11, minute: 30, second: 0),
         sessions : [tko2019Sessions["day2FirstCoffee"]!]

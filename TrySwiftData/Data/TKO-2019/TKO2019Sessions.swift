@@ -225,6 +225,12 @@ public let tko2019Sessions: [String : Session] = [
         location: tko2019Locations["hall"]
     ),
 //---------------------------------------------------------
+    "day2SocialNetwork" : Session(
+        type: .talk,
+        presentation: tko2019Presentations["social-network"],
+        location: tko2019Locations["hall"]
+    ),
+//---------------------------------------------------------
     "day2FirstCoffee" : Session(
         type : .coffeeBreak,
         imageAssetName : "breaktime1.png",
