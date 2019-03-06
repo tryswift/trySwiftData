@@ -37,7 +37,7 @@ public let tko2019Presentations: [String : Presentation] = [
         title: "Color Contrast for Accessibility",
         titleJP: "アクセシビリティのためのカラーコントラスト",
         summary: "How much text contrast is enough? Instead of quibbling over shades of gray, we can use an equation to evaluate relative luminance and ensure more of our users can experience our content. An overview of the science behind the equation, and an exploration of some edge cases.",
-        summaryJP: "テキストのコントラストはどれだけあれば十分でしょうか？グレースケールの色をいじり回す、式を使用して相対的な明るさを評価し、より多くのユーザーがコンテンツを体験できるようにします。方程式の背後にある科学の概要、およびいくつかのエッジケースを探求してみます。"
+        summaryJP: "テキストのコントラストはどれだけあれば十分でしょうか？グレースケールの色をいじり回すのではなく、式を使用して相対的な明るさを評価し、より多くのユーザーがコンテンツを体験できるようにします。方程式の背後にある科学の概要、およびいくつかのエッジケースを探求してみます。"
     ),
     
     "swift_light" : Presentation(
@@ -91,7 +91,7 @@ public let tko2019Presentations: [String : Presentation] = [
         title: "Graphics like Pixar using Swift",
         titleJP: "PixarのようなグラフィックをSwiftで実現する",
         summary: "This is a talk about some of the hurdles faced when writing a simple Ray Tracer from scratch, using Swift.Ray Tracing is the cornerstone of Pixar's infamous Renderman 3D rendering technology, which dominates the animated film industry. It works by physically modeling light rays and their interactions with objects and surfaces.Within recent years there has been a renewed interest in real time Ray Tracing, with the advent of more powerful and specialized hardware such as NVIDIAs RTX. Even renowned programmer John Carmack has stated that 'all roads lead to Rome', when asked about the future of real time computer graphics and Ray Tracing.While I enjoy working with traditional graphics rasterizers, I have always been interested in physically modeling light, and have wanted to learn more about the processes involved. Here I talk about how I programmed a Ray Tracer that renders a simple scene from first principles. Given the timing, it also seemed like the perfect opportunity to test the versatility of Swift.",
-        summaryJP: "このトークでは、簡単な光線追跡をSwiftを使ってゼロから作る際に直面する障害についてお話します。光線追跡法は、アニメーションフィルム産業を席巻する、Pixarのあの悪名高いRendermanの3Dレンダリング技術の基礎となっています。これは、光線の物理モデルと、オブジェクトと表面の相互作用によるものです。昨今では、NVIDIAのRTXのような、より強力で特化したハードウェアによって、リアルタイムでの光線追跡の分野には新たな関心が寄せられています。著名なプログラマーであるJohn Carmackさえ、コンピューターグラフィックと光線追跡の未来について尋ねられた際、「全ての道はローマに続く」と述べています。私は、伝統的なグラフィックラスタライザーに取り組むのを楽しむ一方で、いつも、物理的にモデリングされた光とに興味を持ち、それにまつわるプロセスについて学びたいと思ってきました。ここでは、私がどのようにシンプルな場面を描画する光線追跡をプログラムしたかについて話します。これは、多芸なSwiftを試すのにいい機会となるでしょう。"
+        summaryJP: "このトークでは、簡単な光線追跡をSwiftを使ってゼロから作る際に直面する障害についてお話します。光線追跡法は、アニメーションフィルム産業を席巻する、Pixarのあの悪名高いRendermanの3Dレンダリング技術の基礎となっています。これは、光線の物理モデルと、オブジェクトと表面の相互作用によるものです。昨今では、NVIDIAのRTXのような、より強力で特化したハードウェアによって、リアルタイムでの光線追跡の分野には新たな関心が寄せられています。著名なプログラマーであるJohn Carmackさえ、コンピューターグラフィックと光線追跡の未来について尋ねられた際、「全ての道はローマに続く」と述べています。私は、伝統的なグラフィックラスタライザーに取り組むのを楽しむ一方で、いつも、物理的にモデリングされた光に興味を持ち、それにまつわるプロセスについて学びたいと思ってきました。ここでは、私がどのようにシンプルな場面を描画する光線追跡をプログラムしたかについて話します。これは、多芸なSwiftを試すのにいい機会となるでしょう。"
     ),
     
     "arkit" : Presentation(

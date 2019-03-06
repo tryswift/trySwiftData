@@ -287,7 +287,7 @@ public let tko2019Speakers: [String : Speaker] = [
         twitter: "alfa",
         imageAssetName: "ian.jpg",
         bio: "Ian Partridge is the technical lead of the Swift@IBM development team, working in open source to bring Swift to the cloud. A committer to the core Swift libraries and a developer of Kitura, one of the leading Swift web frameworks, he comes from a background in virtual machine performance and debugging. Ian regularly speaks at conferences including AltConf, iOSCon, dotSwift, SwiftConf and more.",
-        bioJP: "Ian PartridgeはSwift@IBM開発チームのテクニカルリードで、Swiftをクラウドに持っていくOSSの開発をしています。Core Swift Libraryのコミッターをしていたり、SwiftのwebフレームワークのひとつであるKituraの開発者でもあります。仮装マシンのパフォーマンスやデバッグのバックグラウンドを持っています。IanはAltConfやiOSCon,dotSwift, SwiftConfなどのカンファレンスで登壇をしています。"
+        bioJP: "Ian PartridgeはSwift@IBM開発チームのテクニカルリードで、Swiftをクラウドに持っていくOSSの開発をしています。Core Swift Libraryのコミッターをしていたり、SwiftのwebフレームワークのひとつであるKituraの開発者でもあります。仮想マシンのパフォーマンスやデバッグのバックグラウンドを持っています。IanはAltConfやiOSCon,dotSwift, SwiftConfなどのカンファレンスで登壇をしています。"
     ),
     
     "Ilseman" : Speaker(
