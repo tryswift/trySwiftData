@@ -109,6 +109,13 @@ public let tko2019SessionBlocks: [SessionBlock] = [
     ),
     
     SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 21, hour: 15, minute: 40, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 21, hour: 16, minute: 5, second: 0),
+        sessions : [tko2019Sessions["day1SwiftServerUpdate"]!,
+                    tko2019Sessions["day1ArkitOfficeHours"]!]
+    ),
+    
+    SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 21, hour: 16, minute: 5, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 21, hour: 16, minute: 35, second: 0),
         sessions : [tko2019Sessions["day1SecondCoffee"]!]
@@ -118,7 +125,7 @@ public let tko2019SessionBlocks: [SessionBlock] = [
         startTime : Date.date(year: 2019, month: 3, day: 21, hour: 16, minute: 35, second: 0),
         endTime : Date.date(year: 2019, month: 3, day: 21, hour: 17, minute: 0, second: 0),
         sessions : [tko2019Sessions["day1Usingc"]!,
-                    tko2019Sessions["day1ArkitOfficeHours"]!]
+                    tko2019Sessions["day1SwiftServerUpdateOfficeHours"]!]
     ),
     
     SessionBlock(

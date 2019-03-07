@@ -121,6 +121,15 @@ public let tko2019Presentations: [String : Presentation] = [
         summaryJP: "Swiftは強力で、また、比較的新しい言語です。世の中にはC言語や、C++、Objective-Cで書かれたオープンソースライブラリが多くあります。ユニークなアプリを作るチャンスを3倍にするために、これを利用する手はないのでしょうか？ あります！ このトークでは、C、C++、Objective-Cの関係性を説明するための基本をなぞり、SwiftのプロジェクトにDependencyを追加する方法をデモします。"
     ),
     
+    "swift-server-update" : Presentation(
+        id: 102,
+        speaker: tko2019Speakers["tom_doron"],
+        title: "Swift Server Update",
+        titleJP: "Swift Server Update",
+        summary: "The Swift Server Work Group (SSWG) goal is to create a robust, healthy ecosystem for server application development with Swift. Its current focus is to encourage the development of high quality, well maintained libraries and tools that the community can reliably lean on. In this talk, we will review the latest development since the SSWG was announced Sept 2018, describe the incubation process and how to get involved, and dive into the details of some of the active projects and proposals the community and teams are working on.",
+        summaryJP: "The Swift Server Work Group (SSWG) の目的は、Swiftでのサーバーアプリケーション開発の安定した健全なエコシステムを作ることです。\n\n現在フォーカスしているのは、コミュニティが信頼できる高品質で十分にメンテナンスされたライブラリやツールの開発を促進することです。\n\nこのトークでは、2018年9月にSSWGが発表されて以降の最近の開発を振り返ります。\n\nオープンになっていなかったプロセスや参加する方法、コミュニティとチームが行なっているプロジェクトやプロポーザルの詳細について説明します。"
+    ),
+    
     "LT5" : Presentation(
         id: 13,
         speaker: tko2019Speakers["kamil"],

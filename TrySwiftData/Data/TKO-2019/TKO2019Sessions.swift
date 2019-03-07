@@ -140,6 +140,17 @@ public let tko2019Sessions: [String : Session] = [
         location: tko2019Locations["hall"]
     ),
 //---------------------------------------------------------
+    "day1SwiftServerUpdate" : Session(
+        type : .talk,
+        presentation : tko2019Presentations["swift-server-update"],
+        location : tko2019Locations["hall"]
+    ),
+    "day1SwiftServerUpdateOfficeHours" : Session(
+        type : .officeHours,
+        presentation : tko2019Presentations["swift-server-update"],
+        location : tko2019Locations["qaroom"]
+    ),
+//---------------------------------------------------------
     "day1SecondCoffee" : Session(
         type : .coffeeBreak,
         imageAssetName : "breaktime2.png",
