@@ -307,6 +307,16 @@ public let tko2019Speakers: [String : Speaker] = [
         bio: "Tom works at Apple where he is serving as a senior engineering manager focusing on core cloud technologies and open source libraries and frameworks.",
         bioJP: "TomはAppleで働くシニアエンジニアリングマネージャで、主にクラウド技術の基幹とオープンソースのライブラリとフレームワークを担当しています。"
     ),
+    
+    "ibm" : Speaker(
+        id: 33,
+        name: "Ian & David",
+        twitter: "tryswiftconf",
+        imageAssetName: "ibm_team.png",
+        bio: "",
+        bioJP: "",
+        hidden: true
+    ),
 ]
 
 

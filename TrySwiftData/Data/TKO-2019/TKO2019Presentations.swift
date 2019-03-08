@@ -179,7 +179,7 @@ public let tko2019Presentations: [String : Presentation] = [
     
     "social-network" : Presentation(
         id: 108,
-        speaker: tko2019Speakers["david"],
+        speaker: tko2019Speakers["ibm"],
         title: "Building a Social Network in Swift",
         summary: "But is it really ready for production?” Server-side Swift has come a long way in just a few years. Ian Partridge and David Okun will show how full-stack Swift is ready for your next project, along with the open standards you can take advantage of as you go live on the cloud. Spend more time writing Swift and less time talking about it!",
         summaryJP: "「本当にプロダクトに使用できる状態なの？」 サーバーサイドSwiftは、ここ数年で大きな発展を遂げました。Ian PartridgeとDavid Okunが、フルスタックSwiftが、いかにあなたの次のプロジェクトで実用的かお見せします。合わせて、クラウド環境で稼働させる際に活用できるオープン標準についてもご紹介します。\nSwiftについて話すことに時間を使うより、Swiftを書くことにもっと時間を使いましょう！"

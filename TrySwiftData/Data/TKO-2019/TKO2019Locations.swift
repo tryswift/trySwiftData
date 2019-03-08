@@ -9,8 +9,8 @@
 public let tko2019Locations: [String : Location] = [
     "qaroom" :
         Location(
-            name: "Q&A Room",
-            nameJP: "Q&Aルーム"
+            name: "Ask The Speaker",
+            nameJP: "Ask The Speaker"
     ),
     "hall" :
         Location(
