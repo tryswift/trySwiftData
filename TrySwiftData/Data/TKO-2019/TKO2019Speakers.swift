@@ -308,11 +308,71 @@ public let tko2019Speakers: [String : Speaker] = [
         bioJP: "TomはAppleで働くシニアエンジニアリングマネージャで、主にクラウド技術の基幹とオープンソースのライブラリとフレームワークを担当しています。"
     ),
     
+    "yusuke_ikesyo_nich" : Speaker(
+        id: 34,
+        name: "Yusuke, Sho, Nich",
+        twitter: "tryswiftconf",
+        imageAssetName: "yusuke_ikesyo_nich.png",
+        bio: "",
+        bioJP: "",
+        hidden: true
+    ),
+    
+    "morgan_and_mike" : Speaker(
+        id: 35,
+        name: "Morgan & Mike",
+        twitter: "tryswiftconf",
+        imageAssetName: "morgan_and_mike.jpg",
+        bio: "",
+        bioJP: "",
+        hidden: true
+    ),
+    
+    "ahmed_bakir" : Speaker(
+        id: 36,
+        name: "Ahmed Bakir",
+        twitter: "devatelier",
+        imageAssetName: "ahmed_bakir.jpg",
+        bio: "",
+        bioJP: "",
+        hidden: true
+    ),
+    
+    "nic_and_samuel" : Speaker(
+        id: 37,
+        name: "Nic & Samuel",
+        twitter: "tryswiftconf",
+        imageAssetName: "nic_and_samuel.png",
+        bio: "",
+        bioJP: "",
+        hidden: true
+    ),
+    
+    "andrewcoad" : Speaker(
+        id: 38,
+        name: "Andrew Coad",
+        twitter: "AndrewKCoad",
+        imageAssetName: "selfsquare.jpg",
+        bio: "",
+        bioJP: "",
+        hidden: true
+    ),
+    
     "ibm" : Speaker(
-        id: 33,
+        id: 39,
         name: "Ian & David",
         twitter: "tryswiftconf",
         imageAssetName: "ibm_team.png",
+        bio: "",
+        bioJP: "",
+        hidden: true
+    ),
+    
+    "you" : Speaker(
+        id: 40,
+        name: "You!",
+        twitter: "tryswiftconf",
+        imageAssetName: "Logo_TKO.png",
         bio: "",
         bioJP: "",
         hidden: true

@@ -390,8 +390,93 @@ public let tko2019Sessions: [String : Session] = [
     // Day 3 Sessions
     "day3Workshop1" : Session(
         type : .workshop,
-        title : "awesome workshop",
-        imageAssetName : "announce1.png",
+        title : "Open Source Swift Workshop",
+        titleJP : "Open Source Swift Workshop",
+        imageAssetName : "yusuke_ikesyo_nich.png",
+        presentation : tko2019Presentations["open-source-swift-workshop"],
         location :   tko2019Locations["workshop_location1"]
-    )
+    ),
+    
+    "day3Workshop2" : Session(
+        type : .workshop,
+        title : "Build an app with Firestore, Swift, and Typescript",
+        titleJP : "FirestoreやSwift, Typescriptでアプリをつくろう",
+        imageAssetName : "morgan_and_mike.jpg",
+        presentation : tko2019Presentations["firebase-workshop"],
+        location :   tko2019Locations["workshop_location1"]
+    ),
+    
+    "day3Workshop3" : Session(
+        type : .workshop,
+        title : "Exploring Swift on the Raspberry Pi",
+        titleJP : "Rasberry PiでSwiftを探検する",
+        imageAssetName : "ahmed_bakir.jpg",
+        presentation : tko2019Presentations["rasberry-pie-swift-workshop"],
+        location :   tko2019Locations["workshop_location1"]
+    ),
+    
+    "day3Workshop4" : Session(
+        type : .workshop,
+        title : "Testing and Performance Workshop",
+        titleJP : "Testing and Performance Workshop",
+        imageAssetName : "nic_and_samuel.png",
+        presentation : tko2019Presentations["testing-performance-workshop"],
+        location :   tko2019Locations["workshop_location1"]
+    ),
+    
+    "day3Workshop5" : Session(
+        type : .workshop,
+        title : "Better Developer Tooling by writing your own Mac Apps with Cocoa Bindings",
+        titleJP : "MacアプリとCocoa Bindingでより良い開発ツールをつくろう",
+        imageAssetName : "benedikt_terhechte.jpg",
+        presentation : tko2019Presentations["macapp-workshop"],
+        location :   tko2019Locations["workshop_location1"]
+    ),
+    
+    "day3Workshop6" : Session(
+        type : .workshop,
+        title : "Fast Audio Waveform Rendering using the Accelerate Framework",
+        titleJP : "Accelerate Frameworkを使った高速オーディオ波形レンダリング",
+        imageAssetName : "andrew.jpg",
+        presentation : tko2019Presentations["waveform-rendering-workshop"],
+        location :   tko2019Locations["workshop_location1"]
+    ),
+    
+    "day3Workshop7" : Session(
+        type : .workshop,
+        title : "Getting Time Calculations Right",
+        titleJP : "時間を正しく計算しよう",
+        imageAssetName : "dave_delong.jpg",
+        presentation : tko2019Presentations["time-calculations-workshop"],
+        location :   tko2019Locations["workshop_location1"]
+    ),
+    
+    "day3Workshop8" : Session(
+        type : .workshop,
+        title : "Build a Cloud-Native Swift Backend",
+        titleJP : "クラウドネイティブなSwiftバックエンドを構築しよう",
+        imageAssetName : "ibm_team.png",
+        presentation : tko2019Presentations["cloud-swift-workshop"],
+        location :   tko2019Locations["workshop_location1"]
+    ),
+    
+    "day3Workshop9" : Session(
+        type : .workshop,
+        title : "Getting started with Swift Hardware",
+        titleJP : "Swiftでハードウェアを始めよう",
+        imageAssetName : "sally_shepard.jpg",
+        presentation : tko2019Presentations["swift-hardware-workshop"],
+        location :   tko2019Locations["workshop_location1"]
+    ),
+    
+    "day3PeerLabs" : Session(
+        type : .workshop,
+        title : "Peer Labs",
+        titleJP : "ピアラボ（もくもく会）",
+        imageAssetName : "Logo_TKO.png",
+        presentation : tko2019Presentations["peerlabs-tokyo"],
+        location :   tko2019Locations["workshop_location1"]
+    ),
+    
+    
 ]

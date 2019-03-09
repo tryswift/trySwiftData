@@ -289,4 +289,94 @@ public let tko2019Presentations: [String : Presentation] = [
         summary: "Over the year, Core Data has gained a pretty bad reputation amongst developers who prefer to use another service like Realm for their local persistence. In this talk I will make an argument for using Core Data and why it's not so bad. I will share some examples of where it's easy to go wrong with Core Data, and how to avoid those pitfalls. I will also quickly go over setting up Core Data in an app and by the end the audience should have a couple of simple rules that should help them safely integrate Core Data in their apps.",
         summaryJP: "この数年、Core Dataはローカルでの永続化において、Realmのような他のサービスを好む開発者の間でかなりひどい評判を得ています。このトークでは、Core Dataを使うことはそんなに悪いことではない理由を説明します。Core Dataでうまくいかないところや、その落とし穴を回避する例をお見せします。また、Core Dataのアプリへの設定についても簡単に説明します。終わりには、みなさんはCore Dataをアプリに安全に統合するのに役立つ簡単なルールを用意することになるでしょう。"
     ),
+    
+    "open-source-swift-workshop" : Presentation(
+        id: 29,
+        speaker: tko2019Speakers["yusuke_ikesyo_nich"],
+        title: "Open Source Swift Workshop",
+        titleJP: "Open Source Swift Workshop",
+        summary: "In this workshop we will look at the Swift compilation process and what those parts are, learn a bit about LLVM, how to find a bug to work on using bugs.swift.org and then making a build with our changes and running tests.A merged pull request is not the goal of this workshop, but after attending this workshop you should have enough knowledge to get started and know where to look to learn more.If you are proficient in C++ or even have some experience with LLVM, then you can start working with the Swift compiler right away. If you do not have former C++ knowledge fear not, the Swift standard library and SwiftSyntax are written mostly in Swift and the python / swift hybrid '.gyb' files.",
+        summaryJP: "このワークショップでは、Swift のコンパイルプロセスとその構成要素について説明し、LLVM について少し学び、bugs.swift.org から取り組むバグを見つけ、変更を加えてテストを実行する方法を学びます。\n\nプルリクエストがマージされることはこのワークショップの目標ではありませんが、このワークショップに参加した後は、すぐに始められるだけの十分な知識を身につけ、より学ぶためには何を見たら良いかがわかっていることでしょう。\nC++ を習熟していたり、LLVM の経験があるなら、すぐに Swift コンパイラを使い始めることができます。 C++ の経験がなくても、Swift標準ライブラリや SwiftSyntax は主に Swift で書かれてますし、python と Swift のハイブリッドである \'.gyb\' ファイルで構成されています。"
+    ),
+    
+    "firebase-workshop" : Presentation(
+        id: 30,
+        speaker: tko2019Speakers["morgan_and_mike"],
+        title: "Build an app with Firestore, Swift, and Typescript",
+        titleJP: "FirestoreやSwift, Typescriptでアプリをつくろう",
+        summary: "Join the Firebase team in building a serverless iOS app on top of Cloud Firestore. In this workshop, we'll be taking advantage of Swift language features to manage complexity across our app while also learning the intricacies of Cloud Firestore.",
+        summaryJP: "Firebaseチームと一緒にCloud Firestoreを使ったサーバレスなiOSアプリを作りましょう。このワークショップでは、Swift言語の特徴を活かして、アプリ全体の複雑な状態を管理する方法や、Cloud Firestoreについて学びます。"
+    ),
+    
+    "rasberry-pie-swift-workshop" : Presentation(
+        id: 31,
+        speaker: tko2019Speakers["ahmed_bakir"],
+        title: "Exploring Swift on the Raspberry Pi",
+        titleJP: "Rasberry PiでSwiftを探検する",
+        summary: "In this workshop, you will learn how you can use Swift today on the Raspberry Pi. Starting with setting up your development environment, we will move into server projects using Vapor, and IoT projects using SwiftyGPIO. Time-permitting, we will also try to introduce how you can contribute to the efforts to port more of the Swift language to the Raspberry Pi.\n\nNote: You bring a full-sized modern Raspberry Pi is preferred (Raspberry Pi 2, 3, or 3 B+). For those who do not have a Pi, we will be providing a VM image you can use to follow along -- but you should have QEMU installed before the workshop.",
+        summaryJP: "このワークショップでは、Rasberry Pi上でのSwiftの使い方を学びます。開発環境を整えるところから始め、Vaporを使ってサーバーを立ち上げ、SwiftyGPIOを使ったIoTプロジェクトを作ります。時間があれば、Swiftをより多くRaspberry Piに移植するための取り組みにコントリビュートできる方法を紹介します。\n\n※フルサイズでモダンなRaspberry Pi（Raspberry Pi 2, 3 または 3 B+)を持参することを推奨します。お持ちでない方には、VM Imageを配布し、ワークショップにご参加いただけるようにしまうが、参加する前に、QEMUのインストールが必要です。"
+    ),
+    
+    "testing-performance-workshop" : Presentation(
+        id: 32,
+        speaker: tko2019Speakers["nic_and_samuel"],
+        title: "Testing and Performance Workshop",
+        titleJP: "Testing and Performance Workshop",
+        summary: "Join Samuel and Nic improve the quality of your apps. Bring your projects (work or personal, we don’t mind) and let’s improve their test coverage and fix any slow problems. Wether there are no tests or lots of tests, all are welcome to join!",
+        summaryJP: "SamuelとNicのワークショップに参加すると、アプリの品質が向上します。自分のプロジェクト（業務でも個人でもどちらでも大丈夫）を持ってきて、テストカバレッジを改善し、アプリが遅い問題を直していきましょう。テストが全くなくても、たくさんあっても、参加大歓迎です！"
+    ),
+    
+    "macapp-workshop" : Presentation(
+        id: 33,
+        speaker: tko2019Speakers["benedikt_terhechte"],
+        title: "Better Developer Tooling by writing your own Mac Apps with Cocoa Bindings",
+        titleJP: "MacアプリとCocoa Bindingでより良い開発ツールをつくろう",
+        summary: "Tooling is a really important part of development. Oftentimes, however, clunky HTML interfaces or difficult-to-remember, arcane command line interfaces make daily tasks much more cumbersome than they actually are. A great solution to this problem lies in the development of prototyped macOS apps that solve these tasks with a nice UI. Even better, as they're written in Swift they can easily be extended by all developers on the team. Some examples of areas where these such tools could be applied are testing, data generation, QA, network simulation, visualisation, or command line interfaces.                                                        The workshop utilises the concept of Cocoa Bindings in order to develop complex macOS apps blazingly fast. It will also touch on some of the differences between macOS and iOS and finally explain how to directly interact with Unix services or command line tools from your app. The workshop will implement several tooling apps so that attendees get a good understanding of the underlying concepts & technologies. The key learning of the workshop is being able to solve daily tooling problems with great macOS apps instead of fugly bash hacks",
+        summaryJP: "ツールは開発においてとても重要です。しかし、多くの場合、不格好なHTMLのインタフェースや覚えにくい難解なコマンドラインインタフェースによって、実際の作業はとても面倒です。この問題に対する良い解決策は、素敵なUIでこれらのタスクを解決するプロトタイプのmacOSアプリケーションを開発することです。さらに良いことは、Swiftで書かれているので、チームの開発者の手で簡単に拡張することができます。このようなツールを適用できる分野の例としては、テスト、データ生成、QA、ネットワークシミュレーション、可視化、またはコマンドラインインターフェイスがあります。このワークショップでは、複雑なmacOSアプリケーションを驚くほど速く開発するために、Cocoa Bindingsの概念を利用しています。またmacOSとiOSの間のいくつかの違いに触れ、最後には、あなたのアプリから直接Unixサービスあるいはコマンドラインツールと対話する方法を説明します。ワークショップはいくつかのツールアプリを実装するので、みなさんは基礎となる概念と技術をよく理解することができます。このワークショップの重要なポイントは、不正なbashハックではなく、素晴らしいmacOSアプリを使って日常的なツールの問題を解決できることです。"
+    ),
+    
+    "waveform-rendering-workshop" : Presentation(
+        id: 34,
+        speaker: tko2019Speakers["andrewcoad"],
+        title: "Fast Audio Waveform Rendering using the Accelerate Framework",
+        titleJP: "Accelerate Frameworkを使った高速オーディオ波形レンダリング",
+        summary: "This workshop explores techniques for the rapid on-screen rendering of audio waveforms generated from audio files.  The primary method for processing raw audio samples is through the Accelerate Framework’s DSP library but other supplemental techniques that make use of either SIMD instructions or GPU hardware are explored.                                               Workshop participants will implement sample code in Swift 4.x and can either use a Mac iOS simulator with an audio file provided in the workshop’s Git repository or, alternatively, run the workshop code on an iOS device accessing their own iPod library.",
+        summaryJP: "このワークショップでは、オーディオファイルから生成されたオーディオ波形をすばやく画面上にレンダリングするための手法を探ります。生のオーディオサンプルを処理するための主な方法は、Accelerate FrameworkのDSPライブラリによるものですが、SIMD命令またはGPUハードウェアのいずれかを利用するその他の補足的な手法も検討されています。参加者はSwift 4.xのサンプルコードを実装し、ワークショップのGitリポジトリにあるオーディオファイルを含むMac iOSシミュレータを使用するか、あるいは自分のiPodライブラリにアクセスするiOSデバイスでワークショップコードを実行することができます。"
+    ),
+    
+    "time-calculations-workshop" : Presentation(
+        id: 35,
+        speaker: tko2019Speakers["dave_delong"],
+        title: "Getting Time Calculations Right",
+        titleJP: "時間を正しく計算しよう",
+        summary: "Date and time calculations are notoriously difficult to get right. It seems like every month, another app is in the news for getting dates and time wrong. In this workshop we’re going to cover a couple of small but important tactics for making sure you get these kinds of complicated problems right.",
+        summaryJP: "日付と時刻の計算を正しく行うのはとても難しいです。日付と時刻の間違いが毎月のようにニュースになっています。このワークショップでは、このような複雑な問題を確実に解決するための、小さいながらも重要な戦略についていくつか説明します。"
+    ),
+    
+    "cloud-swift-workshop" : Presentation(
+        id: 36,
+        speaker: tko2019Speakers["ibm"],
+        title: "Build a Cloud-Native Swift Backend",
+        titleJP: "クラウドネイティブなSwiftバックエンドを構築しよう",
+        summary: "In this workshop you'll learn the fundamentals of cloud-native technologies like Docker and Kubernetes, and build and deploy a real server-side Swift microservice into a production cloud cluster. By first building a RESTful API in Kitura, we'll add in database persistence, monitoring, scaling and failover. Sounds complicated? We provide the tools and APIs to make it easy. Learn some key skills, and get on the road to being a full-stack engineer.",
+        summaryJP: "このワークショップでは、まずDockerやKubernetesのようなクラウドネイティブな技術の基礎を学びます。そして実践的なサーバーサイドSwiftマイクロサービスを構築し、実際のクラウド環境にデプロイします。\n\n初めにKituraでRESTful APIを作成し、そこにデータベースの永続性、監視、スケーリング、フェイルオーバーを組み込みます。\n\n複雑に聞こえますか？我々がツールやAPIを用意するので大丈夫です！コアとなる技術を学び、フルスタックエンジニアへの第一歩を踏み出しましょう。"
+    ),
+    
+    "swift-hardware-workshop" : Presentation(
+        id: 37,
+        speaker: tko2019Speakers["sally_shepard"],
+        title: "Getting started with Swift Hardware",
+        titleJP: "Swiftでハードウェアを始めよう",
+        summary: "During the workshop, we’ll start by building and understanding a simple circuit, then we’ll build on that to create a CI bot (something that shows the status of your CI or some other service). This would be based on Raspberry Pi’s, all programming would be in Swift. \n\nNote: This workshop requires Raspberry Pi so you can choose as below:\n\n・Free: You'll bring your own Raspberry Pi to venue.\n・Paid ($65):  If you don't have Raspberry Pi, we prepare for you, and you can bring back to your home.",
+        summaryJP: "このワークショップでは、まず簡単な回路を構築して理解することから始め、次にそれを基にしてCI bot（CIや他のサービスのステータスを見せるもの）を作ります。今回はRaspberry Piをベースにしていて、使う言語はすべてSwiftです。\n\n※このワークショップにはRaspberry Piが必要です。チケット購入時に次のいずれかを選択してください。\n\n・無料: ご自身のRaspberry Piを会場にお持ちください。\n・有料($65): こちらでRaspberry Piをご用意します。お持ち帰りすることも可能です。"
+    ),
+    
+    "peerlabs-tokyo" : Presentation(
+        id: 38,
+        speaker: tko2019Speakers["you"],
+        title: "Peer Labs",
+        titleJP: "ピアラボ（もくもく会）",
+        summary: "Peer Labs is your chance to get hands on with things you learned from try! Swift presentations, discuss any issues with the speakers, connect with your peers, work on open source projects, organize impromptu learning sessions and more! Peer labs do not have a strict structure, and are open-ended instead. It is what you and your peers make of it! We will ask everyone to introduce themselves in the beginning, and then it is up to you to ask questions and work together with others on projects that interest you. <br><br>During Peerlab, Bitrise will run Demo.",
+        summaryJP: "ピアラボ（もくもく会）はtry! Swift のプレゼンテーションから学んだことやスピーカーと議論した問題に取り組む場所です。他の人と仲良くなったり、オープンソースプロジェクトに取り組んだり、即興でLTをはじめたりなどの絶好の機会です！ピアラボには決まった形はなく、オープンです。同じ会場にいる仲間と一緒に作り上げていきます。最初にお互いに自己紹介をしてから、質問しあったり、興味のあるプロジェクトに一緒に取り組んだりしてみましょう。\n\nピアラボの最中にBitriseによるデモも行われます。"
+    ),
 ]

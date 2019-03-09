@@ -301,8 +301,26 @@ public let tko2019SessionBlocks: [SessionBlock] = [
     
     SessionBlock(
         startTime : Date.date(year: 2019, month: 3, day: 23, hour: 9, minute: 0, second: 0),
-        endTime : Date.date(year: 2019, month: 3, day: 23, hour: 10, minute: 0, second: 0),
-        sessions : [tko2019Sessions["day3Workshop1"]!]
-    )
+        endTime : Date.date(year: 2019, month: 3, day: 23, hour: 13, minute: 0, second: 0),
+        sessions : [
+            tko2019Sessions["day3Workshop1"]!,
+            tko2019Sessions["day3Workshop2"]!,
+            tko2019Sessions["day3Workshop3"]!,
+            tko2019Sessions["day3Workshop4"]!,
+            tko2019Sessions["day3Workshop5"]!,
+            tko2019Sessions["day3Workshop6"]!,
+            tko2019Sessions["day3Workshop7"]!,
+            tko2019Sessions["day3Workshop8"]!,
+            tko2019Sessions["day3Workshop9"]!,
+        ]
+    ),
+    
+    SessionBlock(
+        startTime : Date.date(year: 2019, month: 3, day: 23, hour: 14, minute: 0, second: 0),
+        endTime : Date.date(year: 2019, month: 3, day: 23, hour: 18, minute: 0, second: 0),
+        sessions : [
+            tko2019Sessions["day3PeerLabs"]!,
+            ]
+    ),
 ]
 
