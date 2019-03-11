@@ -19,10 +19,10 @@ public struct Organizer {
     public let hidden: Bool
 
     public static var all: [Organizer] {
-        // let organizers =  nyc2018Organizers.filter { $0.value.hidden == false}
+        // let organizers =  tko2019Organizers.filter { $0.value.hidden == false}
         //let sortedOrganizers = organizers.sorted { $0.value.name < $1.value.name }
         //return sortedOrganizers.dictionary()
-        return nyc2018Organizers
+        return tko2019Organizers
     }
 
     public var localizedName: String {

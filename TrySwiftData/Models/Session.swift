@@ -76,6 +76,6 @@ public struct Session {
     }
     
     public static var all: [String: Session] {
-        return nyc2018Sessions
+        return tko2019Sessions
     }
 }
