@@ -7,6 +7,7 @@
 //
 
 import Contacts
+import Contacts
 
 public enum VenueType: Int {
     case conference
@@ -26,6 +27,7 @@ public struct Venue {
     public let wifiNetworkName: String?
     public let wifiUsername: String?
     public let wifiPassword: String?
+    public let postalAddress: CNPostalAddress?
     public let type: VenueType
 
     public var localizedTitle: String {
