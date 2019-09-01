@@ -10,6 +10,7 @@ public enum SpeakerType: Int {
     case presentation
     case lightningTalk
     case instructor
+    case emcee
 }
 
 public struct Speaker {
@@ -48,7 +49,7 @@ public struct Speaker {
     }
     
     public static var all: [Speaker] {
-        let speakers = tko2019Speakers.values.filter { $0.hidden == false}
+        let speakers = nyc2019Speakers.values.filter { $0.hidden == false}
         return speakers.sorted { $0.name < $1.name }
     }
 

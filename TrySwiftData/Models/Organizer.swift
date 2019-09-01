@@ -22,7 +22,7 @@ public struct Organizer {
         // let organizers =  tko2019Organizers.filter { $0.value.hidden == false}
         //let sortedOrganizers = organizers.sorted { $0.value.name < $1.value.name }
         //return sortedOrganizers.dictionary()
-        return tko2019Organizers
+        return nyc2019Organizers
     }
 
     public var localizedName: String {

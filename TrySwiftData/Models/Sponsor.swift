@@ -9,6 +9,7 @@
 import Foundation
 
 public enum SponsorLevel: Int {
+    case diamond
     case platinum
     case gold
     case silver
@@ -18,6 +19,7 @@ public enum SponsorLevel: Int {
     case lanyard
     case bag
     case individual
+    case community
 }
 
 public struct Sponsor {
@@ -66,7 +68,7 @@ public struct Sponsor {
 
         var resultsSet = [ Int : [Sponsor] ]()
         for i in 0...SponsorLevel.individual.rawValue {
-            let sponsors = tko2019Sponsors.filter { $0.value.level.rawValue == i }
+            let sponsors = nyc2019Sponsors.filter { $0.value.level.rawValue == i }
             
             if sponsors.count > 0 {
                 let sponsorsSorted = sponsors.sorted { $0.value.priority < $1.value.priority }
@@ -80,6 +82,7 @@ public struct Sponsor {
 
     public static func localizedName(for sponsorLevel: SponsorLevel) -> String {
         switch sponsorLevel {
+        case .diamond:      return "Diamond".localized()
         case .platinum:     return "Platinum".localized()
         case .gold:         return "Gold".localized()
         case .silver:       return "Silver".localized()
@@ -89,6 +92,7 @@ public struct Sponsor {
         case .lanyard:      return "Lanyard".localized()
         case .bag:          return "Bag".localized()
         case .individual:   return "Individual".localized()
+        case .community:    return "Community".localized()
         }
     }
 }

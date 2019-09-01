@@ -8,11 +8,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   TrySwiftData:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  TrySwiftData: a61c092c7eae752dce51ea9169f3455f7451c2d7
+  TrySwiftData: 6ae96c51963fa7fe5698b20dfd9e279ce5d978b7
 
 PODFILE CHECKSUM: f90fa0a429c447a2ce4ad39681f2a1ec8628b580
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.7.5
