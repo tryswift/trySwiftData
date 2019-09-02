@@ -175,14 +175,14 @@ public let nyc2019SessionBlocks: [SessionBlock] = [
     ),
     
     SessionBlock(
-        startTime : Date.date(year: 2019, month: 9, day: 10, hour: 10, minute: 25, second: 0),
-        endTime : Date.date(year: 2019, month: 9, day: 10, hour: 10, minute: 55, second: 0),
+        startTime : Date.date(year: 2019, month: 9, day: 10, hour: 10, minute: 15, second: 0),
+        endTime : Date.date(year: 2019, month: 9, day: 10, hour: 10, minute: 25, second: 0),
         sessions : [nyc2019Sessions["day2LT2"]!]
     ),
     
     SessionBlock(
-        startTime : Date.date(year: 2019, month: 9, day: 10, hour: 10, minute: 15, second: 0),
-        endTime : Date.date(year: 2019, month: 9, day: 10, hour: 10, minute: 25, second: 0),
+        startTime : Date.date(year: 2019, month: 9, day: 10, hour: 10, minute: 25, second: 0),
+        endTime : Date.date(year: 2019, month: 9, day: 10, hour: 10, minute: 55, second: 0),
         sessions : [nyc2019Sessions["day2Encoding"]!,
                     nyc2019Sessions["day2IOS13OfficeHours"]!]
     ),

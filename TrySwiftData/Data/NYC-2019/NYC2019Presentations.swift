@@ -84,7 +84,7 @@ public let nyc2019Presentations: [String : Presentation] = [
     "swift-literal" : Presentation(
         id: 1,
         speaker: nyc2019Speakers["yuki"],
-        title: "Streamlining Mobile Releases",
+        title: "A Deeper Deep dive into Swift Literal",
         summary: "This session will deepen your understanding of Swift Literals. How are Literals handled over from code string? Why can Literals be the actual data? And why can we use data accurately from Literals? By following the Swift Literals in Swift Code to SIL and LLVM IR code, you will learn the answer. I'll also introduce Intrinsic Protocols, which are pre-defined protocols in Swift Compiler that has a deep connection with Swift Literals. Let's dive into the deeper side of Swift Literals!"
     ),
     "jane-austen" : Presentation(
@@ -148,7 +148,7 @@ public let nyc2019Presentations: [String : Presentation] = [
         id: 1,
         speaker: nyc2019Speakers["kaitlin"],
         title: "Encoding and Decoding in Swift",
-        summary: "Ever wonder what’s actually going on inside JSONEncoder and JSONDecoder? Why doesn't JSONEncoder conform to the Encoder protocol? What's a CodingKey, and what are all of those 'containers' for?</p><p>This talk will be a deep dive into encoding and decoding in Swift: what all of the related protocols are, how they fit together, and how to use them. You will come away from this talk ready to customize how your Swift types are encoded and decoded, and with the knowledge necessary to start writing encoders and decoders of your own."
+        summary: "Ever wonder what’s actually going on inside JSONEncoder and JSONDecoder? Why doesn't JSONEncoder conform to the Encoder protocol? What's a CodingKey, and what are all of those 'containers' for? This talk will be a deep dive into encoding and decoding in Swift: what all of the related protocols are, how they fit together, and how to use them. You will come away from this talk ready to customize how your Swift types are encoded and decoded, and with the knowledge necessary to start writing encoders and decoders of your own."
     ),
     "swiftui25" : Presentation(
         id: 1,
