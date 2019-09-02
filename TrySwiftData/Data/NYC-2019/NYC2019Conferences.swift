@@ -30,6 +30,6 @@ public let nyc2019Conferences: [Conference] = [
         organizers: nyc2019Organizers,
         emojiSet: "🐥🎉🗽",
         timezone: "EST",
-        dateFormat: "hh:mm a"
+        dateFormat: "h:mm a"
         )
 ]
