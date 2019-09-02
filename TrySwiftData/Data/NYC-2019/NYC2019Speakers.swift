@@ -181,7 +181,7 @@ public let nyc2019Speakers: [String : Speaker] = [
         name: "Sanjeev Ghimire",
         twitter: "sanjeevghimire",
         imageAssetName: "sanjeev.jpg",
-        bio: "anjeev is a Developer Advocate at IBM Digital Business Group. He mostly focuses on creating code patterns for developers based on AI Data and Analytics using IBM Cloud and Watson services. He is also an open source contributor and highly promotes open source projects.",
+        bio: "Sanjeev is a Developer Advocate at IBM Digital Business Group. He mostly focuses on creating code patterns for developers based on AI Data and Analytics using IBM Cloud and Watson services. He is also an open source contributor and highly promotes open source projects.",
         type: .instructor
     ),
     "jon" : Speaker(

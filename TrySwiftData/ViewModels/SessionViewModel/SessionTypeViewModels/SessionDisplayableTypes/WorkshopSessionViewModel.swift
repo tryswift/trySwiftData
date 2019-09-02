@@ -67,7 +67,10 @@ struct WorkshopSessionViewModel: SessionDisplayable {
         }
         
         if let venue = session.venue {
-            return venue.localizedTitle
+            if let displayAddress = venue.displayAddress {
+                return displayAddress
+            }
+            return venue.localizedAddress
         }
         
         return dataDefaults.location

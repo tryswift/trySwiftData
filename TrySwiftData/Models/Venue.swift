@@ -20,6 +20,7 @@ public struct Venue {
     public let titleJP: String?
     public let address: String
     public let addressJP: String?
+    public let displayAddress: String?
     public let website: String?
     public let twitter: String?
     public let logoAssetName: String?
