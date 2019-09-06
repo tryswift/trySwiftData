@@ -233,7 +233,7 @@ public let nyc2019Sessions: [String : Session] = [
         type : .announcement,
         title : "Closing / Announcments",
         imageAssetName : "announce_nyc_1.png",
-        location :   nyc2019Locations["stage"]
+        location :   nyc2019Locations["stage2"]
         ),
 
 //---------------------------------------------------------
