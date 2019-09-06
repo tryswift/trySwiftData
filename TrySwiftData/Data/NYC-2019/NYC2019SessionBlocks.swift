@@ -118,7 +118,8 @@ public let nyc2019SessionBlocks: [SessionBlock] = [
     SessionBlock(
         startTime : Date.date(year: 2019, month: 9, day: 9, hour: 16, minute: 0, second: 0),
         endTime : Date.date(year: 2019, month: 9, day: 9, hour: 16, minute: 45, second: 0),
-        sessions : [nyc2019Sessions["day1SecondCoffee"]!]
+        sessions : [nyc2019Sessions["day1SecondCoffee"]!,
+                    nyc2019Sessions["day2AyurvedaOfficeHours"]!]
     ),
     
     SessionBlock(

@@ -17,7 +17,7 @@ public let nyc2019Locations: [String : Location] = [
     ),
     "stage" :
         Location(
-            name: "Main Stage"
+            name: "Stage 1"
     ),
     "stage2" :
         Location(

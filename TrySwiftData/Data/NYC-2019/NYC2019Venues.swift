@@ -96,7 +96,7 @@ public let nyc2019Venues: [String : Venue] = [
     "swiftui-workshop" : Venue(
         title: "SwiftUI Hands-on",
         titleJP: nil,
-        address: "20 West 23rd Street, 4th floor, New York, NY 10010",
+        address: "20 West 23rd Street, 5th floor, New York, NY 10010",
         addressJP: nil,
         displayAddress: "20 West 23rd Street",
         website: nil,
